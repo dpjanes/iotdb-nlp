@@ -31,12 +31,12 @@ const path = require("path")
 const nlp = require("..")
 const _util = require("./_util")
 
-describe("tokenize.paragraphs", function() {
+describe("tokenize.sentences", function() {
     const _test = _.promise((self, done) => {
         _.promise(self)
             .add("path", path.join(__dirname, "data", self.test))
             .then(fs.read.utf8)
-            .then(nlp.tokenize.paragraphs)
+            .then(nlp.tokenize.sentences)
             .make(sd => {
                 console.log(sd.tokens)
             })

@@ -42,10 +42,12 @@ describe("initialize", function() {
             .end(done)
     })
 
+    /*
     describe("good", function() {
         it("works", function(done) {
             _.promise(self)
                 .end(done)
         })
     })
+    */
 })
