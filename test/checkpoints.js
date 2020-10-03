@@ -38,7 +38,7 @@ describe("checkpoints", function() {
             .then(fs.read.utf8)
             .then(nlp.checkpoints)
             .make(sd => {
-                console.log(sd.tokens)
+                console.log(JSON.stringify(sd.tokens, null, 2))
             })
             .end(done, {})
     })
@@ -49,6 +49,23 @@ describe("checkpoints", function() {
             tests: [
                 "study-in-scarlet.txt",
             ],
+            nlp$cfg: {
+                checkpoints: [
+                    {
+                        "key": "part",
+                        "rex": new RegExp("\n\n^(PART [A-Z]*)", "mgi"),
+                    },
+                    {
+                        "key": "chapter",
+                        "rex": new RegExp("\n\n^(Chapter [A-Z]*)[.]$", "mgi"),
+                    },
+                    {
+                        "key": "paragraph",
+                        "rex": new RegExp("\n\n(.*)?", "mgi"),
+                        "excerpt": 30,
+                    }
+                ],
+            }
         })
             .each({
                 method: _test,
