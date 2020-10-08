@@ -33,6 +33,7 @@ const nlp = require("..")
 const _util = require("./_util")
 
 const WRITE = process.env.WRITE === "1"
+const DUMP = process.env.DUMP === "1"
 
 describe("extract.persons", function() {
     const _test = _.promise((self, done) => {
@@ -42,6 +43,7 @@ describe("extract.persons", function() {
             .then(_util.read_yaml("tokenize.entities", self.filename, "tokens"))
             .then(nlp.extract.persons)
             .conditional(WRITE, _util.write_yaml(FOLDER, self.filename, "persons"))
+            .conditional(DUMP, _.promise.log("persons", "persons"))
             .then(_util.read_yaml(FOLDER, self.filename, "want_persons"))
 
             .make(sd => {
