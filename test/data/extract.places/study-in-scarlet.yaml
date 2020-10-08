@@ -1,0 +1,685 @@
+- name: brixton road
+  token: place
+  score: 1
+  vectors:
+    - - brixton
+      - road
+- name: london
+  token: place
+  score: 0.9333333333333333
+  vectors:
+    - - london
+- name: salt lake city
+  token: place
+  score: 0.8
+  vectors:
+    - - salt
+      - lake
+      - city
+- name: halliday s private hotel
+  token: place
+  score: 0.6
+  vectors:
+    - - halliday
+      - s
+      - private
+      - hotel
+- name: utah
+  token: place
+  score: 0.6
+  vectors:
+    - - utah
+- name: afghanistan
+  token: place
+  score: 0.5333333333333333
+  vectors:
+    - - afghanistan
+- name: cleveland
+  token: place
+  score: 0.5333333333333333
+  vectors:
+    - - cleveland
+- name: earth
+  token: place
+  score: 0.4666666666666667
+  vectors:
+    - - earth
+- name: lauriston gardens
+  token: place
+  score: 0.4
+  vectors:
+    - - lauriston
+      - gardens
+- name: cleveland ohio u s a
+  token: place
+  score: 0.4
+  vectors:
+    - - cleveland
+      - ohio
+      - u
+      - s
+      - a
+- name: drive to duncan street houndsditch
+  token: place
+  score: 0.4
+  vectors:
+    - - drive
+      - to
+      - duncan
+      - street
+      - houndsditch
+- name: euston station
+  token: place
+  score: 0.3333333333333333
+  vectors:
+    - - euston
+      - station
+- name: b baker street
+  token: place
+  score: 0.3333333333333333
+  vectors:
+    - - b
+      - baker
+      - street
+- name: europe
+  token: place
+  score: 0.3333333333333333
+  vectors:
+    - - europe
+- name: sierra blanco
+  token: place
+  score: 0.3333333333333333
+  vectors:
+    - - sierra
+      - blanco
+- name: nevada
+  token: place
+  score: 0.3333333333333333
+  vectors:
+    - - nevada
+- name: no b baker street
+  token: place
+  score: 0.3333333333333333
+  vectors:
+    - - 'no'
+      - b
+      - baker
+      - street
+- name: city of the elect
+  token: place
+  score: 0.3333333333333333
+  vectors:
+    - - city
+      - of
+      - the
+      - elect
+- name: land of the saints
+  token: place
+  score: 0.3333333333333333
+  vectors:
+    - - land
+      - of
+      - the
+      - saints
+- name: torquay terrace camberwell
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - torquay
+      - terrace
+      - camberwell
+- name: new york
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - new
+      - york
+- name: england
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - england
+- name: audley court
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - audley
+      - court
+- name: little george street
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - little
+      - george
+      - street
+- name: kennington park gate
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - kennington
+      - park
+      - gate
+- name: scotland yard
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - scotland
+      - yard
+- name: north american continent
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - north
+      - american
+      - continent
+- name: white hart tavern
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - white
+      - hart
+      - tavern
+- name: sierra blanco so
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - sierra
+      - blanco
+      - so
+- name: torquay terrace
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - torquay
+      - terrace
+- name: duncan street houndsditch
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - duncan
+      - street
+      - houndsditch
+- name: solar system
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - solar
+      - system
+- name: nevada mountains
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - nevada
+      - mountains
+- name: america
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - america
+- name: state of utah
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - state
+      - of
+      - utah
+- name: baker street
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - baker
+      - street
+- name: eagle canon
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - eagle
+      - canon
+- name: st petersburg
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - st
+      - petersburg
+- name: salt lake mountains
+  token: place
+  score: 0.26666666666666666
+  vectors:
+    - - salt
+      - lake
+      - mountains
+- name: norman neruda
+  token: place
+  score: 0.2
+  vectors:
+    - - norman
+      - neruda
+- name: waterloo bridge
+  token: place
+  score: 0.2
+  vectors:
+    - - waterloo
+      - bridge
+- name: police station
+  token: place
+  score: 0.2
+  vectors:
+    - - police
+      - station
+- name: holland grove
+  token: place
+  score: 0.2
+  vectors:
+    - - holland
+      - grove
+- name: alkali plain
+  token: place
+  score: 0.2
+  vectors:
+    - - alkali
+      - plain
+- name: criterion bar
+  token: place
+  score: 0.2
+  vectors:
+    - - criterion
+      - bar
+- name: sierra nevada
+  token: place
+  score: 0.2
+  vectors:
+    - - sierra
+      - nevada
+- name: yellowstone river
+  token: place
+  score: 0.2
+  vectors:
+    - - yellowstone
+      - river
+- name: liverpool
+  token: place
+  score: 0.2
+  vectors:
+    - - liverpool
+- name: illinois
+  token: place
+  score: 0.2
+  vectors:
+    - - illinois
+- name: mayfield place
+  token: place
+  score: 0.2
+  vectors:
+    - - mayfield
+      - place
+- name: rio grande
+  token: place
+  score: 0.2
+  vectors:
+    - - rio
+      - grande
+- name: atlantic
+  token: place
+  score: 0.2
+  vectors:
+    - - atlantic
+- name: rocky mountains
+  token: place
+  score: 0.2
+  vectors:
+    - - rocky
+      - mountains
+- name: american exchange
+  token: place
+  score: 0.2
+  vectors:
+    - - american
+      - exchange
+- name: wahsatch mountains
+  token: place
+  score: 0.2
+  vectors:
+    - - wahsatch
+      - mountains
+- name: pacific slope
+  token: place
+  score: 0.2
+  vectors:
+    - - pacific
+      - slope
+- name: california
+  token: place
+  score: 0.2
+  vectors:
+    - - california
+- name: overland route
+  token: place
+  score: 0.2
+  vectors:
+    - - overland
+      - route
+- name: ratcliff highway
+  token: place
+  score: 0.2
+  vectors:
+    - - ratcliff
+      - highway
+- name: madame charpentier
+  token: place
+  score: 0.2
+  vectors:
+    - - madame
+      - charpentier
+- name: new orleans
+  token: place
+  score: 0.2
+  vectors:
+    - - new
+      - orleans
+- name: holborn
+  token: place
+  score: 0.2
+  vectors:
+    - - holborn
+- name: chosen valley
+  token: place
+  score: 0.2
+  vectors:
+    - - chosen
+      - valley
+- name: white hart
+  token: place
+  score: 0.2
+  vectors:
+    - - white
+      - hart
+- name: eagle ravine
+  token: place
+  score: 0.2
+  vectors:
+    - - eagle
+      - ravine
+- name: carson city
+  token: place
+  score: 0.2
+  vectors:
+    - - carson
+      - city
+- name: camberwell road
+  token: place
+  score: 0.2
+  vectors:
+    - - camberwell
+      - road
+- name: united states
+  token: place
+  score: 0.2
+  vectors:
+    - - united
+      - states
+- name: copenhagen
+  token: place
+  score: 0.2
+  vectors:
+    - - copenhagen
+- name: henrietta street
+  token: place
+  score: 0.2
+  vectors:
+    - - henrietta
+      - street
+- name: euston
+  token: place
+  score: 0.2
+  vectors:
+    - - euston
+- name: frankfort
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - frankfort
+- name: colorado
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - colorado
+- name: houndsditch
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - houndsditch
+- name: heaven
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - heaven
+- name: utrecht
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - utrecht
+- name: missouri
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - missouri
+- name: west
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - west
+- name: peckham
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - peckham
+- name: portsmouth
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - portsmouth
+- name: pawnees
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - pawnees
+- name: palmyra
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - palmyra
+- name: nauvoo
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - nauvoo
+- name: of
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - of
+- name: candahar
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - candahar
+- name: mississippi
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - mississippi
+- name: stamford
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - stamford
+- name: berkshires
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - berkshires
+- name: city
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - city
+- name: bart
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - bart
+- name: number
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - number
+- name: sun
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - sun
+- name: underwood
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - underwood
+- name: establishment
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - establishment
+- name: sierra
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - sierra
+- name: canon
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - canon
+- name: bombay
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - bombay
+- name: seville
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - seville
+- name: holland
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - holland
+- name: peshawar
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - peshawar
+- name: niagara
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - niagara
+- name: maiwand
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - maiwand
+- name: india
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - india
+- name: ravine
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - ravine
+- name: orontes
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - orontes
+- name: carson
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - carson
+- name: house
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - house
+- name: drebber
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - drebber
+- name: ohio
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - ohio
+- name: liege
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - liege
+- name: paris
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - paris
+- name: lowlands
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - lowlands
+- name: camberwell
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - camberwell
+- name: nebraska
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - nebraska
+- name: york
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - york
+- name: station
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - station
+- name: odessa
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - odessa
+- name: leturier
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - leturier
+- name: montpellier
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - montpellier
+- name: british
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - british
+- name: scarlet
+  token: place
+  score: 0.13333333333333333
+  vectors:
+    - - scarlet
