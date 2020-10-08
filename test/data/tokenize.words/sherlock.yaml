@@ -1,0 +1,114 @@
+- document: The Sign of the Four
+  token: sentence
+  start: 0
+  end: 20
+- document: Chapter I.
+  token: sentence
+  start: 22
+  end: 32
+- document: The Science of Deduction
+  token: sentence
+  start: 34
+  end: 58
+- document: >-
+    Sherlock Holmes took his bottle from the corner of the mantelpiece and his
+    hypodermic syringe from its neat morocco case.
+  token: sentence
+  start: 60
+  end: 181
+- document: >-
+    With his long, white, nervous fingers he adjusted the delicate needle, and
+    rolled back his left shirt-cuff.
+  token: sentence
+  start: 182
+  end: 289
+- document: >-
+    For some little time his eyes rested thoughtfully upon the sinewy forearm
+    and wrist all dotted and scarred with innumerable puncture-marks.
+  token: sentence
+  start: 290
+  end: 429
+- document: >-
+    Finally he thrust the sharp point home, pressed down the tiny piston, and
+    sank back into the velvet-lined arm-chair with a long sigh of satisfaction.
+  token: sentence
+  start: 430
+  end: 579
+- document: >-
+    Three times a day for many months I had witnessed this performance, but
+    custom had not reconciled my mind to it.
+  token: sentence
+  start: 581
+  end: 693
+- document: >-
+    On the contrary, from day to day I had become more irritable at the sight,
+    and my conscience swelled nightly within me at the thought that I had lacked
+    the courage to protest.
+  token: sentence
+  start: 694
+  end: 869
+- document: >-
+    Again and again I had registered a vow that I should deliver my soul upon
+    the subject, but there was that in the cool, nonchalant air of my companion
+    which made him the last man with whom one would care to take anything
+    approaching to a liberty.
+  token: sentence
+  start: 870
+  end: 1115
+- document: >-
+    His great powers, his masterly manner, and the experience which I had had of
+    his many extraordinary qualities, all made me diffident and backward in
+    crossing him.
+  token: sentence
+  start: 1116
+  end: 1278
+- document: >-
+    Yet upon that afternoon, whether it was the Beaune which I had taken with my
+    lunch, or the additional exasperation produced by the extreme deliberation
+    of his manner, I suddenly felt that I could hold out no longer.
+  token: sentence
+  start: 1280
+  end: 1495
+- document: “Which is it to-day?
+  token: sentence
+  start: 1497
+  end: 1517
+- document: '” I asked,—“morphine or cocaine?'
+  token: sentence
+  start: 1517
+  end: 1549
+- document: ”
+  token: sentence
+  start: 1549
+  end: 1550
+- document: >-
+    He raised his eyes languidly from the old black-letter volume which he had
+    opened.
+  token: sentence
+  start: 1552
+  end: 1634
+- document: '“It is cocaine,” he said,—“a seven-per-cent solution.'
+  token: sentence
+  start: 1635
+  end: 1688
+- document: Would you care to try it?
+  token: sentence
+  start: 1689
+  end: 1714
+- document: ”
+  token: sentence
+  start: 1714
+  end: 1715
+- document: '“No, indeed,” I answered, brusquely.'
+  token: sentence
+  start: 1717
+  end: 1753
+- document: “My constitution has not got over the Afghan campaign yet.
+  token: sentence
+  start: 1754
+  end: 1812
+- document: |
+    I cannot afford to throw any extra strain upon it.”
+  token: sentence
+  start: 1813
+  end: 1865

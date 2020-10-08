@@ -35,11 +35,13 @@ const WRITE = process.env.WRITE === "1"
 
 describe("tokenize.sentences", function() {
     const _test = _.promise((self, done) => {
+        const FOLDER = "tokenize.sentences"
+
         _.promise(self)
             .then(_util.read_utf8("corpus", self.filename, "document"))
             .then(nlp.tokenize.sentences)
-            .conditional(WRITE, _util.write_yaml("tokenize.sentences", self.filename, "tokens"))
-            .then(_util.read_yaml("tokenize.sentences", self.filename, "want_tokens"))
+            .conditional(WRITE, _util.write_yaml(FOLDER, self.filename, "tokens"))
+            .then(_util.read_yaml(FOLDER, self.filename, "want_tokens"))
             .make(sd => {
                 const got = sd.tokens
                 const want = sd.want_tokens

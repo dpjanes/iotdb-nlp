@@ -31,15 +31,23 @@ const path = require("path")
 const nlp = require("..")
 const _util = require("./_util")
 
+const WRITE = process.env.WRITE === "1"
+
 describe("checkpoints", function() {
     const _test = _.promise((self, done) => {
+        const FOLDER = "checkpoints"
+
         _.promise(self)
-            .add("path", path.join(__dirname, "data", self.test))
-            .then(fs.read.utf8)
+            .then(_util.read_utf8("corpus", self.filename, "document"))
             .then(nlp.checkpoints)
+            .conditional(WRITE, _util.write_yaml(FOLDER, self.filename, "tokens"))
+            .then(_util.read_yaml(FOLDER, self.filename, "want_tokens"))
             .make(sd => {
-                console.log(JSON.stringify(sd.tokens, null, 2))
+                const got = sd.tokens
+                const want = sd.want_tokens
+                assert.deepEqual(got, want)
             })
+
             .end(done, {})
     })
 
@@ -47,7 +55,7 @@ describe("checkpoints", function() {
         _.promise({
             document_media_type: "text/plain",
             tests: [
-                "study-in-scarlet.txt",
+                "study-in-scarlet",
             ],
             nlp$cfg: {
                 checkpoints: [
@@ -69,7 +77,7 @@ describe("checkpoints", function() {
         })
             .each({
                 method: _test,
-                inputs: "tests:test",
+                inputs: "tests:filename",
             })
             .end(done, {})
     })

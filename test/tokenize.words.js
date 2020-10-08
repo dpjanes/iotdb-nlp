@@ -31,15 +31,23 @@ const path = require("path")
 const nlp = require("..")
 const _util = require("./_util")
 
+const WRITE = process.env.WRITE === "1"
+
 describe("tokenize.words", function() {
     const _test = _.promise((self, done) => {
+        const FOLDER = "tokenize.words"
+
         _.promise(self)
-            .add("path", path.join(__dirname, "data", self.test))
-            .then(fs.read.utf8)
-            .then(nlp.tokenize.words)
+            .then(_util.read_utf8("corpus", self.filename, "document"))
+            .then(nlp.tokenize.sentences)
+            .conditional(WRITE, _util.write_yaml(FOLDER, self.filename, "tokens"))
+            .then(_util.read_yaml(FOLDER, self.filename, "want_tokens"))
             .make(sd => {
-                console.log(sd.tokens)
+                const got = sd.tokens
+                const want = sd.want_tokens
+                assert.deepEqual(got, want)
             })
+
             .end(done, {})
     })
 
@@ -47,14 +55,14 @@ describe("tokenize.words", function() {
         _.promise({
             document_media_type: "text/plain",
             tests: [
-                "bbc_congo.txt",
-                "harry.txt",
-                "sherlock.txt",
+                "bbc_congo",
+                "harry",
+                "sherlock",
             ],
         })
             .each({
                 method: _test,
-                inputs: "tests:test",
+                inputs: "tests:filename",
             })
             .end(done, {})
     })
