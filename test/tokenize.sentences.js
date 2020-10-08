@@ -1,5 +1,5 @@
 /**
- *  test/tokenize.paragraphs.js
+ *  test/tokenize.sentences.js
  *
  *  David Janes
  *  IOTDB
