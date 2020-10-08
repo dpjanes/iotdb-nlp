@@ -1,0 +1,260 @@
+- name: scotland yard
+  token: organization
+  score: 1
+  vectors:
+    - - scotland
+      - yard
+- name: royal marine light infantry
+  token: organization
+  score: 0.8333333333333334
+  vectors:
+    - - royal
+      - marine
+      - light
+      - infantry
+- name: secret societies of italy
+  token: organization
+  score: 0.8333333333333334
+  vectors:
+    - - secret
+      - societies
+      - of
+      - italy
+- name: fifth northumberland fusiliers
+  token: organization
+  score: 0.6666666666666666
+  vectors:
+    - - fifth
+      - northumberland
+      - fusiliers
+- name: scotland yarders
+  token: organization
+  score: 0.6666666666666666
+  vectors:
+    - - scotland
+      - yarders
+- name: guion steamship company
+  token: organization
+  score: 0.6666666666666666
+  vectors:
+    - - guion
+      - steamship
+      - company
+- name: marines
+  token: organization
+  score: 0.6666666666666666
+  vectors:
+    - - marines
+- name: charpentier s boarding
+  token: organization
+  score: 0.6666666666666666
+  vectors:
+    - - charpentier
+      - s
+      - boarding
+- name: the boots
+  token: organization
+  score: 0.6666666666666666
+  vectors:
+    - - the
+      - boots
+- name: university of london
+  token: organization
+  score: 0.6666666666666666
+  vectors:
+    - - university
+      - of
+      - london
+- name: army medical department
+  token: organization
+  score: 0.6666666666666666
+  vectors:
+    - - army
+      - medical
+      - department
+- name: council of four
+  token: organization
+  score: 0.6666666666666666
+  vectors:
+    - - council
+      - of
+      - four
+- name: continental governments
+  token: organization
+  score: 0.5
+  vectors:
+    - - continental
+      - governments
+- name: baker street
+  token: organization
+  score: 0.5
+  vectors:
+    - - baker
+      - street
+- name: and sons
+  token: organization
+  score: 0.5
+  vectors:
+    - - and
+      - sons
+- name: gold albert
+  token: organization
+  score: 0.5
+  vectors:
+    - - gold
+      - albert
+- name: american exchange
+  token: organization
+  score: 0.5
+  vectors:
+    - - american
+      - exchange
+- name: jefferson hope
+  token: organization
+  score: 0.5
+  vectors:
+    - - jefferson
+      - hope
+- name: lestrade
+  token: organization
+  score: 0.5
+  vectors:
+    - - lestrade
+- name: of four
+  token: organization
+  score: 0.5
+  vectors:
+    - - of
+      - four
+- name: all united
+  token: organization
+  score: 0.5
+  vectors:
+    - - all
+      - united
+- name: liberal administration
+  token: organization
+  score: 0.5
+  vectors:
+    - - liberal
+      - administration
+- name: boots
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - boots
+- name: mormonism
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - mormonism
+- name: nauvoo
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - nauvoo
+- name: ferrier
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - ferrier
+- name: vehmgericht
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - vehmgericht
+- name: court
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - court
+- name: band
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - band
+- name: angels
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - angels
+- name: mormons
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - mormons
+- name: grove
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - grove
+- name: christian
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - christian
+- name: government
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - government
+- name: council
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - council
+- name: hope
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - hope
+- name: holy
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - holy
+- name: endowment
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - endowment
+- name: mormon
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - mormon
+- name: people
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - people
+- name: liverpool
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - liverpool
+- name: college
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - college
+- name: providence
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - providence
+- name: bunsen
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - bunsen
+- name: cleveland
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - cleveland
+- name: redskins
+  token: organization
+  score: 0.3333333333333333
+  vectors:
+    - - redskins

@@ -1,0 +1,262 @@
+- name: sherlock holmes
+  token: person
+  score: 1
+  vectors:
+    - - sherlock
+      - holmes
+    - - holmes
+- name: john ferrier
+  token: person
+  score: 0.6506849315068494
+  vectors:
+    - - john
+      - ferrier
+    - - ferrier
+- name: lucy ferrier
+  token: person
+  score: 0.6027397260273972
+  vectors:
+    - - lucy
+      - ferrier
+    - - ferrier
+- name: young jefferson hope
+  token: person
+  score: 0.5616438356164384
+  vectors:
+    - - young
+      - jefferson
+      - hope
+    - - jefferson
+      - hope
+    - - hope
+- name: enoch j drebber
+  token: person
+  score: 0.5068493150684932
+  vectors:
+    - - enoch
+      - j
+      - drebber
+    - - enoch
+      - drebber
+    - - j
+      - drebber
+    - - drebber
+    - - enoch
+      - j
+    - - j
+      - d
+- name: elder drebber
+  token: person
+  score: 0.4178082191780822
+  vectors:
+    - - elder
+      - drebber
+    - - drebber
+- name: joseph stangerson
+  token: person
+  score: 0.410958904109589
+  vectors:
+    - - joseph
+      - stangerson
+    - - stangerson
+- name: elder stangerson
+  token: person
+  score: 0.3424657534246575
+  vectors:
+    - - elder
+      - stangerson
+    - - stangerson
+- name: tobias gregson
+  token: person
+  score: 0.3287671232876712
+  vectors:
+    - - tobias
+      - gregson
+    - - gregson
+- name: messrs lestrade
+  token: person
+  score: 0.3150684931506849
+  vectors:
+    - - messrs
+      - lestrade
+    - - lestrade
+- name: john rance
+  token: person
+  score: 0.3013698630136986
+  vectors:
+    - - john
+      - rance
+    - - rance
+- name: john h watson
+  token: person
+  score: 0.3013698630136986
+  vectors:
+    - - john
+      - h
+      - watson
+    - - john
+      - watson
+    - - watson
+- name: john underwood
+  token: person
+  score: 0.2534246575342466
+  vectors:
+    - - john
+      - underwood
+- name: lucy adieu
+  token: person
+  score: 0.2054794520547945
+  vectors:
+    - - lucy
+      - adieu
+- name: young stamford
+  token: person
+  score: 0.13013698630136986
+  vectors:
+    - - young
+      - stamford
+    - - stamford
+- name: joseph smith
+  token: person
+  score: 0.1095890410958904
+  vectors:
+    - - joseph
+      - smith
+- name: arthur charpentier
+  token: person
+  score: 0.0821917808219178
+  vectors:
+    - - arthur
+      - charpentier
+    - - charpentier
+- name: brigham young
+  token: person
+  score: 0.07534246575342465
+  vectors:
+    - - brigham
+      - young
+    - - young
+- name: harry murcher him
+  token: person
+  score: 0.0410958904109589
+  vectors:
+    - - harry
+      - murcher
+      - him
+- name: holy four
+  token: person
+  score: 0.03424657534246575
+  vectors:
+    - - holy
+      - four
+    - - four
+- name: tom dennis
+  token: person
+  score: 0.0273972602739726
+  vectors:
+    - - tom
+      - dennis
+    - - dennis
+- name: philippe de croy
+  token: person
+  score: 0.0273972602739726
+  vectors:
+    - - philippe
+      - de
+      - croy
+- name: marchioness de brinvilliers
+  token: person
+  score: 0.0273972602739726
+  vectors:
+    - - marchioness
+      - de
+      - brinvilliers
+- name: edgar allen poe
+  token: person
+  score: 0.0273972602739726
+  vectors:
+    - - edgar
+      - allen
+      - poe
+    - - poe
+- name: heber c kemball
+  token: person
+  score: 0.0273972602739726
+  vectors:
+    - - heber
+      - c
+      - kemball
+    - - kemball
+- name: sawyer her
+  token: person
+  score: 0.0273972602739726
+  vectors:
+    - - sawyer
+      - her
+- name: mason of bradford
+  token: person
+  score: 0.02054794520547945
+  vectors:
+    - - mason
+      - of
+      - bradford
+- name: william whyte
+  token: person
+  score: 0.0136986301369863
+  vectors:
+    - - william
+      - whyte
+- name: norman neruda
+  token: person
+  score: 0.0136986301369863
+  vectors:
+    - - norman
+      - neruda
+- name: angel merona
+  token: person
+  score: 0.0136986301369863
+  vectors:
+    - - angel
+      - merona
+- name: van jansen
+  token: person
+  score: 0.0136986301369863
+  vectors:
+    - - van
+      - jansen
+- name: anatomy accurate
+  token: person
+  score: 0.0136986301369863
+  vectors:
+    - - anatomy
+      - accurate
+- name: thomas carlyle
+  token: person
+  score: 0.0136986301369863
+  vectors:
+    - - thomas
+      - carlyle
+- name: johnny hones
+  token: person
+  score: 0.0136986301369863
+  vectors:
+    - - johnny
+      - hones
+- name: von bischoff
+  token: person
+  score: 0.0136986301369863
+  vectors:
+    - - von
+      - bischoff
+- name: indian pete
+  token: person
+  score: 0.0136986301369863
+  vectors:
+    - - indian
+      - pete
+- name: new yorkers
+  token: person
+  score: 0.0136986301369863
+  vectors:
+    - - new
+      - yorkers
