@@ -1,9 +1,9 @@
 /**
- *  test/tokenize.words.js
+ *  test/tokenize.syntax.js
  *
  *  David Janes
  *  IOTDB
- *  2020-10-02
+ *  2020-10-08
  *
  *  Copyright (2013-2020) David P. Janes
  *
@@ -24,6 +24,7 @@
 
 const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
+const aws = require("iotdb-awslib")
 
 const assert = require("assert")
 const path = require("path")
@@ -33,13 +34,13 @@ const _util = require("./_util")
 
 const WRITE = process.env.WRITE === "1"
 
-describe("tokenize.words", function() {
+describe("tokenize.syntax", function() {
     const _test = _.promise((self, done) => {
-        const FOLDER = "tokenize.words"
+        const FOLDER = "tokenize.syntax"
 
         _.promise(self)
             .then(_util.read_utf8("corpus", self.filename, "document"))
-            .then(nlp.tokenize.words)
+            .then(nlp.tokenize.syntax)
             .conditional(WRITE, _util.write_yaml(FOLDER, self.filename, "tokens"))
             .then(_util.read_yaml(FOLDER, self.filename, "want_tokens"))
             .make(sd => {
@@ -53,6 +54,13 @@ describe("tokenize.words", function() {
 
     it("works (plain text)", function(done) {
         _.promise({
+            verbose: true,
+
+            aws$cfg: require("../.cfg/aws.json").aws$cfg,
+            cache$cfg: {
+                path: path.join(__dirname, "..", ".fs-cache"),
+            },
+
             document_media_type: "text/plain",
             tests: [
                 "bbc_congo",
@@ -60,6 +68,9 @@ describe("tokenize.words", function() {
                 "sherlock",
             ],
         })
+            .then(aws.initialize)
+            .then(aws.comprehend.initialize)
+            .then(fs.cache)
             .each({
                 method: _test,
                 inputs: "tests:filename",
