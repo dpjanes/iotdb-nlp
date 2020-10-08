@@ -31,7 +31,7 @@ const path = require("path")
 const nlp = require("..")
 const _util = require("./_util")
 
-const WRITE = true
+const WRITE = false
 
 describe("tokenize.paragraphs", function() {
     const _test = _.promise((self, done) => {

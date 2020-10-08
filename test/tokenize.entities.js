@@ -32,15 +32,20 @@ const path = require("path")
 const nlp = require("..")
 const _util = require("./_util")
 
+const WRITE = true
+
 describe("tokenize.entities", function() {
     const _test = _.promise((self, done) => {
         _.promise(self)
-            .add("path", path.join(__dirname, "data", self.test))
-            .then(fs.read.utf8)
+            .then(_util.read_utf8("corpus", self.filename, "document"))
             .then(nlp.tokenize.entities)
+            .conditional(WRITE, _util.write_yaml("tokenize.entities", self.filename, "tokens"))
+            .then(_util.read_yaml("tokenize.entities", self.filename, "want_tokens"))
+
             .make(sd => {
-                console.log(JSON.stringify(sd.tokens, null, 2))
-                // console.log(sd.tokens.filter(token => token.tag === "PERSON").forEach(t => console.log(t.document)))
+                const got = sd.tokens
+                const want = sd.want_tokens
+                assert.deepEqual(got, want)
             })
             .end(done, {})
     })
@@ -58,10 +63,7 @@ describe("tokenize.entities", function() {
 
             document_media_type: "text/plain",
             tests: [
-                // "bbc_congo.txt",
-                // "harry.txt",
-                // "sherlock.txt",
-                "study-in-scarlet.txt",
+                "study-in-scarlet",
             ],
         })
             .then(aws.initialize)
@@ -69,7 +71,7 @@ describe("tokenize.entities", function() {
             .then(fs.cache)
             .each({
                 method: _test,
-                inputs: "tests:test",
+                inputs: "tests:filename",
             })
             .end(done, {})
     })
