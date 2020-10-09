@@ -1,5 +1,5 @@
 - start: 18
-  tag: part
+  tag: 'checkpoint:part'
   labels:
     part: PART I
   order:
@@ -7,7 +7,7 @@
     - 0
     - 0
 - start: 18
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: PART I.
   order:
@@ -15,7 +15,7 @@
     - 0
     - 1
 - start: 27
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: (Being a reprint from the
   order:
@@ -23,7 +23,7 @@
     - 0
     - 2
 - start: 131
-  tag: chapter
+  tag: 'checkpoint:chapter'
   labels:
     chapter: Chapter I
   order:
@@ -31,7 +31,7 @@
     - 1
     - 0
 - start: 131
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Chapter I.
   order:
@@ -39,7 +39,7 @@
     - 1
     - 1
 - start: 889
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The campaign brought honours
   order:
@@ -47,7 +47,7 @@
     - 1
     - 2
 - start: 1450
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'Worn with pain, and weak from'
   order:
@@ -55,7 +55,7 @@
     - 1
     - 3
 - start: 2292
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: I had neither kith nor kin in
   order:
@@ -63,7 +63,7 @@
     - 1
     - 4
 - start: 3172
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: On the very day that I had
   order:
@@ -71,7 +71,7 @@
     - 1
     - 5
 - start: 3774
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Whatever have you been doing
   order:
@@ -79,7 +79,7 @@
     - 1
     - 6
 - start: 3962
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: I gave him a short sketch of
   order:
@@ -87,7 +87,7 @@
     - 1
     - 7
 - start: 4080
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Poor devil!” he said,'
   order:
@@ -95,7 +95,7 @@
     - 1
     - 8
 - start: 4188
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Looking for lodgings,” I'
   order:
@@ -103,7 +103,7 @@
     - 1
     - 9
 - start: 4332
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“That''s a strange thing,”'
   order:
@@ -111,7 +111,7 @@
     - 1
     - 10
 - start: 4451
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And who was the first?” I
   order:
@@ -119,7 +119,7 @@
     - 1
     - 11
 - start: 4486
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “A fellow who is working at
   order:
@@ -127,7 +127,7 @@
     - 1
     - 12
 - start: 4731
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“By Jove!” I cried, “if he'
   order:
@@ -135,7 +135,7 @@
     - 1
     - 13
 - start: 4893
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Young Stamford looked rather
   order:
@@ -143,7 +143,7 @@
     - 1
     - 14
 - start: 5069
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Why, what is there against'
   order:
@@ -151,7 +151,7 @@
     - 1
     - 15
 - start: 5104
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Oh, I didn''t say there was'
   order:
@@ -159,7 +159,7 @@
     - 1
     - 16
 - start: 5280
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“A medical student, I suppose?'
   order:
@@ -167,7 +167,7 @@
     - 1
     - 17
 - start: 5321
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “No—I have no idea what he
   order:
@@ -175,7 +175,7 @@
     - 1
     - 18
 - start: 5655
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Did you never ask him what
   order:
@@ -183,7 +183,7 @@
     - 1
     - 19
 - start: 5715
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “No; he is not a man that it
   order:
@@ -191,7 +191,7 @@
     - 1
     - 20
 - start: 5832
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I should like to meet him,”'
   order:
@@ -199,7 +199,7 @@
     - 1
     - 21
 - start: 6145
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “He is sure to be at the
   order:
@@ -207,7 +207,7 @@
     - 1
     - 22
 - start: 6352
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Certainly,” I answered, and'
   order:
@@ -215,7 +215,7 @@
     - 1
     - 23
 - start: 6433
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: As we made our way to the
   order:
@@ -223,7 +223,7 @@
     - 1
     - 24
 - start: 6600
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “You mustn't blame me if you
   order:
@@ -231,7 +231,7 @@
     - 1
     - 25
 - start: 6829
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “If we don't get on it will
   order:
@@ -239,7 +239,7 @@
     - 1
     - 26
 - start: 7116
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “It is not easy to express
   order:
@@ -247,7 +247,7 @@
     - 1
     - 27
 - start: 7633
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Very right too.”
   order:
@@ -255,7 +255,7 @@
     - 1
     - 28
 - start: 7652
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Yes, but it may be pushed to'
   order:
@@ -263,7 +263,7 @@
     - 1
     - 29
 - start: 7815
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Beating the subjects!”
   order:
@@ -271,7 +271,7 @@
     - 1
     - 30
 - start: 7840
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Yes, to verify how far'
   order:
@@ -279,7 +279,7 @@
     - 1
     - 31
 - start: 7937
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And yet you say he is not a
   order:
@@ -287,7 +287,7 @@
     - 1
     - 32
 - start: 7985
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “No. Heaven knows what the
   order:
@@ -295,7 +295,7 @@
     - 1
     - 33
 - start: 8531
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'This was a lofty chamber,'
   order:
@@ -303,7 +303,7 @@
     - 1
     - 34
 - start: 9211
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Dr. Watson, Mr. Sherlock'
   order:
@@ -311,7 +311,7 @@
     - 1
     - 35
 - start: 9278
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “How are you?” he said
   order:
@@ -319,7 +319,7 @@
     - 1
     - 36
 - start: 9439
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “How on earth did you know
   order:
@@ -327,7 +327,7 @@
     - 1
     - 37
 - start: 9499
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Never mind,” said he,'
   order:
@@ -335,7 +335,7 @@
     - 1
     - 38
 - start: 9646
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“It is interesting,'
   order:
@@ -343,7 +343,7 @@
     - 1
     - 39
 - start: 9721
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Why, man, it is the most'
   order:
@@ -351,7 +351,7 @@
     - 1
     - 40
 - start: 10662
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Ha! ha!” he cried, clapping'
   order:
@@ -359,7 +359,7 @@
     - 1
     - 41
 - start: 10784
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “It seems to be a very
   order:
@@ -367,7 +367,7 @@
     - 1
     - 42
 - start: 10836
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Beautiful! beautiful! The
   order:
@@ -375,7 +375,7 @@
     - 1
     - 43
 - start: 11229
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Indeed!” I murmured.
   order:
@@ -383,7 +383,7 @@
     - 1
     - 44
 - start: 11252
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Criminal cases are
   order:
@@ -391,7 +391,7 @@
     - 1
     - 45
 - start: 11736
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: His eyes fairly glittered as
   order:
@@ -399,7 +399,7 @@
     - 1
     - 46
 - start: 11884
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You are to be congratulated,”'
   order:
@@ -407,7 +407,7 @@
     - 1
     - 47
 - start: 11970
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “There was the case of Von
   order:
@@ -415,7 +415,7 @@
     - 1
     - 48
 - start: 12282
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “You seem to be a walking
   order:
@@ -423,7 +423,7 @@
     - 1
     - 49
 - start: 12438
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Very interesting reading it
   order:
@@ -431,7 +431,7 @@
     - 1
     - 50
 - start: 12830
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“We came here on business,”'
   order:
@@ -439,7 +439,7 @@
     - 1
     - 51
 - start: 13138
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Sherlock Holmes seemed
   order:
@@ -447,7 +447,7 @@
     - 1
     - 52
 - start: 13361
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I always smoke ‘ship's’
   order:
@@ -455,7 +455,7 @@
     - 1
     - 53
 - start: 13408
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “That's good enough. I
   order:
@@ -463,7 +463,7 @@
     - 1
     - 54
 - start: 13520
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “By no means.”
   order:
@@ -471,7 +471,7 @@
     - 1
     - 55
 - start: 13536
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Let me see—what are my other
   order:
@@ -479,7 +479,7 @@
     - 1
     - 56
 - start: 13874
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: I laughed at this cross-
   order:
@@ -487,7 +487,7 @@
     - 1
     - 57
 - start: 14151
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Do you include violin-
   order:
@@ -495,7 +495,7 @@
     - 1
     - 58
 - start: 14231
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“It depends on the player,” I'
   order:
@@ -503,7 +503,7 @@
     - 1
     - 59
 - start: 14339
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Oh, that''s all right,” he'
   order:
@@ -511,7 +511,7 @@
     - 1
     - 60
 - start: 14485
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “When shall we see them?”
   order:
@@ -519,7 +519,7 @@
     - 1
     - 61
 - start: 14512
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Call for me here at noon to-
   order:
@@ -527,7 +527,7 @@
     - 1
     - 62
 - start: 14609
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“All right—noon exactly,”'
   order:
@@ -535,7 +535,7 @@
     - 1
     - 63
 - start: 14662
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: We left him working among his
   order:
@@ -543,7 +543,7 @@
     - 1
     - 64
 - start: 14745
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“By the way,” I asked'
   order:
@@ -551,7 +551,7 @@
     - 1
     - 65
 - start: 14876
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: My companion smiled an
   order:
@@ -559,7 +559,7 @@
     - 1
     - 66
 - start: 15032
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Oh! a mystery is it?” I
   order:
@@ -567,7 +567,7 @@
     - 1
     - 67
 - start: 15206
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You must study him, then,”'
   order:
@@ -575,7 +575,7 @@
     - 1
     - 68
 - start: 15384
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Good-bye,” I answered, and'
   order:
@@ -583,7 +583,7 @@
     - 1
     - 69
 - start: 15486
-  tag: chapter
+  tag: 'checkpoint:chapter'
   labels:
     chapter: Chapter II
   order:
@@ -591,7 +591,7 @@
     - 2
     - 0
 - start: 15486
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Chapter II.
   order:
@@ -599,7 +599,7 @@
     - 2
     - 1
 - start: 16349
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Holmes was certainly not a
   order:
@@ -607,7 +607,7 @@
     - 2
     - 2
 - start: 17260
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'As the weeks went by, my'
   order:
@@ -615,7 +615,7 @@
     - 2
     - 3
 - start: 18090
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The reader may set me down as
   order:
@@ -623,7 +623,7 @@
     - 2
     - 4
 - start: 18766
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: He was not studying medicine.
   order:
@@ -631,7 +631,7 @@
     - 2
     - 5
 - start: 19533
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: His ignorance was as
   order:
@@ -639,7 +639,7 @@
     - 2
     - 6
 - start: 20126
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You appear to be astonished,”'
   order:
@@ -647,7 +647,7 @@
     - 2
     - 7
 - start: 20262
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “To forget it!”
   order:
@@ -655,7 +655,7 @@
     - 2
     - 8
 - start: 20279
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You see,” he explained, “I'
   order:
@@ -663,7 +663,7 @@
     - 2
     - 9
 - start: 21230
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “But the Solar System!” I
   order:
@@ -671,7 +671,7 @@
     - 2
     - 10
 - start: 21268
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “What the deuce is it to me?”
   order:
@@ -679,7 +679,7 @@
     - 2
     - 11
 - start: 21455
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: I was on the point of asking
   order:
@@ -687,7 +687,7 @@
     - 2
     - 12
 - start: 22103
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Knowledge of Literature.—Nil.
   order:
@@ -695,7 +695,7 @@
     - 2
     - 13
 - start: 23086
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: I see that I have alluded
   order:
@@ -703,7 +703,7 @@
     - 2
     - 14
 - start: 24140
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: During the first week or so
   order:
@@ -711,7 +711,7 @@
     - 2
     - 15
 - start: 25570
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'It was upon the 4th of March,'
   order:
@@ -719,7 +719,7 @@
     - 2
     - 16
 - start: 26201
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Its somewhat ambitious title
   order:
@@ -727,7 +727,7 @@
     - 2
     - 17
 - start: 27042
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“From a drop of water,” said'
   order:
@@ -735,7 +735,7 @@
     - 2
     - 18
 - start: 28286
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “What ineffable twaddle!” I
   order:
@@ -743,7 +743,7 @@
     - 2
     - 19
 - start: 28403
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “What is it?” asked Sherlock
   order:
@@ -751,7 +751,7 @@
     - 2
     - 20
 - start: 28441
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Why, this article,” I said,'
   order:
@@ -759,7 +759,7 @@
     - 2
     - 21
 - start: 28995
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You would lose your money,”'
   order:
@@ -767,7 +767,7 @@
     - 2
     - 22
 - start: 29098
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “You!”
   order:
@@ -775,7 +775,7 @@
     - 2
     - 23
 - start: 29106
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Yes, I have a turn both for'
   order:
@@ -783,7 +783,7 @@
     - 2
     - 24
 - start: 29348
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And how?” I asked
   order:
@@ -791,7 +791,7 @@
     - 2
     - 25
 - start: 29383
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Well, I have a trade of my'
   order:
@@ -799,7 +799,7 @@
     - 2
     - 26
 - start: 30137
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And these other people?”
   order:
@@ -807,7 +807,7 @@
     - 2
     - 27
 - start: 30164
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “They are mostly sent on by
   order:
@@ -815,7 +815,7 @@
     - 2
     - 28
 - start: 30387
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“But do you mean to say,” I'
   order:
@@ -823,7 +823,7 @@
     - 2
     - 29
 - start: 30571
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Quite so. I have a kind of
   order:
@@ -831,7 +831,7 @@
     - 2
     - 30
 - start: 31118
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You were told, no doubt.”'
   order:
@@ -839,7 +839,7 @@
     - 2
     - 31
 - start: 31146
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Nothing of the sort. I knew
   order:
@@ -847,7 +847,7 @@
     - 2
     - 32
 - start: 32047
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “It is simple enough as you
   order:
@@ -855,7 +855,7 @@
     - 2
     - 33
 - start: 32216
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Sherlock Holmes rose and lit
   order:
@@ -863,7 +863,7 @@
     - 2
     - 34
 - start: 32668
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Have you read Gaboriau's
   order:
@@ -871,7 +871,7 @@
     - 2
     - 35
 - start: 32762
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Sherlock Holmes sniffed
   order:
@@ -879,7 +879,7 @@
     - 2
     - 36
 - start: 33162
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: I felt rather indignant at
   order:
@@ -887,7 +887,7 @@
     - 2
     - 37
 - start: 33426
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “There are no crimes and no
   order:
@@ -895,7 +895,7 @@
     - 2
     - 38
 - start: 33925
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: I was still annoyed at his
   order:
@@ -903,7 +903,7 @@
     - 2
     - 39
 - start: 34025
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I wonder what that fellow is
   order:
@@ -911,7 +911,7 @@
     - 2
     - 40
 - start: 34307
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “You mean the retired
   order:
@@ -919,7 +919,7 @@
     - 2
     - 41
 - start: 34374
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Brag and bounce!” thought I
   order:
@@ -927,7 +927,7 @@
     - 2
     - 42
 - start: 34458
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The thought had hardly passed
   order:
@@ -935,7 +935,7 @@
     - 2
     - 43
 - start: 34696
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“For Mr. Sherlock Holmes,” he'
   order:
@@ -943,7 +943,7 @@
     - 2
     - 44
 - start: 34790
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Here was an opportunity of
   order:
@@ -951,7 +951,7 @@
     - 2
     - 45
 - start: 34984
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Commissionaire, sir,” he'
   order:
@@ -959,7 +959,7 @@
     - 2
     - 46
 - start: 35054
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“And you were?” I asked, with'
   order:
@@ -967,7 +967,7 @@
     - 2
     - 47
 - start: 35130
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“A sergeant, sir, Royal'
   order:
@@ -975,7 +975,7 @@
     - 2
     - 48
 - start: 35207
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'He clicked his heels together,'
   order:
@@ -983,7 +983,7 @@
     - 2
     - 49
 - start: 35282
-  tag: chapter
+  tag: 'checkpoint:chapter'
   labels:
     chapter: Chapter III
   order:
@@ -991,7 +991,7 @@
     - 3
     - 0
 - start: 35282
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Chapter III.
   order:
@@ -999,7 +999,7 @@
     - 3
     - 1
 - start: 35869
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “How in the world did you
   order:
@@ -1007,7 +1007,7 @@
     - 3
     - 2
 - start: 35919
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Deduce what?” said he,'
   order:
@@ -1015,7 +1015,7 @@
     - 3
     - 3
 - start: 35956
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Why, that he was a retired'
   order:
@@ -1023,7 +1023,7 @@
     - 3
     - 4
 - start: 36007
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I have no time for trifles,”'
   order:
@@ -1031,7 +1031,7 @@
     - 3
     - 5
 - start: 36245
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“No, indeed.”'
   order:
@@ -1039,7 +1039,7 @@
     - 3
     - 6
 - start: 36260
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “It was easier to know it
   order:
@@ -1047,7 +1047,7 @@
     - 3
     - 7
 - start: 36945
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Wonderful!” I ejaculated.
   order:
@@ -1055,7 +1055,7 @@
     - 3
     - 8
 - start: 36973
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Commonplace,” said Holmes,'
   order:
@@ -1063,7 +1063,7 @@
     - 3
     - 9
 - start: 37251
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Why,” I cried, as I cast my'
   order:
@@ -1071,7 +1071,7 @@
     - 3
     - 10
 - start: 37314
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “It does seem to be a little
   order:
@@ -1079,7 +1079,7 @@
     - 3
     - 11
 - start: 37426
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: This is the letter which I
   order:
@@ -1087,7 +1087,7 @@
     - 3
     - 12
 - start: 37467
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“My dear Mr. Sherlock Holmes:'
   order:
@@ -1095,7 +1095,7 @@
     - 3
     - 13
 - start: 38884
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: I was amazed at the calm way
   order:
@@ -1103,7 +1103,7 @@
     - 3
     - 14
 - start: 39024
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I'm not sure about whether I
   order:
@@ -1111,7 +1111,7 @@
     - 3
     - 15
 - start: 39200
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Why, it is just such a'
   order:
@@ -1119,7 +1119,7 @@
     - 3
     - 16
 - start: 39263
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“My dear fellow, what does it'
   order:
@@ -1127,7 +1127,7 @@
     - 3
     - 17
 - start: 39468
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “But he begs you to help him.”
   order:
@@ -1135,7 +1135,7 @@
     - 3
     - 18
 - start: 39500
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Yes. He knows that I am his
   order:
@@ -1143,7 +1143,7 @@
     - 3
     - 19
 - start: 39784
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'He hustled on his overcoat,'
   order:
@@ -1151,7 +1151,7 @@
     - 3
     - 20
 - start: 39908
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Get your hat,” he said.'
   order:
@@ -1159,7 +1159,7 @@
     - 3
     - 21
 - start: 39934
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “You wish me to come?”
   order:
@@ -1167,7 +1167,7 @@
     - 3
     - 22
 - start: 39958
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Yes, if you have nothing'
   order:
@@ -1175,7 +1175,7 @@
     - 3
     - 23
 - start: 40081
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'It was a foggy, cloudy'
   order:
@@ -1183,7 +1183,7 @@
     - 3
     - 24
 - start: 40495
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “You don't seem to give much
   order:
@@ -1191,7 +1191,7 @@
     - 3
     - 25
 - start: 40616
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“No data yet,” he answered. “'
   order:
@@ -1199,7 +1199,7 @@
     - 3
     - 26
 - start: 40741
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You will have your data soon,'
   order:
@@ -1207,7 +1207,7 @@
     - 3
     - 27
 - start: 40894
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“So it is. Stop, driver, stop!'
   order:
@@ -1215,7 +1215,7 @@
     - 3
     - 28
 - start: 41047
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'Number 3, Lauriston Gardens'
   order:
@@ -1223,7 +1223,7 @@
     - 3
     - 29
 - start: 42045
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: I had imagined that Sherlock
   order:
@@ -1231,7 +1231,7 @@
     - 3
     - 30
 - start: 43063
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: At the door of the house we
   order:
@@ -1239,7 +1239,7 @@
     - 3
     - 31
 - start: 43322
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Except that!” my friend
   order:
@@ -1247,7 +1247,7 @@
     - 3
     - 32
 - start: 43551
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I have had so much to do
   order:
@@ -1255,7 +1255,7 @@
     - 3
     - 33
 - start: 43708
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Holmes glanced at me and
   order:
@@ -1263,7 +1263,7 @@
     - 3
     - 34
 - start: 43893
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Gregson rubbed his hands in a
   order:
@@ -1271,7 +1271,7 @@
     - 3
     - 35
 - start: 44069
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “You did not come here in a
   order:
@@ -1279,7 +1279,7 @@
     - 3
     - 36
 - start: 44127
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“No, sir.”'
   order:
@@ -1287,7 +1287,7 @@
     - 3
     - 37
 - start: 44139
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Nor Lestrade?”
   order:
@@ -1295,7 +1295,7 @@
     - 3
     - 38
 - start: 44156
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“No, sir.”'
   order:
@@ -1303,7 +1303,7 @@
     - 3
     - 39
 - start: 44168
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Then let us go and look at
   order:
@@ -1311,7 +1311,7 @@
     - 3
     - 40
 - start: 44332
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'A short passage, bare planked'
   order:
@@ -1319,7 +1319,7 @@
     - 3
     - 41
 - start: 44739
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'It was a large square room,'
   order:
@@ -1327,7 +1327,7 @@
     - 3
     - 42
 - start: 45369
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: All these details I observed
   order:
@@ -1335,7 +1335,7 @@
     - 3
     - 43
 - start: 46643
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'Lestrade, lean and ferret-'
   order:
@@ -1343,7 +1343,7 @@
     - 3
     - 44
 - start: 46750
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“This case will make a stir,'
   order:
@@ -1351,7 +1351,7 @@
     - 3
     - 45
 - start: 46853
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “There is no clue?” said
   order:
@@ -1359,7 +1359,7 @@
     - 3
     - 46
 - start: 46888
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“None at all,” chimed in'
   order:
@@ -1367,7 +1367,7 @@
     - 3
     - 47
 - start: 46924
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Sherlock Holmes approached
   order:
@@ -1375,7 +1375,7 @@
     - 3
     - 48
 - start: 47123
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Positive!” cried both
   order:
@@ -1383,7 +1383,7 @@
     - 3
     - 49
 - start: 47159
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Then, of course, this blood'
   order:
@@ -1391,7 +1391,7 @@
     - 3
     - 50
 - start: 47413
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“No, sir.”'
   order:
@@ -1399,7 +1399,7 @@
     - 3
     - 51
 - start: 47425
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Read it up—you really should.
   order:
@@ -1407,7 +1407,7 @@
     - 3
     - 52
 - start: 47523
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'As he spoke, his nimble'
   order:
@@ -1415,7 +1415,7 @@
     - 3
     - 53
 - start: 47941
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “He has not been moved at all?
   order:
@@ -1423,7 +1423,7 @@
     - 3
     - 54
 - start: 47984
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “No more than was necessary
   order:
@@ -1431,7 +1431,7 @@
     - 3
     - 55
 - start: 48051
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “You can take him to the
   order:
@@ -1439,7 +1439,7 @@
     - 3
     - 56
 - start: 48140
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Gregson had a stretcher and
   order:
@@ -1447,7 +1447,7 @@
     - 3
     - 57
 - start: 48397
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“There''s been a woman here,”'
   order:
@@ -1455,7 +1455,7 @@
     - 3
     - 58
 - start: 48468
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'He held it out, as he spoke,'
   order:
@@ -1463,7 +1463,7 @@
     - 3
     - 59
 - start: 48664
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“This complicates matters,”'
   order:
@@ -1471,7 +1471,7 @@
     - 3
     - 60
 - start: 48760
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “You're sure it doesn't
   order:
@@ -1479,7 +1479,7 @@
     - 3
     - 61
 - start: 48902
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“We have it all here,” said'
   order:
@@ -1487,7 +1487,7 @@
     - 3
     - 62
 - start: 49538
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “At what address?”
   order:
@@ -1495,7 +1495,7 @@
     - 3
     - 63
 - start: 49558
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“American Exchange, Strand—to'
   order:
@@ -1503,7 +1503,7 @@
     - 3
     - 64
 - start: 49790
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Have you made any inquiries
   order:
@@ -1511,7 +1511,7 @@
     - 3
     - 65
 - start: 49849
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I did it at once, sir,” said'
   order:
@@ -1519,7 +1519,7 @@
     - 3
     - 66
 - start: 50027
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Have you sent to Cleveland?”
   order:
@@ -1527,7 +1527,7 @@
     - 3
     - 67
 - start: 50058
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “We telegraphed this morning.”
   order:
@@ -1535,7 +1535,7 @@
     - 3
     - 68
 - start: 50090
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “How did you word your
   order:
@@ -1543,7 +1543,7 @@
     - 3
     - 69
 - start: 50126
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “We simply detailed the
   order:
@@ -1551,7 +1551,7 @@
     - 3
     - 70
 - start: 50239
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “You did not ask for
   order:
@@ -1559,7 +1559,7 @@
     - 3
     - 71
 - start: 50324
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I asked about Stangerson.”
   order:
@@ -1567,7 +1567,7 @@
     - 3
     - 72
 - start: 50353
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Nothing else? Is there no
   order:
@@ -1575,7 +1575,7 @@
     - 3
     - 73
 - start: 50468
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I have said all I have to
   order:
@@ -1583,7 +1583,7 @@
     - 3
     - 74
 - start: 50538
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Sherlock Holmes chuckled to
   order:
@@ -1591,7 +1591,7 @@
     - 3
     - 75
 - start: 50806
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Mr. Gregson,” he said, “I'
   order:
@@ -1599,7 +1599,7 @@
     - 3
     - 76
 - start: 50981
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The little man's eyes
   order:
@@ -1607,7 +1607,7 @@
     - 3
     - 77
 - start: 51131
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Come here,” he said,'
   order:
@@ -1615,7 +1615,7 @@
     - 3
     - 78
 - start: 51281
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: He struck a match on his boot
   order:
@@ -1623,7 +1623,7 @@
     - 3
     - 79
 - start: 51345
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Look at that!” he said,'
   order:
@@ -1631,7 +1631,7 @@
     - 3
     - 80
 - start: 51385
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: I have remarked that the
   order:
@@ -1639,7 +1639,7 @@
     - 3
     - 81
 - start: 51635
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: RACHE.
   order:
@@ -1647,7 +1647,7 @@
     - 3
     - 82
 - start: 51643
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “What do you think of that?”
   order:
@@ -1655,7 +1655,7 @@
     - 3
     - 83
 - start: 52219
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And what does it mean now
   order:
@@ -1663,7 +1663,7 @@
     - 3
     - 84
 - start: 52311
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Mean? Why, it means that the'
   order:
@@ -1671,7 +1671,7 @@
     - 3
     - 85
 - start: 52722
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I really beg your pardon!”
   order:
@@ -1679,7 +1679,7 @@
     - 3
     - 86
 - start: 53128
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'As he spoke, he whipped a'
   order:
@@ -1687,7 +1687,7 @@
     - 3
     - 87
 - start: 54421
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “They say that genius is an
   order:
@@ -1695,7 +1695,7 @@
     - 3
     - 88
 - start: 54580
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Gregson and Lestrade had
   order:
@@ -1703,7 +1703,7 @@
     - 3
     - 89
 - start: 54876
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“What do you think of it, sir?'
   order:
@@ -1711,7 +1711,7 @@
     - 3
     - 90
 - start: 54926
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “It would be robbing you of
   order:
@@ -1719,7 +1719,7 @@
     - 3
     - 91
 - start: 55393
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Lestrade glanced at his note-
   order:
@@ -1727,7 +1727,7 @@
     - 3
     - 92
 - start: 55535
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Holmes took a note of the
   order:
@@ -1735,7 +1735,7 @@
     - 3
     - 93
 - start: 55571
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Come along, Doctor,” he said;'
   order:
@@ -1743,7 +1743,7 @@
     - 3
     - 94
 - start: 56254
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Lestrade and Gregson glanced
   order:
@@ -1751,7 +1751,7 @@
     - 3
     - 95
 - start: 56325
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“If this man was murdered,'
   order:
@@ -1759,7 +1759,7 @@
     - 3
     - 96
 - start: 56389
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Poison,” said Sherlock'
   order:
@@ -1767,7 +1767,7 @@
     - 3
     - 97
 - start: 56600
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: With which Parthian shot he
   order:
@@ -1775,7 +1775,7 @@
     - 3
     - 98
 - start: 56690
-  tag: chapter
+  tag: 'checkpoint:chapter'
   labels:
     chapter: Chapter IV
   order:
@@ -1783,7 +1783,7 @@
     - 4
     - 0
 - start: 56690
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Chapter IV.
   order:
@@ -1791,7 +1791,7 @@
     - 4
     - 1
 - start: 56976
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “There is nothing like first
   order:
@@ -1799,7 +1799,7 @@
     - 4
     - 2
 - start: 57159
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You amaze me, Holmes,” said'
   order:
@@ -1807,7 +1807,7 @@
     - 4
     - 3
 - start: 57283
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “There's no room for a
   order:
@@ -1815,7 +1815,7 @@
     - 4
     - 4
 - start: 58022
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“That seems simple enough,”'
   order:
@@ -1823,7 +1823,7 @@
     - 4
     - 5
 - start: 58099
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Why, the height of a man, in'
   order:
@@ -1831,7 +1831,7 @@
     - 4
     - 6
 - start: 58576
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And his age?” I asked.
   order:
@@ -1839,7 +1839,7 @@
     - 4
     - 7
 - start: 58601
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Well, if a man can stride'
   order:
@@ -1847,7 +1847,7 @@
     - 4
     - 8
 - start: 59086
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “The finger nails and the
   order:
@@ -1855,7 +1855,7 @@
     - 4
     - 9
 - start: 59141
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “The writing on the wall was
   order:
@@ -1863,7 +1863,7 @@
     - 4
     - 10
 - start: 59808
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And the florid face?” I
   order:
@@ -1871,7 +1871,7 @@
     - 4
     - 11
 - start: 59841
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Ah, that was a more daring'
   order:
@@ -1879,7 +1879,7 @@
     - 4
     - 12
 - start: 59979
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: I passed my hand over my brow.
   order:
@@ -1887,7 +1887,7 @@
     - 4
     - 13
 - start: 60564
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: My companion smiled
   order:
@@ -1895,7 +1895,7 @@
     - 4
     - 14
 - start: 60598
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “You sum up the difficulties
   order:
@@ -1903,7 +1903,7 @@
     - 4
     - 15
 - start: 61507
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I shall never do that,” I'
   order:
@@ -1911,7 +1911,7 @@
     - 4
     - 16
 - start: 61641
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: My companion flushed up with
   order:
@@ -1919,7 +1919,7 @@
     - 4
     - 17
 - start: 61858
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I'll tell you one other
   order:
@@ -1927,7 +1927,7 @@
     - 4
     - 18
 - start: 62677
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: This conversation had
   order:
@@ -1935,7 +1935,7 @@
     - 4
     - 19
 - start: 63033
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Audley Court was not an
   order:
@@ -1943,7 +1943,7 @@
     - 4
     - 20
 - start: 63504
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'He appeared presently,'
   order:
@@ -1951,7 +1951,7 @@
     - 4
     - 21
 - start: 63634
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Holmes took a half-sovereign
   order:
@@ -1959,7 +1959,7 @@
     - 4
     - 22
 - start: 63787
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I shall be most happy to
   order:
@@ -1967,7 +1967,7 @@
     - 4
     - 23
 - start: 63906
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Just let us hear it all in
   order:
@@ -1975,7 +1975,7 @@
     - 4
     - 24
 - start: 63965
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Rance sat down on the
   order:
@@ -1983,7 +1983,7 @@
     - 4
     - 25
 - start: 64086
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I'll tell it ye from the
   order:
@@ -1991,7 +1991,7 @@
     - 4
     - 26
 - start: 65206
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You stopped, and then walked'
   order:
@@ -1999,7 +1999,7 @@
     - 4
     - 27
 - start: 65317
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'Rance gave a violent jump,'
   order:
@@ -2007,7 +2007,7 @@
     - 4
     - 28
 - start: 65420
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Why, that''s true, sir,” he'
   order:
@@ -2015,7 +2015,7 @@
     - 4
     - 29
 - start: 65948
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “There was no one in the
   order:
@@ -2023,7 +2023,7 @@
     - 4
     - 30
 - start: 65983
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Not a livin'' soul, sir, nor'
   order:
@@ -2031,7 +2031,7 @@
     - 4
     - 31
 - start: 66266
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Yes, I know all that you saw.'
   order:
@@ -2039,7 +2039,7 @@
     - 4
     - 32
 - start: 66438
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: John Rance sprang to his feet
   order:
@@ -2047,7 +2047,7 @@
     - 4
     - 33
 - start: 66627
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Holmes laughed and threw his
   order:
@@ -2055,7 +2055,7 @@
     - 4
     - 34
 - start: 66877
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'Rance resumed his seat,'
   order:
@@ -2063,7 +2063,7 @@
     - 4
     - 35
 - start: 67048
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Was the street empty then?”
   order:
@@ -2071,7 +2071,7 @@
     - 4
     - 36
 - start: 67078
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Well, it was, as far as'
   order:
@@ -2079,7 +2079,7 @@
     - 4
     - 37
 - start: 67145
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “What do you mean?”
   order:
@@ -2087,7 +2087,7 @@
     - 4
     - 38
 - start: 67166
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The constable's features
   order:
@@ -2095,7 +2095,7 @@
     - 4
     - 39
 - start: 67516
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “What sort of a man was he?”
   order:
@@ -2103,7 +2103,7 @@
     - 4
     - 40
 - start: 67569
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: John Rance appeared to be
   order:
@@ -2111,7 +2111,7 @@
     - 4
     - 41
 - start: 67754
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “His face—his dress—didn't
   order:
@@ -2119,7 +2119,7 @@
     - 4
     - 42
 - start: 67829
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I should think I did notice
   order:
@@ -2127,7 +2127,7 @@
     - 4
     - 43
 - start: 67993
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“That will do,” cried Holmes.'
   order:
@@ -2135,7 +2135,7 @@
     - 4
     - 44
 - start: 68046
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “We'd enough to do without
   order:
@@ -2143,7 +2143,7 @@
     - 4
     - 45
 - start: 68183
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “How was he dressed?”
   order:
@@ -2151,7 +2151,7 @@
     - 4
     - 46
 - start: 68206
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “A brown overcoat.”
   order:
@@ -2159,7 +2159,7 @@
     - 4
     - 47
 - start: 68227
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Had he a whip in his hand?”
   order:
@@ -2167,7 +2167,7 @@
     - 4
     - 48
 - start: 68257
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “A whip—no.”
   order:
@@ -2175,7 +2175,7 @@
     - 4
     - 49
 - start: 68271
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“He must have left it behind,”'
   order:
@@ -2183,7 +2183,7 @@
     - 4
     - 50
 - start: 68379
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “No.”
   order:
@@ -2191,7 +2191,7 @@
     - 4
     - 51
 - start: 68386
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “There's a half-sovereign for
   order:
@@ -2199,7 +2199,7 @@
     - 4
     - 52
 - start: 68846
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: We started off for the cab
   order:
@@ -2207,7 +2207,7 @@
     - 4
     - 53
 - start: 68948
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“The blundering fool,” Holmes'
   order:
@@ -2215,7 +2215,7 @@
     - 4
     - 54
 - start: 69130
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I am rather in the dark
   order:
@@ -2223,7 +2223,7 @@
     - 4
     - 55
 - start: 69361
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“The ring, man, the ring:'
   order:
@@ -2231,7 +2231,7 @@
     - 4
     - 56
 - start: 70093
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'Leaning back in the cab, this'
   order:
@@ -2239,7 +2239,7 @@
     - 4
     - 57
 - start: 70230
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Chapter V.
   order:
@@ -2247,7 +2247,7 @@
     - 4
     - 58
 - start: 70230
-  tag: chapter
+  tag: 'checkpoint:chapter'
   labels:
     chapter: Chapter V
   order:
@@ -2255,7 +2255,7 @@
     - 5
     - 0
 - start: 71168
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The more I thought of it the
   order:
@@ -2263,7 +2263,7 @@
     - 5
     - 1
 - start: 72014
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: He was very late in returning—
   order:
@@ -2271,7 +2271,7 @@
     - 5
     - 2
 - start: 72169
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“It was magnificent,” he said,'
   order:
@@ -2279,7 +2279,7 @@
     - 5
     - 3
 - start: 72560
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“That''s rather a broad idea,”'
   order:
@@ -2287,7 +2287,7 @@
     - 5
     - 4
 - start: 72603
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “One's ideas must be as broad
   order:
@@ -2295,7 +2295,7 @@
     - 5
     - 5
 - start: 72787
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“To tell the truth, it has,”'
   order:
@@ -2303,7 +2303,7 @@
     - 5
     - 6
 - start: 72964
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I can understand. There is a
   order:
@@ -2311,7 +2311,7 @@
     - 5
     - 7
 - start: 73132
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “No.”
   order:
@@ -2319,7 +2319,7 @@
     - 5
     - 8
 - start: 73139
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “It gives a fairly good
   order:
@@ -2327,7 +2327,7 @@
     - 5
     - 9
 - start: 73326
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Why?”
   order:
@@ -2335,7 +2335,7 @@
     - 5
     - 10
 - start: 73334
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Look at this advertisement,”'
   order:
@@ -2343,7 +2343,7 @@
     - 5
     - 11
 - start: 73453
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: He threw the paper across to
   order:
@@ -2351,7 +2351,7 @@
     - 5
     - 12
 - start: 73794
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Excuse my using your name,”'
   order:
@@ -2359,7 +2359,7 @@
     - 5
     - 13
 - start: 73932
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“That is all right,” I'
   order:
@@ -2367,7 +2367,7 @@
     - 5
     - 14
 - start: 74014
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Oh yes, you have,” said he,'
   order:
@@ -2375,7 +2375,7 @@
     - 5
     - 15
 - start: 74112
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And who do you expect will
   order:
@@ -2383,7 +2383,7 @@
     - 5
     - 16
 - start: 74169
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Why, the man in the brown'
   order:
@@ -2391,7 +2391,7 @@
     - 5
     - 17
 - start: 74299
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Would he not consider it as
   order:
@@ -2399,7 +2399,7 @@
     - 5
     - 18
 - start: 74345
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Not at all. If my view of
   order:
@@ -2407,7 +2407,7 @@
     - 5
     - 19
 - start: 75453
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And then?” I asked.
   order:
@@ -2415,7 +2415,7 @@
     - 5
     - 20
 - start: 75475
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Oh, you can leave me to deal'
   order:
@@ -2423,7 +2423,7 @@
     - 5
     - 21
 - start: 75541
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I have my old service
   order:
@@ -2431,7 +2431,7 @@
     - 5
     - 22
 - start: 75597
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “You had better clean it and
   order:
@@ -2439,7 +2439,7 @@
     - 5
     - 23
 - start: 75743
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: I went to my bedroom and
   order:
@@ -2447,7 +2447,7 @@
     - 5
     - 24
 - start: 75930
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“The plot thickens,” he said,'
   order:
@@ -2455,7 +2455,7 @@
     - 5
     - 25
 - start: 76068
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And that is?” I asked
   order:
@@ -2463,7 +2463,7 @@
     - 5
     - 26
 - start: 76101
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “My fiddle would be the
   order:
@@ -2471,7 +2471,7 @@
     - 5
     - 27
 - start: 76322
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“It is eight o''clock now,” I'
   order:
@@ -2479,7 +2479,7 @@
     - 5
     - 28
 - start: 76380
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Yes. He will probably be
   order:
@@ -2487,7 +2487,7 @@
     - 5
     - 29
 - start: 76743
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Who is the printer?”
   order:
@@ -2495,7 +2495,7 @@
     - 5
     - 30
 - start: 76766
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Philippe de Croy, whoever he'
   order:
@@ -2503,7 +2503,7 @@
     - 5
     - 31
 - start: 77045
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: As he spoke there was a sharp
   order:
@@ -2511,7 +2511,7 @@
     - 5
     - 32
 - start: 77265
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Does Dr. Watson live here?”
   order:
@@ -2519,7 +2519,7 @@
     - 5
     - 33
 - start: 77635
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Come in,” I cried.'
   order:
@@ -2527,7 +2527,7 @@
     - 5
     - 34
 - start: 77656
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'At my summons, instead of the'
   order:
@@ -2535,7 +2535,7 @@
     - 5
     - 35
 - start: 78103
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The old crone drew out an
   order:
@@ -2543,7 +2543,7 @@
     - 5
     - 36
 - start: 78670
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Is that her ring?” I asked.
   order:
@@ -2551,7 +2551,7 @@
     - 5
     - 37
 - start: 78700
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “The Lord be thanked!” cried
   order:
@@ -2559,7 +2559,7 @@
     - 5
     - 38
 - start: 78803
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And what may your address be?
   order:
@@ -2567,7 +2567,7 @@
     - 5
     - 39
 - start: 78868
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“13, Duncan Street,'
   order:
@@ -2575,7 +2575,7 @@
     - 5
     - 40
 - start: 78926
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “The Brixton Road does not
   order:
@@ -2583,7 +2583,7 @@
     - 5
     - 41
 - start: 79025
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The old woman faced round and
   order:
@@ -2591,7 +2591,7 @@
     - 5
     - 42
 - start: 79218
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And your name is—?”
   order:
@@ -2599,7 +2599,7 @@
     - 5
     - 43
 - start: 79240
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “My name is Sawyer—her's is
   order:
@@ -2607,7 +2607,7 @@
     - 5
     - 44
 - start: 79474
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Here is your ring, Mrs.'
   order:
@@ -2615,7 +2615,7 @@
     - 5
     - 45
 - start: 79667
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: With many mumbled blessings
   order:
@@ -2623,7 +2623,7 @@
     - 5
     - 46
 - start: 80554
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: It was close upon nine when
   order:
@@ -2631,7 +2631,7 @@
     - 5
     - 47
 - start: 81204
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I wouldn't have the Scotland
   order:
@@ -2639,7 +2639,7 @@
     - 5
     - 48
 - start: 81471
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “What is it then?” I asked.
   order:
@@ -2647,7 +2647,7 @@
     - 5
     - 49
 - start: 81500
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Oh, I don''t mind telling a'
   order:
@@ -2655,7 +2655,7 @@
     - 5
     - 50
 - start: 82858
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You don''t mean to say,” I'
   order:
@@ -2663,7 +2663,7 @@
     - 5
     - 51
 - start: 83047
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Old woman be damned!” said
   order:
@@ -2671,7 +2671,7 @@
     - 5
     - 52
 - start: 83543
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: I was certainly feeling very
   order:
@@ -2679,7 +2679,7 @@
     - 5
     - 53
 - start: 83853
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Chapter VI.
   order:
@@ -2687,7 +2687,7 @@
     - 5
     - 54
 - start: 83853
-  tag: chapter
+  tag: 'checkpoint:chapter'
   labels:
     chapter: Chapter VI
   order:
@@ -2695,7 +2695,7 @@
     - 6
     - 0
 - start: 84243
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The Daily Telegraph remarked
   order:
@@ -2703,7 +2703,7 @@
     - 6
     - 1
 - start: 84981
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The Standard commented upon
   order:
@@ -2711,7 +2711,7 @@
     - 6
     - 2
 - start: 86195
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The Daily News observed that
   order:
@@ -2719,7 +2719,7 @@
     - 6
     - 3
 - start: 86959
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Sherlock Holmes and I read
   order:
@@ -2727,7 +2727,7 @@
     - 6
     - 4
 - start: 87085
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I told you that, whatever'
   order:
@@ -2735,7 +2735,7 @@
     - 6
     - 5
 - start: 87169
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “That depends on how it turns
   order:
@@ -2743,7 +2743,7 @@
     - 6
     - 6
 - start: 87206
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Oh, bless you, it doesn''t'
   order:
@@ -2751,7 +2751,7 @@
     - 6
     - 7
 - start: 87507
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “What on earth is this?” I
   order:
@@ -2759,7 +2759,7 @@
     - 6
     - 8
 - start: 87708
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “It's the Baker Street
   order:
@@ -2767,7 +2767,7 @@
     - 6
     - 9
 - start: 87931
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“''Tention!” cried Holmes, in'
   order:
@@ -2775,7 +2775,7 @@
     - 6
     - 10
 - start: 88193
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“No, sir, we hain''t,” said'
   order:
@@ -2783,7 +2783,7 @@
     - 6
     - 11
 - start: 88240
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I hardly expected you would.
   order:
@@ -2791,7 +2791,7 @@
     - 6
     - 12
 - start: 88424
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'He waved his hand, and they'
   order:
@@ -2799,7 +2799,7 @@
     - 6
     - 13
 - start: 88558
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “There's more work to be got
   order:
@@ -2807,7 +2807,7 @@
     - 6
     - 14
 - start: 88868
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Is it on this Brixton case
   order:
@@ -2815,7 +2815,7 @@
     - 6
     - 15
 - start: 88936
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Yes; there is a point which
   order:
@@ -2823,7 +2823,7 @@
     - 6
     - 16
 - start: 89227
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: There was a violent peal at
   order:
@@ -2831,7 +2831,7 @@
     - 6
     - 17
 - start: 89389
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“My dear fellow,” he cried,'
   order:
@@ -2839,7 +2839,7 @@
     - 6
     - 18
 - start: 89518
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: A shade of anxiety seemed to
   order:
@@ -2847,7 +2847,7 @@
     - 6
     - 19
 - start: 89592
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Do you mean that you are on
   order:
@@ -2855,7 +2855,7 @@
     - 6
     - 20
 - start: 89650
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“The right track! Why, sir,'
   order:
@@ -2863,7 +2863,7 @@
     - 6
     - 21
 - start: 89716
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And his name is?”
   order:
@@ -2871,7 +2871,7 @@
     - 6
     - 22
 - start: 89736
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Arthur Charpentier, sub-'
   order:
@@ -2879,7 +2879,7 @@
     - 6
     - 23
 - start: 89870
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Sherlock Holmes gave a sigh
   order:
@@ -2887,7 +2887,7 @@
     - 6
     - 24
 - start: 89936
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Take a seat, and try one of'
   order:
@@ -2895,7 +2895,7 @@
     - 6
     - 25
 - start: 90073
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I don''t mind if I do,” the'
   order:
@@ -2903,7 +2903,7 @@
     - 6
     - 26
 - start: 90372
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You do me too much honour,”'
   order:
@@ -2911,7 +2911,7 @@
     - 6
     - 27
 - start: 90486
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The detective seated himself
   order:
@@ -2919,7 +2919,7 @@
     - 6
     - 28
 - start: 90635
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“The fun of it is,” he cried,'
   order:
@@ -2927,7 +2927,7 @@
     - 6
     - 29
 - start: 90918
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The idea tickled Gregson so
   order:
@@ -2935,7 +2935,7 @@
     - 6
     - 30
 - start: 90985
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And how did you get your
   order:
@@ -2943,7 +2943,7 @@
     - 6
     - 31
 - start: 91019
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Ah, I''ll tell you all about'
   order:
@@ -2951,7 +2951,7 @@
     - 6
     - 32
 - start: 91438
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Yes,” said Holmes; “by John'
   order:
@@ -2959,7 +2959,7 @@
     - 6
     - 33
 - start: 91511
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Gregson looked quite crest-
   order:
@@ -2967,7 +2967,7 @@
     - 6
     - 34
 - start: 91547
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I had no idea that you
   order:
@@ -2975,7 +2975,7 @@
     - 6
     - 35
 - start: 91619
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “No.”
   order:
@@ -2983,7 +2983,7 @@
     - 6
     - 36
 - start: 91626
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Ha!” cried Gregson, in a'
   order:
@@ -2991,7 +2991,7 @@
     - 6
     - 37
 - start: 91733
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“To a great mind, nothing is'
   order:
@@ -2999,7 +2999,7 @@
     - 6
     - 38
 - start: 91804
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Well, I went to Underwood,'
   order:
@@ -3007,7 +3007,7 @@
     - 6
     - 39
 - start: 92081
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Smart—very smart!” murmured
   order:
@@ -3015,7 +3015,7 @@
     - 6
     - 40
 - start: 92128
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I next called upon Madame
   order:
@@ -3023,7 +3023,7 @@
     - 6
     - 41
 - start: 92653
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “The mother nodded. She didn'
   order:
@@ -3031,7 +3031,7 @@
     - 6
     - 42
 - start: 92815
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘At what o'clock did Mr.
   order:
@@ -3039,7 +3039,7 @@
     - 6
     - 43
 - start: 92892
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“‘At eight o''clock,’ she said,'
   order:
@@ -3047,7 +3047,7 @@
     - 6
     - 44
 - start: 93093
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘And was that the last which
   order:
@@ -3055,7 +3055,7 @@
     - 6
     - 45
 - start: 93141
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “A terrible change came over
   order:
@@ -3063,7 +3063,7 @@
     - 6
     - 46
 - start: 93372
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “There was silence for a
   order:
@@ -3071,7 +3071,7 @@
     - 6
     - 47
 - start: 93457
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘No good can ever come of
   order:
@@ -3079,7 +3079,7 @@
     - 6
     - 48
 - start: 93584
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘God forgive you!’ cried
   order:
@@ -3087,7 +3087,7 @@
     - 6
     - 49
 - start: 93718
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘Arthur would rather that we
   order:
@@ -3095,7 +3095,7 @@
     - 6
     - 50
 - start: 93793
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘You had best tell me all
   order:
@@ -3103,7 +3103,7 @@
     - 6
     - 51
 - start: 93933
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“‘On your head be it, Alice!’'
   order:
@@ -3111,7 +3111,7 @@
     - 6
     - 52
 - start: 94402
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘Your best way is to make a
   order:
@@ -3119,7 +3119,7 @@
     - 6
     - 53
 - start: 94541
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“‘Perhaps, Alice, you had'
   order:
@@ -3127,7 +3127,7 @@
     - 6
     - 54
 - start: 94855
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“‘It is your wisest course,’'
   order:
@@ -3135,7 +3135,7 @@
     - 6
     - 55
 - start: 94893
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘Mr. Drebber has been with
   order:
@@ -3143,7 +3143,7 @@
     - 6
     - 56
 - start: 95840
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘But why did you stand all
   order:
@@ -3151,7 +3151,7 @@
     - 6
     - 57
 - start: 95950
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Mrs. Charpentier blushed at
   order:
@@ -3159,7 +3159,7 @@
     - 6
     - 58
 - start: 96430
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘Well?’
   order:
@@ -3167,7 +3167,7 @@
     - 6
     - 59
 - start: 96440
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘My heart grew light when I
   order:
@@ -3175,7 +3175,7 @@
     - 6
     - 60
 - start: 97971
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “This statement came from Mrs.
   order:
@@ -3183,7 +3183,7 @@
     - 6
     - 61
 - start: 98221
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“It''s quite exciting,” said'
   order:
@@ -3191,7 +3191,7 @@
     - 6
     - 62
 - start: 98302
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“When Mrs. Charpentier paused,'
   order:
@@ -3199,7 +3199,7 @@
     - 6
     - 63
 - start: 98526
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“‘I do not know,’ she'
   order:
@@ -3207,7 +3207,7 @@
     - 6
     - 64
 - start: 98559
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘Not know?’
   order:
@@ -3215,7 +3215,7 @@
     - 6
     - 65
 - start: 98573
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“‘No; he has a latch-key, and'
   order:
@@ -3223,7 +3223,7 @@
     - 6
     - 66
 - start: 98624
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘After you went to bed?’
   order:
@@ -3231,7 +3231,7 @@
     - 6
     - 67
 - start: 98651
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘Yes.’
   order:
@@ -3239,7 +3239,7 @@
     - 6
     - 68
 - start: 98660
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘When did you go to bed?’
   order:
@@ -3247,7 +3247,7 @@
     - 6
     - 69
 - start: 98688
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘About eleven.’
   order:
@@ -3255,7 +3255,7 @@
     - 6
     - 70
 - start: 98706
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘So your son was gone at
   order:
@@ -3263,7 +3263,7 @@
     - 6
     - 71
 - start: 98751
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘Yes.’
   order:
@@ -3271,7 +3271,7 @@
     - 6
     - 72
 - start: 98760
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘Possibly four or five?’
   order:
@@ -3279,7 +3279,7 @@
     - 6
     - 73
 - start: 98787
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘Yes.’
   order:
@@ -3287,7 +3287,7 @@
     - 6
     - 74
 - start: 98796
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘What was he doing during
   order:
@@ -3295,7 +3295,7 @@
     - 6
     - 75
 - start: 98836
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“‘I do not know,’ she'
   order:
@@ -3303,7 +3303,7 @@
     - 6
     - 76
 - start: 98901
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Of course after that there
   order:
@@ -3311,7 +3311,7 @@
     - 6
     - 77
 - start: 99355
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Very,” said Holmes.'
   order:
@@ -3319,7 +3319,7 @@
     - 6
     - 78
 - start: 99377
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “He still carried the heavy
   order:
@@ -3327,7 +3327,7 @@
     - 6
     - 79
 - start: 99516
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“What is your theory, then?”'
   order:
@@ -3335,7 +3335,7 @@
     - 6
     - 80
 - start: 99546
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Well, my theory is that he'
   order:
@@ -3343,7 +3343,7 @@
     - 6
     - 81
 - start: 100077
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Well done!” said Holmes in
   order:
@@ -3351,7 +3351,7 @@
     - 6
     - 82
 - start: 100206
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I flatter myself that I have
   order:
@@ -3359,7 +3359,7 @@
     - 6
     - 83
 - start: 100842
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'It was indeed Lestrade, who'
   order:
@@ -3367,7 +3367,7 @@
     - 6
     - 84
 - start: 101465
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Ah, you find it so, Mr.'
   order:
@@ -3375,7 +3375,7 @@
     - 6
     - 85
 - start: 101641
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“The Secretary, Mr. Joseph'
   order:
@@ -3383,7 +3383,7 @@
     - 6
     - 86
 - start: 101780
-  tag: chapter
+  tag: 'checkpoint:chapter'
   labels:
     chapter: Chapter VII
   order:
@@ -3391,7 +3391,7 @@
     - 7
     - 0
 - start: 101780
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Chapter VII.
   order:
@@ -3399,7 +3399,7 @@
     - 7
     - 1
 - start: 102132
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Stangerson too!” he muttered.
   order:
@@ -3407,7 +3407,7 @@
     - 7
     - 2
 - start: 102185
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “It was quite thick enough
   order:
@@ -3415,7 +3415,7 @@
     - 7
     - 3
 - start: 102313
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Are you—are you sure of this
   order:
@@ -3423,7 +3423,7 @@
     - 7
     - 4
 - start: 102387
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I have just come from his
   order:
@@ -3431,7 +3431,7 @@
     - 7
     - 5
 - start: 102486
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “We have been hearing Gregson'
   order:
@@ -3439,7 +3439,7 @@
     - 7
     - 6
 - start: 102619
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I have no objection,”'
   order:
@@ -3447,7 +3447,7 @@
     - 7
     - 7
 - start: 103687
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “They would be likely to
   order:
@@ -3455,7 +3455,7 @@
     - 7
     - 8
 - start: 103771
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “So it proved. I spent the
   order:
@@ -3463,7 +3463,7 @@
     - 7
     - 9
 - start: 104093
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘No doubt you are the
   order:
@@ -3471,7 +3471,7 @@
     - 7
     - 10
 - start: 104214
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘Where is he now?’ I asked.
   order:
@@ -3479,7 +3479,7 @@
     - 7
     - 11
 - start: 104244
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘He is upstairs in bed. He
   order:
@@ -3487,7 +3487,7 @@
     - 7
     - 12
 - start: 104303
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘I will go up and see him at
   order:
@@ -3495,7 +3495,7 @@
     - 7
     - 13
 - start: 104349
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “It seemed to me that my
   order:
@@ -3503,7 +3503,7 @@
     - 7
     - 14
 - start: 105601
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: I felt a creeping of the
   order:
@@ -3511,7 +3511,7 @@
     - 7
     - 15
 - start: 105709
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“The word RACHE, written in'
   order:
@@ -3519,7 +3519,7 @@
     - 7
     - 16
 - start: 105766
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“That was it,” said Lestrade,'
   order:
@@ -3527,7 +3527,7 @@
     - 7
     - 17
 - start: 105857
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: There was something so
   order:
@@ -3535,7 +3535,7 @@
     - 7
     - 18
 - start: 106097
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“The man was seen,” continued'
   order:
@@ -3543,7 +3543,7 @@
     - 7
     - 19
 - start: 107005
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: I glanced at Holmes on
   order:
@@ -3551,7 +3551,7 @@
     - 7
     - 20
 - start: 107183
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Did you find nothing in the
   order:
@@ -3559,7 +3559,7 @@
     - 7
     - 21
 - start: 107273
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Nothing. Stangerson had
   order:
@@ -3567,7 +3567,7 @@
     - 7
     - 22
 - start: 107766
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And there was nothing else?”
   order:
@@ -3575,7 +3575,7 @@
     - 7
     - 23
 - start: 107811
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Nothing of any importance.
   order:
@@ -3583,7 +3583,7 @@
     - 7
     - 24
 - start: 108082
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Sherlock Holmes sprang from
   order:
@@ -3591,7 +3591,7 @@
     - 7
     - 25
 - start: 108153
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“The last link,” he cried,'
   order:
@@ -3599,7 +3599,7 @@
     - 7
     - 26
 - start: 108216
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The two detectives stared at
   order:
@@ -3607,7 +3607,7 @@
     - 7
     - 27
 - start: 108264
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I have now in my hands,” my'
   order:
@@ -3615,7 +3615,7 @@
     - 7
     - 28
 - start: 108700
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I have them,” said Lestrade,'
   order:
@@ -3623,7 +3623,7 @@
     - 7
     - 29
 - start: 108992
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Give them here,” said Holmes.'
   order:
@@ -3631,7 +3631,7 @@
     - 7
     - 30
 - start: 109082
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: They certainly were not. They
   order:
@@ -3639,7 +3639,7 @@
     - 7
     - 31
 - start: 109301
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Precisely so,” answered'
   order:
@@ -3647,7 +3647,7 @@
     - 7
     - 32
 - start: 109512
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: I went downstairs and carried
   order:
@@ -3655,7 +3655,7 @@
     - 7
     - 33
 - start: 109797
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I will now cut one of these
   order:
@@ -3663,7 +3663,7 @@
     - 7
     - 34
 - start: 110136
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“This may be very interesting,'
   order:
@@ -3671,7 +3671,7 @@
     - 7
     - 35
 - start: 110337
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Patience, my friend,'
   order:
@@ -3679,7 +3679,7 @@
     - 7
     - 36
 - start: 110567
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: As he spoke he turned the
   order:
@@ -3687,7 +3687,7 @@
     - 7
     - 37
 - start: 111032
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Holmes had taken out his
   order:
@@ -3695,7 +3695,7 @@
     - 7
     - 38
 - start: 111463
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“It can''t be a coincidence,”'
   order:
@@ -3703,7 +3703,7 @@
     - 7
     - 39
 - start: 112266
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Sherlock Holmes drew a long
   order:
@@ -3711,7 +3711,7 @@
     - 7
     - 40
 - start: 112722
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: This last statement appeared
   order:
@@ -3719,7 +3719,7 @@
     - 7
     - 41
 - start: 113053
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “All this seems strange to
   order:
@@ -3727,7 +3727,7 @@
     - 7
     - 42
 - start: 114076
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'Mr. Gregson, who had listened'
   order:
@@ -3735,7 +3735,7 @@
     - 7
     - 43
 - start: 114864
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I cannot help feeling that
   order:
@@ -3743,7 +3743,7 @@
     - 7
     - 44
 - start: 115139
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Any delay in arresting the
   order:
@@ -3751,7 +3751,7 @@
     - 7
     - 45
 - start: 115248
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'Thus pressed by us all,'
   order:
@@ -3759,7 +3759,7 @@
     - 7
     - 46
 - start: 115449
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “There will be no more
   order:
@@ -3767,7 +3767,7 @@
     - 7
     - 47
 - start: 116718
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Gregson and Lestrade seemed
   order:
@@ -3775,7 +3775,7 @@
     - 7
     - 48
 - start: 117162
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Please, sir,” he said,'
   order:
@@ -3783,7 +3783,7 @@
     - 7
     - 49
 - start: 117239
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Good boy,” said Holmes,'
   order:
@@ -3791,7 +3791,7 @@
     - 7
     - 50
 - start: 117460
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “The old pattern is good
   order:
@@ -3799,7 +3799,7 @@
     - 7
     - 51
 - start: 117560
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Very good, very good,” said'
   order:
@@ -3807,7 +3807,7 @@
     - 7
     - 52
 - start: 117689
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: I was surprised to find my
   order:
@@ -3815,7 +3815,7 @@
     - 7
     - 53
 - start: 117980
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Just give me a help with
   order:
@@ -3823,7 +3823,7 @@
     - 7
     - 54
 - start: 118090
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The fellow came forward with
   order:
@@ -3831,7 +3831,7 @@
     - 7
     - 55
 - start: 118296
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Gentlemen,” he cried, with'
   order:
@@ -3839,7 +3839,7 @@
     - 7
     - 56
 - start: 118442
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The whole thing occurred in a
   order:
@@ -3847,7 +3847,7 @@
     - 7
     - 57
 - start: 119777
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“We have his cab,” said'
   order:
@@ -3855,7 +3855,7 @@
     - 7
     - 58
 - start: 120096
-  tag: part
+  tag: 'checkpoint:part'
   labels:
     part: PART II
   order:
@@ -3863,7 +3863,7 @@
     - 0
     - 0
 - start: 120096
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: PART II.
   order:
@@ -3871,7 +3871,7 @@
     - 0
     - 1
 - start: 120133
-  tag: chapter
+  tag: 'checkpoint:chapter'
   labels:
     chapter: Chapter I
   order:
@@ -3879,7 +3879,7 @@
     - 1
     - 0
 - start: 120133
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Chapter I.
   order:
@@ -3887,7 +3887,7 @@
     - 1
     - 1
 - start: 120929
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: There are no inhabitants of
   order:
@@ -3895,7 +3895,7 @@
     - 1
     - 2
 - start: 121462
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: In the whole world there can
   order:
@@ -3903,7 +3903,7 @@
     - 1
     - 3
 - start: 122206
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: It has been said there is
   order:
@@ -3911,7 +3911,7 @@
     - 1
     - 4
 - start: 122937
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Looking down on this very
   order:
@@ -3919,7 +3919,7 @@
     - 1
     - 5
 - start: 123960
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: He had toiled painfully down
   order:
@@ -3927,7 +3927,7 @@
     - 1
     - 6
 - start: 124633
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'Before sitting down, he had'
   order:
@@ -3935,7 +3935,7 @@
     - 1
     - 7
 - start: 125121
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “You've hurt me!” said a
   order:
@@ -3943,7 +3943,7 @@
     - 1
     - 8
 - start: 125177
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Have I though,” the man'
   order:
@@ -3951,7 +3951,7 @@
     - 1
     - 9
 - start: 125565
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “How is it now?” he answered
   order:
@@ -3959,7 +3959,7 @@
     - 1
     - 10
 - start: 125691
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Kiss it and make it well,”'
   order:
@@ -3967,7 +3967,7 @@
     - 1
     - 11
 - start: 125837
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Mother's gone. I guess you'
   order:
@@ -3975,7 +3975,7 @@
     - 1
     - 12
 - start: 125891
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Gone, eh!” said the little'
   order:
@@ -3983,7 +3983,7 @@
     - 1
     - 13
 - start: 126138
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“No, there ain''t nothing,'
   order:
@@ -3991,7 +3991,7 @@
     - 1
     - 14
 - start: 126440
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Pretty things! fine things!”
   order:
@@ -3999,7 +3999,7 @@
     - 1
     - 15
 - start: 126615
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “You'll see prettier things
   order:
@@ -4007,7 +4007,7 @@
     - 1
     - 16
 - start: 126778
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Oh, yes.”'
   order:
@@ -4015,7 +4015,7 @@
     - 1
     - 17
 - start: 126790
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Well, we reckoned we''d'
   order:
@@ -4023,7 +4023,7 @@
     - 1
     - 18
 - start: 127011
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And you couldn't wash
   order:
@@ -4031,7 +4031,7 @@
     - 1
     - 19
 - start: 127113
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“No, nor drink. And Mr.'
   order:
@@ -4039,7 +4039,7 @@
     - 1
     - 20
 - start: 127270
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Then mother''s a deader too,”'
   order:
@@ -4047,7 +4047,7 @@
     - 1
     - 21
 - start: 127379
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Yes, they all went except'
   order:
@@ -4055,7 +4055,7 @@
     - 1
     - 22
 - start: 127639
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Do you mean that we are
   order:
@@ -4063,7 +4063,7 @@
     - 1
     - 23
 - start: 127755
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I guess that's about the
   order:
@@ -4071,7 +4071,7 @@
     - 1
     - 24
 - start: 127795
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Why didn't you say so before?
   order:
@@ -4079,7 +4079,7 @@
     - 1
     - 25
 - start: 127953
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Yes, you will, dearie.”'
   order:
@@ -4087,7 +4087,7 @@
     - 1
     - 26
 - start: 127979
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And you too. I'll tell her
   order:
@@ -4095,7 +4095,7 @@
     - 1
     - 27
 - start: 128228
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I don't know—not very long.”
   order:
@@ -4103,7 +4103,7 @@
     - 1
     - 28
 - start: 128709
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Cocks and hens,” cried the'
   order:
@@ -4111,7 +4111,7 @@
     - 1
     - 29
 - start: 128873
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Of course He did,” said her'
   order:
@@ -4119,7 +4119,7 @@
     - 1
     - 30
 - start: 128959
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “He made the country down in
   order:
@@ -4127,7 +4127,7 @@
     - 1
     - 31
 - start: 129177
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “What would ye think of
   order:
@@ -4135,7 +4135,7 @@
     - 1
     - 32
 - start: 129250
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“It ain''t night yet,” she'
   order:
@@ -4143,7 +4143,7 @@
     - 1
     - 33
 - start: 129287
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “It don't matter. It ain't
   order:
@@ -4151,7 +4151,7 @@
     - 1
     - 34
 - start: 129461
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Why don't you say some
   order:
@@ -4159,7 +4159,7 @@
     - 1
     - 35
 - start: 129535
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I disremember them,” he'
   order:
@@ -4167,7 +4167,7 @@
     - 1
     - 36
 - start: 129727
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Then you'll need to kneel
   order:
@@ -4175,7 +4175,7 @@
     - 1
     - 37
 - start: 129900
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: It was a strange sight had
   order:
@@ -4183,7 +4183,7 @@
     - 1
     - 38
 - start: 130940
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Had the wanderer remained
   order:
@@ -4191,7 +4191,7 @@
     - 1
     - 39
 - start: 132734
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: At the head of the column
   order:
@@ -4199,7 +4199,7 @@
     - 1
     - 40
 - start: 132958
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“The wells are to the right,'
   order:
@@ -4207,7 +4207,7 @@
     - 1
     - 41
 - start: 133063
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “To the right of the Sierra
   order:
@@ -4215,7 +4215,7 @@
     - 1
     - 42
 - start: 133148
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Fear not for water,” cried a'
   order:
@@ -4223,7 +4223,7 @@
     - 1
     - 43
 - start: 133268
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Amen! Amen!” responded the
   order:
@@ -4231,7 +4231,7 @@
     - 1
     - 44
 - start: 133310
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: They were about to resume
   order:
@@ -4239,7 +4239,7 @@
     - 1
     - 45
 - start: 133757
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “There can't be any number of
   order:
@@ -4247,7 +4247,7 @@
     - 1
     - 46
 - start: 133950
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Shall I go forward and see,'
   order:
@@ -4255,7 +4255,7 @@
     - 1
     - 47
 - start: 134024
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“And I,” “and I,” cried a'
   order:
@@ -4263,7 +4263,7 @@
     - 1
     - 48
 - start: 134065
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Leave your horses below and
   order:
@@ -4271,7 +4271,7 @@
     - 1
     - 49
 - start: 134769
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: On the little plateau which
   order:
@@ -4279,7 +4279,7 @@
     - 1
     - 50
 - start: 135694
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The cries of the foul birds
   order:
@@ -4287,7 +4287,7 @@
     - 1
     - 51
 - start: 136292
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The rescuing party were
   order:
@@ -4295,7 +4295,7 @@
     - 1
     - 52
 - start: 136557
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“My name is John Ferrier,”'
   order:
@@ -4303,7 +4303,7 @@
     - 1
     - 53
 - start: 136741
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Is she your child?” asked
   order:
@@ -4311,7 +4311,7 @@
     - 1
     - 54
 - start: 136778
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I guess she is now,” the'
   order:
@@ -4319,7 +4319,7 @@
     - 1
     - 55
 - start: 137067
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Nigh upon ten thousand,”'
   order:
@@ -4327,7 +4327,7 @@
     - 1
     - 56
 - start: 137193
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I never heard tell on him,”'
   order:
@@ -4335,7 +4335,7 @@
     - 1
     - 57
 - start: 137290
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Do not jest at that which is
   order:
@@ -4343,7 +4343,7 @@
     - 1
     - 58
 - start: 137720
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The name of Nauvoo evidently
   order:
@@ -4351,7 +4351,7 @@
     - 1
     - 59
 - start: 137831
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“We are the Mormons,”'
   order:
@@ -4359,7 +4359,7 @@
     - 1
     - 60
 - start: 137894
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And where are you going?”
   order:
@@ -4367,7 +4367,7 @@
     - 1
     - 61
 - start: 137922
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “We do not know. The hand of
   order:
@@ -4375,7 +4375,7 @@
     - 1
     - 62
 - start: 138072
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: They had reached the base of
   order:
@@ -4383,7 +4383,7 @@
     - 1
     - 63
 - start: 139075
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“If we take you with us,” he'
   order:
@@ -4391,7 +4391,7 @@
     - 1
     - 64
 - start: 139411
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Guess I'll come with you on
   order:
@@ -4399,7 +4399,7 @@
     - 1
     - 65
 - start: 139596
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Take him, Brother Stangerson,'
   order:
@@ -4407,7 +4407,7 @@
     - 1
     - 66
 - start: 139797
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“On, on to Zion!” cried the'
   order:
@@ -4415,7 +4415,7 @@
     - 1
     - 67
 - start: 140239
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You shall remain here,” he'
   order:
@@ -4423,7 +4423,7 @@
     - 1
     - 68
 - start: 140510
-  tag: chapter
+  tag: 'checkpoint:chapter'
   labels:
     chapter: Chapter II
   order:
@@ -4431,7 +4431,7 @@
     - 2
     - 0
 - start: 140510
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Chapter II.
   order:
@@ -4439,7 +4439,7 @@
     - 2
     - 1
 - start: 141385
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Young speedily proved himself
   order:
@@ -4447,7 +4447,7 @@
     - 2
     - 2
 - start: 142303
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'The two castaways, John'
   order:
@@ -4455,7 +4455,7 @@
     - 2
     - 3
 - start: 143373
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: On the farm thus acquired
   order:
@@ -4463,7 +4463,7 @@
     - 2
     - 4
 - start: 144137
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: There was one way and only
   order:
@@ -4471,7 +4471,7 @@
     - 2
     - 5
 - start: 144962
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Lucy Ferrier grew up within
   order:
@@ -4479,7 +4479,7 @@
     - 2
     - 6
 - start: 145791
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'It was not the father,'
   order:
@@ -4487,7 +4487,7 @@
     - 2
     - 7
 - start: 146495
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'It was a warm June morning,'
   order:
@@ -4495,7 +4495,7 @@
     - 2
     - 8
 - start: 147714
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: She had reached the outskirts
   order:
@@ -4503,7 +4503,7 @@
     - 2
     - 9
 - start: 149434
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You''re not hurt, I hope,'
   order:
@@ -4511,7 +4511,7 @@
     - 2
     - 10
 - start: 149502
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'She looked up at his dark,'
   order:
@@ -4519,7 +4519,7 @@
     - 2
     - 11
 - start: 149692
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Thank God you kept your seat,'
   order:
@@ -4527,7 +4527,7 @@
     - 2
     - 12
 - start: 150151
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Hadn't you better come and
   order:
@@ -4535,7 +4535,7 @@
     - 2
     - 13
 - start: 150216
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The young fellow seemed
   order:
@@ -4543,7 +4543,7 @@
     - 2
     - 14
 - start: 150461
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “He has a good deal to thank
   order:
@@ -4551,7 +4551,7 @@
     - 2
     - 15
 - start: 150615
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Neither would I,” said her'
   order:
@@ -4559,7 +4559,7 @@
     - 2
     - 16
 - start: 150655
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You! Well, I don''t see that'
   order:
@@ -4567,7 +4567,7 @@
     - 2
     - 17
 - start: 150761
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The young hunter's dark face
   order:
@@ -4575,7 +4575,7 @@
     - 2
     - 18
 - start: 150856
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“There, I didn''t mean that,”'
   order:
@@ -4583,7 +4583,7 @@
     - 2
     - 19
 - start: 151043
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Good-bye,” he answered,'
   order:
@@ -4591,7 +4591,7 @@
     - 2
     - 20
 - start: 151262
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Young Jefferson Hope rode on
   order:
@@ -4599,7 +4599,7 @@
     - 2
     - 21
 - start: 152366
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: He called on John Ferrier
   order:
@@ -4607,7 +4607,7 @@
     - 2
     - 22
 - start: 153422
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: It was a summer evening when
   order:
@@ -4615,7 +4615,7 @@
     - 2
     - 23
 - start: 153624
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I am off, Lucy,” he said,'
   order:
@@ -4623,7 +4623,7 @@
     - 2
     - 24
 - start: 153812
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And when will that be?” she
   order:
@@ -4631,7 +4631,7 @@
     - 2
     - 25
 - start: 153872
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “A couple of months at the
   order:
@@ -4639,7 +4639,7 @@
     - 2
     - 26
 - start: 153995
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And how about father?” she
   order:
@@ -4647,7 +4647,7 @@
     - 2
     - 27
 - start: 154031
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“He has given his consent,'
   order:
@@ -4655,7 +4655,7 @@
     - 2
     - 28
 - start: 154136
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Oh, well; of course, if you'
   order:
@@ -4663,7 +4663,7 @@
     - 2
     - 29
 - start: 154284
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Thank God!” he said,'
   order:
@@ -4671,7 +4671,7 @@
     - 2
     - 30
 - start: 154519
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: He tore himself from her as
   order:
@@ -4679,7 +4679,7 @@
     - 2
     - 31
 - start: 154887
-  tag: chapter
+  tag: 'checkpoint:chapter'
   labels:
     chapter: Chapter III
   order:
@@ -4687,7 +4687,7 @@
     - 3
     - 0
 - start: 154887
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Chapter III.
   order:
@@ -4695,7 +4695,7 @@
     - 3
     - 1
 - start: 155722
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'Yes, a dangerous matter—so'
   order:
@@ -4703,7 +4703,7 @@
     - 3
     - 2
 - start: 156295
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'Its invisibility, and the'
   order:
@@ -4711,7 +4711,7 @@
     - 3
     - 3
 - start: 157040
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: At first this vague and
   order:
@@ -4719,7 +4719,7 @@
     - 3
     - 4
 - start: 158078
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Fuller knowledge of the
   order:
@@ -4727,7 +4727,7 @@
     - 3
     - 5
 - start: 158713
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'One fine morning, John'
   order:
@@ -4735,7 +4735,7 @@
     - 3
     - 6
 - start: 159250
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Brother Ferrier,” he said,'
   order:
@@ -4743,7 +4743,7 @@
     - 3
     - 7
 - start: 159634
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“It is so,” answered John'
   order:
@@ -4751,7 +4751,7 @@
     - 3
     - 8
 - start: 159670
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “In return for all this we
   order:
@@ -4759,7 +4759,7 @@
     - 3
     - 9
 - start: 159898
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And how have I neglected it?”
   order:
@@ -4767,7 +4767,7 @@
     - 3
     - 10
 - start: 160073
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Where are your wives?” asked
   order:
@@ -4775,7 +4775,7 @@
     - 3
     - 11
 - start: 160169
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “It is true that I have not
   order:
@@ -4783,7 +4783,7 @@
     - 3
     - 12
 - start: 160363
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “It is of that daughter that
   order:
@@ -4791,7 +4791,7 @@
     - 3
     - 13
 - start: 160557
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: John Ferrier groaned
   order:
@@ -4799,7 +4799,7 @@
     - 3
     - 14
 - start: 160591
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “There are stories of her
   order:
@@ -4807,7 +4807,7 @@
     - 3
     - 15
 - start: 161031
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'John Ferrier made no answer,'
   order:
@@ -4815,7 +4815,7 @@
     - 3
     - 16
 - start: 161107
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Upon this one point your
   order:
@@ -4823,7 +4823,7 @@
     - 3
     - 17
 - start: 161608
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Ferrier remained silent for
   order:
@@ -4831,7 +4831,7 @@
     - 3
     - 18
 - start: 161678
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You will give us time,” he'
   order:
@@ -4839,7 +4839,7 @@
     - 3
     - 19
 - start: 161783
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “She shall have a month to
   order:
@@ -4847,7 +4847,7 @@
     - 3
     - 20
 - start: 161907
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: He was passing through the
   order:
@@ -4855,7 +4855,7 @@
     - 3
     - 21
 - start: 162203
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: With a threatening gesture of
   order:
@@ -4863,7 +4863,7 @@
     - 3
     - 22
 - start: 162337
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: He was still sitting with his
   order:
@@ -4871,7 +4871,7 @@
     - 3
     - 23
 - start: 162622
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I could not help it,” she'
   order:
@@ -4879,7 +4879,7 @@
     - 3
     - 24
 - start: 162753
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Don''t you scare yourself,”'
   order:
@@ -4887,7 +4887,7 @@
     - 3
     - 25
 - start: 162990
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: A sob and a squeeze of his
   order:
@@ -4895,7 +4895,7 @@
     - 3
     - 26
 - start: 163044
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “No; of course not. I shouldn'
   order:
@@ -4903,7 +4903,7 @@
     - 3
     - 27
 - start: 163458
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Lucy laughed through her
   order:
@@ -4911,7 +4911,7 @@
     - 3
     - 28
 - start: 163519
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“When he comes, he will'
   order:
@@ -4919,7 +4919,7 @@
     - 3
     - 29
 - start: 163736
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “But we haven't opposed him
   order:
@@ -4927,7 +4927,7 @@
     - 3
     - 30
 - start: 163937
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Leave Utah!”
   order:
@@ -4935,7 +4935,7 @@
     - 3
     - 31
 - start: 163952
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “That's about the size of it.”
   order:
@@ -4943,7 +4943,7 @@
     - 3
     - 32
 - start: 163984
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “But the farm?”
   order:
@@ -4951,7 +4951,7 @@
     - 3
     - 33
 - start: 164001
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “We will raise as much as we
   order:
@@ -4959,7 +4959,7 @@
     - 3
     - 34
 - start: 164442
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“But they won''t let us leave,”'
   order:
@@ -4967,7 +4967,7 @@
     - 3
     - 35
 - start: 164497
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Wait till Jefferson comes,'
   order:
@@ -4975,7 +4975,7 @@
     - 3
     - 36
 - start: 164759
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: John Ferrier uttered these
   order:
@@ -4983,7 +4983,7 @@
     - 3
     - 37
 - start: 165036
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '1Heber C Kemball, in one of'
   order:
@@ -4991,7 +4991,7 @@
     - 3
     - 38
 - start: 165611
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'As he approached his farm, he'
   order:
@@ -4999,7 +4999,7 @@
     - 3
     - 39
 - start: 166177
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Maybe you don''t know us,” he'
   order:
@@ -5007,7 +5007,7 @@
     - 3
     - 40
 - start: 166393
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “As He will all the nations
   order:
@@ -5015,7 +5015,7 @@
     - 3
     - 41
 - start: 166520
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: John Ferrier bowed coldly. He
   order:
@@ -5023,7 +5023,7 @@
     - 3
     - 42
 - start: 166586
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“We have come,” continued'
   order:
@@ -5031,7 +5031,7 @@
     - 3
     - 43
 - start: 166859
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Nay, nay, Brother Stangerson,'
   order:
@@ -5039,7 +5039,7 @@
     - 3
     - 44
 - start: 167052
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“But my prospects are better,”'
   order:
@@ -5047,7 +5047,7 @@
     - 3
     - 45
 - start: 167249
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “It will be for the maiden to
   order:
@@ -5055,7 +5055,7 @@
     - 3
     - 46
 - start: 167398
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'During this dialogue, John'
   order:
@@ -5063,7 +5063,7 @@
     - 3
     - 47
 - start: 167539
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Look here,” he said at last,'
   order:
@@ -5071,7 +5071,7 @@
     - 3
     - 48
 - start: 167690
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The two young Mormons stared
   order:
@@ -5079,7 +5079,7 @@
     - 3
     - 49
 - start: 167862
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “There are two ways out of
   order:
@@ -5087,7 +5087,7 @@
     - 3
     - 50
 - start: 167988
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: His brown face looked so
   order:
@@ -5095,7 +5095,7 @@
     - 3
     - 51
 - start: 168167
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Let me know when you have
   order:
@@ -5103,7 +5103,7 @@
     - 3
     - 52
 - start: 168246
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “You shall smart for this!”
   order:
@@ -5111,7 +5111,7 @@
     - 3
     - 53
 - start: 168407
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “The hand of the Lord shall
   order:
@@ -5119,7 +5119,7 @@
     - 3
     - 54
 - start: 168508
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Then I''ll start the smiting,”'
   order:
@@ -5127,7 +5127,7 @@
     - 3
     - 55
 - start: 168771
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “The young canting rascals!”
   order:
@@ -5135,7 +5135,7 @@
     - 3
     - 56
 - start: 168940
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“And so should I, father,”'
   order:
@@ -5143,7 +5143,7 @@
     - 3
     - 57
 - start: 169030
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Yes. It will not be long
   order:
@@ -5151,7 +5151,7 @@
     - 3
     - 58
 - start: 169146
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'It was, indeed, high time'
   order:
@@ -5159,7 +5159,7 @@
     - 3
     - 59
 - start: 170039
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: He expected that he would
   order:
@@ -5167,7 +5167,7 @@
     - 3
     - 60
 - start: 170382
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Twenty-nine days are given
   order:
@@ -5175,7 +5175,7 @@
     - 3
     - 61
 - start: 170441
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The dash was more fear-
   order:
@@ -5183,7 +5183,7 @@
     - 3
     - 62
 - start: 171061
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Still more shaken was he next
   order:
@@ -5191,7 +5191,7 @@
     - 3
     - 63
 - start: 171516
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Thus day followed day; and as
   order:
@@ -5199,7 +5199,7 @@
     - 3
     - 64
 - start: 172259
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Twenty had changed to fifteen
   order:
@@ -5207,7 +5207,7 @@
     - 3
     - 65
 - start: 173178
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: He was sitting alone one
   order:
@@ -5215,7 +5215,7 @@
     - 3
     - 66
 - start: 173727
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: What was that? In the silence
   order:
@@ -5223,7 +5223,7 @@
     - 3
     - 67
 - start: 174450
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Outside all was calm and
   order:
@@ -5231,7 +5231,7 @@
     - 3
     - 68
 - start: 174924
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: So unnerved was he at the
   order:
@@ -5239,7 +5239,7 @@
     - 3
     - 69
 - start: 175433
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Good God!” gasped John
   order:
@@ -5247,7 +5247,7 @@
     - 3
     - 70
 - start: 175525
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Give me food,” the other'
   order:
@@ -5255,7 +5255,7 @@
     - 3
     - 71
 - start: 175839
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Yes. She does not know the
   order:
@@ -5263,7 +5263,7 @@
     - 3
     - 72
 - start: 175898
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “That is well. The house is
   order:
@@ -5271,7 +5271,7 @@
     - 3
     - 73
 - start: 176077
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: John Ferrier felt a different
   order:
@@ -5279,7 +5279,7 @@
     - 3
     - 74
 - start: 176339
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You''ve hit it there, pard,”'
   order:
@@ -5287,7 +5287,7 @@
     - 3
     - 75
 - start: 176646
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “What are we to do?”
   order:
@@ -5295,7 +5295,7 @@
     - 3
     - 76
 - start: 176668
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“To-morrow is your last day,'
   order:
@@ -5303,7 +5303,7 @@
     - 3
     - 77
 - start: 176824
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Two thousand dollars in gold,'
   order:
@@ -5311,7 +5311,7 @@
     - 3
     - 78
 - start: 176876
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “That will do. I have as much
   order:
@@ -5319,7 +5319,7 @@
     - 3
     - 79
 - start: 177062
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'While Ferrier was absent,'
   order:
@@ -5327,7 +5327,7 @@
     - 3
     - 80
 - start: 177567
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “We must make our start at
   order:
@@ -5335,7 +5335,7 @@
     - 3
     - 81
 - start: 178015
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“What if we are stopped,”'
   order:
@@ -5343,7 +5343,7 @@
     - 3
     - 82
 - start: 178057
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Hope slapped the revolver
   order:
@@ -5351,7 +5351,7 @@
     - 3
     - 83
 - start: 178239
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The lights inside the house
   order:
@@ -5359,7 +5359,7 @@
     - 3
     - 84
 - start: 178915
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Ferrier carried the bag of
   order:
@@ -5367,7 +5367,7 @@
     - 3
     - 85
 - start: 179595
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: It was as well that his
   order:
@@ -5375,7 +5375,7 @@
     - 3
     - 86
 - start: 180072
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“To-morrow at midnight,” said'
   order:
@@ -5383,7 +5383,7 @@
     - 3
     - 87
 - start: 180191
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“It is well,” returned the'
   order:
@@ -5391,7 +5391,7 @@
     - 3
     - 88
 - start: 180258
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Pass it on to him, and from'
   order:
@@ -5399,7 +5399,7 @@
     - 3
     - 89
 - start: 180323
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Seven to five!” repeated the
   order:
@@ -5407,7 +5407,7 @@
     - 3
     - 90
 - start: 180772
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Hurry on! hurry on!” he
   order:
@@ -5415,7 +5415,7 @@
     - 3
     - 91
 - start: 180903
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Once on the high road they
   order:
@@ -5423,7 +5423,7 @@
     - 3
     - 92
 - start: 181725
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: It was a bewildering route
   order:
@@ -5431,7 +5431,7 @@
     - 3
     - 93
 - start: 182470
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'They soon had a proof,'
   order:
@@ -5439,7 +5439,7 @@
     - 3
     - 94
 - start: 182929
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Travellers for Nevada,” said'
   order:
@@ -5447,7 +5447,7 @@
     - 3
     - 95
 - start: 183031
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: They could see the lonely
   order:
@@ -5455,7 +5455,7 @@
     - 3
     - 96
 - start: 183145
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “By whose permission?” he
   order:
@@ -5463,7 +5463,7 @@
     - 3
     - 97
 - start: 183179
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“The Holy Four,” answered'
   order:
@@ -5471,7 +5471,7 @@
     - 3
     - 98
 - start: 183314
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Nine from seven,” cried the'
   order:
@@ -5479,7 +5479,7 @@
     - 3
     - 99
 - start: 183354
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Seven from five,” returned'
   order:
@@ -5487,7 +5487,7 @@
     - 3
     - 100
 - start: 183470
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Pass, and the Lord go with'
   order:
@@ -5495,7 +5495,7 @@
     - 3
     - 101
 - start: 183795
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Chapter V.
   order:
@@ -5503,7 +5503,7 @@
     - 3
     - 102
 - start: 183795
-  tag: chapter
+  tag: 'checkpoint:chapter'
   labels:
     chapter: Chapter V
   order:
@@ -5511,7 +5511,7 @@
     - 4
     - 0
 - start: 184743
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: As the sun rose slowly above
   order:
@@ -5519,7 +5519,7 @@
     - 4
     - 1
 - start: 185387
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: During the whole of that day
   order:
@@ -5527,7 +5527,7 @@
     - 4
     - 2
 - start: 186079
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: About the middle of the
   order:
@@ -5535,7 +5535,7 @@
     - 4
     - 3
 - start: 186944
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: He walked for a couple of
   order:
@@ -5543,7 +5543,7 @@
     - 4
     - 4
 - start: 187984
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The creature was too unwieldy
   order:
@@ -5551,7 +5551,7 @@
     - 4
     - 5
 - start: 189360
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: He had now come to the mouth
   order:
@@ -5559,7 +5559,7 @@
     - 4
     - 6
 - start: 190168
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'When he turned the corner, he'
   order:
@@ -5567,7 +5567,7 @@
     - 4
     - 7
 - start: 190741
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Bewildered and stunned by
   order:
@@ -5575,7 +5575,7 @@
     - 4
     - 8
 - start: 191942
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'JOHN FERRIER,'
   order:
@@ -5583,7 +5583,7 @@
     - 4
     - 9
 - start: 192536
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'Again, however, his active'
   order:
@@ -5591,7 +5591,7 @@
     - 4
     - 10
 - start: 193469
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: For five days he toiled
   order:
@@ -5599,7 +5599,7 @@
     - 4
     - 11
 - start: 194475
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I am Jefferson Hope,” he'
   order:
@@ -5607,7 +5607,7 @@
     - 4
     - 12
 - start: 194527
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The Mormon looked at him with
   order:
@@ -5615,7 +5615,7 @@
     - 4
     - 13
 - start: 194853
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You are mad to come here,”'
   order:
@@ -5623,7 +5623,7 @@
     - 4
     - 14
 - start: 195044
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I don''t fear them, or their'
   order:
@@ -5631,7 +5631,7 @@
     - 4
     - 15
 - start: 195297
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “What is it?” the Mormon
   order:
@@ -5639,7 +5639,7 @@
     - 4
     - 16
 - start: 195396
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “What has become of Lucy
   order:
@@ -5647,7 +5647,7 @@
     - 4
     - 17
 - start: 195432
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “She was married yesterday to
   order:
@@ -5655,7 +5655,7 @@
     - 4
     - 18
 - start: 195532
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Don''t mind me,” said Hope'
   order:
@@ -5663,7 +5663,7 @@
     - 4
     - 19
 - start: 195686
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Married yesterday—that's
   order:
@@ -5671,7 +5671,7 @@
     - 4
     - 20
 - start: 196231
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Yes, I am off,” said'
   order:
@@ -5679,7 +5679,7 @@
     - 4
     - 21
 - start: 196429
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Where are you going?”
   order:
@@ -5687,7 +5687,7 @@
     - 4
     - 22
 - start: 196453
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Never mind,” he answered;'
   order:
@@ -5695,7 +5695,7 @@
     - 4
     - 23
 - start: 196700
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The prediction of the Mormon
   order:
@@ -5703,7 +5703,7 @@
     - 4
     - 24
 - start: 198138
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: For some months Jefferson
   order:
@@ -5711,7 +5711,7 @@
     - 4
     - 25
 - start: 199216
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'Far from doing so, it had, if'
   order:
@@ -5719,7 +5719,7 @@
     - 4
     - 26
 - start: 200018
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: His intention had been to be
   order:
@@ -5727,7 +5727,7 @@
     - 4
     - 27
 - start: 201161
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'Many a man, however'
   order:
@@ -5735,7 +5735,7 @@
     - 4
     - 28
 - start: 202541
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Again the avenger had been
   order:
@@ -5743,7 +5743,7 @@
     - 4
     - 29
 - start: 203431
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Chapter VI.
   order:
@@ -5751,7 +5751,7 @@
     - 4
     - 30
 - start: 203431
-  tag: chapter
+  tag: 'checkpoint:chapter'
   labels:
     chapter: Chapter VI
   order:
@@ -5759,7 +5759,7 @@
     - 5
     - 0
 - start: 203952
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Gregson and Lestrade
   order:
@@ -5767,7 +5767,7 @@
     - 5
     - 1
 - start: 204477
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “If there's a vacant place
   order:
@@ -5775,7 +5775,7 @@
     - 5
     - 2
 - start: 204677
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You had better come with me,”'
   order:
@@ -5783,7 +5783,7 @@
     - 5
     - 3
 - start: 204744
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I can drive you,” said'
   order:
@@ -5791,7 +5791,7 @@
     - 5
     - 4
 - start: 204779
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Good! and Gregson can come
   order:
@@ -5799,7 +5799,7 @@
     - 5
     - 5
 - start: 204910
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'I assented gladly, and we all'
   order:
@@ -5807,7 +5807,7 @@
     - 5
     - 6
 - start: 205684
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I''ve got a good deal to say,”'
   order:
@@ -5815,7 +5815,7 @@
     - 5
     - 7
 - start: 205787
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Hadn't you better reserve
   order:
@@ -5823,7 +5823,7 @@
     - 5
     - 8
 - start: 205858
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I may never be tried,” he'
   order:
@@ -5831,7 +5831,7 @@
     - 5
     - 9
 - start: 206049
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Yes; I am,” I answered.'
   order:
@@ -5839,7 +5839,7 @@
     - 5
     - 10
 - start: 206075
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Then put your hand here,” he'
   order:
@@ -5847,7 +5847,7 @@
     - 5
     - 11
 - start: 206180
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: I did so; and became at once
   order:
@@ -5855,7 +5855,7 @@
     - 5
     - 12
 - start: 206528
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Why,” I cried, “you have an'
   order:
@@ -5863,7 +5863,7 @@
     - 5
     - 13
 - start: 206576
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“That''s what they call it,”'
   order:
@@ -5871,7 +5871,7 @@
     - 5
     - 14
 - start: 207021
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The Inspector and the two
   order:
@@ -5879,7 +5879,7 @@
     - 5
     - 15
 - start: 207142
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Do you consider, Doctor,'
   order:
@@ -5887,7 +5887,7 @@
     - 5
     - 16
 - start: 207220
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Most certainly there is,” I'
   order:
@@ -5895,7 +5895,7 @@
     - 5
     - 17
 - start: 207260
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “In that case it is clearly
   order:
@@ -5903,7 +5903,7 @@
     - 5
     - 18
 - start: 207464
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I''ll sit down, with your'
   order:
@@ -5911,7 +5911,7 @@
     - 5
     - 19
 - start: 207822
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'With these words, Jefferson'
   order:
@@ -5919,7 +5919,7 @@
     - 5
     - 20
 - start: 208211
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “It don't much matter to you
   order:
@@ -5927,7 +5927,7 @@
     - 5
     - 21
 - start: 208758
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “That girl that I spoke of
   order:
@@ -5935,7 +5935,7 @@
     - 5
     - 22
 - start: 209461
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “They were rich and I was
   order:
@@ -5943,7 +5943,7 @@
     - 5
     - 23
 - start: 210195
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “It was some time before I
   order:
@@ -5951,7 +5951,7 @@
     - 5
     - 24
 - start: 210666
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “They were very near doing it
   order:
@@ -5959,7 +5959,7 @@
     - 5
     - 25
 - start: 211120
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“They were very cunning,'
   order:
@@ -5967,7 +5967,7 @@
     - 5
     - 26
 - start: 211708
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“At last, one evening I was'
   order:
@@ -5975,7 +5975,7 @@
     - 5
     - 27
 - start: 213302
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “The moment for which I had
   order:
@@ -5983,7 +5983,7 @@
     - 5
     - 28
 - start: 214349
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “He walked down the road and
   order:
@@ -5991,7 +5991,7 @@
     - 5
     - 29
 - start: 215109
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'I handed him the glass, and'
   order:
@@ -5999,7 +5999,7 @@
     - 5
     - 30
 - start: 215156
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“That''s better,” he said. “'
   order:
@@ -6007,7 +6007,7 @@
     - 5
     - 31
 - start: 215985
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “When I had him fairly inside
   order:
@@ -6015,7 +6015,7 @@
     - 5
     - 32
 - start: 216632
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Don't imagine that I
   order:
@@ -6023,7 +6023,7 @@
     - 5
     - 33
 - start: 217900
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “It was nearer one than
   order:
@@ -6031,7 +6031,7 @@
     - 5
     - 34
 - start: 218672
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “There was not a soul to be
   order:
@@ -6039,7 +6039,7 @@
     - 5
     - 35
 - start: 218910
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“‘All right, cabby,’ said he.'
   order:
@@ -6047,7 +6047,7 @@
     - 5
     - 36
 - start: 218941
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I suppose he thought we had
   order:
@@ -6055,7 +6055,7 @@
     - 5
     - 37
 - start: 219330
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“‘It''s infernally dark,’ said'
   order:
@@ -6063,7 +6063,7 @@
     - 5
     - 38
 - start: 219381
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“‘We''ll soon have a light,’ I'
   order:
@@ -6071,7 +6071,7 @@
     - 5
     - 39
 - start: 219596
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“He gazed at me with bleared,'
   order:
@@ -6079,7 +6079,7 @@
     - 5
     - 40
 - start: 220090
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘You dog!’ I said; ‘I have
   order:
@@ -6087,7 +6087,7 @@
     - 5
     - 41
 - start: 220588
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘What do you think of Lucy
   order:
@@ -6095,7 +6095,7 @@
     - 5
     - 42
 - start: 220878
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘Would you murder me?’ he
   order:
@@ -6103,7 +6103,7 @@
     - 5
     - 43
 - start: 220917
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“‘There is no murder,’ I'
   order:
@@ -6111,7 +6111,7 @@
     - 5
     - 44
 - start: 221136
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘It was not I who killed her
   order:
@@ -6119,7 +6119,7 @@
     - 5
     - 45
 - start: 221186
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “‘But it was you who broke
   order:
@@ -6127,7 +6127,7 @@
     - 5
     - 46
 - start: 221481
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “He cowered away with wild
   order:
@@ -6135,7 +6135,7 @@
     - 5
     - 47
 - start: 222276
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “The blood had been streaming
   order:
@@ -6143,7 +6143,7 @@
     - 5
     - 48
 - start: 223588
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “That was how Enoch Drebber
   order:
@@ -6151,7 +6151,7 @@
     - 5
     - 49
 - start: 224760
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I have little more to say,'
   order:
@@ -6159,7 +6159,7 @@
     - 5
     - 50
 - start: 225435
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: So thrilling had the man's
   order:
@@ -6167,7 +6167,7 @@
     - 5
     - 51
 - start: 225857
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “There is only one point on
   order:
@@ -6175,7 +6175,7 @@
     - 5
     - 52
 - start: 226032
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: The prisoner winked at my
   order:
@@ -6183,7 +6183,7 @@
     - 5
     - 53
 - start: 226335
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Not a doubt of that,” said'
   order:
@@ -6191,7 +6191,7 @@
     - 5
     - 54
 - start: 226381
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Now, gentlemen,” the'
   order:
@@ -6199,7 +6199,7 @@
     - 5
     - 55
 - start: 226799
-  tag: chapter
+  tag: 'checkpoint:chapter'
   labels:
     chapter: Chapter VII
   order:
@@ -6207,7 +6207,7 @@
     - 6
     - 0
 - start: 226799
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: Chapter VII.
   order:
@@ -6215,7 +6215,7 @@
     - 6
     - 1
 - start: 227384
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Gregson and Lestrade will be
   order:
@@ -6223,7 +6223,7 @@
     - 6
     - 2
 - start: 227538
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I don't see that they had
   order:
@@ -6231,7 +6231,7 @@
     - 6
     - 3
 - start: 227613
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “What you do in this world is
   order:
@@ -6239,7 +6239,7 @@
     - 6
     - 4
 - start: 228017
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Simple!” I ejaculated.
   order:
@@ -6247,7 +6247,7 @@
     - 6
     - 5
 - start: 228042
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Well, really, it can hardly'
   order:
@@ -6255,7 +6255,7 @@
     - 6
     - 6
 - start: 228311
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“That is true,” said I.'
   order:
@@ -6263,7 +6263,7 @@
     - 6
     - 7
 - start: 228336
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I have already explained to
   order:
@@ -6271,7 +6271,7 @@
     - 6
     - 8
 - start: 228820
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I confess,” said I, “that I'
   order:
@@ -6279,7 +6279,7 @@
     - 6
     - 9
 - start: 228876
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I hardly expected that you
   order:
@@ -6287,7 +6287,7 @@
     - 6
     - 10
 - start: 229401
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“I understand,” said I.'
   order:
@@ -6295,7 +6295,7 @@
     - 6
     - 11
 - start: 229426
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Now this was a case in which
   order:
@@ -6303,7 +6303,7 @@
     - 6
     - 12
 - start: 230104
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “This was the first point
   order:
@@ -6311,7 +6311,7 @@
     - 6
     - 13
 - start: 231189
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “On entering the house this
   order:
@@ -6319,7 +6319,7 @@
     - 6
     - 14
 - start: 232199
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “And now came the great
   order:
@@ -6327,7 +6327,7 @@
     - 6
     - 15
 - start: 233278
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I then proceeded to make a
   order:
@@ -6335,7 +6335,7 @@
     - 6
     - 16
 - start: 233985
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Having left the house, I'
   order:
@@ -6343,7 +6343,7 @@
     - 6
     - 17
 - start: 234509
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “I had already determined in
   order:
@@ -6351,7 +6351,7 @@
     - 6
     - 18
 - start: 235292
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “If he had been one there was
   order:
@@ -6359,7 +6359,7 @@
     - 6
     - 19
 - start: 236285
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “It is wonderful!” I cried. “
   order:
@@ -6367,7 +6367,7 @@
     - 6
     - 20
 - start: 236432
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“You may do what you like,'
   order:
@@ -6375,7 +6375,7 @@
     - 6
     - 21
 - start: 236552
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: 'It was the Echo for the day,'
   order:
@@ -6383,7 +6383,7 @@
     - 6
     - 22
 - start: 236657
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“The public,” it said, “have'
   order:
@@ -6391,7 +6391,7 @@
     - 6
     - 23
 - start: 238007
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: “Didn't I tell you so when we
   order:
@@ -6399,7 +6399,7 @@
     - 6
     - 24
 - start: 238160
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“Never mind,” I answered, “I'
   order:
@@ -6407,7 +6407,7 @@
     - 6
     - 25
 - start: 238360
-  tag: paragraph
+  tag: 'checkpoint:paragraph'
   labels:
     paragraph: '“‘Populus me sibilat, at mihi'
   order:
