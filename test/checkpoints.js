@@ -32,6 +32,7 @@ const nlp = require("..")
 const _util = require("./_util")
 
 const WRITE = process.env.WRITE === "1"
+const DUMP = process.env.DUMP === "1"
 
 describe("checkpoints", function() {
     const _test = _.promise((self, done) => {
@@ -41,6 +42,7 @@ describe("checkpoints", function() {
             .then(_util.read_utf8("corpus", self.filename, "document"))
             .then(nlp.checkpoints)
             .conditional(WRITE, _util.write_yaml(FOLDER, self.filename, "tokens"))
+            .conditional(DUMP, _.promise.log("tokens", "tokens"))
             .then(_util.read_yaml(FOLDER, self.filename, "want_tokens"))
             .make(sd => {
                 const got = sd.tokens
@@ -56,6 +58,7 @@ describe("checkpoints", function() {
             document_media_type: "text/plain",
             tests: [
                 "study-in-scarlet",
+                "sherlock",
             ],
             nlp$cfg: {
                 checkpoints: [

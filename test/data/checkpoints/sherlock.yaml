@@ -1,0 +1,72 @@
+- start: 20
+  tag: chapter
+  labels:
+    chapter: Chapter I
+  order:
+    - 0
+    - 1
+    - 0
+- start: 20
+  tag: paragraph
+  labels:
+    paragraph: Chapter I.
+  order:
+    - 0
+    - 1
+    - 1
+- start: 32
+  tag: paragraph
+  labels:
+    paragraph: The Science of
+  order:
+    - 0
+    - 1
+    - 2
+- start: 58
+  tag: paragraph
+  labels:
+    paragraph: Sherlock Holmes took his
+  order:
+    - 0
+    - 1
+    - 3
+- start: 579
+  tag: paragraph
+  labels:
+    paragraph: Three times a day for many
+  order:
+    - 0
+    - 1
+    - 4
+- start: 1278
+  tag: paragraph
+  labels:
+    paragraph: 'Yet upon that afternoon,'
+  order:
+    - 0
+    - 1
+    - 5
+- start: 1495
+  tag: paragraph
+  labels:
+    paragraph: '“Which is it to-day?” I asked,'
+  order:
+    - 0
+    - 1
+    - 6
+- start: 1550
+  tag: paragraph
+  labels:
+    paragraph: He raised his eyes languidly
+  order:
+    - 0
+    - 1
+    - 7
+- start: 1715
+  tag: paragraph
+  labels:
+    paragraph: '“No, indeed,” I answered,'
+  order:
+    - 0
+    - 1
+    - 8
