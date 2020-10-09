@@ -179,11 +179,11 @@
       - allen
       - poe
     - - poe
-- name: heber c kemball
+- name: 1heber c kemball
   token: person
   score: 0.0273972602739726
   vectors:
-    - - heber
+    - - 1heber
       - c
       - kemball
     - - kemball
