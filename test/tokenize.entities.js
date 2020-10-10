@@ -68,6 +68,9 @@ describe("tokenize.entities", function() {
             document_media_type: "text/plain",
             tests: [
                 "study-in-scarlet",
+                "bbc_congo",
+                "harry",
+                "sherlock",
             ],
         })
             .then(aws.initialize)

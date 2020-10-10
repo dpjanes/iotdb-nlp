@@ -1,0 +1,102 @@
+- document: Virunga National Park
+  token: entity
+  start: 0
+  end: 67
+  tag: LOCATION
+  score: 0.9228585362434387
+- document: DR
+  token: entity
+  start: 23
+  end: 71
+  tag: LOCATION
+  score: 0.7268795967102051
+- document: Congo
+  token: entity
+  start: 26
+  end: 77
+  tag: ORGANIZATION
+  score: 0.6164531707763672
+- document: Five rangers
+  token: entity
+  start: 48
+  end: 190
+  tag: QUANTITY
+  score: 0.9958263635635376
+- document: Virunga National Park
+  token: entity
+  start: 102
+  end: 253
+  tag: LOCATION
+  score: 0.9982385039329529
+- document: Democratic Republic of Congo
+  token: entity
+  start: 131
+  end: 289
+  tag: LOCATION
+  score: 0.9734466075897217
+- document: Joel Wengamulay
+  token: entity
+  start: 257
+  end: 378
+  tag: PERSON
+  score: 0.9997900128364563
+- document: BBC
+  token: entity
+  start: 282
+  end: 391
+  tag: ORGANIZATION
+  score: 0.9284393191337585
+- document: Virunga
+  token: entity
+  start: 288
+  end: 393
+  tag: LOCATION
+  score: 0.5548149347305298
+- document: Africa
+  token: entity
+  start: 303
+  end: 407
+  tag: LOCATION
+  score: 0.9754589796066284
+- document: eastern DR Congo
+  token: entity
+  start: 396
+  end: 511
+  tag: LOCATION
+  score: 0.973312497138977
+- document: Virunga
+  token: entity
+  start: 489
+  end: 618
+  tag: PERSON
+  score: 0.9713547825813293
+- document: about a quarter of the world
+  token: entity
+  start: 508
+  end: 658
+  tag: QUANTITY
+  score: 0.7762153148651123
+- document: 880 mountain gorillas
+  token: entity
+  start: 549
+  end: 692
+  tag: QUANTITY
+  score: 0.9962162375450134
+- document: More than 130 park rangers
+  token: entity
+  start: 613
+  end: 706
+  tag: QUANTITY
+  score: 0.9897190928459167
+- document: '1996'
+  token: entity
+  start: 675
+  end: 746
+  tag: DATE
+  score: 0.993975818157196
+- document: Eastern DR Congo
+  token: entity
+  start: 682
+  end: 807
+  tag: LOCATION
+  score: 0.9923152923583984

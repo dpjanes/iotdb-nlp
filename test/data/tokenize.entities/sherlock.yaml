@@ -1,0 +1,84 @@
+- document: Chapter I.
+  token: entity
+  start: 22
+  end: 42
+  tag: QUANTITY
+  score: 0.7239122986793518
+- document: Sherlock Holmes
+  token: entity
+  start: 60
+  end: 196
+  tag: PERSON
+  score: 0.9972845911979675
+- document: some little time
+  token: entity
+  start: 294
+  end: 449
+  tag: QUANTITY
+  score: 0.9097837209701538
+- document: innumerable puncture-marks
+  token: entity
+  start: 402
+  end: 567
+  tag: QUANTITY
+  score: 0.7674533128738403
+- document: Three times a day
+  token: entity
+  start: 581
+  end: 710
+  tag: QUANTITY
+  score: 0.9777846336364746
+- document: many months
+  token: entity
+  start: 603
+  end: 726
+  tag: QUANTITY
+  score: 0.8045257329940796
+- document: man
+  token: entity
+  start: 1044
+  end: 1292
+  tag: QUANTITY
+  score: 0.5276265740394592
+- document: many
+  token: entity
+  start: 1197
+  end: 1363
+  tag: QUANTITY
+  score: 0.5197608470916748
+- document: that afternoon
+  token: entity
+  start: 1289
+  end: 1518
+  tag: DATE
+  score: 0.7780044674873352
+- document: Beaune
+  token: entity
+  start: 1324
+  end: 1545
+  tag: LOCATION
+  score: 0.6885557770729065
+- document: morphine
+  token: entity
+  start: 1529
+  end: 1569
+  tag: OTHER
+  score: 0.6839982867240906
+- document: cocaine
+  token: entity
+  start: 1541
+  end: 1580
+  tag: OTHER
+  score: 0.7368080615997314
+- document: seven-per-cent
+  token: entity
+  start: 1664
+  end: 1731
+  tag: QUANTITY
+  score: 0.9946824312210083
+- document: Afghan
+  token: entity
+  start: 1792
+  end: 1856
+  tag: OTHER
+  score: 0.9200339317321777

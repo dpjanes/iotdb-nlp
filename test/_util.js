@@ -105,6 +105,7 @@ const write_yaml = (_folder, _filename, _variable) => _.promise((self, done) => 
         })
         .then(fs.make.directory.parent)
         .then(fs.write.yaml)
+        .log("wrote", "path")
 
         .end(done, self, write_yaml)
 })
