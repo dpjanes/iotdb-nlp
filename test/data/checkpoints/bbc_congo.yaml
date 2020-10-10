@@ -1,0 +1,63 @@
+- start: 46
+  end: 178
+  tag: 'checkpoint:paragraph'
+  labels:
+    paragraph: Five rangers and their driver
+  order:
+    - 0
+    - 0
+    - 1
+- start: 178
+  end: 286
+  tag: 'checkpoint:paragraph'
+  labels:
+    paragraph: The group was killed in an
+  order:
+    - 0
+    - 0
+    - 2
+- start: 286
+  end: 386
+  tag: 'checkpoint:paragraph'
+  labels:
+    paragraph: Virunga boasts Africa's most
+  order:
+    - 0
+    - 0
+    - 3
+- start: 386
+  end: 487
+  tag: 'checkpoint:paragraph'
+  labels:
+    paragraph: Some of eastern DR Congo's
+  order:
+    - 0
+    - 0
+    - 4
+- start: 487
+  end: 611
+  tag: 'checkpoint:paragraph'
+  labels:
+    paragraph: Virunga is home to about a
+  order:
+    - 0
+    - 0
+    - 5
+- start: 611
+  end: 680
+  tag: 'checkpoint:paragraph'
+  labels:
+    paragraph: More than 130 park rangers
+  order:
+    - 0
+    - 0
+    - 6
+- start: 680
+  end: 792
+  tag: 'checkpoint:paragraph'
+  labels:
+    paragraph: Eastern DR Congo is a mostly
+  order:
+    - 0
+    - 0
+    - 7

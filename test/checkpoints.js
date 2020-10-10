@@ -58,6 +58,8 @@ describe("checkpoints", function() {
             document_media_type: "text/plain",
             tests: [
                 "study-in-scarlet",
+                "bbc_congo",
+                "harry",
                 "sherlock",
             ],
             nlp$cfg: {

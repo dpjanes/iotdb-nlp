@@ -1,0 +1,18 @@
+- start: 262
+  end: 718
+  tag: 'checkpoint:paragraph'
+  labels:
+    paragraph: Mr. Dursley was the director
+  order:
+    - 0
+    - 0
+    - 1
+- start: 718
+  end: 1469
+  tag: 'checkpoint:paragraph'
+  labels:
+    paragraph: The Dursleys had everything
+  order:
+    - 0
+    - 0
+    - 2
