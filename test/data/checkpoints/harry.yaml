@@ -1,6 +1,7 @@
 - start: 262
   end: 718
-  tag: 'checkpoint:paragraph'
+  token: checkpoint
+  tag: paragraph
   labels:
     paragraph: Mr. Dursley was the director
   order:
@@ -9,7 +10,8 @@
     - 1
 - start: 718
   end: 1469
-  tag: 'checkpoint:paragraph'
+  token: checkpoint
+  tag: paragraph
   labels:
     paragraph: The Dursleys had everything
   order:

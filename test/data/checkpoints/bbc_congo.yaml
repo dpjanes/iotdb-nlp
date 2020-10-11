@@ -1,6 +1,7 @@
 - start: 46
   end: 178
-  tag: 'checkpoint:paragraph'
+  token: checkpoint
+  tag: paragraph
   labels:
     paragraph: Five rangers and their driver
   order:
@@ -9,7 +10,8 @@
     - 1
 - start: 178
   end: 286
-  tag: 'checkpoint:paragraph'
+  token: checkpoint
+  tag: paragraph
   labels:
     paragraph: The group was killed in an
   order:
@@ -18,7 +20,8 @@
     - 2
 - start: 286
   end: 386
-  tag: 'checkpoint:paragraph'
+  token: checkpoint
+  tag: paragraph
   labels:
     paragraph: Virunga boasts Africa's most
   order:
@@ -27,7 +30,8 @@
     - 3
 - start: 386
   end: 487
-  tag: 'checkpoint:paragraph'
+  token: checkpoint
+  tag: paragraph
   labels:
     paragraph: Some of eastern DR Congo's
   order:
@@ -36,7 +40,8 @@
     - 4
 - start: 487
   end: 611
-  tag: 'checkpoint:paragraph'
+  token: checkpoint
+  tag: paragraph
   labels:
     paragraph: Virunga is home to about a
   order:
@@ -45,7 +50,8 @@
     - 5
 - start: 611
   end: 680
-  tag: 'checkpoint:paragraph'
+  token: checkpoint
+  tag: paragraph
   labels:
     paragraph: More than 130 park rangers
   order:
@@ -54,7 +60,8 @@
     - 6
 - start: 680
   end: 792
-  tag: 'checkpoint:paragraph'
+  token: checkpoint
+  tag: paragraph
   labels:
     paragraph: Eastern DR Congo is a mostly
   order:

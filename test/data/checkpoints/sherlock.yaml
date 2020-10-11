@@ -1,6 +1,7 @@
 - start: 20
   end: 1865
-  tag: 'checkpoint:chapter'
+  token: checkpoint
+  tag: chapter
   labels:
     chapter: Chapter I
   order:
@@ -9,7 +10,8 @@
     - 0
 - start: 32
   end: 58
-  tag: 'checkpoint:paragraph'
+  token: checkpoint
+  tag: paragraph
   labels:
     paragraph: The Science of
   order:
@@ -18,7 +20,8 @@
     - 1
 - start: 58
   end: 579
-  tag: 'checkpoint:paragraph'
+  token: checkpoint
+  tag: paragraph
   labels:
     paragraph: Sherlock Holmes took his
   order:
@@ -27,7 +30,8 @@
     - 2
 - start: 579
   end: 1278
-  tag: 'checkpoint:paragraph'
+  token: checkpoint
+  tag: paragraph
   labels:
     paragraph: Three times a day for many
   order:
@@ -36,7 +40,8 @@
     - 3
 - start: 1278
   end: 1495
-  tag: 'checkpoint:paragraph'
+  token: checkpoint
+  tag: paragraph
   labels:
     paragraph: 'Yet upon that afternoon,'
   order:
@@ -45,7 +50,8 @@
     - 4
 - start: 1495
   end: 1550
-  tag: 'checkpoint:paragraph'
+  token: checkpoint
+  tag: paragraph
   labels:
     paragraph: '“Which is it to-day?” I asked,'
   order:
@@ -54,7 +60,8 @@
     - 5
 - start: 1550
   end: 1715
-  tag: 'checkpoint:paragraph'
+  token: checkpoint
+  tag: paragraph
   labels:
     paragraph: He raised his eyes languidly
   order:
@@ -63,7 +70,8 @@
     - 6
 - start: 1715
   end: 1865
-  tag: 'checkpoint:paragraph'
+  token: checkpoint
+  tag: paragraph
   labels:
     paragraph: '“No, indeed,” I answered,'
   order:
