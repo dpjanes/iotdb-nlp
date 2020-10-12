@@ -54,3 +54,9 @@
   token: paragraph
   start: 1552
   end: 1715
+- document: >
+    “No, indeed,” I answered, brusquely. “My constitution has not got over the
+    Afghan campaign yet. I cannot afford to throw any extra strain upon it.”
+  token: paragraph
+  start: 1717
+  end: 1865

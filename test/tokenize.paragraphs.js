@@ -68,4 +68,18 @@ describe("tokenize.paragraphs", function() {
             })
             .end(done, {})
     })
+
+    it("leading paragraph is ignored", function(done) {
+        _.promise({
+            document_media_type: "text/plain",
+            document: "\n\nHello World",
+        })
+            .then(nlp.tokenize.paragraphs)
+            .make(sd => {
+                const want = [ { document: 'Hello World', token: 'paragraph', start: 2, end: 13 } ]
+                const got = sd.tokens
+                assert.deepEqual(got, want)
+            })
+            .end(done, {})
+    })
 })

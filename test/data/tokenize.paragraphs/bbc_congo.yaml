@@ -36,3 +36,9 @@
   token: paragraph
   start: 613
   end: 680
+- document: >
+    Eastern DR Congo is a mostly lawless region, hit by conflict between the
+    government and various armed groups.
+  token: paragraph
+  start: 682
+  end: 792
