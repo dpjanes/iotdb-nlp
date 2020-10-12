@@ -123,6 +123,22 @@ write_yaml.produces = {
 exports.write_yaml = write_yaml
 
 /**
+ */
+const is_sorted = tokens => {
+    let last = -1
+    for (let ti = 0; ti < tokens.length; ti++) {
+        const token = tokens[ti]
+        if (token.start < last) {
+            return false
+        }
+
+        last = token.start
+    }
+
+    return true
+}
+
+/**
  *  API
  */
 exports.auto_fail = auto_fail
@@ -131,3 +147,5 @@ exports.ok_error = ok_error
 exports.read_yaml = read_yaml
 exports.read_utf8 = read_utf8
 exports.write_yaml = write_yaml
+
+exports.is_sorted = is_sorted

@@ -1,5 +1,5 @@
 /**
- *  test/tokens.merge.js
+ *  test/tokens.sort.js
  *
  *  David Janes
  *  IOTDB
@@ -34,31 +34,20 @@ const _util = require("./_util")
 const WRITE = process.env.WRITE === "1"
 const DUMP = process.env.DUMP === "1"
 
-describe("tokens.merge", function() {
-    it("tokens.merge.p", function(done) {
-        const FOLDER = "tokens.merge.p"
-        const FILENAME = "sherlock"
-
+describe("tokens.sort", function() {
+    it("tokens.sort", function(done) {
         _.promise({
         })
             .then(fs.read.yaml.p("../test/data/tokenize.entities/sherlock.yaml"))
-            .add("json:entities")
-
-            .then(fs.read.yaml.p("../test/data/tokenize.syntax/sherlock.yaml"))
-            .add("json:syntax")
-
-            .then(fs.read.yaml.p("../test/data/checkpoints/sherlock.yaml"))
-            .add("json:checkpoints")
-
-            .then(nlp.tokens.merge.p([ "entities", "syntax", "checkpoints" ]))
-
-            .conditional(WRITE, _util.write_yaml(FOLDER, FILENAME, "tokens"))
-            .conditional(DUMP, _.promise.log("tokens", "tokens"))
-            .then(_util.read_yaml(FOLDER, FILENAME, "want_tokens"))
             .make(sd => {
-                const got = sd.tokens
-                const want = sd.want_tokens
-                assert.deepEqual(got, want)
+                sd.tokens = sd.json
+                sd.tokens.reverse()
+
+                assert.ok(sd.tokens.length > 10)
+                assert.ok(!_util.is_sorted(sd.tokens))
+            })
+            .then(nlp.tokens.sort)
+            .make(sd => {
                 assert.ok(_util.is_sorted(sd.tokens))
             })
 

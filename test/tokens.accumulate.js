@@ -103,6 +103,7 @@ describe("tokens.accumulate", function() {
                 const got = sd.tokens
                 const want = sd.want_tokens
                 assert.deepEqual(got, want)
+                assert.ok(_util.is_sorted(sd.tokens))
             })
 
             .end(done, {})
