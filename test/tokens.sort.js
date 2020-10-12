@@ -38,7 +38,7 @@ describe("tokens.sort", function() {
     it("tokens.sort", function(done) {
         _.promise({
         })
-            .then(fs.read.yaml.p("../test/data/tokenize.entities/sherlock.yaml"))
+            .then(fs.read.yaml.p(path.join(__dirname, "/data/tokenize.entities/sherlock.yaml")))
             .make(sd => {
                 sd.tokens = sd.json
                 sd.tokens.reverse()

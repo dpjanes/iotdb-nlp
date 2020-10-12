@@ -41,13 +41,13 @@ describe("tokens.merge", function() {
 
         _.promise({
         })
-            .then(fs.read.yaml.p("../test/data/tokenize.entities/sherlock.yaml"))
+            .then(fs.read.yaml.p(path.join(__dirname, "/data/tokenize.entities/sherlock.yaml")))
             .add("json:entities")
 
-            .then(fs.read.yaml.p("../test/data/tokenize.syntax/sherlock.yaml"))
+            .then(fs.read.yaml.p(path.join(__dirname, "/data/tokenize.syntax/sherlock.yaml")))
             .add("json:syntax")
 
-            .then(fs.read.yaml.p("../test/data/checkpoints/sherlock.yaml"))
+            .then(fs.read.yaml.p(path.join(__dirname, "/data/checkpoints/sherlock.yaml")))
             .add("json:checkpoints")
 
             .then(nlp.tokens.merge.p([ "entities", "syntax", "checkpoints" ]))
