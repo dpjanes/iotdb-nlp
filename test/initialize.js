@@ -30,22 +30,18 @@ const nlp = require("..")
 const _util = require("./_util")
 
 describe("initialize", function() {
-    let self = {}
-
-    before(function(done) {
-        _.promise(self)
-            .make(sd => {
-                self = sd
-            })
-            .end(done)
-    })
-
-    /*
-    describe("good", function() {
-        it("works", function(done) {
-            _.promise(self)
-                .end(done)
+    it("works", function(done) {
+        _.promise({
+            nlp$cfg: {
+            },
         })
+            .then(nlp.initialize)
+            .end(done, {})
     })
-    */
+    it("expected fail", function(done) {
+        _.promise({})
+            .then(nlp.initialize)
+            .then(_util.auto_fail(done))
+            .catch(_util.ok_error(done))
+    })
 })
