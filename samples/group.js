@@ -39,6 +39,9 @@ _.promise({
     .then(fs.read.yaml.p("../test/data/checkpoints/sherlock.yaml"))
     .then(nlp.tokens.accumulate.json)
 
+    .then(fs.read.yaml.p("../test/data/tokenize.sentences/sherlock.yaml"))
+    .then(nlp.tokens.accumulate.json)
+
     .then(nlp.tokens.accumulate.release)
 
     .then(nlp.tokens.group.p({
