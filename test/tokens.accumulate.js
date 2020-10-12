@@ -51,6 +51,29 @@ describe("tokens.accumulate", function() {
             .end(done, {})
     })
 
+    it("tokens.accumulate.json", function(done) {
+        const FOLDER = "tokens.accumulate.json"
+        const FILENAME = "sherlock"
+
+        _.promise({
+        })
+            .then(nlp.tokens.accumulate.initialize)
+
+            .then(fs.read.yaml.p("../test/data/tokenize.entities/sherlock.yaml"))
+            .then(nlp.tokens.accumulate.json)
+
+            .conditional(WRITE, _util.write_yaml(FOLDER, FILENAME, "accumulator"))
+            .conditional(DUMP, _.promise.log("accumulator", "accumulator"))
+            .then(_util.read_yaml(FOLDER, FILENAME, "want_accumulator"))
+            .make(sd => {
+                const got = sd.accumulator
+                const want = sd.want_accumulator
+                assert.deepEqual(got, want)
+            })
+
+            .end(done, {})
+    })
+
     it("tokens.accumulate.release", function(done) {
         const FOLDER = "tokens.accumulate.release"
         const FILENAME = "sherlock"
@@ -74,7 +97,6 @@ describe("tokens.accumulate", function() {
             .then(nlp.tokens.accumulate.release)
 
             .conditional(WRITE, _util.write_yaml(FOLDER, FILENAME, "tokens"))
-            .conditional(DUMP, _.promise.log("tokens", "tokens"))
             .conditional(DUMP, _.promise.log("tokens", "tokens"))
             .then(_util.read_yaml(FOLDER, FILENAME, "want_tokens"))
             .make(sd => {
