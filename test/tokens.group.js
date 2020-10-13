@@ -77,4 +77,38 @@ describe("tokens.group", function() {
 
             .end(done, {})
     })
+
+    it("tokens.group (", function(done) {
+        const FOLDER = "tokens.group"
+        const FILENAME = "checkpoints-only"
+
+        _.promise({
+        })
+            .then(nlp.tokens.accumulate.initialize)
+
+            .then(fs.read.yaml.p(path.join(__dirname, "/data/checkpoints/sherlock.yaml")))
+            .then(nlp.tokens.accumulate.json)
+
+            .then(fs.read.yaml.p(path.join(__dirname, "/data/tokenize.sentences/sherlock.yaml")))
+            .then(nlp.tokens.accumulate.json)
+
+            .then(nlp.tokens.accumulate.release)
+            .then(nlp.tokens.group.p("checkpoint")) // becomes { token: "checkpoint" }
+            .make(sd => {
+                assert.ok(_.is.Array(sd.groups))
+                sd.groups.forEach(tokens => assert.ok(_.is.Array.of.Dictionary(tokens)))
+                sd.groups.forEach(tokens => assert.ok(_util.is_sorted(tokens)))
+            })
+
+            .conditional(WRITE, _util.write_yaml(FOLDER, FILENAME, "groups"))
+            .conditional(DUMP, _.promise.log("groups", "groups"))
+            .then(_util.read_yaml(FOLDER, FILENAME, "want_groups"))
+            .make(sd => {
+                const got = sd.groups
+                const want = sd.want_groups
+                assert.deepEqual(got, want)
+            })
+
+            .end(done, {})
+    })
 })

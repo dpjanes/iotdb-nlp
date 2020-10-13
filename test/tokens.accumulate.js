@@ -74,6 +74,47 @@ describe("tokens.accumulate", function() {
             .end(done, {})
     })
 
+    it("tokens.accumulate (default)", function(done) {
+        const FOLDER = "tokens.accumulate.json"
+        const FILENAME = "sherlock"
+
+        _.promise({
+        })
+            .then(nlp.tokens.accumulate.initialize)
+
+            .then(fs.read.yaml.p(path.join(__dirname, "/data/tokenize.entities/sherlock.yaml")))
+            .add("json:tokens")
+            .then(nlp.tokens.accumulate)
+
+            // note the previous test case makes data
+            .then(_util.read_yaml(FOLDER, FILENAME, "want_accumulator"))
+            .make(sd => {
+                const got = sd.accumulator
+                const want = sd.want_accumulator
+                assert.deepEqual(got, want)
+            })
+
+            .end(done, {})
+    })
+
+    it("tokens.accumulate (no data - defaults to [])", function(done) {
+        const FOLDER = "tokens.accumulate.json"
+        const FILENAME = "sherlock"
+
+        _.promise({
+        })
+            .then(nlp.tokens.accumulate.initialize)
+            .then(nlp.tokens.accumulate)
+
+            .make(sd => {
+                const got = sd.accumulator
+                const want = []
+                assert.deepEqual(got, want)
+            })
+
+            .end(done, {})
+    })
+
     it("tokens.accumulate.release", function(done) {
         const FOLDER = "tokens.accumulate.release"
         const FILENAME = "sherlock"
