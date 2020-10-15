@@ -43,7 +43,7 @@ describe("tokens.group", function() {
         })
             .then(nlp.tokens.accumulate.initialize)
 
-            .then(fs.read.yaml.p(path.join(__dirname, "/data/tokenize.entities/sherlock.yaml")))
+            .then(fs.read.yaml.p(path.join(__dirname, "/data/tokenize.entities.aws/sherlock.yaml")))
             .then(nlp.tokens.accumulate.json)
 
             .then(fs.read.yaml.p(path.join(__dirname, "/data/tokenize.syntax/sherlock.yaml")))

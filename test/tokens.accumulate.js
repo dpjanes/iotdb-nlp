@@ -59,7 +59,7 @@ describe("tokens.accumulate", function() {
         })
             .then(nlp.tokens.accumulate.initialize)
 
-            .then(fs.read.yaml.p(path.join(__dirname, "/data/tokenize.entities/sherlock.yaml")))
+            .then(fs.read.yaml.p(path.join(__dirname, "/data/tokenize.entities.aws/sherlock.yaml")))
             .then(nlp.tokens.accumulate.json)
 
             .conditional(WRITE, _util.write_yaml(FOLDER, FILENAME, "accumulator"))
@@ -82,7 +82,7 @@ describe("tokens.accumulate", function() {
         })
             .then(nlp.tokens.accumulate.initialize)
 
-            .then(fs.read.yaml.p(path.join(__dirname, "/data/tokenize.entities/sherlock.yaml")))
+            .then(fs.read.yaml.p(path.join(__dirname, "/data/tokenize.entities.aws/sherlock.yaml")))
             .add("json:tokens")
             .then(nlp.tokens.accumulate)
 
@@ -123,7 +123,7 @@ describe("tokens.accumulate", function() {
         })
             .then(nlp.tokens.accumulate.initialize)
 
-            .then(fs.read.yaml.p(path.join(__dirname, "/data/tokenize.entities/sherlock.yaml")))
+            .then(fs.read.yaml.p(path.join(__dirname, "/data/tokenize.entities.aws/sherlock.yaml")))
             .then(nlp.tokens.accumulate.json)
 
             .then(fs.read.yaml.p(path.join(__dirname, "/data/tokenize.syntax/sherlock.yaml")))

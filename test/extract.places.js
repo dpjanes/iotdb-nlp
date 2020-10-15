@@ -40,7 +40,7 @@ describe("extract.places", function() {
         const FOLDER = "extract.places"
 
         _.promise(self)
-            .then(_util.read_yaml("tokenize.entities", self.filename, "tokens"))
+            .then(_util.read_yaml("tokenize.entities.aws", self.filename, "tokens"))
             .then(nlp.extract.places)
             .conditional(WRITE, _util.write_yaml(FOLDER, self.filename, "places"))
             .conditional(DUMP, _.promise.log("places", "places"))

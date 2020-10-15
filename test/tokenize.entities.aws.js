@@ -1,5 +1,5 @@
 /**
- *  test/tokenize.entities.js
+ *  test/tokenize.entities.aws.js
  *
  *  David Janes
  *  IOTDB
@@ -35,9 +35,9 @@ const _util = require("./_util")
 const WRITE = process.env.WRITE === "1"
 const DUMP = process.env.DUMP === "1"
 
-describe("tokenize.entities", function() {
+describe("tokenize.entities.aws", function() {
     const _test = _.promise((self, done) => {
-        const FOLDER = "tokenize.entities"
+        const FOLDER = "tokenize.entities.aws"
 
         _.promise(self)
             .then(_util.read_utf8("corpus", self.filename, "document"))
@@ -64,6 +64,8 @@ describe("tokenize.entities", function() {
             cache$cfg: {
                 path: path.join(__dirname, "..", ".fs-cache"),
             },
+            nlp$cfg: {
+            },
 
             document_media_type: "text/plain",
             tests: [
@@ -73,6 +75,7 @@ describe("tokenize.entities", function() {
                 "sherlock",
             ],
         })
+            .then(nlp.initialize)
             .then(aws.initialize)
             .then(aws.comprehend.initialize)
             .then(fs.cache)
