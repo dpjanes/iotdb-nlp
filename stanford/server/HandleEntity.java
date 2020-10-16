@@ -58,18 +58,16 @@ public class HandleEntity extends Handle
             "I go to school at Stanford University, which is located in California."
         };
 
-
-        JSONArray jresults = new JSONArray();
-
         JSONObject jo = new JSONObject();
+        JSONArray jresults = new JSONArray();
         jo.put("results", jresults);
-        for (String str: example) {
-            JSONArray jitems = new JSONArray();
 
+        for (String str: example) {
             JSONObject jresult = new JSONObject();
+            jresults.add(jresult);
+            JSONArray jitems = new JSONArray();
             jresult.put("items", jitems);
 
-            jresults.add(jresult);
 
             for (List < CoreLabel > lcl: classifier.classify(str)) {
                 for (CoreLabel cl: lcl) {

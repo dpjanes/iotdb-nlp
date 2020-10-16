@@ -45,13 +45,31 @@ public class HandlePOS extends Handle
                 "Good afternoon Rajat Raina, how are you today?\nI go to school at Stanford University, which is located in California."
             ));
 
-        for (List<HasWord> sentence : sentences) {
-            List<TaggedWord> tSentence = tagger.tagSentence(sentence);
-            System.out.println(SentenceUtils.listToString(tSentence, false));
-        }
-
         JSONObject jo = new JSONObject();
-        jo.put("error", "coming soon");
+        JSONArray jresults = new JSONArray();
+        jo.put("results", jresults);
+
+        JSONObject jresult = new JSONObject();
+        jresults.add(jresult);
+        JSONArray jitems = new JSONArray();
+        jresult.put("items", jitems);
+
+        for (List<HasWord> sentence : sentences) {
+            List<TaggedWord> twords = tagger.tagSentence(sentence);
+            // System.out.println("SENTENCE: " + sentence);
+            // System.out.println("TWORDS: " + twords);
+            for (TaggedWord tword : twords) {
+                // System.out.println("" + tword.beginPosition() + ":" + tword); // SentenceUtils.listToString(tSentence, false));
+
+                JSONObject jitem = new JSONObject();
+                jitems.add(jitem);
+                jitem.put("document", tword.word());
+                jitem.put("begin", tword.beginPosition());
+                jitem.put("end", tword.endPosition());
+                jitem.put("tag", tword.tag());
+                // jitem.put("score", cl.get(CoreAnnotations.AnswerProbAnnotation.class));
+            }
+        }
 
         return jo;
     }
