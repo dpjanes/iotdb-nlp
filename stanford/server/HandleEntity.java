@@ -53,12 +53,11 @@ public class HandleEntity extends Handle
             cd.put(classifier_gz, classifier);
         }
 
-        JSONArray documents = (JSONArray) ji.get("documents");
-
         JSONObject jo = new JSONObject();
         JSONArray jresults = new JSONArray();
         jo.put("results", jresults);
 
+        JSONArray documents = (JSONArray) ji.get("documents");
         for (int di = 0; di < documents.size(); di++) {
             String document = (String) documents.get(di);
 

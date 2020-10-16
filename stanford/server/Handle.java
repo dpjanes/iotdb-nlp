@@ -13,6 +13,7 @@ package org.iotdb.nlp.stanford;
 import com.sun.net.httpserver.HttpServer;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
+import com.sun.net.httpserver.Headers;
 
 import java.net.InetSocketAddress;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -21,6 +22,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Date;
+import java.util.Collections;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -90,7 +92,30 @@ public class Handle implements HttpHandler {
                 System.out.println("BODY: " + ji);
                 json_response = process(hex, ji);
             } else if ("GET".equals(hex.getRequestMethod())) {
-                json_response = process(hex, new JSONObject());
+                Headers headers = hex.getRequestHeaders();
+
+                JSONObject ji = new JSONObject();
+
+                String language = headers.getFirst("language");
+                if (language == null) {
+                    ji.put("language", "en");
+                } else {
+                    ji.put("language", language);
+                }
+
+                List<String> documents = headers.get("document");
+                if (documents == null) {
+                    documents = Collections.EMPTY_LIST;
+                }
+
+                JSONArray das = new JSONArray();
+                for (String document : documents) {
+                    das.add(document);
+                }
+
+                ji.put("documents", das);
+
+                json_response = process(hex, ji);
             } else {
             }
 
