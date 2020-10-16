@@ -22,6 +22,7 @@ fi
 set -e
 echo "$0: ${PKG} downloading"
 wget "${URL}/${PKG}.zip"
+mv stanford-postagger-full-2020-08-06 "${PKG}"
 unzip "${PKG}.zip"
 rm "${PKG}.zip"
 echo "$0: ${PKG} downloaded"
