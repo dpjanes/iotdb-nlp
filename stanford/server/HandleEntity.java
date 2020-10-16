@@ -42,7 +42,7 @@ public class HandleEntity extends Handle
 {
     Map<String,AbstractSequenceClassifier<CoreLabel>> cd = new HashMap<String,AbstractSequenceClassifier<CoreLabel>>();
 
-    protected JSONObject process(HttpExchange httpExchange)
+    protected JSONObject process(HttpExchange hex, JSONObject ji)
         throws IOException, ClassNotFoundException
     {
         String classifier_gz = "../../contrib/stanford-ner-4.0.0/classifiers/english.all.3class.distsim.crf.ser.gz";
@@ -53,23 +53,21 @@ public class HandleEntity extends Handle
             cd.put(classifier_gz, classifier);
         }
 
-        String[] example = {
-            "Good afternoon Rajat Raina, how are you today?",
-            "I go to school at Stanford University, which is located in California."
-        };
+        JSONArray documents = (JSONArray) ji.get("documents");
 
         JSONObject jo = new JSONObject();
         JSONArray jresults = new JSONArray();
         jo.put("results", jresults);
 
-        for (String str: example) {
+        for (int di = 0; di < documents.size(); di++) {
+            String document = (String) documents.get(di);
+
             JSONObject jresult = new JSONObject();
             jresults.add(jresult);
             JSONArray jitems = new JSONArray();
             jresult.put("items", jitems);
 
-
-            for (List < CoreLabel > lcl: classifier.classify(str)) {
+            for (List < CoreLabel > lcl: classifier.classify(document)) {
                 for (CoreLabel cl: lcl) {
                     String answer = cl.get(CoreAnnotations.AnswerAnnotation.class);
                     if (answer.equals("O")) {

@@ -24,9 +24,12 @@ import java.util.Date;
 
 import java.io.IOException;
 import java.io.OutputStream;
+import java.io.InputStreamReader;
+import java.io.BufferedReader;
 
 import org.json.simple.JSONObject;
 import org.json.simple.JSONArray;
+import org.json.simple.JSONValue;
 
 import edu.stanford.nlp.io.IOUtils;
 import edu.stanford.nlp.ling.CoreLabel;
@@ -43,30 +46,70 @@ public class Handle implements HttpHandler {
     Map<String,AbstractSequenceClassifier<CoreLabel>> cd = new HashMap<String,AbstractSequenceClassifier<CoreLabel>>();
 
     @Override
-    public void handle(HttpExchange httpExchange) throws IOException {
+    public void handle(HttpExchange hex) throws IOException {
         try {
             Date start = new Date();
 
             JSONObject json_response = new JSONObject();
             json_response.put("error", "didn't understand request");
 
-            if ("GET".equals(httpExchange.getRequestMethod())) {
-                json_response = process(httpExchange);
+            String method = hex.getRequestMethod();
+            if (method.equals("POST")) {
+                InputStreamReader isr = new InputStreamReader(hex.getRequestBody(), "utf-8");
+                BufferedReader br = new BufferedReader(isr);
+
+                int b;
+                StringBuilder buf = new StringBuilder();
+                while ((b = br.read()) != -1) {
+                    buf.append((char) b);
+                }
+
+                br.close();
+                isr.close();
+
+                JSONObject ji = (JSONObject) JSONValue.parse(buf.toString());
+
+                String document = (String) ji.get("document");
+                if (document != null) {
+                    JSONArray documents = new JSONArray();
+                    documents.add(document);
+
+                    ji.put("documents", documents);
+                    ji.remove("document");
+                }
+
+                if ((JSONArray) ji.get("documents") == null) {
+                    ji.put("documents", new JSONArray());
+                }
+
+                String language = (String) ji.get("language");
+                if (language == null) {
+                    ji.put("language", "en");
+                }
+
+                System.out.println("BODY: " + ji);
+                json_response = process(hex, ji);
+            } else if ("GET".equals(hex.getRequestMethod())) {
+                json_response = process(hex, new JSONObject());
+            } else {
             }
 
             Date end = new Date();
             json_response.put("delta", (end.getTime() - start.getTime()) / 1000.0);
 
-            handleResponse(httpExchange, json_response);
+            handleResponse(hex, json_response);
         } catch (ClassNotFoundException x) {
             System.err.println("ERROR: " + x);
         } catch (Error x) {
             System.err.println("ERROR: " + x);
             throw x;
+        } catch (Exception x) {
+            System.err.println("ERROR: " + x);
+            throw x;
         }
     }
 
-    protected JSONObject process(HttpExchange httpExchange)
+    protected JSONObject process(HttpExchange hex, JSONObject hi)
         throws IOException, ClassNotFoundException
     {
         JSONObject json_response = new JSONObject();
@@ -75,14 +118,14 @@ public class Handle implements HttpHandler {
         return json_response;
     }
 
-    private void handleResponse(HttpExchange httpExchange, JSONObject json_response) throws IOException {
-        OutputStream outputStream = httpExchange.getResponseBody();
+    private void handleResponse(HttpExchange hex, JSONObject json_response) throws IOException {
+        OutputStream outputStream = hex.getResponseBody();
 
         // encode HTML content
         String body = json_response.toString();
 
         // this line is a must
-        httpExchange.sendResponseHeaders(200, body.length());
+        hex.sendResponseHeaders(200, body.length());
         outputStream.write(body.getBytes());
         outputStream.flush();
         outputStream.close();

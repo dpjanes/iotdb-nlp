@@ -36,7 +36,7 @@ public class HandlePOS extends Handle
 {
     Map<String,MaxentTagger> td = new HashMap<String,MaxentTagger>();
 
-    protected JSONObject process(HttpExchange httpExchange)
+    protected JSONObject process(HttpExchange hex, JSONObject hi)
         throws IOException, ClassNotFoundException
     {
         String tagger_name = "../../contrib/stanford-tagger-4.1.0/models/english-bidirectional-distsim.tagger";
