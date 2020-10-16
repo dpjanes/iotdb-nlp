@@ -3,8 +3,8 @@ yy*
 .*
 
 # Downloaded stuff
-json-simple-*.jar 
-stanford-ner-*
+contrib/*jar
+contrib/stanford-*
 stanford/server/org
 
 # Logs

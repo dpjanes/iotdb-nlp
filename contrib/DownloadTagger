@@ -1,0 +1,27 @@
+#
+#   contrib/DownloadTagger
+#
+#   David Janes
+#   IOTDB
+#   2020-10-16
+#
+#   Download support files - 
+#   These do not get checked into GitHub
+
+URL="https://nlp.stanford.edu/software"
+PKG_NAME="stanford-tagger"
+PKG_VERSION="4.1.0"
+PKG="${PKG_NAME}-${PKG_VERSION}"
+
+if [ -d "${PKG}" ]
+then
+    echo "$0: ${PKG} already downloaded"
+    exit 0
+fi
+
+set -e
+echo "$0: ${PKG} downloading"
+wget "${URL}/${PKG}.zip"
+unzip "${PKG}.zip"
+rm "${PKG}.zip"
+echo "$0: ${PKG} downloaded"
