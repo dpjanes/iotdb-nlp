@@ -3,8 +3,8 @@ yy*
 .*
 
 # Downloaded stuff
-json-simple-1.1.jar 
-stanford-ner-4.0.0
+json-simple-*.jar 
+stanford-ner-*
 
 # Logs
 logs
