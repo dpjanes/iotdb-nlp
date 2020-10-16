@@ -10,6 +10,7 @@ import java.util.concurrent.Executors;
 import java.util.List;
 import java.util.Map;
 import java.util.HashMap;
+import java.util.Date;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -34,13 +35,19 @@ public class HandleNED implements HttpHandler {
     @Override
     public void handle(HttpExchange httpExchange) throws IOException {
         try {
-            JSONObject json_response = null;
+            Date start = new Date();
+
+            JSONObject json_response = new JSONObject();
+            json_response.put("error", "didn't understand request");
+
             if ("GET".equals(httpExchange.getRequestMethod())) {
-                json_response = handleGetRequest(httpExchange);
+                json_response = classify(httpExchange);
             }
 
+            Date end = new Date();
+            json_response.put("delta", (end.getTime() - start.getTime()) / 1000.0);
+
             handleResponse(httpExchange, json_response);
-            System.err.print("D");
         } catch (ClassNotFoundException x) {
             System.err.println("ERROR: " + x);
         } catch (Error x) {
@@ -49,17 +56,16 @@ public class HandleNED implements HttpHandler {
         }
     }
 
-    private JSONObject handleGetRequest(HttpExchange httpExchange)
+    private JSONObject classify(HttpExchange httpExchange)
         throws IOException, ClassNotFoundException
     {
-        String serializedClassifier = "../../contrib/stanford-ner-4.0.0/classifiers/english.all.3class.distsim.crf.ser.gz";
+        String classifier_gz = "../../contrib/stanford-ner-4.0.0/classifiers/english.all.3class.distsim.crf.ser.gz";
 
-        AbstractSequenceClassifier<CoreLabel> classifier = cd.get(serializedClassifier);
+        AbstractSequenceClassifier<CoreLabel> classifier = cd.get(classifier_gz);
         if (classifier == null) {
-            classifier = CRFClassifier.getClassifier(serializedClassifier);
-            cd.put(serializedClassifier, classifier);
+            classifier = CRFClassifier.getClassifier(classifier_gz);
+            cd.put(classifier_gz, classifier);
         }
-
 
         String[] example = {
             "Good afternoon Rajat Raina, how are you today?",
