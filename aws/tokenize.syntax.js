@@ -23,13 +23,14 @@
 "use strict"
 
 const _ = require("iotdb-helpers")
-const aws = require("iotdb-awslib")
 const cache = require("iotdb-cache")
 const logger = require("../logger")(__filename)
 
 /**
  */
 const _sentence = _.promise((self, done) => {
+    const aws = require("iotdb-awslib")
+
     _.promise(self)
         .validate(_sentence)
         .make(sd => {
