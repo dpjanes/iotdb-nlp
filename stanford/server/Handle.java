@@ -72,50 +72,30 @@ public class Handle implements HttpHandler {
                 JSONObject ji = (JSONObject) JSONValue.parse(buf.toString());
 
                 String document = (String) ji.get("document");
-                if (document != null) {
-                    JSONArray documents = new JSONArray();
-                    documents.add(document);
-
-                    ji.put("documents", documents);
-                    ji.remove("document");
-                }
-
-                if ((JSONArray) ji.get("documents") == null) {
-                    ji.put("documents", new JSONArray());
+                if (document == null) {
+                    document = "";
                 }
 
                 String language = (String) ji.get("language");
                 if (language == null) {
-                    ji.put("language", "en");
+                    language = "en";
                 }
 
-                System.out.println("BODY: " + ji);
-                json_response = process(hex, ji);
+                json_response = process(hex, document, language, ji);
             } else if ("GET".equals(hex.getRequestMethod())) {
                 Headers headers = hex.getRequestHeaders();
 
-                JSONObject ji = new JSONObject();
+                String document = headers.getFirst("document");
+                if (document == null) {
+                    document = "";
+                }
 
                 String language = headers.getFirst("language");
                 if (language == null) {
-                    ji.put("language", "en");
-                } else {
-                    ji.put("language", language);
+                    language = "en";
                 }
 
-                List<String> documents = headers.get("document");
-                if (documents == null) {
-                    documents = Collections.EMPTY_LIST;
-                }
-
-                JSONArray das = new JSONArray();
-                for (String document : documents) {
-                    das.add(document);
-                }
-
-                ji.put("documents", das);
-
-                json_response = process(hex, ji);
+                json_response = process(hex, document, language, new JSONObject(headers));
             } else {
             }
 
@@ -134,7 +114,7 @@ public class Handle implements HttpHandler {
         }
     }
 
-    protected JSONObject process(HttpExchange hex, JSONObject hi)
+    protected JSONObject process(HttpExchange hex, String document, String language, JSONObject options)
         throws IOException, ClassNotFoundException
     {
         JSONObject json_response = new JSONObject();

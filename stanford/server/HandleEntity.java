@@ -42,7 +42,7 @@ public class HandleEntity extends Handle
 {
     Map<String,AbstractSequenceClassifier<CoreLabel>> cd = new HashMap<String,AbstractSequenceClassifier<CoreLabel>>();
 
-    protected JSONObject process(HttpExchange hex, JSONObject ji)
+    protected JSONObject process(HttpExchange hex, String document, String language, JSONObject options)
         throws IOException, ClassNotFoundException
     {
         String classifier_gz = "../../contrib/stanford-ner-4.0.0/classifiers/english.all.3class.distsim.crf.ser.gz";
@@ -54,37 +54,28 @@ public class HandleEntity extends Handle
         }
 
         JSONObject jo = new JSONObject();
-        JSONArray jresults = new JSONArray();
-        jo.put("results", jresults);
+        JSONArray jitems = new JSONArray();
+        jo.put("items", jitems);
 
-        JSONArray documents = (JSONArray) ji.get("documents");
-        for (int di = 0; di < documents.size(); di++) {
-            String document = (String) documents.get(di);
-
-            JSONObject jresult = new JSONObject();
-            jresults.add(jresult);
-            JSONArray jitems = new JSONArray();
-            jresult.put("items", jitems);
-
-            for (List < CoreLabel > lcl: classifier.classify(document)) {
-                for (CoreLabel cl: lcl) {
-                    String answer = cl.get(CoreAnnotations.AnswerAnnotation.class);
-                    if (answer.equals("O")) {
-                        continue;
-                    }
-
-                    JSONObject jitem = new JSONObject();
-                    jitems.add(jitem);
-
-                    // jitem.put("value", cl.toShorterString());
-                    // jitem.put("map", cl.toString(OutputFormat.MAP));
-                    // jitem.put("value", cl.toShorterString());
-                    jitem.put("document", cl.originalText());
-                    jitem.put("begin", cl.beginPosition());
-                    jitem.put("end", cl.endPosition());
-                    jitem.put("tag", answer);
-                    jitem.put("score", cl.get(CoreAnnotations.AnswerProbAnnotation.class));
+        for (List < CoreLabel > lcl: classifier.classify(document)) {
+            for (CoreLabel cl: lcl) {
+                String answer = cl.get(CoreAnnotations.AnswerAnnotation.class);
+                if (answer.equals("O")) {
+                    continue;
                 }
+
+                JSONObject jitem = new JSONObject();
+                jitems.add(jitem);
+
+                // jitem.put("value", cl.toShorterString());
+                // jitem.put("map", cl.toString(OutputFormat.MAP));
+                // jitem.put("value", cl.toShorterString());
+                jitem.put("document", cl.originalText());
+                jitem.put("begin", cl.beginPosition());
+                jitem.put("end", cl.endPosition());
+                jitem.put("token", "entity");
+                jitem.put("tag", answer);
+                jitem.put("score", cl.get(CoreAnnotations.AnswerProbAnnotation.class));
             }
         }
 

@@ -36,7 +36,7 @@ public class HandlePOS extends Handle
 {
     Map<String,MaxentTagger> td = new HashMap<String,MaxentTagger>();
 
-    protected JSONObject process(HttpExchange hex, JSONObject ji)
+    protected JSONObject process(HttpExchange hex, String document, String language, JSONObject options)
         throws IOException, ClassNotFoundException
     {
         String tagger_name = "../../contrib/stanford-tagger-4.1.0/models/english-bidirectional-distsim.tagger";
@@ -48,34 +48,26 @@ public class HandlePOS extends Handle
         }
 
         JSONObject jo = new JSONObject();
-        JSONArray jresults = new JSONArray();
-        jo.put("results", jresults);
+        JSONArray jitems = new JSONArray();
+        jo.put("items", jitems);
 
-        JSONArray documents = (JSONArray) ji.get("documents");
-        for (int di = 0; di < documents.size(); di++) {
-            String document = (String) documents.get(di);
-            List<List<HasWord>> sentences = MaxentTagger.tokenizeText(new StringReader(document));
+        List<List<HasWord>> sentences = MaxentTagger.tokenizeText(new StringReader(document));
 
-            JSONObject jresult = new JSONObject();
-            jresults.add(jresult);
-            JSONArray jitems = new JSONArray();
-            jresult.put("items", jitems);
+        for (List<HasWord> sentence : sentences) {
+            List<TaggedWord> twords = tagger.tagSentence(sentence);
+            // System.out.println("SENTENCE: " + sentence);
+            // System.out.println("TWORDS: " + twords);
+            for (TaggedWord tword : twords) {
+                // System.out.println("" + tword.beginPosition() + ":" + tword); // SentenceUtils.listToString(tSentence, false));
 
-            for (List<HasWord> sentence : sentences) {
-                List<TaggedWord> twords = tagger.tagSentence(sentence);
-                // System.out.println("SENTENCE: " + sentence);
-                // System.out.println("TWORDS: " + twords);
-                for (TaggedWord tword : twords) {
-                    // System.out.println("" + tword.beginPosition() + ":" + tword); // SentenceUtils.listToString(tSentence, false));
-
-                    JSONObject jitem = new JSONObject();
-                    jitems.add(jitem);
-                    jitem.put("document", tword.word());
-                    jitem.put("begin", tword.beginPosition());
-                    jitem.put("end", tword.endPosition());
-                    jitem.put("tag", tword.tag());
-                    jitem.put("score", .99);
-                }
+                JSONObject jitem = new JSONObject();
+                jitems.add(jitem);
+                jitem.put("document", tword.word());
+                jitem.put("begin", tword.beginPosition());
+                jitem.put("end", tword.endPosition());
+                jitem.put("token", "pos");
+                jitem.put("tag", tword.tag());
+                jitem.put("score", .99);
             }
         }
 
