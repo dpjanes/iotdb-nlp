@@ -1,5 +1,5 @@
 /*
- *  aws/tokenize.entities.js
+ *  aws/tokenize.syntax.js
  *
  *  David Janes
  *  IOTDB.org
@@ -23,22 +23,21 @@
 "use strict"
 
 const _ = require("iotdb-helpers")
+const aws = require("iotdb-awslib")
 const cache = require("iotdb-cache")
 const logger = require("../logger")(__filename)
 
 /**
  */
 const _sentence = _.promise((self, done) => {
-    const aws = require("iotdb-awslib")
-
     _.promise(self)
         .validate(_sentence)
         .make(sd => {
             sd.documents = sd.itokens.map(itoken => itoken.document)
             sd.rule = {
-                key: `/aws.comprehend.entities/${_.hash.md5(sd.documents)}`,
+                key: `/aws.comprehend.syntax/${_.hash.md5(sd.documents)}`,
                 values: "tokenss",
-                method: aws.comprehend.entities.batch,
+                method: aws.comprehend.syntax.batch,
             }
         })
         .then(cache.execute)
@@ -54,7 +53,7 @@ const _sentence = _.promise((self, done) => {
         .end(done, self, _sentence)
 })
 
-_sentence.method = "aws.tokenize.entities/_sentence"
+_sentence.method = "aws.tokenize.syntax/_sentence"
 _sentence.description = ``
 _sentence.requires = {
     itokens: _.is.Array.of.Dictionary,
@@ -68,13 +67,13 @@ _sentence.produces = {
 
 /**
  */
-const tokenize_entities = _.promise((self, done) => {
-    _.promise.validate(self, tokenize_entities)
+const tokenize_syntax = _.promise((self, done) => {
+    _.promise.validate(self, tokenize_syntax)
 
     const nlp = require("..")
 
     _.promise(self)
-        .validate(tokenize_entities)
+        .validate(tokenize_syntax)
         .then(nlp.tokenize.sentences)
         .make(sd => {
             sd.itokenss = _.chunk(sd.tokens, 25)
@@ -86,27 +85,26 @@ const tokenize_entities = _.promise((self, done) => {
             output_selector: sd => sd.tokenss,
             output_flatten: _.flattenDeep,
         })
-        .end(done, self, tokenize_entities)
+        .end(done, self, tokenize_syntax)
 })
 
-tokenize_entities.method = "aws.tokenize.entities"
-tokenize_entities.description = ``
-tokenize_entities.requires = {
+tokenize_syntax.method = "aws.tokenize.syntax"
+tokenize_syntax.description = ``
+tokenize_syntax.requires = {
     aws$comprehend: _.is.Object,
     document: _.is.String,
 }
-tokenize_entities.accepts = {
-    cache: _.is.Dictionary,
+tokenize_syntax.accepts = {
 }
-tokenize_entities.produces = {
+tokenize_syntax.produces = {
     tokens: _.is.Array.of.Dictionary,
 }
-tokenize_entities.params = {
+tokenize_syntax.params = {
     document: _.p.normal,
 }
-tokenize_entities.p = _.p(tokenize_entities)
+tokenize_syntax.p = _.p(tokenize_syntax)
 
 /**
  *  API
  */
-exports.tokenize_entities = tokenize_entities
+exports.tokenize_syntax = tokenize_syntax

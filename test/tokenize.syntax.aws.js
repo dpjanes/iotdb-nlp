@@ -1,5 +1,5 @@
 /**
- *  test/tokenize.syntax.js
+ *  test/tokenize.syntax.aws.js
  *
  *  David Janes
  *  IOTDB
@@ -62,6 +62,8 @@ describe("tokenize.syntax", function() {
             cache$cfg: {
                 path: path.join(__dirname, "..", ".fs-cache"),
             },
+            nlp$cfg: {
+            },
 
             document_media_type: "text/plain",
             tests: [
@@ -72,6 +74,8 @@ describe("tokenize.syntax", function() {
         })
             .then(aws.initialize)
             .then(aws.comprehend.initialize)
+            .then(nlp.initialize)
+            .then(nlp.aws.initialize)
             .then(fs.cache)
             .each({
                 method: _test,

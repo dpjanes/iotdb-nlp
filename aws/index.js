@@ -28,6 +28,7 @@ module.exports = Object.assign(
     {
         tokenize: {
             entities: require("./tokenize.entities").tokenize_entities,
+            syntax: require("./tokenize.syntax").tokenize_syntax,
         },
     },
     {}

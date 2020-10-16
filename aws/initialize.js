@@ -32,6 +32,7 @@ const initialize = _.promise(self => {
     _.promise.validate(self, initialize)
 
     self.nlp$cfg.tokenize_entities = self.nlp$cfg.tokenize_entities || nlp.aws.tokenize.entities
+    self.nlp$cfg.tokenize_syntax = self.nlp$cfg.tokenize_syntax || nlp.aws.tokenize.syntax
 })
 
 initialize.method = "aws.initialize"
