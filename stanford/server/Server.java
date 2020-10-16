@@ -24,7 +24,7 @@ public class Server {
         HttpServer server = HttpServer.create(new InetSocketAddress("0.0.0.0", 8001), 0);
         ThreadPoolExecutor threadPoolExecutor = (ThreadPoolExecutor)Executors.newFixedThreadPool(10);
 
-        server.createContext("/test", new HandleNED());
+        server.createContext("/entity", new HandleEntity());
         server.setExecutor(threadPoolExecutor);
         server.start();
     }

@@ -1,5 +1,5 @@
 /*
- *  stanford/server/HandleNED.java
+ *  stanford/server/HandleEntity.java
  *
  *  David Janes
  *  IOTDB.org
@@ -39,7 +39,7 @@ import edu.stanford.nlp.ling.CoreLabel.OutputFormat;
 
 
 @SuppressWarnings("unchecked")
-public class HandleNED implements HttpHandler {
+public class HandleEntity implements HttpHandler {
     Map<String,AbstractSequenceClassifier<CoreLabel>> cd = new HashMap<String,AbstractSequenceClassifier<CoreLabel>>();
 
     @Override
@@ -51,7 +51,7 @@ public class HandleNED implements HttpHandler {
             json_response.put("error", "didn't understand request");
 
             if ("GET".equals(httpExchange.getRequestMethod())) {
-                json_response = classify(httpExchange);
+                json_response = process(httpExchange);
             }
 
             Date end = new Date();
@@ -66,7 +66,7 @@ public class HandleNED implements HttpHandler {
         }
     }
 
-    private JSONObject classify(HttpExchange httpExchange)
+    private JSONObject process(HttpExchange httpExchange)
         throws IOException, ClassNotFoundException
     {
         String classifier_gz = "../../contrib/stanford-ner-4.0.0/classifiers/english.all.3class.distsim.crf.ser.gz";
