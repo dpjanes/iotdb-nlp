@@ -1,14 +1,14 @@
 {
-    "author": "David P. Janes <davidjanes@davidjanes.com>",
+    "author": "David P. Janes <davidjanes@davidjanes.com>", 
     "bugs": {
         "url": "https://github.com/dpjanes/iotdb-nlp/issues"
     }, 
     "dependencies": {
-        "iotdb-helpers": "~3.2.3"
+        "iotdb-cache": "~1.0.2", 
+        "iotdb-helpers": "~3.4.22", 
+        "iotdb-query": "~1.0.5"
     }, 
     "description": "POP Interface for NLP", 
-    "devDependencies": {
-    }, 
     "homepage": "https://github.com/dpjanes/node-iotdb", 
     "license": "Apache-2.0", 
     "main": "index.js", 
