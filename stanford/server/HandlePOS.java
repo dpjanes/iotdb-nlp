@@ -29,16 +29,23 @@ import edu.stanford.nlp.ling.SentenceUtils;
 import edu.stanford.nlp.ling.TaggedWord;
 import edu.stanford.nlp.ling.HasWord;
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;
+import edu.stanford.nlp.ling.CoreAnnotations;
 
 @SuppressWarnings("unchecked")
 public class HandlePOS extends Handle
 {
+    Map<String,MaxentTagger> td = new HashMap<String,MaxentTagger>();
+
     protected JSONObject process(HttpExchange httpExchange)
         throws IOException, ClassNotFoundException
     {
-        // String tagger_name = "../../contrib/stanford-tagger-4.1.0/models/english-bidirectional-distsim.tagger.tagger";
-        String tagger_name = "../../contrib/stanford-tagger-4.1.0/models/english-left3words-distsim.tagger";
-        MaxentTagger tagger = new MaxentTagger(tagger_name);
+        String tagger_name = "../../contrib/stanford-tagger-4.1.0/models/english-bidirectional-distsim.tagger";
+        // String tagger_name = "../../contrib/stanford-tagger-4.1.0/models/english-left3words-distsim.tagger";
+        MaxentTagger tagger = td.get(tagger_name);
+        if (tagger == null) {
+            tagger = new MaxentTagger(tagger_name);
+            td.put(tagger_name, tagger);
+        }
 
         List<List<HasWord>> sentences = MaxentTagger.tokenizeText(
             new StringReader(
@@ -67,34 +74,10 @@ public class HandlePOS extends Handle
                 jitem.put("begin", tword.beginPosition());
                 jitem.put("end", tword.endPosition());
                 jitem.put("tag", tword.tag());
-                // jitem.put("score", cl.get(CoreAnnotations.AnswerProbAnnotation.class));
+                jitem.put("score", .99);
             }
         }
 
         return jo;
     }
 }
-
-/*
-
-public class TaggerDemo  {
-
-  private static Redwood.RedwoodChannels log = Redwood.channels(TaggerDemo.class);
-
-  private TaggerDemo() {}
-
-  public static void main(String[] args) throws Exception {
-    if (args.length != 2) {
-      log.info("usage: java TaggerDemo modelFile fileToTag");
-      return;
-    }
-    MaxentTagger tagger = new MaxentTagger(args[0]);
-    List<List<HasWord>> sentences = MaxentTagger.tokenizeText(new BufferedReader(new FileReader(args[1])));
-    for (List<HasWord> sentence : sentences) {
-      List<TaggedWord> tSentence = tagger.tagSentence(sentence);
-      System.out.println(SentenceUtils.listToString(tSentence, false));
-    }
-  }
-
-}
-*/
