@@ -1,3 +1,13 @@
+/*
+ *  stanford/server/HandleNED.java
+ *
+ *  David Janes
+ *  IOTDB.org
+ *  2020-10-15
+ *
+ *  Copyright (2013-2020) David P. Janes
+ */
+
 package org.iotdb.nlp.stanford;
 
 import com.sun.net.httpserver.HttpServer;
