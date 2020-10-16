@@ -8,6 +8,8 @@ import java.net.InetSocketAddress;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.Executors;
 import java.util.List;
+import java.util.Map;
+import java.util.HashMap;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -27,18 +29,18 @@ import edu.stanford.nlp.ling.CoreLabel.OutputFormat;
 
 @SuppressWarnings("unchecked")
 public class HandleNED implements HttpHandler {
+    Map<String,AbstractSequenceClassifier<CoreLabel>> cd = new HashMap<String,AbstractSequenceClassifier<CoreLabel>>();
+
     @Override
     public void handle(HttpExchange httpExchange) throws IOException {
         try {
             JSONObject json_response = null;
             if ("GET".equals(httpExchange.getRequestMethod())) {
                 json_response = handleGetRequest(httpExchange);
-                /*
-                } else if ("POST".equals(httpExchange)) {
-                    json_response = handlePostRequest(httpExchange); */
             }
 
             handleResponse(httpExchange, json_response);
+            System.err.print("D");
         } catch (ClassNotFoundException x) {
             System.err.println("ERROR: " + x);
         } catch (Error x) {
@@ -48,10 +50,16 @@ public class HandleNED implements HttpHandler {
     }
 
     private JSONObject handleGetRequest(HttpExchange httpExchange)
-    throws IOException, ClassNotFoundException {
-        String serializedClassifier = "stanford-ner-4.0.0/classifiers/english.all.3class.distsim.crf.ser.gz";
+        throws IOException, ClassNotFoundException
+    {
+        String serializedClassifier = "../../contrib/stanford-ner-4.0.0/classifiers/english.all.3class.distsim.crf.ser.gz";
 
-        AbstractSequenceClassifier < CoreLabel > classifier = CRFClassifier.getClassifier(serializedClassifier);
+        AbstractSequenceClassifier<CoreLabel> classifier = cd.get(serializedClassifier);
+        if (classifier == null) {
+            classifier = CRFClassifier.getClassifier(serializedClassifier);
+            cd.put(serializedClassifier, classifier);
+        }
+
 
         String[] example = {
             "Good afternoon Rajat Raina, how are you today?",
@@ -89,14 +97,9 @@ public class HandleNED implements HttpHandler {
                     jitem.put("end", cl.endPosition());
                     jitem.put("tag", answer);
                     jitem.put("score", cl.get(CoreAnnotations.AnswerProbAnnotation.class));
-                    /*
-                    [Value=is Text=is OriginalText=is CharacterOffsetBegin=45 CharacterOffsetEnd=47 Before=  Position=9 Shape=xxk GoldAnswer=null DistSim=400 Answer=O AnswerProb=0.999999667117406]
-                    */
                 }
             }
         }
-
-        System.out.println("---");
 
         return jo;
     }
