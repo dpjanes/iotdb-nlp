@@ -24,6 +24,11 @@ import java.io.OutputStream;
 import org.json.simple.JSONObject;
 import org.json.simple.JSONArray;
 
+import edu.stanford.nlp.ling.SentenceUtils;
+import edu.stanford.nlp.ling.TaggedWord;
+import edu.stanford.nlp.ling.HasWord;
+import edu.stanford.nlp.tagger.maxent.MaxentTagger;
+
 @SuppressWarnings("unchecked")
 public class HandlePOS extends Handle
 {
@@ -36,3 +41,27 @@ public class HandlePOS extends Handle
         return jo;
     }
 }
+
+/*
+
+public class TaggerDemo  {
+
+  private static Redwood.RedwoodChannels log = Redwood.channels(TaggerDemo.class);
+
+  private TaggerDemo() {}
+
+  public static void main(String[] args) throws Exception {
+    if (args.length != 2) {
+      log.info("usage: java TaggerDemo modelFile fileToTag");
+      return;
+    }
+    MaxentTagger tagger = new MaxentTagger(args[0]);
+    List<List<HasWord>> sentences = MaxentTagger.tokenizeText(new BufferedReader(new FileReader(args[1])));
+    for (List<HasWord> sentence : sentences) {
+      List<TaggedWord> tSentence = tagger.tagSentence(sentence);
+      System.out.println(SentenceUtils.listToString(tSentence, false));
+    }
+  }
+
+}
+*/
