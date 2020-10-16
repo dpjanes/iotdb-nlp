@@ -16,7 +16,7 @@ CFG_CP="${CFG_CP}:${CFG_ROOT}/contrib/${PKG_NAME}-${PKG_VERSION}/stanford-ner.ja
 
 PKG_NAME="stanford-tagger"
 PKG_VERSION="4.1.0"
-CFG_CP="${CFG_CP}:${CFG_ROOT}/contrib/${PKG_NAME}-${PKG_VERSION}/tanford-postagger.jar"
+CFG_CP="${CFG_CP}:${CFG_ROOT}/contrib/${PKG_NAME}-${PKG_VERSION}/stanford-postagger.jar"
 
 PKG_NAME="json-simple"
 PKG_VERSION="1.1.1"

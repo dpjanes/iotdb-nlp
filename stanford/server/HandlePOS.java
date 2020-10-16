@@ -20,6 +20,7 @@ import java.util.Date;
 
 import java.io.IOException;
 import java.io.OutputStream;
+import java.io.StringReader;
 
 import org.json.simple.JSONObject;
 import org.json.simple.JSONArray;
@@ -35,6 +36,20 @@ public class HandlePOS extends Handle
     protected JSONObject process(HttpExchange httpExchange)
         throws IOException, ClassNotFoundException
     {
+        // String tagger_name = "../../contrib/stanford-tagger-4.1.0/models/english-bidirectional-distsim.tagger.tagger";
+        String tagger_name = "../../contrib/stanford-tagger-4.1.0/models/english-left3words-distsim.tagger";
+        MaxentTagger tagger = new MaxentTagger(tagger_name);
+
+        List<List<HasWord>> sentences = MaxentTagger.tokenizeText(
+            new StringReader(
+                "Good afternoon Rajat Raina, how are you today?\nI go to school at Stanford University, which is located in California."
+            ));
+
+        for (List<HasWord> sentence : sentences) {
+            List<TaggedWord> tSentence = tagger.tagSentence(sentence);
+            System.out.println(SentenceUtils.listToString(tSentence, false));
+        }
+
         JSONObject jo = new JSONObject();
         jo.put("error", "coming soon");
 
