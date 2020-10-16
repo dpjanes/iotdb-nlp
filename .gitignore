@@ -2,6 +2,10 @@ xx*
 yy*
 .*
 
+# Downloaded stuff
+json-simple-1.1.jar 
+stanford-ner-4.0.0
+
 # Logs
 logs
 *.log

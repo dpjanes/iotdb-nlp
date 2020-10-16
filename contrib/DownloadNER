@@ -1,0 +1,27 @@
+#
+#   contrib/DownloadNER
+#
+#   David Janes
+#   IOTDB
+#   2020-10-16
+#
+#   Download support files - 
+#   These do not get checked into GitHub
+
+PKG_NAME=stanford-ner
+PKG_VERSION=4.0.0
+PKG="${PKG_NAME}-${PKG_VERSION}"
+
+if [ -d "${PKG}" ]
+then
+    echo "$0: ${PKG} already downloaded"
+    exit 0
+fi
+
+echo "$0: ${PKG} downloading"
+
+wget "https://nlp.stanford.edu/software/${PKG}.zip" &&
+unzip "${PKG}.zip" &&
+rm "${PKG}.zip"
+
+echo "$0: ${PKG} downloaded"
