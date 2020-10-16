@@ -5,6 +5,7 @@ yy*
 # Downloaded stuff
 json-simple-*.jar 
 stanford-ner-*
+stanford/server/org
 
 # Logs
 logs

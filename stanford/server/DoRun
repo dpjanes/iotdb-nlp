@@ -1,0 +1,2 @@
+java -cp .:json-simple-1.1.jar:stanford-ner-4.0.0/stanford-ner.jar org.iotdb.nlp.stanford.Server  
+

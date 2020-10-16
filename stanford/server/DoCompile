@@ -1,0 +1,17 @@
+#
+#   stanford/server/DoCompile
+#
+#   David Janes
+#   IOTDB
+#   2020-10-16
+#
+#   Download support files - 
+#   These do not get checked into GitHub
+
+. ./cfg.sh
+
+javac \
+    -Xlint:unchecked \
+    -cp "${CFG_CP}" \
+    -d . \
+    *.java 
