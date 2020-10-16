@@ -1,5 +1,5 @@
 /*
- *  lib/tokenize.entities.aws.js
+ *  aws/tokenize.entities.js
  *
  *  David Janes
  *  IOTDB.org
@@ -23,13 +23,14 @@
 "use strict"
 
 const _ = require("iotdb-helpers")
-const aws = require("iotdb-awslib")
 const cache = require("iotdb-cache")
 const logger = require("../logger")(__filename)
 
 /**
  */
 const _sentence = _.promise((self, done) => {
+    const aws = require("iotdb-awslib")
+
     _.promise(self)
         .validate(_sentence)
         .make(sd => {
@@ -91,9 +92,11 @@ const tokenize_entities = _.promise((self, done) => {
 tokenize_entities.method = "tokenize.entities"
 tokenize_entities.description = ``
 tokenize_entities.requires = {
+    aws$comprehend: _.is.Object,
     document: _.is.String,
 }
 tokenize_entities.accepts = {
+    cache: _.is.Dictionary,
 }
 tokenize_entities.produces = {
     tokens: _.is.Array.of.Dictionary,

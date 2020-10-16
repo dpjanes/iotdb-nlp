@@ -1,9 +1,9 @@
 /*
- *  index.js
+ *  aws/index.js
  *
  *  David Janes
  *  IOTDB.org
- *  2020-10-02
+ *  2020-10-16
  *
  *  Copyright (2013-2020) David P. Janes
  *
@@ -22,5 +22,13 @@
 
 "use strict"
 
-module.exports = require("./lib")
-module.exports.aws = require("./aws")
+module.exports = Object.assign(
+    {},
+    require("./initialize"),
+    {
+        tokenize: {
+            entities: require("./tokenize.entities").tokenize_entities,
+        },
+    },
+    {}
+)

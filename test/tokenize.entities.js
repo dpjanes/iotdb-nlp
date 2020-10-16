@@ -1,9 +1,9 @@
 /**
- *  test/tokenize.entities.aws.js
+ *  test/tokenize.entities.js
  *
  *  David Janes
  *  IOTDB
- *  2020-10-03
+ *  2020-10-16
  *
  *  Copyright (2013-2020) David P. Janes
  *
@@ -35,32 +35,14 @@ const _util = require("./_util")
 const WRITE = process.env.WRITE === "1"
 const DUMP = process.env.DUMP === "1"
 
-describe("tokenize.entities.aws", function() {
-    const _test = _.promise((self, done) => {
-        const FOLDER = "tokenize.entities.aws"
-
-        _.promise(self)
-            .then(_util.read_utf8("corpus", self.filename, "document"))
-            .then(nlp.tokenize.entities)
-            .conditional(WRITE, _util.write_yaml(FOLDER, self.filename, "tokens"))
-            .conditional(DUMP, _.promise.log("tokens", "tokens"))
-            .then(_util.read_yaml(FOLDER, self.filename, "want_tokens"))
-
-            .make(sd => {
-                const got = sd.tokens
-                const want = sd.want_tokens
-                assert.deepEqual(got, want)
-            })
-            .end(done, {})
-    })
-
-    it("works (plain text)", function(done) {
+describe("tokenize.entities", function() {
+    it("fail - requires more setup", function(done) {
         this.timeout(20 * 1000)
 
         _.promise({
             verbose: true,
 
-            aws$cfg: require("../.cfg/aws.json").aws$cfg,
+            aws$cfg: require("../.cfg/aws.json"),
             cache$cfg: {
                 path: path.join(__dirname, "..", ".fs-cache"),
             },
@@ -69,21 +51,15 @@ describe("tokenize.entities.aws", function() {
 
             document_media_type: "text/plain",
             tests: [
-                "study-in-scarlet",
-                "bbc_congo",
                 "harry",
-                "sherlock",
             ],
         })
-            .then(aws.initialize)
-            .then(aws.comprehend.initialize)
             .then(nlp.initialize)
-            .then(nlp.aws.initialize)
-            .then(fs.cache)
-            .each({
-                method: _test,
-                inputs: "tests:filename",
-            })
-            .end(done, {})
+
+            .then(_util.read_utf8("corpus", "harry", "document"))
+            .then(nlp.tokenize.entities)
+
+            .then(_util.auto_fail(done))
+            .catch(_util.ok_error(done))
     })
 })
