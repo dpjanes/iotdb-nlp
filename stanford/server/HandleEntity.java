@@ -37,36 +37,12 @@ import edu.stanford.nlp.ie.crf.CRFClassifier;
 import edu.stanford.nlp.ie.AbstractSequenceClassifier;
 import edu.stanford.nlp.ling.CoreLabel.OutputFormat;
 
-
 @SuppressWarnings("unchecked")
-public class HandleEntity implements HttpHandler {
+public class HandleEntity extends Handle
+{
     Map<String,AbstractSequenceClassifier<CoreLabel>> cd = new HashMap<String,AbstractSequenceClassifier<CoreLabel>>();
 
-    @Override
-    public void handle(HttpExchange httpExchange) throws IOException {
-        try {
-            Date start = new Date();
-
-            JSONObject json_response = new JSONObject();
-            json_response.put("error", "didn't understand request");
-
-            if ("GET".equals(httpExchange.getRequestMethod())) {
-                json_response = process(httpExchange);
-            }
-
-            Date end = new Date();
-            json_response.put("delta", (end.getTime() - start.getTime()) / 1000.0);
-
-            handleResponse(httpExchange, json_response);
-        } catch (ClassNotFoundException x) {
-            System.err.println("ERROR: " + x);
-        } catch (Error x) {
-            System.err.println("ERROR: " + x);
-            throw x;
-        }
-    }
-
-    private JSONObject process(HttpExchange httpExchange)
+    protected JSONObject process(HttpExchange httpExchange)
         throws IOException, ClassNotFoundException
     {
         String classifier_gz = "../../contrib/stanford-ner-4.0.0/classifiers/english.all.3class.distsim.crf.ser.gz";
@@ -118,18 +94,5 @@ public class HandleEntity implements HttpHandler {
         }
 
         return jo;
-    }
-
-    private void handleResponse(HttpExchange httpExchange, JSONObject json_response) throws IOException {
-        OutputStream outputStream = httpExchange.getResponseBody();
-
-        // encode HTML content
-        String body = json_response.toString();
-
-        // this line is a must
-        httpExchange.sendResponseHeaders(200, body.length());
-        outputStream.write(body.getBytes());
-        outputStream.flush();
-        outputStream.close();
     }
 }
