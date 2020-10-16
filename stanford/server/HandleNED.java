@@ -33,9 +33,9 @@ public class HandleNED implements HttpHandler {
             JSONObject json_response = null;
             if ("GET".equals(httpExchange.getRequestMethod())) {
                 json_response = handleGetRequest(httpExchange);
-            /*
-            } else if ("POST".equals(httpExchange)) {
-                json_response = handlePostRequest(httpExchange); */
+                /*
+                } else if ("POST".equals(httpExchange)) {
+                    json_response = handlePostRequest(httpExchange); */
             }
 
             handleResponse(httpExchange, json_response);
@@ -47,78 +47,70 @@ public class HandleNED implements HttpHandler {
         }
     }
 
-    private JSONObject handleGetRequest(HttpExchange httpExchange) throws IOException, ClassNotFoundException {
-            String serializedClassifier = "stanford-ner-4.0.0/classifiers/english.all.3class.distsim.crf.ser.gz";
+    private JSONObject handleGetRequest(HttpExchange httpExchange)
+    throws IOException, ClassNotFoundException {
+        String serializedClassifier = "stanford-ner-4.0.0/classifiers/english.all.3class.distsim.crf.ser.gz";
 
-            AbstractSequenceClassifier<CoreLabel> classifier = CRFClassifier.getClassifier(serializedClassifier);
-            
-              String[] example = {"Good afternoon Rajat Raina, how are you today?",
-                                  "I go to school at Stanford University, which is located in California." };
+        AbstractSequenceClassifier < CoreLabel > classifier = CRFClassifier.getClassifier(serializedClassifier);
+
+        String[] example = {
+            "Good afternoon Rajat Raina, how are you today?",
+            "I go to school at Stanford University, which is located in California."
+        };
 
 
-            JSONArray jresults = new JSONArray();
+        JSONArray jresults = new JSONArray();
 
-            JSONObject jo = new JSONObject();
-            jo.put("results", jresults);
-              for (String str : example) {
-                JSONArray jitems = new JSONArray();
+        JSONObject jo = new JSONObject();
+        jo.put("results", jresults);
+        for (String str: example) {
+            JSONArray jitems = new JSONArray();
 
-                JSONObject jresult = new JSONObject();
-                jresult.put("items", jitems);
+            JSONObject jresult = new JSONObject();
+            jresult.put("items", jitems);
 
-                jresults.add(jresult);
+            jresults.add(jresult);
 
-                for (List<CoreLabel> lcl : classifier.classify(str)) {
-                    for (CoreLabel cl : lcl) {
-                        String answer = cl.get(CoreAnnotations.AnswerAnnotation.class);
-                        if (answer.equals("O")) {
-                            continue;
-                        }
-
-                        JSONObject jitem = new JSONObject();
-                        jitems.add(jitem);
-                        
-                        // jitem.put("value", cl.toShorterString());
-                        // jitem.put("map", cl.toString(OutputFormat.MAP));
-                        // jitem.put("value", cl.toShorterString());
-                        jitem.put("document", cl.originalText());
-                        jitem.put("begin", cl.beginPosition());
-                        jitem.put("end", cl.endPosition());
-                        jitem.put("tag", answer);
-                        jitem.put("score", cl.get(CoreAnnotations.AnswerProbAnnotation.class));
-                        /*
-                        [Value=is Text=is OriginalText=is CharacterOffsetBegin=45 CharacterOffsetEnd=47 Before=  Position=9 Shape=xxk GoldAnswer=null DistSim=400 Answer=O AnswerProb=0.999999667117406]
-                        */
+            for (List < CoreLabel > lcl: classifier.classify(str)) {
+                for (CoreLabel cl: lcl) {
+                    String answer = cl.get(CoreAnnotations.AnswerAnnotation.class);
+                    if (answer.equals("O")) {
+                        continue;
                     }
+
+                    JSONObject jitem = new JSONObject();
+                    jitems.add(jitem);
+
+                    // jitem.put("value", cl.toShorterString());
+                    // jitem.put("map", cl.toString(OutputFormat.MAP));
+                    // jitem.put("value", cl.toShorterString());
+                    jitem.put("document", cl.originalText());
+                    jitem.put("begin", cl.beginPosition());
+                    jitem.put("end", cl.endPosition());
+                    jitem.put("tag", answer);
+                    jitem.put("score", cl.get(CoreAnnotations.AnswerProbAnnotation.class));
+                    /*
+                    [Value=is Text=is OriginalText=is CharacterOffsetBegin=45 CharacterOffsetEnd=47 Before=  Position=9 Shape=xxk GoldAnswer=null DistSim=400 Answer=O AnswerProb=0.999999667117406]
+                    */
                 }
-              }
+            }
+        }
 
-              System.out.println("---");
+        System.out.println("---");
 
-            jo.put("hello", "world");
-
-            return jo;
-
-        /*
-        return "Hello";
-        return httpExchange.
-                    getRequestURI()
-                    .toString()
-                    .split("\\?")[1]
-                    .split("=")[1];
-            */
+        return jo;
     }
 
-    private void handleResponse(HttpExchange httpExchange, JSONObject json_response)  throws  IOException {
-            OutputStream outputStream = httpExchange.getResponseBody();
+    private void handleResponse(HttpExchange httpExchange, JSONObject json_response) throws IOException {
+        OutputStream outputStream = httpExchange.getResponseBody();
 
-            // encode HTML content
-            String body = json_response.toString();
+        // encode HTML content
+        String body = json_response.toString();
 
-            // this line is a must
-            httpExchange.sendResponseHeaders(200, body.length());
-            outputStream.write(body.getBytes());
-            outputStream.flush();
-            outputStream.close();
+        // this line is a must
+        httpExchange.sendResponseHeaders(200, body.length());
+        outputStream.write(body.getBytes());
+        outputStream.flush();
+        outputStream.close();
     }
 }
