@@ -1,0 +1,13 @@
+#
+#   stanford/server/DoInstall
+#
+#   David Janes
+#   IOTDB
+#   2020-10-17
+#
+
+cd $(dirname $0) || exit 0
+
+sh ../contrib/DownloadJSON
+sh ../contrib/DownloadNER
+sh ../contrib/DownloadTagger
