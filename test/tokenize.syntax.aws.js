@@ -35,9 +35,9 @@ const _util = require("./_util")
 const WRITE = process.env.WRITE === "1"
 const DUMP = process.env.DUMP === "1"
 
-describe("tokenize.syntax", function() {
+describe("tokenize.syntax.aws", function() {
     const _test = _.promise((self, done) => {
-        const FOLDER = "tokenize.syntax"
+        const FOLDER = "tokenize.syntax.aws"
 
         _.promise(self)
             .then(_util.read_utf8("corpus", self.filename, "document"))

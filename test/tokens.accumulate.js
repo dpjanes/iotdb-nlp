@@ -126,7 +126,7 @@ describe("tokens.accumulate", function() {
             .then(fs.read.yaml.p(path.join(__dirname, "/data/tokenize.entities.aws/sherlock.yaml")))
             .then(nlp.tokens.accumulate.json)
 
-            .then(fs.read.yaml.p(path.join(__dirname, "/data/tokenize.syntax/sherlock.yaml")))
+            .then(fs.read.yaml.p(path.join(__dirname, "/data/tokenize.syntax.aws/sherlock.yaml")))
             .then(nlp.tokens.accumulate.json)
 
             .then(fs.read.yaml.p(path.join(__dirname, "/data/checkpoints/sherlock.yaml")))
