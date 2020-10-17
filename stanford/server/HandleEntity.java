@@ -45,7 +45,7 @@ public class HandleEntity extends Handle
 
     public HandleEntity(Server _server)
     {
-        super();
+        super(_server);
 
         JSONObject c = (JSONObject) _server.cfg.get("stanford-ner");
         if (c != null) {

@@ -4,7 +4,7 @@
         "port": 18081,
         "threads": 10,
         "_tokens": [
-            "15802fe1-84e7-4225-a903-7fc6104217a7"
+            "sample-token"
         ],
         "stanford-ner": {
             "en": "../contrib/stanford-ner-4.0.0/classifiers/english.all.3class.distsim.crf.ser.gz"

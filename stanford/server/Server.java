@@ -17,6 +17,7 @@ import com.sun.net.httpserver.HttpHandler;
 import java.net.InetSocketAddress;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.Executors;
+import java.util.HashSet;
 
 import java.io.IOException;
 import java.io.BufferedReader;
@@ -35,6 +36,8 @@ public class Server {
     public String host = "0.0.0.0";
     public int port = 18081;
     public int threads = 10;
+
+    private HashSet<String> tokens;
 
     public static void main (String[] av) throws Exception {
         Server.server = new Server();
@@ -58,9 +61,19 @@ public class Server {
             server.setExecutor(threadPoolExecutor);
             server.start();
 
-            System.out.println("listing on " + host + ":" + port + " with " + threads + " thread(s)");
+            System.out.println("listening on " + host + ":" + port + " with " + threads + " thread(s)");
         } catch (IOException x) {
             System.err.println(x);
+        }
+    }
+
+    public boolean validateToken(String token) {
+        if (this.tokens == null) {
+            return true;
+        } else if (token == null) {
+            return false;
+        } else {
+            return this.tokens.contains(token);
         }
     }
 

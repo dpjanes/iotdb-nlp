@@ -39,7 +39,7 @@ public class HandlePOS extends Handle
 
     public HandlePOS(Server _server)
     {
-        super();
+        super(_server);
 
         JSONObject c = (JSONObject) _server.cfg.get("stanford-tagger");
         if (c != null) {

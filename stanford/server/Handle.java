@@ -24,6 +24,8 @@ import java.util.HashMap;
 import java.util.Date;
 import java.util.Collections;
 import java.util.Iterator;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -47,17 +49,33 @@ import edu.stanford.nlp.ling.CoreLabel.OutputFormat;
 @SuppressWarnings("unchecked")
 public class Handle implements HttpHandler {
     Map<String,AbstractSequenceClassifier<CoreLabel>> cd = new HashMap<String,AbstractSequenceClassifier<CoreLabel>>();
+    Server server;
+
+    public Handle(Server _server) {
+        this.server = _server;
+    }
 
     @Override
     public void handle(HttpExchange hex) throws IOException {
+        Date start = new Date();
+
+        JSONObject jo = new JSONObject();
+        jo.put("error", "didn't understand request");
+
+        Headers headers = hex.getRequestHeaders();
+        Map<String,String> query = _parseQuery(hex.getRequestURI().getQuery());
+
+        String token = query.get("token");
+        String bearer = headers.getFirst("Authorization");
+        if ((bearer != null) && (bearer.startsWith("Bearer "))) {
+            token = bearer.substring("Bearer ".length());
+        }
+        
         try {
-            Date start = new Date();
-
-            JSONObject json_response = new JSONObject();
-            json_response.put("error", "didn't understand request");
-
             String method = hex.getRequestMethod();
-            if (method.equals("POST")) {
+            if (!this.server.validateToken(token)) {
+                jo.put("error", "not allowed");
+            } else if (method.equals("POST")) {
                 InputStreamReader isr = new InputStreamReader(hex.getRequestBody(), "utf-8");
                 BufferedReader br = new BufferedReader(isr);
 
@@ -82,58 +100,61 @@ public class Handle implements HttpHandler {
                     language = "en";
                 }
 
-                json_response = process(hex, document, language, ji);
+                jo = process(hex, document, language, ji);
             } else if ("GET".equals(hex.getRequestMethod())) {
-                Headers headers = hex.getRequestHeaders();
-
-                String document = headers.getFirst("document");
+                String document = query.get("document");
                 if (document == null) {
                     document = "";
                 }
 
-                String language = headers.getFirst("language");
+                String language = query.get("language");
                 if (language == null) {
                     language = "en";
                 }
 
-                json_response = process(hex, document, language, new JSONObject(headers));
+                jo = process(hex, document, language, new JSONObject(headers));
             } else {
+                jo.put("error", "unknown request method");
             }
 
             Date end = new Date();
-            json_response.put("delta", (end.getTime() - start.getTime()) / 1000.0);
+            jo.put("delta", (end.getTime() - start.getTime()) / 1000.0);
 
             System.err.println("- " + hex.getRequestURI() + " in " + ((end.getTime() - start.getTime()) / 1000.0) + "s");
-
-            handleResponse(hex, json_response);
         } catch (ClassNotFoundException x) {
             System.err.println("ERROR: " + x);
+            jo.put("error", x.toString());
         } catch (Error x) {
             System.err.println("ERROR: " + x);
-            throw x;
+            jo.put("error", x.toString());
         } catch (Exception x) {
             System.err.println("ERROR: " + x);
-            throw x;
+            jo.put("error", x.toString());
         }
+
+        handleResponse(hex, jo);
     }
 
     protected JSONObject process(HttpExchange hex, String document, String language, JSONObject options)
         throws IOException, ClassNotFoundException
     {
-        JSONObject json_response = new JSONObject();
-        json_response.put("error", "didn't understand request");
+        JSONObject jo = new JSONObject();
+        jo.put("error", "didn't understand request");
 
-        return json_response;
+        return jo;
     }
 
-    private void handleResponse(HttpExchange hex, JSONObject json_response) throws IOException {
+    private void handleResponse(HttpExchange hex, JSONObject jo) throws IOException {
         OutputStream outputStream = hex.getResponseBody();
 
-        // encode HTML content
-        String body = json_response.toString();
+        String body = jo.toString();
 
-        // this line is a must
-        hex.sendResponseHeaders(200, body.length());
+        if (jo.get("error") != null) {
+            hex.sendResponseHeaders(400, body.length());
+        } else {
+            hex.sendResponseHeaders(200, body.length());
+        }
+
         outputStream.write(body.getBytes());
         outputStream.flush();
         outputStream.close();
@@ -148,4 +169,17 @@ public class Handle implements HttpHandler {
             classifiers.put(key, value);
         }
     }
+
+    // https://stackoverflow.com/a/63976481/96338
+    public static Map<String, String> _parseQuery(String query) {
+        if (query == null || query.isEmpty()) {
+            return Collections.emptyMap();
+        }
+
+        return Stream.of(query.split("&"))
+                .filter(s -> !s.isEmpty())
+                .map(kv -> kv.split("=", 2)) 
+                .collect(Collectors.toMap(x -> x[0], x-> x[1]));
+    }
+
 }
