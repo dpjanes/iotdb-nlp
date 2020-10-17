@@ -31,7 +31,7 @@ _.promise()
     .add("path", path.join(__dirname, "../test/data/corpus/sherlock.txt"))
     .then(fs.read.utf8)
     .make(sd => {
-        sd.url = "http://media.local:8001/entities"
+        sd.url = "http://media.local:18081/entities"
         sd.json = {
             document: sd.document,
         }
