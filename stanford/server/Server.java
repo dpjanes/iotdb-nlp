@@ -27,6 +27,7 @@ import java.nio.file.Paths;
 
 import org.json.simple.JSONValue;
 import org.json.simple.JSONObject;
+import org.json.simple.JSONArray;
 
 public class Server {
     static public Server server;
@@ -61,7 +62,7 @@ public class Server {
             server.setExecutor(threadPoolExecutor);
             server.start();
 
-            System.out.println("listening on " + host + ":" + port + " with " + threads + " thread(s)");
+            System.out.println("- listening on " + host + ":" + port + " with " + threads + " thread(s)");
         } catch (IOException x) {
             System.err.println(x);
         }
@@ -164,5 +165,20 @@ public class Server {
         if (this.cfg.get("threads") != null) {
             this.threads = ((Number) this.cfg.get("threads")).intValue();
         }
+
+        // tokens
+        if (this.cfg.get("tokens") != null) {
+            this.tokens = new HashSet<String>();
+
+            JSONArray tokens = (JSONArray) this.cfg.get("tokens");
+            for (int ti = 0; ti < tokens.size(); ti++) {
+                this.tokens.add((String) tokens.get(ti));
+            }
+
+            System.err.println("- tokens enabled");
+        } else {
+            System.err.println("- NO token control - open server");
+        }
+
     }
 }
