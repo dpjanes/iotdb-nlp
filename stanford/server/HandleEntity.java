@@ -94,7 +94,7 @@ public class HandleEntity extends Handle
                 // jitem.put("map", cl.toString(OutputFormat.MAP));
                 // jitem.put("value", cl.toShorterString());
                 jitem.put("document", cl.originalText());
-                jitem.put("begin", cl.beginPosition());
+                jitem.put("start", cl.beginPosition());
                 jitem.put("end", cl.endPosition());
                 jitem.put("token", "entity");
                 jitem.put("tag", answer);

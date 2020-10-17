@@ -152,14 +152,15 @@ public class Handle implements HttpHandler {
         OutputStream outputStream = hex.getResponseBody();
 
         String body = jo.toString();
+        byte[] bodybytes = body.getBytes("utf-8");
 
         if (jo.get("error") != null) {
-            hex.sendResponseHeaders(400, body.length());
+            hex.sendResponseHeaders(400, bodybytes.length);
         } else {
-            hex.sendResponseHeaders(200, body.length());
+            hex.sendResponseHeaders(200, bodybytes.length);
         }
 
-        outputStream.write(body.getBytes());
+        outputStream.write(bodybytes);
         outputStream.flush();
         outputStream.close();
     }

@@ -83,7 +83,7 @@ public class HandlePOS extends Handle
                 JSONObject jitem = new JSONObject();
                 jitems.add(jitem);
                 jitem.put("document", tword.word());
-                jitem.put("begin", tword.beginPosition());
+                jitem.put("start", tword.beginPosition());
                 jitem.put("end", tword.endPosition());
                 jitem.put("token", "pos");
                 jitem.put("tag", tword.tag());
