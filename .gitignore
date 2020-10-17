@@ -5,7 +5,6 @@ yy*
 # Downloaded stuff
 stanford/contrib/*jar
 stanford/contrib/stanford-*
-stanford/server/org
 
 # Logs
 logs
