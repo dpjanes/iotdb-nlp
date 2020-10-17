@@ -45,7 +45,7 @@ public class HandleEntity extends Handle
     protected JSONObject process(HttpExchange hex, String document, String language, JSONObject options)
         throws IOException, ClassNotFoundException
     {
-        String classifier_gz = "../../contrib/stanford-ner-4.0.0/classifiers/english.all.3class.distsim.crf.ser.gz";
+        String classifier_gz = "../contrib/stanford-ner-4.0.0/classifiers/english.all.3class.distsim.crf.ser.gz";
 
         AbstractSequenceClassifier<CoreLabel> classifier = cd.get(classifier_gz);
         if (classifier == null) {
