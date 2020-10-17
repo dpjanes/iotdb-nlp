@@ -47,7 +47,12 @@ public class HandleEntity extends Handle
     {
         super();
 
-        classifiers.put("en", "../contrib/stanford-ner-4.0.0/classifiers/english.all.3class.distsim.crf.ser.gz");
+        JSONObject c = (JSONObject) _server.cfg.get("stanford-ner");
+        if (c != null) {
+            super._takeAll(classifiers, c);
+        } else {
+            classifiers.put("en", "../contrib/stanford-ner-4.0.0/classifiers/english.all.3class.distsim.crf.ser.gz");
+        }
     }
 
     protected JSONObject process(HttpExchange hex, String document, String language, JSONObject options)

@@ -23,6 +23,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Date;
 import java.util.Collections;
+import java.util.Iterator;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -134,5 +135,15 @@ public class Handle implements HttpHandler {
         outputStream.write(body.getBytes());
         outputStream.flush();
         outputStream.close();
+    }
+
+    // --- helper functions ---
+    protected void _takeAll(Map<String,String> classifiers, JSONObject c) {
+        for (Iterator iterator = c.keySet().iterator(); iterator.hasNext();) {
+            String key = (String) iterator.next();
+            String value = (String) c.get(key); 
+
+            classifiers.put(key, value);
+        }
     }
 }

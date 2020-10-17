@@ -41,7 +41,12 @@ public class HandlePOS extends Handle
     {
         super();
 
-        classifiers.put("en", "../contrib/stanford-tagger-4.1.0/models/english-bidirectional-distsim.tagger");
+        JSONObject c = (JSONObject) _server.cfg.get("stanford-tagger");
+        if (c != null) {
+            super._takeAll(classifiers, c);
+        } else {
+            classifiers.put("en", "../contrib/stanford-tagger-4.1.0/models/english-bidirectional-distsim.tagger");
+        }
     }
 
     protected JSONObject process(HttpExchange hex, String document, String language, JSONObject options)
