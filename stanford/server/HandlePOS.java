@@ -34,25 +34,38 @@ import edu.stanford.nlp.ling.CoreAnnotations;
 @SuppressWarnings("unchecked")
 public class HandlePOS extends Handle
 {
+    Map<String,String> classifiers = new HashMap<String,String>();
     Map<String,MaxentTagger> td = new HashMap<String,MaxentTagger>();
 
     public HandlePOS(Server _server)
     {
         super();
+
+        classifiers.put("en", "../contrib/stanford-tagger-4.1.0/models/english-bidirectional-distsim.tagger");
     }
 
     protected JSONObject process(HttpExchange hex, String document, String language, JSONObject options)
         throws IOException, ClassNotFoundException
     {
-        String tagger_name = "../../contrib/stanford-tagger-4.1.0/models/english-bidirectional-distsim.tagger";
-        // String tagger_name = "../../contrib/stanford-tagger-4.1.0/models/english-left3words-distsim.tagger";
-        MaxentTagger tagger = td.get(tagger_name);
-        if (tagger == null) {
-            tagger = new MaxentTagger(tagger_name);
-            td.put(tagger_name, tagger);
+        JSONObject jo = new JSONObject();
+
+        String filename = classifiers.get(language);
+        if (filename == null) {
+            jo.put("error", "language not supported: " + language);
+            return jo;
         }
 
-        JSONObject jo = new JSONObject();
+        MaxentTagger tagger = td.get(filename);
+        if (tagger == null) {
+            tagger = new MaxentTagger(filename);
+            td.put(filename, tagger);
+        }
+
+        if (tagger == null) {
+            jo.put("error", "no tagger found for language: " + language);
+            return jo;
+        }
+
         JSONArray jitems = new JSONArray();
         jo.put("items", jitems);
 
@@ -60,11 +73,8 @@ public class HandlePOS extends Handle
 
         for (List<HasWord> sentence : sentences) {
             List<TaggedWord> twords = tagger.tagSentence(sentence);
-            // System.out.println("SENTENCE: " + sentence);
-            // System.out.println("TWORDS: " + twords);
-            for (TaggedWord tword : twords) {
-                // System.out.println("" + tword.beginPosition() + ":" + tword); // SentenceUtils.listToString(tSentence, false));
 
+            for (TaggedWord tword : twords) {
                 JSONObject jitem = new JSONObject();
                 jitems.add(jitem);
                 jitem.put("document", tword.word());
