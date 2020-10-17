@@ -30,6 +30,7 @@ import org.json.simple.JSONObject;
 public class Server {
     static public Server server;
 
+    public JSONObject cfg = new JSONObject();
     public String configuration_file = null;
     public String host = "0.0.0.0";
     public int port = 18081;
@@ -57,22 +58,22 @@ public class Server {
             server.setExecutor(threadPoolExecutor);
             server.start();
 
-            System.out.println("running: " + host + ":" + port);
+            System.out.println("listing on " + host + ":" + port + " with " + threads + " thread(s)");
         } catch (IOException x) {
             System.err.println(x);
         }
     }
 
-    private void arguments(String[] av) {
-        enum Next {
-            Option,
-            Done,
-            Configuration,
-            Host,
-            Port,
-            Threads,
-        }
+    enum Next {
+        Option,
+        Done,
+        Configuration,
+        Host,
+        Port,
+        Threads,
+    }
 
+    private void arguments(String[] av) {
         Next next = Next.Option;
         for (String a : av) {
             switch (next) {
@@ -81,14 +82,17 @@ public class Server {
 
             case Configuration:
                 this.configuration_file = a;
+                next = Next.Option;
                 break;
 
             case Host:
                 this.host = a;
+                next = Next.Option;
                 break;
 
             case Port:
                 this.port = Integer.parseInt(a);
+                next = Next.Option;
                 break;
 
             case Option:
@@ -128,13 +132,24 @@ public class Server {
             return;
         }
 
-        System.err.println("" + cfg);
-        // BuffererReader reader = new BufferedReader(new FileReader(filename));
+        JSONObject scfg = (JSONObject) cfg.get("stanford-server");
+        if (scfg == null) {
+            return;
+        }
+
+        this.cfg = scfg;
+
+        // handle standard options
+        if (this.cfg.get("port") != null) {
+            this.port = ((Number) this.cfg.get("port")).intValue();
+        }
+
+        if (this.cfg.get("host") != null) {
+            this.host = (String) this.cfg.get("host");
+        }
+
+        if (this.cfg.get("threads") != null) {
+            this.threads = ((Number) this.cfg.get("threads")).intValue();
+        }
     }
-
-
-    /*
-    private read 
-
-    */
 }
