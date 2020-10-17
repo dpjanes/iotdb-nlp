@@ -3,8 +3,8 @@ yy*
 .*
 
 # Downloaded stuff
-contrib/*jar
-contrib/stanford-*
+stanford/contrib/*jar
+stanford/contrib/stanford-*
 stanford/server/org
 
 # Logs
