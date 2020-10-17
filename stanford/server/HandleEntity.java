@@ -40,20 +40,38 @@ import edu.stanford.nlp.ling.CoreLabel.OutputFormat;
 @SuppressWarnings("unchecked")
 public class HandleEntity extends Handle
 {
+    Map<String,String> classifiers = new HashMap<String,String>();
     Map<String,AbstractSequenceClassifier<CoreLabel>> cd = new HashMap<String,AbstractSequenceClassifier<CoreLabel>>();
+
+    public HandleEntity(Server _server)
+    {
+        super();
+
+        classifiers.put("en", "../contrib/stanford-ner-4.0.0/classifiers/english.all.3class.distsim.crf.ser.gz");
+    }
 
     protected JSONObject process(HttpExchange hex, String document, String language, JSONObject options)
         throws IOException, ClassNotFoundException
     {
-        String classifier_gz = "../contrib/stanford-ner-4.0.0/classifiers/english.all.3class.distsim.crf.ser.gz";
+        JSONObject jo = new JSONObject();
 
-        AbstractSequenceClassifier<CoreLabel> classifier = cd.get(classifier_gz);
-        if (classifier == null) {
-            classifier = CRFClassifier.getClassifier(classifier_gz);
-            cd.put(classifier_gz, classifier);
+        String filename = classifiers.get(language);
+        if (filename == null) {
+            jo.put("error", "language not supported: " + language);
+            return jo;
         }
 
-        JSONObject jo = new JSONObject();
+        AbstractSequenceClassifier<CoreLabel> classifier = cd.get(filename);
+        if (classifier == null) {
+            classifier = CRFClassifier.getClassifier(filename);
+            cd.put(filename, classifier);
+        }
+
+        if (classifier == null) {
+            jo.put("error", "no classifier found for language: " + language);
+            return jo;
+        }
+
         JSONArray jitems = new JSONArray();
         jo.put("items", jitems);
 

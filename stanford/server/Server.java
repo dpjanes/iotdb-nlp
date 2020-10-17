@@ -53,8 +53,8 @@ public class Server {
             HttpServer server = HttpServer.create(new InetSocketAddress(host, port), 0);
             ThreadPoolExecutor threadPoolExecutor = (ThreadPoolExecutor)Executors.newFixedThreadPool(threads);
 
-            server.createContext("/entities", new HandleEntity());
-            server.createContext("/pos", new HandlePOS());
+            server.createContext("/entities", new HandleEntity(this));
+            server.createContext("/pos", new HandlePOS(this));
             server.setExecutor(threadPoolExecutor);
             server.start();
 

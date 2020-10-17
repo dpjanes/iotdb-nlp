@@ -36,6 +36,11 @@ public class HandlePOS extends Handle
 {
     Map<String,MaxentTagger> td = new HashMap<String,MaxentTagger>();
 
+    public HandlePOS(Server _server)
+    {
+        super();
+    }
+
     protected JSONObject process(HttpExchange hex, String document, String language, JSONObject options)
         throws IOException, ClassNotFoundException
     {
