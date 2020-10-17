@@ -35,10 +35,14 @@ _.promise()
         sd.json = {
             document: sd.document,
         }
+        sd.headers = {
+            "Authorization": "Bearer sample-token"
+        }
     })
     .then(fetch.json.post({
         url: true,
         json: true,
+        headers: true,
     }))
     .make(sd => {
         console.log(JSON.stringify(sd.json, null, 2))
