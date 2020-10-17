@@ -1,9 +1,9 @@
 /*
- *  index.js
+ *  stanford/index.js
  *
  *  David Janes
  *  IOTDB.org
- *  2020-10-02
+ *  2020-10-17
  *
  *  Copyright (2013-2020) David P. Janes
  *
@@ -22,6 +22,14 @@
 
 "use strict"
 
-module.exports = require("./lib")
-module.exports.aws = require("./aws")
-module.exports.stanford = require("./stanford")
+module.exports = Object.assign(
+    {},
+    require("./initialize"),
+    {
+        tokenize: {
+            entities: require("./tokenize.entities").tokenize_entities,
+            syntax: require("./tokenize.syntax").tokenize_syntax,
+        },
+    },
+    {}
+)
