@@ -4,6 +4,10 @@ This is a simple REST/JSON server front end to the Stanford NLP stuff.
 This code in this folder follows the Stanford licensing.
 
 ## HOWTO
+
+Note that I'm not really a Java guy. The code is solid, but there's
+no Gradle or Maven or any of that other framework stuff here. 
+
 ### Installation
 
 You need to have a modern Java installed on your computer.
