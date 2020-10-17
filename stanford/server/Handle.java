@@ -103,6 +103,8 @@ public class Handle implements HttpHandler {
             Date end = new Date();
             json_response.put("delta", (end.getTime() - start.getTime()) / 1000.0);
 
+            System.err.println("- " + hex.getRequestURI() + " in " + ((end.getTime() - start.getTime()) / 1000.0) + "s");
+
             handleResponse(hex, json_response);
         } catch (ClassNotFoundException x) {
             System.err.println("ERROR: " + x);
