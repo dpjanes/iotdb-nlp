@@ -10,5 +10,5 @@
 
 java \
     -cp "${CFG_CP}" \
-    org.iotdb.nlp.stanford.Server  
+    org.iotdb.nlp.stanford.Server $@
 
