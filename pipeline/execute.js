@@ -1,9 +1,9 @@
 /*
- *  index.js
+ *  pipeline/execute.js
  *
  *  David Janes
  *  IOTDB.org
- *  2020-10-02
+ *  2020-10-18
  *
  *  Copyright (2013-2020) David P. Janes
  *
@@ -22,7 +22,26 @@
 
 "use strict"
 
-module.exports = require("./lib")
-module.exports.aws = require("./aws")
-module.exports.stanford = require("./stanford")
-module.exports.pipeline = require("./pipeline")
+const _ = require("iotdb-helpers")
+
+/**
+ */
+const execute = _.promise((self, done) => {
+    _.promise(self)
+        .validate(execute)
+        .end(done, self, execute)
+})
+
+execute.method = "pipeline.execute"
+execute.description = ``
+execute.requires = {
+}
+execute.accepts = {
+}
+execute.produces = {
+}
+
+/**
+ *  API
+ */
+exports.execute = execute
