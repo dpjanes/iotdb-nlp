@@ -1,0 +1,15 @@
+nlp$cfg:
+  stanford:
+    url: http://media.local:18081
+    token: some-token
+pipeline:
+  folder: .pipeline
+  actions:
+  - actions:
+    - checkpoints
+    - tokenize.entities.stanford
+    - tokenize.syntax.stanford
+  - actions:
+    - extract.organizations
+    - extract.persons
+    - extract.places
