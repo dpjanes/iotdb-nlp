@@ -75,6 +75,7 @@ const tokenize_syntax = _.promise((self, done) => {
 
     _.promise(self)
         .validate(tokenize_syntax)
+
         .then(nlp.tokenize.sentences)
         .make(sd => {
             sd.itokenss = _.chunk(sd.tokens, 25)
@@ -86,10 +87,15 @@ const tokenize_syntax = _.promise((self, done) => {
             output_selector: sd => sd.tokenss,
             output_flatten: _.flattenDeep,
         })
+        .make(sd => {
+            sd.VERSION = tokenize_syntax.VERSION
+        })
+
         .end(done, self, tokenize_syntax)
 })
 
 tokenize_syntax.method = "aws.tokenize.syntax"
+tokenize_syntax.VERSION = "1.0.0"
 tokenize_syntax.description = ``
 tokenize_syntax.requires = {
     aws$comprehend: _.is.Object,
@@ -99,6 +105,7 @@ tokenize_syntax.accepts = {
 }
 tokenize_syntax.produces = {
     tokens: _.is.Array.of.Dictionary,
+    VERSION: _.is.String,
 }
 tokenize_syntax.params = {
     document: _.p.normal,

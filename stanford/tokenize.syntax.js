@@ -111,6 +111,7 @@ const tokenize_syntax = _.promise((self, done) => {
 
     _.promise(self)
         .validate(tokenize_syntax)
+
         .then(nlp.tokenize.paragraphs)
         .each({
             method: _one,
@@ -119,10 +120,15 @@ const tokenize_syntax = _.promise((self, done) => {
             output_selector: sd => sd.tokens,
             output_flatten: _.flatten,
         })
+        .make(sd => {
+            sd.VERSION = tokenize_syntax.VERSION
+        })
+
         .end(done, self, tokenize_syntax)
 })
 
 tokenize_syntax.method = "stanford.tokenize.syntax"
+tokenize_syntax.VERSION = "1.0.0"
 tokenize_syntax.description = ``
 tokenize_syntax.requires = {
     nlp$cfg: {
@@ -142,6 +148,7 @@ tokenize_syntax.accepts = {
 }
 tokenize_syntax.produces = {
     tokens: _.is.Array.of.Dictionary,
+    VERSION: _.is.String,
 }
 tokenize_syntax.params = {
     document: _.p.normal,

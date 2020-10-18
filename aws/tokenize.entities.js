@@ -86,10 +86,15 @@ const tokenize_entities = _.promise((self, done) => {
             output_selector: sd => sd.tokenss,
             output_flatten: _.flattenDeep,
         })
+        .make(sd => {
+            sd.VERSION = tokenize_entities.VERSION
+        })
+
         .end(done, self, tokenize_entities)
 })
 
 tokenize_entities.method = "aws.tokenize.entities"
+tokenize_entities.VERSION = "1.0.0"
 tokenize_entities.description = ``
 tokenize_entities.requires = {
     aws$comprehend: _.is.Object,
@@ -100,6 +105,7 @@ tokenize_entities.accepts = {
 }
 tokenize_entities.produces = {
     tokens: _.is.Array.of.Dictionary,
+    VERSION: _.is.String,
 }
 tokenize_entities.params = {
     document: _.p.normal,
