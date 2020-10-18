@@ -5,11 +5,9 @@ nlp$cfg:
 pipeline:
   folder: .pipeline
   actions:
-  - actions:
-    - checkpoints
+  - - checkpoints
     - tokenize.entities.stanford
     - tokenize.syntax.stanford
-  - actions:
-    - extract.organizations
+  - - extract.organizations
     - extract.persons
     - extract.places

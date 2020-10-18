@@ -1,5 +1,5 @@
 /*
- *  pipeline/index.js
+ *  pipeline/read.js
  *
  *  David Janes
  *  IOTDB.org
@@ -22,13 +22,37 @@
 
 "use strict"
 
-module.exports = Object.assign(
-    {},
-    require("./initialize"),
-    require("./execute"),
-    require("./actions"),
-    require("./action"),
-    require("./read"),
+const _ = require("iotdb-helpers")
+const fs = require("iotdb-fs")
 
-    {}
-)
+const _util = require("./_util")
+
+/**
+ */
+const read = _.promise((self, done) => {
+    _.promise(self)
+        .validate(read)
+
+        .make(sd => {
+            sd.VERSION = read.VERSION
+        })
+
+        .end(done, self, read)
+})
+
+read.method = "pipeline.read"
+read.version = "1.0.0"
+read.description = ``
+read.requires = {
+    source_path: _.is.String,
+}
+read.accepts = {
+}
+read.produces = {
+    VERSION: _.is.String,
+}
+
+/**
+ *  API
+ */
+exports.read = read

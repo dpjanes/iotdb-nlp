@@ -1,5 +1,5 @@
 /*
- *  pipeline/index.js
+ *  pipeline/action.js
  *
  *  David Janes
  *  IOTDB.org
@@ -22,13 +22,36 @@
 
 "use strict"
 
-module.exports = Object.assign(
-    {},
-    require("./initialize"),
-    require("./execute"),
-    require("./actions"),
-    require("./action"),
-    require("./read"),
+const _ = require("iotdb-helpers")
+const fs = require("iotdb-fs")
 
-    {}
-)
+const _util = require("./_util")
+
+/**
+ */
+const action = _.promise((self, done) => {
+    _.promise(self)
+        .validate(action)
+
+        .make(sd => {
+            console.log("ACTION", sd.action)
+        })
+
+        .end(done, self, action)
+})
+
+action.method = "pipeline.action"
+action.description = ``
+action.requires = {
+    action: _.is.String,
+    document: [ _.is.String, _.is.Buffer, _.is.Null ],
+}
+action.accepts = {
+}
+action.produces = {
+}
+
+/**
+ *  API
+ */
+exports.action = action

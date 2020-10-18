@@ -31,6 +31,8 @@ const path = require("path")
 /**
  */
 const execute = _.promise((self, done) => {
+    const nlp = require("..")
+
     _.promise(self)
         .validate(execute)
 
@@ -50,7 +52,20 @@ const execute = _.promise((self, done) => {
             sd.state.created = sd.state.created || _.timestamp.make()
             sd.state.updated = sd.state.updated || sd.state.created 
             sd.state.source = sd.path
+            sd.state.actions = sd.state.actions || {}
         })
+
+        // do all the actions in the pipeline
+        .make(sd => {
+            sd.pipeline = _.d.clone(sd.pipeline)
+            sd.pipeline.actions = sd.pipeline.actions || []
+            sd.pipeline.actions.unshift([ "pipeline.read" ])
+
+            sd.actions = sd.pipeline.actions
+            sd.document = null
+        })
+
+        .then(nlp.pipeline.actions)
 
         // write the state
         .make(sd => {
