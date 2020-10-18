@@ -25,9 +25,6 @@
 const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
 
-const path = require("path")
-const os = require("os")
-
 const _util = require("./_util")
 
 /**

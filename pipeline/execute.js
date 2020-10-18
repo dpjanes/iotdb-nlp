@@ -23,12 +23,44 @@
 "use strict"
 
 const _ = require("iotdb-helpers")
+const fs = require("iotdb-fs")
+
+const _util = require("./_util")
+const path = require("path")
 
 /**
  */
 const execute = _.promise((self, done) => {
     _.promise(self)
         .validate(execute)
+
+        .make(sd => {
+            sd.source_path = sd.path
+            sd.data_path = _util.join(sd, sd.pipeline.folder, path.basename(sd.source_path).replace(/[.].*$/, ""))
+            sd.state_path = path.join(sd.data_path, "state.yaml")
+        })
+
+        // read state
+        .add("fs$otherwise_json", {})
+        .add("path", sd => sd.state_path)
+        .then(fs.make.directory.parent)
+        .then(fs.read.yaml)
+        .add("json:state")
+        .make(sd => {
+            sd.state.created = sd.state.created || _.timestamp.make()
+            sd.state.updated = sd.state.updated || sd.state.created 
+            sd.state.source = sd.path
+        })
+
+        // write the state
+        .make(sd => {
+            sd.state.updated = _.timestamp.make()
+            sd.json = sd.state
+            sd.path = sd.state_path
+        })
+        .then(fs.write.yaml)
+        .log("wrote", "state_path")
+
         .end(done, self, execute)
 })
 
