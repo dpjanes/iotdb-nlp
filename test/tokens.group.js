@@ -78,7 +78,7 @@ describe("tokens.group", function() {
             .end(done, {})
     })
 
-    it("tokens.group (", function(done) {
+    it("tokens.group (string argument)", function(done) {
         const FOLDER = "tokens.group"
         const FILENAME = "checkpoints-only"
 
