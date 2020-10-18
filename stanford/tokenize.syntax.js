@@ -25,45 +25,81 @@
 const _ = require("iotdb-helpers")
 const cache = require("iotdb-cache")
 const logger = require("../logger")(__filename)
+const fetch = require("iotdb-fetch")
 
 /**
  */
-const _sentence = _.promise((self, done) => {
+const _fetch = _.promise((self, done) => {
+    _.promise(self)
+        .validate(_fetch)
+
+        .make(sd => {
+            sd.json = {
+                document: sd.itoken.document,
+            }
+            sd.url = sd.nlp$cfg.stanford.url + "/pos"
+            sd.headers = {}
+            if (sd.nlp$cfg.stanford.token) {
+                sd.headers.authorization = `Bearer ${sd.nlp$cfg.stanford.token}`
+            }
+        })
+        .then(fetch.json.post({
+            url: true,
+            headers: true,
+            json: true,
+        }))
+
+        .end(done, self, _fetch)
+})
+
+_fetch.method = "stanford.tokenize.syntax/_fetch"
+_fetch.description = ``
+_fetch.requires = {
+}
+_fetch.accepts = {
+}
+_fetch.produces = {
+    json: _.is.JSON,
+}
+
+/**
+ */
+const _one = _.promise((self, done) => {
     const stanford = require("iotdb-awslib")
 
     _.promise(self)
-        .validate(_sentence)
+        .validate(_one)
+
         .make(sd => {
-            sd.documents = sd.itokens.map(itoken => itoken.document)
             sd.rule = {
-                key: `/stanford.comprehend.syntax/${_.hash.md5(sd.documents)}`,
-                values: "tokenss",
-                method: stanford.comprehend.syntax.batch,
+                key: `/stanford.syntax/${_.hash.md5(sd.itoken.document)}`,
+                values: "json",
+                method: _fetch,
             }
         })
         .then(cache.execute)
         .make(sd => {
-            sd.itokens.forEach((itoken, index) => {
-                sd.tokenss[index].forEach(otoken => {
-                    otoken.start += itoken.start
-                    otoken.end += itoken.end
-                })
+            sd.tokens = sd.json.items
+
+            sd.tokens.forEach(otoken => {
+                otoken.start += sd.itoken.start
+                otoken.end += sd.itoken.start
             })
         })
 
-        .end(done, self, _sentence)
+        .end(done, self, _one)
 })
 
-_sentence.method = "stanford.tokenize.syntax/_sentence"
-_sentence.description = ``
-_sentence.requires = {
-    itokens: _.is.Array.of.Dictionary,
+_one.method = "stanford.tokenize.syntax/_one"
+_one.description = ``
+_one.requires = {
+    itoken: _.is.Dictionary,
+}
+_one.accepts = {
     cache: _.is.Dictionary,
 }
-_sentence.accepts = {
-}
-_sentence.produces = {
-    tokenss: _.is.Array,
+_one.produces = {
+    tokens: _.is.Array,
 }
 
 /**
@@ -75,16 +111,13 @@ const tokenize_syntax = _.promise((self, done) => {
 
     _.promise(self)
         .validate(tokenize_syntax)
-        .then(nlp.tokenize.sentences)
-        .make(sd => {
-            sd.itokenss = _.chunk(sd.tokens, 25)
-        })
+        .then(nlp.tokenize.paragraphs)
         .each({
-            method: _sentence,
-            inputs: "itokenss:itokens",
+            method: _one,
+            inputs: "tokens:itoken",
             outputs: "tokens",
-            output_selector: sd => sd.tokenss,
-            output_flatten: _.flattenDeep,
+            output_selector: sd => sd.tokens,
+            output_flatten: _.flatten,
         })
         .end(done, self, tokenize_syntax)
 })
@@ -105,6 +138,7 @@ tokenize_syntax.accepts = {
             token: _.is.String,
         },
     },
+    cache: _.is.Dictionary,
 }
 tokenize_syntax.produces = {
     tokens: _.is.Array.of.Dictionary,

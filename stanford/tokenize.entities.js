@@ -72,7 +72,7 @@ const _one = _.promise((self, done) => {
 
         .make(sd => {
             sd.rule = {
-                key: `/stanford.entities/${_.hash.md5(sd.document)}`,
+                key: `/stanford.entities/${_.hash.md5(sd.itoken.document)}`,
                 values: "json",
                 method: _fetch,
             }
