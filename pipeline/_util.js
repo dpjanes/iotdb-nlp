@@ -1,5 +1,5 @@
 /*
- *  pipeline/initialize.js
+ *  pipeline/_util.js
  *
  *  David Janes
  *  IOTDB.org
@@ -23,42 +23,37 @@
 "use strict"
 
 const _ = require("iotdb-helpers")
-const fs = require("iotdb-fs")
 
 const path = require("path")
 const os = require("os")
 
-const _util = require("./_util")
+/**
+ */
+const expand = (self, p) => {
+    if (p === "~") {
+        return os.homedir();
+    } else if (p.startsWith("~/")) {
+        return path.join(os.homedir(), p.substring(2))
+    } else {
+        return p
+    }
+}
 
 /**
  */
-const initialize = _.promise((self, done) => {
-    _.promise(self)
-        .validate(initialize)
+const join = (self, a, b) => {
+    a = expand(self, a)
+    b = expand(self, b)
 
-        .make(sd => {
-            sd.pipeline.folder = _util.join(sd, sd.pipeline.root, sd.pipeline.folder)
-            sd.path = sd.pipeline.folder 
-        })
-        .then(fs.make.directory)
-
-        .end(done, self, initialize)
-})
-
-initialize.method = "pipeline.initialize"
-initialize.description = ``
-initialize.requires = {
-    pipeline: {
-        root: _.is.String,
-        folder: _.is.String,
-    },
-}
-initialize.accepts = {
-}
-initialize.produces = {
+    if (path.isAbsolute(b)) {
+        return b
+    } else {
+        return path.join(a, b)
+    }
 }
 
 /**
  *  API
  */
-exports.initialize = initialize
+exports.expand = expand
+exports.join = join

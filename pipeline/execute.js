@@ -35,6 +35,11 @@ const execute = _.promise((self, done) => {
 execute.method = "pipeline.execute"
 execute.description = ``
 execute.requires = {
+    nlp$cfg: _.is.Dictionary,
+    pipeline: {
+        folder: _.is.String,
+    },
+    path: _.is.String,
 }
 execute.accepts = {
 }

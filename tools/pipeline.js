@@ -9,6 +9,7 @@
 
 const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
+
 const path = require("path")
 
 const nlp = require("..")
@@ -63,18 +64,20 @@ _.promise({
 })
     // read configuration and merge into self
     .then(fs.read.json.magic.p(ad.cfg))
-    .then(sd => _.d.compose(sd, sd.json, {
-        nlp$cfg: {},
-        pipeline: [],
-    }))
+    .then(sd => _.d.compose(sd, sd.json))
+    .make(sd => {
+        sd.pipeline.root = sd.pipeline.root || path.dirname(ad.cfg)
+    })
 
     // initialize NLP
     .then(nlp.initialize)
-    
-    .make(sd => {
-        console.log(sd)
-    })
+    .then(nlp.pipeline.initialize)
 
+    .each({
+        method: nlp.pipeline.execute,
+        inputs: "ad/_:path",
+    })
+    
     .except(_.promise.unbail)
     .except(error => {
         console.log("#", _.error.message(error))
