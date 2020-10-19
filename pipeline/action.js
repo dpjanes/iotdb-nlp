@@ -87,6 +87,10 @@ const _action = _.promise((self, done) => {
             if (_.d.first(action, "save", true)) {
                 self[action.method] = sd.RESULT
             }
+
+            if (next.VERSION) {
+                self.state.actions[action.method] = next.VERSION
+            }
         })
 
         .end(done, self, next || null)
@@ -96,6 +100,9 @@ _action.method = "pipeline.action"
 _action.description = ``
 _action.requires = {
     action: [ _.is.Dictionary, _.is.String ],
+    state: {
+        actions: _.is.Dictionary,
+    },
 }
 _action.accepts = {
 }

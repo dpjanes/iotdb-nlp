@@ -75,7 +75,7 @@ const execute = _.promise((self, done) => {
         .make(sd => {
             sd.state.created = sd.state.created || _.timestamp.make()
             sd.state.updated = sd.state.updated || sd.state.created 
-            sd.state.source = sd.path
+            sd.state.source = sd.source_path
             sd.state.actions = sd.state.actions || {}
         })
         
