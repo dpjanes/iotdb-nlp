@@ -9,22 +9,22 @@ pipeline:
   - extensions: .txt
 
   actions:
-  - method: document.read
-  - method: document.windows1252
-  - method: document.utf8
-  - method: document.crlf
+  - document.read
+  - document.windows1252
+  - document.utf8
+  - document.crlf
 
-  - method: stanford.tokenize.entities
-  - method: stanford.tokenize.syntax
+  - stanford.tokenize.entities
+  - stanford.tokenize.syntax
   - method: tokens.merge
     inject:
       keys:
       - stanford.tokenize.entities
       - stanford.tokenize.syntax
 
-  - method: extract.persons
-  - method: extract.places
-  - method: extract.organizations
+  - extract.persons
+  - extract.places
+  - extract.organizations
   - method: entities.merge
     inject:
       keys:
