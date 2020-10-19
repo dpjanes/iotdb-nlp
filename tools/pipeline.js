@@ -61,7 +61,12 @@ _.logger.levels({
 _.promise({
     ad: ad,
     verbose: ad.verbose,
+            cache$cfg: {
+                path: path.join(__dirname, "..", ".fs-cache"),
+            },
 })
+            .then(fs.cache)
+
     // read configuration and merge into self
     .then(fs.read.json.magic.p(ad.cfg))
     .then(sd => _.d.compose(sd, sd.json))

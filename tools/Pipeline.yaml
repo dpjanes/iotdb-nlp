@@ -4,10 +4,27 @@ nlp$cfg:
     token: some-token
 pipeline:
   folder: .pipeline
+
+  handlers:
+  - extensions: .txt
+
   actions:
-  - - checkpoints
-    - tokenize.entities.stanford
-    - tokenize.syntax.stanford
-  - - extract.organizations
-    - extract.persons
-    - extract.places
+  - method: document.read
+  - method: document.windows1252
+  - method: document.utf8
+  - method: document.crlf
+
+  - method: stanford.tokenize.entities
+    write: true
+  - method: stanford.tokenize.syntax
+    write: true
+
+  - method: pipeline.merge
+    merge:
+    - stanford.tokenize.entities
+    - stanford.tokenize.syntax
+    out:
+    - tokens
+
+  - method: extract.persons
+    write: true

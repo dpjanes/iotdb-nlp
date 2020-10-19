@@ -26,33 +26,52 @@ const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
 
 const _util = require("./_util")
+const logger = require("../logger")(__filename)
 
 /**
  */
 const action = _.promise((self, done) => {
+    _.promise.validate(self, action)
+
     const nlp = require("..")
 
-    let next = null
-    if (self.action === "pipeline.read") {
-        next = nlp.pipeline.read
-    }
+    let next = nlp
+    self.action.method.split(".").forEach(part => {
+        if (next) {
+            next = next[part]
+        }
+    })
 
+    if (!_.is.Function(next)) {
+        logger.error({
+            method: action.method,
+            action: self.action,
+        }, "could not find action")
+
+        return done(null, self)
+    }
+    
     _.promise(self)
         .validate(action)
 
         .then(next)
         .make(sd => {
             console.log("ACTION", sd.action, sd.VERSION)
+            console.log("DOC", sd.document)
         })
 
-        .end(done, self, action)
+        .end(done, self, next || null)
 })
 
 action.method = "pipeline.action"
 action.description = ``
 action.requires = {
-    action: _.is.String,
-    document: [ _.is.String, _.is.Buffer, _.is.Null ],
+    action: _.is.Dictionary,
+    /*
+    action: {
+        method: _.is.String,
+    },
+    */
 }
 action.accepts = {
 }

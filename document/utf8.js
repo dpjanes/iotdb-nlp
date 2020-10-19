@@ -1,9 +1,9 @@
 /*
- *  index.js
+ *  document/utf8.js
  *
  *  David Janes
  *  IOTDB.org
- *  2020-10-02
+ *  2020-10-19
  *
  *  Copyright (2013-2020) David P. Janes
  *
@@ -22,8 +22,37 @@
 
 "use strict"
 
-module.exports = require("./lib")
-module.exports.aws = require("./aws")
-module.exports.stanford = require("./stanford")
-module.exports.pipeline = require("./pipeline")
-module.exports.document = require("./document")
+const _ = require("iotdb-helpers")
+const document = require("iotdb-document")
+
+const logger = require("../logger")(__filename)
+
+/**
+ */
+const utf8 = _.promise((self, done) => {
+    const nlp = require("..")
+
+    _.promise(self)
+        .validate(utf8)
+
+        .conditional(sd => !_.is.Buffer(sd.document), _.promise.bail)
+        .then(document.to.string)
+
+        .end(done, self, utf8)
+})
+
+utf8.method = "document.utf8"
+utf8.description = ``
+utf8.requires = {
+    document: [ _.is.String, _.is.Buffer ],
+}
+utf8.accepts = {
+}
+utf8.produces = {
+    document: _.is.String,
+}
+
+/**
+ *  API
+ */
+exports.utf8 = utf8

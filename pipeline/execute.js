@@ -28,6 +28,8 @@ const fs = require("iotdb-fs")
 const _util = require("./_util")
 const path = require("path")
 
+const logger = require("../logger")(__filename)
+
 /**
  */
 const execute = _.promise((self, done) => {
@@ -42,6 +44,28 @@ const execute = _.promise((self, done) => {
             sd.state_path = path.join(sd.data_path, "state.yaml")
         })
 
+        // make sure there is a handler for the file type
+        .make(sd => {
+            const extension = path.extname(sd.source_path)
+
+            sd.handler = _.d.list(sd.pipeline, "handlers", [])
+                .find(handler => {
+                    const extensions = _.d.list(handler, "extensions", [])
+                    if (extensions.indexOf(extension) > -1) {
+                        return true
+                    }
+                })
+
+            if (!sd.handler) {
+                logger.warn({
+                    method: execute.method,
+                    path: sd.source_path,
+                }, "no handler - ignorning this file");
+
+                _.promise.bail()
+            }
+        })
+
         // read state
         .add("fs$otherwise_json", {})
         .add("path", sd => sd.state_path)
@@ -53,6 +77,44 @@ const execute = _.promise((self, done) => {
             sd.state.updated = sd.state.updated || sd.state.created 
             sd.state.source = sd.path
             sd.state.actions = sd.state.actions || {}
+        })
+        
+        // do all the actions in the pipeline
+        .make(sd => {
+            sd.pipeline = _.d.clone(sd.pipeline)
+            sd.pipeline.actions = sd.pipeline.actions || []
+
+            sd.document = null
+        })
+        .each({
+            method: nlp.pipeline.action,
+            inputs: "pipeline/actions:action",
+            roll_self: true,
+        })
+
+
+        /*
+        // read the initial file
+        .add("source_path:path")
+        .then(fs.read.buffer)
+        .make(sd => {
+            sd.VERSION = _.hash.sha256(sd.document)
+        })
+        
+        // do all the actions in the handler
+        
+        // the document must be a String by now
+        .make(sd => {
+            if (_.is.String(sd.document)) {
+                return
+            }
+
+            logger.warn({
+                method: execute.method,
+                path: sd.source_path,
+            }, "handler could not figure out the document type")
+
+            _.promise.bail()
         })
 
         // do all the actions in the pipeline
@@ -75,6 +137,7 @@ const execute = _.promise((self, done) => {
         })
         .then(fs.write.yaml)
         .log("wrote", "state_path")
+        */
 
         .end(done, self, execute)
 })

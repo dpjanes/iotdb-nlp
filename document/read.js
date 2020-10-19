@@ -1,9 +1,9 @@
 /*
- *  index.js
+ *  document/read.js
  *
  *  David Janes
  *  IOTDB.org
- *  2020-10-02
+ *  2020-10-19
  *
  *  Copyright (2013-2020) David P. Janes
  *
@@ -22,8 +22,33 @@
 
 "use strict"
 
-module.exports = require("./lib")
-module.exports.aws = require("./aws")
-module.exports.stanford = require("./stanford")
-module.exports.pipeline = require("./pipeline")
-module.exports.document = require("./document")
+const _ = require("iotdb-helpers")
+const fs = require("iotdb-fs")
+
+/**
+ */
+const read = _.promise((self, done) => {
+    _.promise(self)
+        .validate(read)
+
+        .add("source_path:path")
+        .then(fs.read.buffer)
+
+        .end(done, self, read)
+})
+
+read.method = "document.read"
+read.description = `Read the raw document as a Buffer`
+read.requires = {
+    source_path: _.is.String,
+}
+read.accepts = {
+}
+read.produces = {
+    document: _.is.Buffer,
+}
+
+/**
+ *  API
+ */
+exports.read = read
