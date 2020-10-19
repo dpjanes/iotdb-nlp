@@ -33,16 +33,20 @@ const read = _.promise((self, done) => {
     _.promise(self)
         .validate(read)
 
+        .add("source_path:path")
+        .then(fs.read.buffer)
         .make(sd => {
-            sd.VERSION = read.VERSION
+            sd.VERSION = _.hash.sha256(sd.document)
         })
 
         .end(done, self, read)
 })
 
 read.method = "pipeline.read"
-read.version = "1.0.0"
-read.description = ``
+read.description = `Read the raw document as a Buffer
+
+    The VERSION will be the hash of the buffer.
+`
 read.requires = {
     source_path: _.is.String,
 }
@@ -50,6 +54,7 @@ read.accepts = {
 }
 read.produces = {
     VERSION: _.is.String,
+    document: _.is.Buffer,
 }
 
 /**

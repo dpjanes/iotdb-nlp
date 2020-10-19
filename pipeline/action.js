@@ -30,11 +30,19 @@ const _util = require("./_util")
 /**
  */
 const action = _.promise((self, done) => {
+    const nlp = require("..")
+
+    let next = null
+    if (self.action === "pipeline.read") {
+        next = nlp.pipeline.read
+    }
+
     _.promise(self)
         .validate(action)
 
+        .then(next)
         .make(sd => {
-            console.log("ACTION", sd.action)
+            console.log("ACTION", sd.action, sd.VERSION)
         })
 
         .end(done, self, action)
