@@ -4,7 +4,9 @@
         "url": "https://github.com/dpjanes/iotdb-nlp/issues"
     }, 
     "dependencies": {
-        "iotdb-cache": "~1.0.2", 
+        "detect-character-encoding": "~0.8.0", 
+        "iotdb-cache": "~1.0.3", 
+        "iotdb-document": "~1.0.4", 
         "iotdb-helpers": "~3.4.22", 
         "iotdb-query": "~1.0.5"
     }, 
