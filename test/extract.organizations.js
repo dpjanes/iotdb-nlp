@@ -42,13 +42,13 @@ describe("extract.organizations", function() {
         _.promise(self)
             .then(_util.read_yaml("tokenize.entities.aws", self.filename, "tokens"))
             .then(nlp.extract.organizations)
-            .conditional(WRITE, _util.write_yaml(FOLDER, self.filename, "organizations"))
-            .conditional(DUMP, _.promise.log("organizations", "organizations"))
-            .then(_util.read_yaml(FOLDER, self.filename, "want_organizations"))
+            .conditional(WRITE, _util.write_yaml(FOLDER, self.filename, "entities"))
+            .conditional(DUMP, _.promise.log("organizations", "entities"))
+            .then(_util.read_yaml(FOLDER, self.filename, "want_entities"))
 
             .make(sd => {
-                const got = sd.organizations
-                const want = sd.want_organizations
+                const got = sd.entities
+                const want = sd.want_entities
                 assert.deepEqual(got, want)
             })
             .end(done, {})
