@@ -16,11 +16,11 @@ pipeline:
 
   - method: stanford.tokenize.entities
     write: tokens
-    save: tokens
+    save: true
 
   - method: stanford.tokenize.syntax
     write: tokens
-    save: tokens
+    save: true
 
   - method: tokens.merge
     inject:

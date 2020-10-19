@@ -48,7 +48,7 @@ describe("tokenize.entities.stanford", function() {
             .make(sd => {
                 const got = sd.tokens
                 const want = sd.want_tokens
-                // assert.deepEqual(got, want)
+                assert.deepEqual(got, want)
             })
             .end(done, {})
     })

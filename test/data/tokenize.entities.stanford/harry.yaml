@@ -1,63 +1,78 @@
 - score: 0.9992253301481262
   document: Dursley
+  start: 13
   end: 20
   tag: PERSON
-  begin: 13
   token: entity
-  start: .nan
-- score: 0.7681263440815622
-  document: Privet
-  end: 44
-  tag: LOCATION
-  begin: 38
-  token: entity
-  start: .nan
 - score: 0.7691654638564072
-  document: Drive
+  document: Privet Drive
+  start: 38
   end: 50
   tag: LOCATION
-  begin: 45
   token: entity
-  start: .nan
-- score: 0.9992253301481262
+- score: 0.9999942627822254
   document: Dursley
-  end: 284
+  start: 268
+  end: 275
   tag: PERSON
-  begin: 13
   token: entity
-  start: .nan
-- score: 0.7681263440815622
-  document: Privet
-  end: 308
-  tag: LOCATION
-  begin: 38
-  token: entity
-  start: .nan
-- score: 0.7691654638564072
-  document: Drive
-  end: 314
-  tag: LOCATION
-  begin: 45
-  token: entity
-  start: .nan
-- score: 0.9992253301481262
+- score: 0.9998998448689317
   document: Dursley
-  end: 740
+  start: 435
+  end: 442
   tag: PERSON
-  begin: 13
   token: entity
-  start: .nan
-- score: 0.7681263440815622
-  document: Privet
-  end: 764
-  tag: LOCATION
-  begin: 38
+- score: 0.7379357790391814
+  document: Dursleys
+  start: 626
+  end: 634
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7691654638564072
-  document: Drive
-  end: 770
-  tag: LOCATION
-  begin: 45
+- score: 0.8929342462701914
+  document: Dudley
+  start: 658
+  end: 664
+  tag: PERSON
   token: entity
-  start: .nan
+- score: 0.7139564034299261
+  document: Dursleys
+  start: 724
+  end: 732
+  tag: ORGANIZATION
+  token: entity
+- score: 0.9999314561887427
+  document: Potter
+  start: 931
+  end: 937
+  tag: PERSON
+  token: entity
+- score: 0.9998977497875986
+  document: Dursley
+  start: 947
+  end: 954
+  tag: PERSON
+  token: entity
+- score: 0.9995278175484619
+  document: Dursley
+  start: 1018
+  end: 1025
+  tag: PERSON
+  token: entity
+- score: 0.5362305943613165
+  document: Dursleys
+  start: 1165
+  end: 1173
+  tag: ORGANIZATION
+  token: entity
+- score: 0.43283727205950906
+  document: Dursleys
+  start: 1264
+  end: 1272
+  tag: PERSON
+  token: entity
+- score: 0.8557223237791663
+  document: Dudley
+  start: 1431
+  end: 1437
+  tag: PERSON
+  token: entity

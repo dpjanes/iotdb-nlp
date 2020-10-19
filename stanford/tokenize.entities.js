@@ -81,10 +81,40 @@ const _one = _.promise((self, done) => {
         .make(sd => {
             sd.tokens = sd.json.items
 
+            let clean = false
+            let last = null
             sd.tokens.forEach(otoken => {
                 otoken.start += sd.itoken.start
                 otoken.end += sd.itoken.start
+
+                let join = false
+                if (!last) {
+                } else if (otoken.tag !== last.tag) {
+                } else if ((otoken.tag === "PERSON") &&
+                    sd.document.substring(last.end, otoken.start).match(/^\s*$/)) {
+                    join = true
+                } else if ((otoken.tag === "ORGANIZATION") &&
+                    sd.document.substring(last.end, otoken.start).match(/^\s*$/)) {
+                    join = true
+                } else if ((otoken.tag === "LOCATION") &&
+                    sd.document.substring(last.end, otoken.start).match(/^[\s,]+$/)) {
+                    join = true
+                } 
+
+                if (join) {
+                    last._remove = true
+                    otoken.score = Math.max(otoken.score, last.score)
+                    otoken.start = last.start
+                    otoken.document = sd.document.substring(otoken.start, otoken.end)
+                    clean = true
+                }
+
+                last = otoken
             })
+
+            if (clean) {
+                sd.tokens = sd.tokens.filter(token => !token._remove)
+            }
         })
 
         .end(done, self, _one)

@@ -1,5516 +1,4512 @@
 - score: 0.7156719727994669
   document: Scarlet
+  start: 11
   end: 18
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 38
+- score: 0.998873646599943
+  document: John H. Watson
+  start: 72
+  end: 86
+  tag: PERSON
+  token: entity
+- score: 0.9998334326819426
+  document: Army Medical Department
+  start: 106
+  end: 129
+  tag: ORGANIZATION
+  token: entity
+- score: 0.9999876762867591
+  document: Sherlock Holmes
+  start: 148
+  end: 163
+  tag: PERSON
+  token: entity
+- score: 0.9991550841005772
+  document: University of London
+  start: 227
+  end: 247
+  tag: ORGANIZATION
+  token: entity
+- score: 0.9304876707623594
+  document: Netley
+  start: 266
+  end: 272
+  tag: LOCATION
+  token: entity
+- score: 0.5873585454058562
+  document: Northumberland Fusiliers
+  start: 403
+  end: 427
+  tag: LOCATION
+  token: entity
+- score: 0.9982127726373258
+  document: India
+  start: 480
+  end: 485
+  tag: LOCATION
+  token: entity
+- score: 0.9928931684421035
+  document: Bombay
+  start: 579
+  end: 585
+  tag: LOCATION
+  token: entity
+- score: 0.4917470724099411
+  document: Candahar
+  start: 803
+  end: 811
+  tag: LOCATION
+  token: entity
+- score: 0.9901992368409968
+  document: Maiwand
+  start: 1102
+  end: 1109
+  tag: LOCATION
+  token: entity
+- score: 0.5204803826926371
+  document: Ghazis
+  start: 1278
+  end: 1284
+  tag: PERSON
+  token: entity
+- score: 0.990305586353959
+  document: Murray
+  start: 1339
+  end: 1345
+  tag: PERSON
+  token: entity
+- score: 0.9982394589467221
+  document: Peshawar
+  start: 1609
+  end: 1617
+  tag: LOCATION
+  token: entity
+- score: 0.9997712921254998
+  document: England
+  start: 2038
+  end: 2045
+  tag: LOCATION
+  token: entity
+- score: 0.9536375820575809
+  document: Portsmouth
+  start: 2132
+  end: 2142
+  tag: LOCATION
+  token: entity
+- score: 0.9999151239902111
+  document: England
+  start: 2324
+  end: 2331
+  tag: LOCATION
+  token: entity
+- score: 0.9939581662323291
+  document: London
+  start: 2506
+  end: 2512
+  tag: LOCATION
+  token: entity
+- score: 0.49195292860975326
+  document: Criterion Bar
+  start: 3248
+  end: 3261
+  tag: LOCATION
+  token: entity
+- score: 0.8968516747799847
+  document: Stamford
+  start: 3341
+  end: 3349
+  tag: LOCATION
+  token: entity
+- score: 0.5890789899456006
+  document: Bart
+  start: 3386
+  end: 3390
+  tag: PERSON
+  token: entity
+- score: 0.9978113082098201
+  document: London
+  start: 3450
+  end: 3456
+  tag: LOCATION
+  token: entity
+- score: 0.9356072566534859
+  document: Stamford
+  start: 3513
+  end: 3521
+  tag: LOCATION
+  token: entity
+- score: 0.7017776675098464
+  document: Holborn
+  start: 3725
+  end: 3732
+  tag: LOCATION
+  token: entity
+- score: 0.9931357357931079
+  document: Watson
+  start: 3821
+  end: 3827
+  tag: PERSON
+  token: entity
+- score: 0.9960106946996083
+  document: London
+  start: 3896
+  end: 3902
+  tag: LOCATION
+  token: entity
+- score: 0.8505929854522585
+  document: Jove
+  start: 4737
+  end: 4741
+  tag: PERSON
+  token: entity
+- score: 0.7657803060824919
+  document: Stamford
+  start: 4901
+  end: 4909
+  tag: LOCATION
+  token: entity
+- score: 0.9996389341298544
+  document: Sherlock Holmes
+  start: 4977
+  end: 4992
+  tag: PERSON
+  token: entity
+- score: 0.9977259604120733
+  document: Afghanistan
+  start: 6040
+  end: 6051
+  tag: LOCATION
+  token: entity
+- score: 0.9332573676443151
+  document: 'Holborn, Stamford'
+  start: 6488
+  end: 6505
+  tag: LOCATION
+  token: entity
+- score: 0.9897293231643202
+  document: Stamford
+  start: 6914
+  end: 6922
+  tag: LOCATION
+  token: entity
+- score: 0.9349166756875213
+  document: “Holmes
+  start: 7191
+  end: 7198
+  tag: PERSON
+  token: entity
+- score: 0.9983316629885653
+  document: Watson
+  start: 9218
+  end: 9224
+  tag: PERSON
+  token: entity
+- score: 0.9999953352319951
+  document: Sherlock Holmes
+  start: 9230
+  end: 9245
+  tag: PERSON
+  token: entity
+- score: 0.9896188776213019
+  document: Stamford
+  start: 9253
+  end: 9261
+  tag: LOCATION
+  token: entity
+- score: 0.9971425247399238
+  document: Afghanistan
+  start: 9414
+  end: 9425
+  tag: LOCATION
+  token: entity
+- score: 0.9947535273399517
+  document: Sherlock Holmes
+  start: 11669
+  end: 11684
+  tag: PERSON
+  token: entity
+- score: 0.9923113824908951
+  document: Von Bischoff
+  start: 11995
+  end: 12007
+  tag: PERSON
+  token: entity
+- score: 0.9953403905873356
+  document: Frankfort
+  start: 12011
+  end: 12020
+  tag: LOCATION
+  token: entity
+- score: 0.9277456024500917
+  document: Mason
+  start: 12114
+  end: 12119
+  tag: PERSON
+  token: entity
+- score: 0.774893926693854
+  document: Bradford
+  start: 12123
+  end: 12131
+  tag: LOCATION
+  token: entity
+- score: 0.8977604159183119
+  document: Muller
+  start: 12151
+  end: 12157
+  tag: PERSON
+  token: entity
+- score: 0.9801494662353231
+  document: Lefevre
+  start: 12163
+  end: 12170
+  tag: PERSON
+  token: entity
+- score: 0.6997235501232248
+  document: Montpellier
+  start: 12174
+  end: 12185
+  tag: ORGANIZATION
+  token: entity
+- score: 0.9842541396636779
+  document: Samson
+  start: 12191
+  end: 12197
+  tag: PERSON
+  token: entity
+- score: 0.9829269003434531
+  document: Stamford
+  start: 12335
+  end: 12343
+  tag: LOCATION
+  token: entity
+- score: 0.9875096563391472
+  document: Sherlock Holmes
+  start: 12499
+  end: 12514
+  tag: PERSON
+  token: entity
+- score: 0.9856307597602133
+  document: Stamford
+  start: 12865
+  end: 12873
+  tag: LOCATION
+  token: entity
+- score: 0.9976301067519153
+  document: Sherlock Holmes
+  start: 13140
+  end: 13155
+  tag: PERSON
+  token: entity
+- score: 0.9974195369156895
+  document: Baker Street
+  start: 13244
+  end: 13256
+  tag: LOCATION
+  token: entity
+- score: 0.9642436021381708
+  document: Stamford
+  start: 14805
+  end: 14813
+  tag: LOCATION
+  token: entity
+- score: 0.9872902794979266
+  document: Afghanistan
+  start: 14863
+  end: 14874
+  tag: LOCATION
+  token: entity
+- score: 0.5774430301378962
+  document: Stamford
+  start: 15236
+  end: 15244
+  tag: LOCATION
+  token: entity
+- score: 0.9951618761609622
+  document: Baker Street
+  start: 15598
+  end: 15610
+  tag: LOCATION
+  token: entity
+- score: 0.963866018646797
+  document: Sherlock Holmes
+  start: 16081
+  end: 16096
+  tag: PERSON
+  token: entity
+- score: 0.9933404358528972
+  document: Holmes
+  start: 16351
+  end: 16357
+  tag: PERSON
+  token: entity
+- score: 0.9155568033400345
+  document: Stamford
+  start: 18848
+  end: 18856
+  tag: LOCATION
+  token: entity
+- score: 0.9999797680420427
+  document: Thomas Carlyle
+  start: 19690
+  end: 19704
+  tag: PERSON
+  token: entity
+- score: 0.9943382196159728
+  document: London
+  start: 22492
+  end: 22498
+  tag: LOCATION
+  token: entity
+- score: 0.4700287341862968
+  document: Mendelssohn
+  start: 23339
+  end: 23350
+  tag: PERSON
+  token: entity
+- score: 0.9995171962282777
+  document: Lestrade
+  start: 24473
+  end: 24481
+  tag: PERSON
+  token: entity
+- score: 0.9980984637565243
+  document: Sherlock Holmes
+  start: 25014
+  end: 25029
+  tag: PERSON
+  token: entity
+- score: 0.9999750687836376
+  document: Sherlock Holmes
+  start: 25693
+  end: 25708
+  tag: PERSON
+  token: entity
+- score: 0.716898550000363
+  document: Euclid
+  start: 26861
+  end: 26867
+  tag: LOCATION
+  token: entity
+- score: 0.9776208992839213
+  document: Atlantic
+  start: 27131
+  end: 27139
+  tag: LOCATION
+  token: entity
+- score: 0.8847487947420555
+  document: Niagara
+  start: 27145
+  end: 27152
+  tag: LOCATION
+  token: entity
+- score: 0.6820297534523698
+  document: Science of Deduction and Analysis
+  start: 27330
+  end: 27363
+  tag: ORGANIZATION
+  token: entity
+- score: 0.9983918774945112
+  document: Sherlock Holmes
+  start: 28425
+  end: 28440
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 47
+- score: 0.9978604772151674
+  document: Sherlock Holmes
+  start: 29026
+  end: 29041
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 151
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 909
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 1470
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 2312
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 3192
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 3794
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 3982
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 4100
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 4208
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 4352
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 4471
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 4506
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 4751
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 4913
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 5089
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 5124
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 5300
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 5341
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 5675
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 5735
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 5852
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 6165
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 6372
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 6453
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 6620
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 6849
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 7136
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 7653
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 7672
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 7835
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 7860
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 7957
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 8005
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 8551
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 9231
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 9298
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 9459
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 9519
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 9666
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 9741
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 10682
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 10804
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 10856
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 11249
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 11272
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 11756
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 11904
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 11990
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 12302
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 12458
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 12850
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 13158
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 13381
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 13428
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 13540
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 13556
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 13894
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 14171
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 14251
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 14359
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 14505
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 14532
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 14629
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 14682
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 14765
-  tag: PERSON
-  begin: 11
+- score: 0.9971721389332954
+  document: London
+  start: 29532
+  end: 29538
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 14896
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 15052
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 15226
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 15404
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 15506
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 16369
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 17280
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 18110
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 18786
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 19553
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 20146
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 20282
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 20299
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 21250
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 21288
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 21475
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 22123
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 23106
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 24160
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 25590
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 26221
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 27062
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 28306
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 28423
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 28461
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 29015
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 29118
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 29126
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 29368
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 29403
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 30157
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 30184
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 30407
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 30591
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 31138
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 31166
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 32067
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 32236
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 32688
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 32782
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 33182
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 33446
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 33945
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 34045
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 34327
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 34394
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 34478
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 34716
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 34810
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 35004
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 35074
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 35150
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 35227
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 35302
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 35889
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 35939
-  tag: PERSON
-  begin: 11
+- score: 0.9961470642730167
+  document: Afghanistan
+  start: 31105
+  end: 31116
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 35976
-  tag: PERSON
-  begin: 11
+- score: 0.9975709051921557
+  document: Afghanistan
+  start: 31191
+  end: 31202
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 36027
-  tag: PERSON
-  begin: 11
+- score: 0.9978887194796863
+  document: Afghanistan
+  start: 31908
+  end: 31919
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 36265
-  tag: PERSON
-  begin: 11
+- score: 0.9965840236437551
+  document: Afghanistan
+  start: 32009
+  end: 32020
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 36280
+- score: 0.9999903970589031
+  document: Edgar Allen Poe
+  start: 32125
+  end: 32140
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 36965
+- score: 0.8283778505523269
+  document: Dupin
+  start: 32143
+  end: 32148
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 36993
+- score: 0.9940576019848937
+  document: Sherlock Holmes
+  start: 32218
+  end: 32233
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 37271
+- score: 0.7683017953998049
+  document: Dupin
+  start: 32326
+  end: 32331
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 37334
+- score: 0.9981543386624794
+  document: Dupin
+  start: 32368
+  end: 32373
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 37446
+- score: 0.972343119218789
+  document: Poe
+  start: 32643
+  end: 32646
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 37487
+- score: 0.948653165161994
+  document: Gaboriau
+  start: 32685
+  end: 32693
+  tag: PERSON
+  token: entity
+- score: 0.9113067151325791
+  document: Lecoq
+  start: 32719
+  end: 32724
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 38904
+- score: 0.9989555453469686
+  document: Sherlock Holmes
+  start: 32764
+  end: 32779
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 39044
+- score: 0.9389619325945766
+  document: Lecoq
+  start: 32803
+  end: 32808
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 39220
+- score: 0.9528304130420333
+  document: Lecoq
+  start: 33060
+  end: 33065
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 39283
-  tag: PERSON
-  begin: 11
+- score: 0.989954388581599
+  document: Scotland Yard
+  start: 33882
+  end: 33895
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 39488
+- score: 0.9991654229104145
+  document: Sherlock Holmes
+  start: 34358
+  end: 34373
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 39520
+- score: 0.9999992988989745
+  document: Sherlock Holmes
+  start: 34707
+  end: 34722
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 39804
-  tag: PERSON
-  begin: 11
+- score: 0.8211558866033959
+  document: Royal Marine Light Infantry
+  start: 35150
+  end: 35177
+  tag: ORGANIZATION
+  token: entity
+- score: 0.4691450076618688
+  document: Lauriston Garden Mystery
+  start: 35301
+  end: 35325
+  tag: ORGANIZATION
+  token: entity
+- score: 0.9881784153821334
+  document: Holmes
+  start: 36995
+  end: 37001
+  tag: PERSON
+  token: entity
+- score: 0.9999986533962869
+  document: Sherlock Holmes
+  start: 37482
+  end: 37497
+  tag: PERSON
+  token: entity
+- score: 0.9615952483465632
+  document: Lauriston Gardens
+  start: 37553
+  end: 37570
+  tag: LOCATION
+  token: entity
+- score: 0.9989500551758993
+  document: Brixton Road
+  start: 37580
+  end: 37592
+  tag: LOCATION
+  token: entity
+- score: 0.9996248834014252
+  document: Enoch J. Drebber
+  start: 37906
+  end: 37922
+  tag: PERSON
+  token: entity
+- score: 0.9902518700075331
+  document: 'Cleveland, Ohio'
+  start: 37924
+  end: 37939
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 39928
-  tag: PERSON
-  begin: 11
+- score: 0.4911993261712112
+  document: U.S.A.
+  start: 37941
+  end: 37947
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 39954
+- score: 0.9979741646007358
+  document: Tobias Gregson
+  start: 38508
+  end: 38522
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 39978
+- score: 0.9790241999593119
+  document: Gregson
+  start: 38526
+  end: 38533
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 40101
+- score: 0.5656285574671265
+  document: Lestrade
+  start: 38604
+  end: 38612
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 40515
+- score: 0.9365214889788779
+  document: Gregson
+  start: 39368
+  end: 39375
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 40636
-  tag: PERSON
-  begin: 11
+- score: 0.4000992550487616
+  document: Lestrade
+  start: 39377
+  end: 39385
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 40761
-  tag: PERSON
-  begin: 11
+- score: 0.6547194223936257
+  document: Co.
+  start: 39391
+  end: 39394
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 40914
-  tag: PERSON
-  begin: 11
+- score: 0.9953647863230857
+  document: Brixton Road
+  start: 40068
+  end: 40080
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 41067
-  tag: PERSON
-  begin: 11
+- score: 0.9504778601155311
+  document: Cremona
+  start: 40295
+  end: 40302
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 42065
-  tag: PERSON
-  begin: 11
+- score: 0.5315825495196348
+  document: Amati
+  start: 40361
+  end: 40366
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 43083
+- score: 0.9912179579931509
+  document: Holmes
+  start: 40587
+  end: 40593
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 43342
-  tag: PERSON
-  begin: 11
+- score: 0.9991841166448538
+  document: Brixton Road
+  start: 40825
+  end: 40837
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 43571
-  tag: PERSON
-  begin: 11
+- score: 0.6256350948824796
+  document: Lauriston Gardens
+  start: 41059
+  end: 41076
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 43728
+- score: 0.9994124468743473
+  document: Sherlock Holmes
+  start: 42067
+  end: 42082
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 43913
+- score: 0.9503809440459211
+  document: Gregson
+  start: 43515
+  end: 43522
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 44089
+- score: 0.9969954207212808
+  document: Lestrade
+  start: 43647
+  end: 43655
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 44147
+- score: 0.9717232109859445
+  document: Holmes
+  start: 43710
+  end: 43716
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 44159
+- score: 0.9988120402353575
+  document: Gregson
+  start: 43895
+  end: 43902
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 44176
+- score: 0.9983918774945112
+  document: Sherlock Holmes
+  start: 44111
+  end: 44126
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 44188
+- score: 0.5507225108380435
+  document: Lestrade
+  start: 44146
+  end: 44154
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 44352
+- score: 0.9945399868348819
+  document: Gregson
+  start: 44281
+  end: 44288
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 44759
+- score: 0.9958781940912645
+  document: Holmes
+  start: 44627
+  end: 44633
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 45389
-  tag: PERSON
-  begin: 11
+- score: 0.9959531711685449
+  document: London
+  start: 46636
+  end: 46642
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 46663
+- score: 0.9973364699885777
+  document: Gregson
+  start: 46880
+  end: 46887
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 46770
-  tag: PERSON
-  begin: 11
+- score: 0.7496842852912042
+  document: Lestrade
+  start: 46915
+  end: 46923
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 46873
+- score: 0.9995198033464484
+  document: Sherlock Holmes
+  start: 46926
+  end: 46941
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 46908
+- score: 0.9982606409656588
+  document: Van Jansen
+  start: 47337
+  end: 47347
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 46944
-  tag: PERSON
-  begin: 11
+- score: 0.6093844277044717
+  document: Utrecht
+  start: 47352
+  end: 47359
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 47143
+- score: 0.9986861576866514
+  document: Gregson
+  start: 47404
+  end: 47411
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 47179
+- score: 0.9927219888380001
+  document: Gregson
+  start: 48142
+  end: 48149
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 47433
+- score: 0.46348126242641896
+  document: Lestrade
+  start: 48337
+  end: 48345
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 47445
+- score: 0.9961868669590008
+  document: Gregson
+  start: 48699
+  end: 48706
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 47543
+- score: 0.9743078724923045
+  document: Holmes
+  start: 48811
+  end: 48817
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 47961
+- score: 0.9792885125657694
+  document: Gregson
+  start: 48932
+  end: 48939
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 48004
+- score: 0.8997208478772036
+  document: Barraud
+  start: 49046
+  end: 49053
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 48071
-  tag: PERSON
-  begin: 11
+- score: 0.9895681366710515
+  document: London
+  start: 49058
+  end: 49064
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 48160
+- score: 0.7778038516740563
+  document: Albert
+  start: 49071
+  end: 49077
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 48417
+- score: 0.9998645565073256
+  document: Enoch J. Drebber
+  start: 49227
+  end: 49243
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 48488
-  tag: PERSON
-  begin: 11
+- score: 0.94482638004505
+  document: Cleveland
+  start: 49247
+  end: 49256
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 48684
+- score: 0.9775917997244727
+  document: Boccaccio
+  start: 49390
+  end: 49399
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 48780
+- score: 0.9981539767982883
+  document: Joseph Stangerson
+  start: 49428
+  end: 49445
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 48922
+- score: 0.9877637067338491
+  document: E. J. Drebber
+  start: 49494
+  end: 49507
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 49558
+- score: 0.9973260564781113
+  document: Joseph Stangerson
+  start: 49519
+  end: 49536
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
+- score: 0.581958642918968
+  document: American Exchange
+  start: 49561
   end: 49578
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 49810
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 49869
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 50047
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 50078
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 50110
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 50146
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 50259
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 50344
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 50373
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 50488
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 50558
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 50826
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 51001
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 51151
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 51301
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 51365
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 51405
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 51655
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 51663
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 52239
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 52331
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 52742
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 53148
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 54441
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 54600
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 54896
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 54946
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 55413
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 55555
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 55591
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 56274
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 56345
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 56409
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 56620
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 56710
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 56996
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 57179
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 57303
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 58042
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 58119
-  tag: PERSON
-  begin: 11
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 58596
-  tag: PERSON
-  begin: 11
+- score: 0.9995543722520913
+  document: Guion Steamship Company
+  start: 49638
+  end: 49661
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 58621
-  tag: PERSON
-  begin: 11
+- score: 0.7179590857573107
+  document: Liverpool
+  start: 49708
+  end: 49717
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 59106
-  tag: PERSON
-  begin: 11
+- score: 0.9970364227991102
+  document: New York
+  start: 49780
+  end: 49788
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 59161
+- score: 0.6830948641746251
+  document: Stangerson
+  start: 49837
+  end: 49847
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 59828
+- score: 0.9961496239185963
+  document: Gregson
+  start: 49881
+  end: 49888
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 59861
-  tag: PERSON
-  begin: 11
+- score: 0.8905356500338464
+  document: Cleveland
+  start: 50047
+  end: 50056
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 59999
+- score: 0.4999961107806334
+  document: Stangerson
+  start: 50341
+  end: 50351
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 60584
+- score: 0.9936403535202397
+  document: Gregson
+  start: 50508
+  end: 50515
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 60618
+- score: 0.9995803957824153
+  document: Sherlock Holmes
+  start: 50540
+  end: 50555
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 61527
+- score: 0.755579886518345
+  document: Lestrade
+  start: 50628
+  end: 50636
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 61661
+- score: 0.9999332689504306
+  document: Gregson
+  start: 50813
+  end: 50820
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 61878
+- score: 0.9917750161094044
+  document: Gregson
+  start: 52279
+  end: 52286
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 62697
+- score: 0.9879483516721365
+  document: Rachel
+  start: 52383
+  end: 52389
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 63053
+- score: 0.9978999478501388
+  document: Rachel
+  start: 52536
+  end: 52542
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 63524
+- score: 0.9999984029546986
+  document: Sherlock Holmes
+  start: 52613
+  end: 52628
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 63654
+- score: 0.9924492983869253
+  document: Gregson
+  start: 54582
+  end: 54589
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 63807
+- score: 0.7150954935723687
+  document: Lestrade
+  start: 54594
+  end: 54602
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 63926
+- score: 0.9992744096594044
+  document: Sherlock Holmes
+  start: 54784
+  end: 54799
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 63985
+- score: 0.7900776210700918
+  document: Lestrade
+  start: 55395
+  end: 55403
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 64106
+- score: 0.9996159877814906
+  document: John Rance
+  start: 55431
+  end: 55441
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 65226
-  tag: PERSON
-  begin: 11
+- score: 0.760702257775962
+  document: Audley Court
+  start: 55499
+  end: 55511
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 65337
-  tag: PERSON
-  begin: 11
+- score: 0.9885377800955958
+  document: Kennington Park Gate
+  start: 55513
+  end: 55533
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 65440
+- score: 0.990745880781826
+  document: Holmes
+  start: 55537
+  end: 55543
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 65968
+- score: 0.9974009056263747
+  document: Gregson
+  start: 56269
+  end: 56276
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 66003
+- score: 0.9978888615285921
+  document: Sherlock Holmes
+  start: 56406
+  end: 56421
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 66286
-  tag: PERSON
-  begin: 11
+- score: 0.3480748700584557
+  document: Lestrade
+  start: 56464
+  end: 56472
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 66458
+- score: 0.9904580051497319
+  document: Rachel
+  start: 56592
+  end: 56598
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 66647
+- score: 0.9981467597114948
+  document: John Rance
+  start: 56709
+  end: 56719
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 66897
-  tag: PERSON
-  begin: 11
+- score: 0.9784864729567689
+  document: Lauriston Gardens
+  start: 56771
+  end: 56788
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 67068
+- score: 0.9986583881462735
+  document: Sherlock Holmes
+  start: 56790
+  end: 56805
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 67098
+- score: 0.4482776256188957
+  document: Lestrade
+  start: 56967
+  end: 56975
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 67165
+- score: 0.9080415270763059
+  document: Holmes
+  start: 57176
+  end: 57182
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 67186
+- score: 0.9962301577378738
+  document: Gregson
+  start: 57872
+  end: 57879
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 67536
+- score: 0.9123744934253639
+  document: Gregson
+  start: 59781
+  end: 59788
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 67589
+- score: 0.5307287807589163
+  document: Lestrade
+  start: 59793
+  end: 59801
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 67774
+- score: 0.8319872455531868
+  document: Lestrade
+  start: 60781
+  end: 60789
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 67849
+- score: 0.7332582297662799
+  document: Halle
+  start: 62623
+  end: 62628
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 68013
+- score: 0.9977981591665309
+  document: Norman Neruda
+  start: 62647
+  end: 62660
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 68066
-  tag: PERSON
-  begin: 11
+- score: 0.5632181576006531
+  document: Audley Court
+  start: 62897
+  end: 62909
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 68203
+- score: 0.763598476304254
+  document: Audley Court
+  start: 63035
+  end: 63047
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 68226
+- score: 0.8788949746303083
+  document: Rance
+  start: 63367
+  end: 63372
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 68247
+- score: 0.9749687393211527
+  document: Holmes
+  start: 63636
+  end: 63642
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 68277
+- score: 0.990770741622224
+  document: Rance
+  start: 63967
+  end: 63972
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 68291
+- score: 0.9953055134456038
+  document: Harry Murcher
+  start: 64327
+  end: 64340
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 68399
-  tag: PERSON
-  begin: 11
+- score: 0.9343487408130252
+  document: Holland Grove
+  start: 64357
+  end: 64370
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 68406
-  tag: PERSON
-  begin: 11
+- score: 0.6132864616773274
+  document: Henrietta Street
+  start: 64415
+  end: 64431
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 68866
-  tag: PERSON
-  begin: 11
+- score: 0.9980728401509074
+  document: Brixton Road
+  start: 64559
+  end: 64571
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 68968
-  tag: PERSON
-  begin: 11
+- score: 0.9994871763867987
+  document: Lauriston Gardens
+  start: 64898
+  end: 64915
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 69150
+- score: 0.9702404795696887
+  document: Rance
+  start: 65319
+  end: 65324
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 69381
+- score: 0.9319728630227824
+  document: Sherlock Holmes
+  start: 65360
+  end: 65375
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 70113
+- score: 0.9183756318224774
+  document: Murcher
+  start: 65877
+  end: 65884
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 70250
+- score: 0.9999722857105976
+  document: John Rance
+  start: 66440
+  end: 66450
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 71188
+- score: 0.9938742462478347
+  document: Holmes
+  start: 66629
+  end: 66635
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 72034
+- score: 0.9998452634432692
+  document: Gregson
+  start: 66794
+  end: 66801
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 72189
+- score: 0.9973775885850589
+  document: Lestrade
+  start: 66809
+  end: 66817
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 72580
+- score: 0.9880746126605027
+  document: Rance
+  start: 66879
+  end: 66884
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 72623
+- score: 0.8233836378834644
+  document: Murcher
+  start: 67014
+  end: 67021
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 72807
-  tag: PERSON
-  begin: 11
+- score: 0.9682699544981858
+  document: Columbine
+  start: 67430
+  end: 67439
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 72984
+- score: 0.9983918774945112
+  document: Sherlock Holmes
+  start: 67553
+  end: 67568
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 73152
+- score: 0.9998449234908936
+  document: John Rance
+  start: 67571
+  end: 67581
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 73159
+- score: 0.9913350068781456
+  document: Holmes
+  start: 67801
+  end: 67807
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 73346
+- score: 0.6926634182742893
+  document: Murcher
+  start: 67906
+  end: 67913
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 73354
+- score: 0.8959507947595057
+  document: Holmes
+  start: 68017
+  end: 68023
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 73473
+- score: 0.9748285505128778
+  document: Rance
+  start: 68489
+  end: 68494
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 73814
+- score: 0.9094033289059789
+  document: Holmes
+  start: 68973
+  end: 68979
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 73952
+- score: 0.9997862315205752
+  document: Norman Neruda
+  start: 69948
+  end: 69961
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 74034
+- score: 0.8193372304543348
+  document: Chopin
+  start: 70031
+  end: 70037
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 74132
+- score: 0.9975017700375031
+  document: Holmes
+  start: 70384
+  end: 70390
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 74189
+- score: 0.9999203617956554
+  document: Enoch J. Drebber
+  start: 71011
+  end: 71027
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 74319
-  tag: PERSON
-  begin: 11
+- score: 0.9807813072068602
+  document: Cleveland
+  start: 71032
+  end: 71041
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 74365
+- score: 0.9145514514577987
+  document: Holmes
+  start: 71827
+  end: 71833
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 75473
+- score: 0.9990934512212308
+  document: Darwin
+  start: 72245
+  end: 72251
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 75495
-  tag: PERSON
-  begin: 11
+- score: 0.9970001070328466
+  document: Brixton Road
+  start: 72752
+  end: 72764
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 75561
-  tag: PERSON
-  begin: 11
+- score: 0.9964745366581084
+  document: Maiwand
+  start: 72931
+  end: 72938
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 75617
-  tag: PERSON
-  begin: 11
+- score: 0.9997356351891734
+  document: Brixton Road
+  start: 73582
+  end: 73594
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 75763
-  tag: PERSON
-  begin: 11
+- score: 0.9837639340383024
+  document: Holland Grove
+  start: 73704
+  end: 73717
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 75950
+- score: 0.9986575072253754
+  document: Watson
+  start: 73729
+  end: 73735
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 76088
-  tag: PERSON
-  begin: 11
+- score: 0.79001637749826
+  document: Baker Street
+  start: 73743
+  end: 73755
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 76121
+- score: 0.5452062397608178
+  document: Drebber
+  start: 74555
+  end: 74562
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 76342
+- score: 0.9964795632361708
+  document: Holmes
+  start: 75855
+  end: 75861
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 76400
-  tag: PERSON
-  begin: 11
+- score: 0.9911231213559389
+  document: Liege
+  start: 76612
+  end: 76617
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 76763
-  tag: PERSON
-  begin: 11
+- score: 0.918292138537148
+  document: Lowlands
+  start: 76625
+  end: 76633
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 76786
+- score: 0.8848020115244568
+  document: Charles
+  start: 76644
+  end: 76651
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 77065
+- score: 0.9999191499210741
+  document: Philippe de Croy
+  start: 76769
+  end: 76785
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 77285
+- score: 0.8679534361398549
+  document: Guliolmi Whyte
+  start: 76871
+  end: 76885
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 77655
+- score: 0.9999901184982259
+  document: William Whyte
+  start: 76901
+  end: 76914
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 77676
+- score: 0.9537965350807596
+  document: Sherlock Holmes
+  start: 77095
+  end: 77110
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 78123
+- score: 0.9999617313358087
+  document: Watson
+  start: 77277
+  end: 77283
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 78690
-  tag: PERSON
-  begin: 11
+- score: 0.9996141400024576
+  document: Brixton Road
+  start: 78291
+  end: 78303
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 78720
+- score: 0.9993852012257127
+  document: Sally
+  start: 78327
+  end: 78332
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 78823
+- score: 0.9478096887501786
+  document: Sally
+  start: 78747
+  end: 78752
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
+- score: 0.6144118442729856
+  document: Duncan Street
+  start: 78875
   end: 78888
-  tag: PERSON
-  begin: 11
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 78946
+- score: 0.6264085198513141
+  document: Houndsditch
+  start: 78890
+  end: 78901
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 79045
+- score: 0.9511309562650904
+  document: Brixton Road
+  start: 78933
+  end: 78945
+  tag: LOCATION
+  token: entity
+- score: 0.4959114670126622
+  document: Houndsditch
+  start: 78982
+  end: 78993
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 79238
+- score: 0.9995903324225033
+  document: Sherlock Holmes
+  start: 79001
+  end: 79016
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
+- score: 0.9056811654879061
+  document: Sally
+  start: 79163
+  end: 79168
+  tag: PERSON
+  token: entity
+- score: 0.6325212244127344
+  document: Mayfield Place
+  start: 79193
+  end: 79207
+  tag: LOCATION
+  token: entity
+- score: 0.8877357764150879
+  document: Peckham
+  start: 79209
+  end: 79216
+  tag: PERSON
+  token: entity
+- score: 0.9977786928759997
+  document: Sawyer
+  start: 79254
   end: 79260
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 79494
+- score: 0.9034734200684015
+  document: Dennis
+  start: 79270
+  end: 79276
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 79687
+- score: 0.9999887039404256
+  document: Tom Dennis
+  start: 79284
+  end: 79294
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 80574
+- score: 0.9998732378012011
+  document: Sawyer
+  start: 79501
+  end: 79507
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 81224
+- score: 0.9998385280518617
+  document: Sherlock Holmes
+  start: 79806
+  end: 79821
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 81491
+- score: 0.9840098159544154
+  document: Holmes
+  start: 80130
+  end: 80136
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 81520
+- score: 0.9990911153935329
+  document: Henri Murger
+  start: 80701
+  end: 80713
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 82878
+- score: 0.4416198783796103
+  document: Scotland Yarders
+  start: 81227
+  end: 81243
+  tag: ORGANIZATION
+  token: entity
+- score: 0.7857251762128109
+  document: Duncan Street
+  start: 81910
+  end: 81923
+  tag: LOCATION
+  token: entity
+- score: 0.6520071086389512
+  document: Houndsditch
+  start: 81925
+  end: 81936
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 83067
+- score: 0.9595900468282168
+  document: Keswick
+  start: 82764
+  end: 82771
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 83563
+- score: 0.9445525788572897
+  document: Sawyer
+  start: 82811
+  end: 82817
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 83873
+- score: 0.9471924235134866
+  document: Dennis
+  start: 82821
+  end: 82827
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 84263
+- score: 0.9996860713553238
+  document: Sherlock Holmes
+  start: 83077
+  end: 83092
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 85001
+- score: 0.9736637067767578
+  document: Holmes
+  start: 83616
+  end: 83622
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 86215
+- score: 0.9969092644361531
+  document: Tobias Gregson
+  start: 83867
+  end: 83881
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 86979
+- score: 0.573609685796194
+  document: Brixton Mystery
+  start: 83941
+  end: 83956
+  tag: ORGANIZATION
+  token: entity
+- score: 0.9651676852554218
+  document: Daily Telegraph
+  start: 84249
+  end: 84264
+  tag: ORGANIZATION
+  token: entity
+- score: 0.9978080316613871
+  document: America
+  start: 84586
+  end: 84593
+  tag: LOCATION
+  token: entity
+- score: 0.6242416858121624
+  document: Malthus
+  start: 84829
+  end: 84836
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 87105
+- score: 0.4366315564635822
+  document: Ratcliff Highway
+  start: 84846
+  end: 84862
+  tag: LOCATION
+  token: entity
+- score: 0.9999205193672291
+  document: England
+  start: 84973
+  end: 84980
+  tag: LOCATION
+  token: entity
+- score: 0.6252240466658078
+  document: Standard
+  start: 84987
+  end: 84995
+  tag: ORGANIZATION
+  token: entity
+- score: 0.512880519946295
+  document: Liberal Administration
+  start: 85079
+  end: 85101
+  tag: ORGANIZATION
+  token: entity
+- score: 0.7482372325308926
+  document: Madame Charpentier
+  start: 85343
+  end: 85361
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 87189
+- score: 0.741661762475118
+  document: Torquay Terrace
+  start: 85366
+  end: 85381
+  tag: LOCATION
+  token: entity
+- score: 0.9999991240519392
+  document: Joseph Stangerson
+  start: 85459
+  end: 85476
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 87226
+- score: 0.8333362074698623
+  document: Euston Station
+  start: 85560
+  end: 85574
+  tag: LOCATION
+  token: entity
+- score: 0.8032573050857386
+  document: Liverpool
+  start: 85617
+  end: 85626
+  tag: ORGANIZATION
+  token: entity
+- score: 0.9981525844548621
+  document: Drebber
+  start: 85730
+  end: 85737
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 87527
+- score: 0.9998973944704901
+  document: Brixton Road
+  start: 85799
+  end: 85811
+  tag: LOCATION
+  token: entity
+- score: 0.5768088755979257
+  document: Stangerson
+  start: 85970
+  end: 85980
+  tag: LOCATION
+  token: entity
+- score: 0.99727724519144
+  document: Lestrade
+  start: 86012
+  end: 86020
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 87728
+- score: 0.9997943088294328
+  document: Gregson
+  start: 86029
+  end: 86036
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 87951
+- score: 0.9775879697346578
+  document: Scotland Yard
+  start: 86041
+  end: 86054
+  tag: LOCATION
+  token: entity
+- score: 0.793673141256937
+  document: Daily News
+  start: 86201
+  end: 86211
+  tag: ORGANIZATION
+  token: entity
+- score: 0.6051240638921656
+  document: Continental
+  start: 86342
+  end: 86353
+  tag: ORGANIZATION
+  token: entity
+- score: 0.3873334759655064
+  document: Stangerson
+  start: 86692
+  end: 86702
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 88213
+- score: 0.9998952749702656
+  document: Gregson
+  start: 86934
+  end: 86941
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 88260
+- score: 0.9660621073078931
+  document: Scotland Yard
+  start: 86945
+  end: 86958
+  tag: LOCATION
+  token: entity
+- score: 0.9996497248355583
+  document: Sherlock Holmes
+  start: 86961
+  end: 86976
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 88444
+- score: 0.5210862619780467
+  document: Lestrade
+  start: 87124
+  end: 87132
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 88578
+- score: 0.9972474864903397
+  document: Gregson
+  start: 87137
+  end: 87144
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 88888
+- score: 0.8755599238114286
+  document: Baker Street
+  start: 87720
+  end: 87732
+  tag: LOCATION
+  token: entity
+- score: 0.8888789904886905
+  document: Holmes
+  start: 87951
+  end: 87957
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 88956
+- score: 0.9479240595343775
+  document: Wiggins
+  start: 88095
+  end: 88102
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 89247
+- score: 0.99319213577447
+  document: Wiggins
+  start: 88184
+  end: 88191
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 89409
+- score: 0.9544457407466275
+  document: Holmes
+  start: 88659
+  end: 88665
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 89538
+- score: 0.957462130513818
+  document: Brixton
+  start: 88885
+  end: 88892
+  tag: LOCATION
+  token: entity
+- score: 0.9935265956993118
+  document: Gregson
+  start: 89087
+  end: 89094
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 89612
+- score: 0.9950195457021618
+  document: Holmes
+  start: 89428
+  end: 89434
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 89670
+- score: 0.9874522168803896
+  document: Arthur Charpentier
+  start: 89739
+  end: 89757
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 89736
+- score: 0.5546718671674193
+  document: navy
+  start: 89791
+  end: 89795
+  tag: ORGANIZATION
+  token: entity
+- score: 0.9814886432258502
+  document: Gregson
+  start: 89804
+  end: 89811
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 89756
+- score: 0.9983055123732485
+  document: Sherlock Holmes
+  start: 89872
+  end: 89887
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 89890
+- score: 0.9999980413165728
+  document: Sherlock Holmes
+  start: 90324
+  end: 90339
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 89956
+- score: 0.9668735043285546
+  document: Holmes
+  start: 90408
+  end: 90414
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 90093
+- score: 0.8514852527242052
+  document: Lestrade
+  start: 90683
+  end: 90691
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 90392
+- score: 0.977969961926012
+  document: Stangerson
+  start: 90794
+  end: 90804
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 90506
+- score: 0.9899145824633389
+  document: Gregson
+  start: 90937
+  end: 90944
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 90655
+- score: 0.9769147665490205
+  document: Watson
+  start: 91072
+  end: 91078
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 90938
+- score: 0.9999525668678741
+  document: Tobias Gregson
+  start: 91357
+  end: 91371
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 91005
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 91039
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
+- score: 0.9598181880262022
+  document: Holmes
+  start: 91452
   end: 91458
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 91531
+- score: 0.9999888283095867
+  document: John Underwood
+  start: 91464
+  end: 91478
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 91567
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 91639
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 91646
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 91753
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 91824
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 92101
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 92148
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 92673
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 92835
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 92912
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 93113
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 93161
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 93392
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 93477
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 93604
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 93738
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 93813
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 93953
-  tag: PERSON
-  begin: 11
-  token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 94422
-  tag: PERSON
-  begin: 11
+- score: 0.9121587261414695
+  document: Camberwell Road
+  start: 91494
+  end: 91509
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 94561
+- score: 0.9827290376653104
+  document: Gregson
+  start: 91513
+  end: 91520
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 94875
+- score: 0.9777879483279923
+  document: Gregson
+  start: 91640
+  end: 91647
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 94913
+- score: 0.9397849649993245
+  document: Holmes
+  start: 91782
+  end: 91788
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 95860
+- score: 0.9537671342738243
+  document: Underwood
+  start: 91823
+  end: 91832
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 95970
+- score: 0.9925381377897756
+  document: Drebber
+  start: 91978
+  end: 91985
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 96450
+- score: 0.6192495653728064
+  document: Charpentier
+  start: 91999
+  end: 92010
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 96460
-  tag: PERSON
-  begin: 11
+- score: 0.512726858261307
+  document: Torquay Terrace
+  start: 92037
+  end: 92052
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 97991
+- score: 0.9991855695284035
+  document: Sherlock Holmes
+  start: 92112
+  end: 92127
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 98241
+- score: 0.9999951747034177
+  document: Sherlock Holmes
+  start: 92462
+  end: 92477
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 98322
+- score: 0.9999966196270698
+  document: Enoch J. Drebber
+  start: 92612
+  end: 92628
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 98546
-  tag: PERSON
-  begin: 11
+- score: 0.9208528637427567
+  document: Cleveland
+  start: 92633
+  end: 92642
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 98579
+- score: 0.9995696182481211
+  document: Drebber
+  start: 92843
+  end: 92850
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 98593
+- score: 0.9994747159116697
+  document: Stangerson
+  start: 92995
+  end: 93005
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 98644
+- score: 0.9992421160553487
+  document: Drebber
+  start: 93569
+  end: 93576
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 98671
+- score: 0.9834003406400994
+  document: Madame Charpentier
+  start: 93612
+  end: 93630
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 98680
+- score: 0.6646400297725351
+  document: Arthur
+  start: 93722
+  end: 93728
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 98708
+- score: 0.9742344537398329
+  document: Alice
+  start: 93957
+  end: 93962
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 98726
+- score: 0.9715157728151745
+  document: Alice
+  start: 94554
+  end: 94559
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 98771
+- score: 0.9992835771991501
+  document: Drebber
+  start: 94901
+  end: 94908
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 98780
+- score: 0.9987234012337659
+  document: Stangerson
+  start: 94972
+  end: 94982
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 98807
-  tag: PERSON
-  begin: 11
+- score: 0.503120074261688
+  document: Copenhagen
+  start: 95035
+  end: 95045
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 98816
+- score: 0.7100204694430937
+  document: Stangerson
+  start: 95134
+  end: 95144
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 98856
+- score: 0.9742567545812036
+  document: Alice
+  start: 95586
+  end: 95591
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 98921
+- score: 0.9999258949957457
+  document: Charpentier
+  start: 95958
+  end: 95969
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 99375
-  tag: PERSON
-  begin: 11
+- score: 0.9951465442125366
+  document: Navy
+  start: 96240
+  end: 96244
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 99397
+- score: 0.9995921357605965
+  document: Drebber
+  start: 96791
+  end: 96798
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 99536
+- score: 0.8795654213081058
+  document: Alice
+  start: 97021
+  end: 97026
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 99566
+- score: 0.9968582658471946
+  document: Alice
+  start: 97304
+  end: 97309
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 100097
+- score: 0.9985768845529517
+  document: Arthur
+  start: 97474
+  end: 97480
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 100226
+- score: 0.9971919353078782
+  document: Arthur
+  start: 97650
+  end: 97656
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 100862
+- score: 0.998694585904293
+  document: Drebber
+  start: 97943
+  end: 97950
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 101485
+- score: 0.9998833605442067
+  document: Charpentier
+  start: 98004
+  end: 98015
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 101661
+- score: 0.9992773925472257
+  document: Sherlock Holmes
+  start: 98251
+  end: 98266
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 101800
+- score: 0.999938921411512
+  document: Charpentier
+  start: 98315
+  end: 98326
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 102152
+- score: 0.9934649775563096
+  document: Charpentier
+  start: 98989
+  end: 99000
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 102205
+- score: 0.89050730541154
+  document: Drebber
+  start: 99242
+  end: 99249
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 102333
+- score: 0.9889246819768045
+  document: Holmes
+  start: 99370
+  end: 99376
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 102407
+- score: 0.6964807190352198
+  document: Drebber
+  start: 99480
+  end: 99487
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 102506
+- score: 0.884517423935037
+  document: Drebber
+  start: 99585
+  end: 99592
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 102639
-  tag: PERSON
-  begin: 11
+- score: 0.9966722512839847
+  document: Brixton Road
+  start: 99607
+  end: 99619
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 103707
+- score: 0.5500059617885728
+  document: Drebber
+  start: 99696
+  end: 99703
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 103791
+- score: 0.9970530431295018
+  document: Charpentier
+  start: 99862
+  end: 99873
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 104113
+- score: 0.9869565075945934
+  document: Holmes
+  start: 100097
+  end: 100103
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 104234
+- score: 0.9579094126713223
+  document: Gregson
+  start: 100138
+  end: 100145
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 104264
-  tag: PERSON
-  begin: 11
+- score: 0.4483960704405577
+  document: Lestrade
+  start: 100713
+  end: 100721
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 104323
+- score: 0.8300106071082493
+  document: Jove
+  start: 100807
+  end: 100811
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 104369
+- score: 0.8769904265563407
+  document: Lestrade
+  start: 100858
+  end: 100866
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 105621
+- score: 0.9984246286113558
+  document: Sherlock Holmes
+  start: 101193
+  end: 101208
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 105729
+- score: 0.990903485670582
+  document: Lestrade
+  start: 101492
+  end: 101500
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 105786
+- score: 0.9748127315015861
+  document: Gregson
+  start: 101509
+  end: 101516
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 105877
+- score: 0.9999997327903787
+  document: Joseph Stangerson
+  start: 101622
+  end: 101639
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 106117
+- score: 0.9999994462824416
+  document: Joseph Stangerson
+  start: 101663
+  end: 101680
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 107025
+- score: 0.6018283145250997
+  document: Halliday
+  start: 101723
+  end: 101731
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 107203
-  tag: PERSON
-  begin: 11
+- score: 0.6636197929135161
+  document: Private Hotel
+  start: 101734
+  end: 101747
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 107293
+- score: 0.9990517786338442
+  document: Gregson
+  start: 101944
+  end: 101951
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 107786
+- score: 0.7057126083826889
+  document: Sherlock Holmes
+  start: 102049
+  end: 102064
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 107831
+- score: 0.63449294985895
+  document: Lestrade
+  start: 102232
+  end: 102240
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 108102
+- score: 0.9824719686288063
+  document: Gregson
+  start: 102379
+  end: 102386
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 108173
+- score: 0.7050334874166723
+  document: Lestrade
+  start: 102428
+  end: 102436
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 108236
+- score: 0.9986473969574158
+  document: Gregson
+  start: 102510
+  end: 102517
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 108284
+- score: 0.956123519471591
+  document: Holmes
+  start: 102541
+  end: 102547
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 108720
+- score: 0.5377916366716606
+  document: ” Lestrade
+  start: 102642
+  end: 102652
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 109012
+- score: 0.8778922962802205
+  document: Stangerson
+  start: 102729
+  end: 102739
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 109102
-  tag: PERSON
-  begin: 11
+- score: 0.9088761323666251
+  document: Euston Station
+  start: 102959
+  end: 102973
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 109321
-  tag: PERSON
-  begin: 11
+- score: 0.999623880878978
+  document: Brixton Road
+  start: 103077
+  end: 103089
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 109532
+- score: 0.5838235319328215
+  document: Stangerson
+  start: 103144
+  end: 103154
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 109817
-  tag: PERSON
-  begin: 11
+- score: 0.7427591774318841
+  document: Liverpool
+  start: 103269
+  end: 103278
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 110156
+- score: 0.9403194740587417
+  document: Drebber
+  start: 103490
+  end: 103497
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 110357
+- score: 0.9720694939276162
+  document: Holmes
+  start: 103764
+  end: 103770
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 110587
+- score: 0.5799565796074885
+  document: Halliday
+  start: 103935
+  end: 103943
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 111052
-  tag: PERSON
-  begin: 11
+- score: 0.9863759508562236
+  document: Little George Street
+  start: 103964
+  end: 103984
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 111483
+- score: 0.999424195937503
+  document: Stangerson
+  start: 104020
+  end: 104030
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 112286
+- score: 0.9962563567991783
+  document: Joseph Stangerson
+  start: 105395
+  end: 105412
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 112742
+- score: 0.9976266670372945
+  document: Sherlock Holmes
+  start: 105684
+  end: 105699
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 113073
+- score: 0.5639958294279352
+  document: Lestrade
+  start: 105788
+  end: 105796
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 114096
+- score: 0.5255411553561473
+  document: Holmes
+  start: 107020
+  end: 107026
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 114884
+- score: 0.7789993061184697
+  document: Stangerson
+  start: 107285
+  end: 107295
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 115159
+- score: 0.6070048873747691
+  document: Drebber
+  start: 107300
+  end: 107307
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 115268
-  tag: PERSON
-  begin: 11
+- score: 0.7392182887584787
+  document: Cleveland
+  start: 107645
+  end: 107654
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 115469
-  tag: PERSON
-  begin: 11
+- score: 0.9986664642687978
+  document: Europe
+  start: 107713
+  end: 107719
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 116738
+- score: 0.9884444995369427
+  document: Holmes
+  start: 107798
+  end: 107804
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 117182
+- score: 0.9997562444793141
+  document: Sherlock Holmes
+  start: 108084
+  end: 108099
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 117259
+- score: 0.7134358836579304
+  document: Drebber
+  start: 108483
+  end: 108490
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 117480
-  tag: PERSON
-  begin: 11
+- score: 0.5718478091599389
+  document: Stangerson
+  start: 108503
+  end: 108513
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 117580
+- score: 0.5770594123487424
+  document: Lestrade
+  start: 108722
+  end: 108730
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 117709
+- score: 0.9885577809003985
+  document: Holmes
+  start: 109017
+  end: 109023
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 118000
+- score: 0.9413285716202379
+  document: Holmes
+  start: 109328
+  end: 109334
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 118110
+- score: 0.9759055892413666
+  document: Holmes
+  start: 109848
+  end: 109854
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 118316
+- score: 0.6211814640163402
+  document: Lestrade
+  start: 110175
+  end: 110183
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 118462
+- score: 0.9999984763199121
+  document: Joseph Stangerson
+  start: 110318
+  end: 110335
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 119797
+- score: 0.9967414182213724
+  document: Sherlock Holmes
+  start: 110703
+  end: 110718
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 120116
+- score: 0.9944538188792176
+  document: Holmes
+  start: 111034
+  end: 111040
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 120153
-  tag: PERSON
-  begin: 11
+- score: 0.4206825585960851
+  document: Stangerson
+  start: 111727
+  end: 111737
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 120949
+- score: 0.9977195204851553
+  document: Sherlock Holmes
+  start: 112268
+  end: 112283
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 121482
+- score: 0.8511141079329186
+  document: Holmes
+  start: 113098
+  end: 113104
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 122226
+- score: 0.9999779729976881
+  document: Gregson
+  start: 114082
+  end: 114089
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 122957
+- score: 0.9999994908232726
+  document: Sherlock Holmes
+  start: 114203
+  end: 114218
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 123980
+- score: 0.9867110400516657
+  document: Charpentier
+  start: 114492
+  end: 114503
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 124653
+- score: 0.5411140738729912
+  document: Lestrade
+  start: 114555
+  end: 114563
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 125141
+- score: 0.6855936021310647
+  document: Stangerson
+  start: 114584
+  end: 114594
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 125197
+- score: 0.9978546186124349
+  document: Gregson
+  start: 114894
+  end: 114901
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 125585
+- score: 0.9981206742067306
+  document: Holmes
+  start: 115274
+  end: 115280
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 125711
+- score: 0.9932427140364066
+  document: Gregson
+  start: 116720
+  end: 116727
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 125857
+- score: 0.6825097956638075
+  document: Lestrade
+  start: 116732
+  end: 116740
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 125911
+- score: 0.9466467459971977
+  document: Wiggins
+  start: 117103
+  end: 117110
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 126158
+- score: 0.9657941032326292
+  document: Holmes
+  start: 117258
+  end: 117264
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 126460
-  tag: PERSON
-  begin: 11
+- score: 0.9922861577708031
+  document: Scotland Yard
+  start: 117316
+  end: 117329
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 126635
+- score: 0.5521865384034721
+  document: Lestrade
+  start: 117505
+  end: 117513
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 126798
+- score: 0.9813277022556592
+  document: Holmes
+  start: 117591
+  end: 117597
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 126810
+- score: 0.9690355929841862
+  document: Wiggins
+  start: 117680
+  end: 117687
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 127031
+- score: 0.999834794579938
+  document: Sherlock Holmes
+  start: 118255
+  end: 118270
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 127133
+- score: 0.9996519215338167
+  document: Jefferson Hope
+  start: 118370
+  end: 118384
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 127290
+- score: 0.9722417125901751
+  document: Enoch Drebber
+  start: 118402
+  end: 118415
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 127399
+- score: 0.9902879103693429
+  document: Joseph Stangerson
+  start: 118423
+  end: 118440
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 127659
+- score: 0.9858724571376201
+  document: Holmes
+  start: 118574
+  end: 118580
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 127775
+- score: 0.9346090061318156
+  document: Holmes
+  start: 118900
+  end: 118906
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 127815
-  tag: PERSON
-  begin: 11
+- score: 0.4692601874673278
+  document: Woodwork
+  start: 118955
+  end: 118963
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 127973
+- score: 0.8743124326346582
+  document: Gregson
+  start: 119028
+  end: 119035
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 127999
-  tag: PERSON
-  begin: 11
+- score: 0.3901576405099898
+  document: Lestrade
+  start: 119037
+  end: 119045
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 128248
+- score: 0.9940725283512891
+  document: Holmes
+  start: 119051
+  end: 119057
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 128729
+- score: 0.9543202074524607
+  document: Lestrade
+  start: 119490
+  end: 119498
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 128893
+- score: 0.9994913729165631
+  document: Sherlock Holmes
+  start: 119803
+  end: 119818
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 128979
-  tag: PERSON
-  begin: 11
+- score: 0.9095515894275314
+  document: Scotland Yard
+  start: 119850
+  end: 119863
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 129197
-  tag: PERSON
-  begin: 11
+- score: 0.7080948091671382
+  document: Saints
+  start: 120126
+  end: 120132
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 129270
-  tag: PERSON
-  begin: 11
+- score: 0.9168420030796262
+  document: North American Continent
+  start: 120208
+  end: 120232
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 129307
-  tag: PERSON
-  begin: 11
+- score: 0.9994576359497264
+  document: Sierra Nevada
+  start: 120367
+  end: 120380
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 129481
-  tag: PERSON
-  begin: 11
+- score: 0.9980989537088758
+  document: Nebraska
+  start: 120384
+  end: 120392
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 129555
-  tag: PERSON
-  begin: 11
+- score: 0.999512273984287
+  document: Yellowstone River
+  start: 120407
+  end: 120424
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 129747
-  tag: PERSON
-  begin: 11
+- score: 0.9755344939074465
+  document: Colorado
+  start: 120445
+  end: 120453
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 129920
-  tag: PERSON
-  begin: 11
+- score: 0.8325167119260649
+  document: Sierra Blanco
+  start: 121557
+  end: 121570
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 130960
-  tag: PERSON
-  begin: 11
+- score: 0.6341967261350032
+  document: Sierra Blanco
+  start: 122328
+  end: 122341
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 132754
+- score: 0.9992878782929884
+  document: Bob
+  start: 126610
+  end: 126613
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 132978
+- score: 0.9999049852649136
+  document: Bender
+  start: 127139
+  end: 127145
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 133083
+- score: 0.8789344674465578
+  document: Pete
+  start: 127186
+  end: 127190
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 133168
+- score: 0.9986160318486772
+  document: McGregor
+  start: 127206
+  end: 127214
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 133288
+- score: 0.999270933170766
+  document: Johnny Hones
+  start: 127225
+  end: 127237
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 133330
+- score: 0.9877069668280034
+  document: Bob
+  start: 128177
+  end: 128180
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 133777
-  tag: PERSON
-  begin: 11
+- score: 0.9974810982767505
+  document: Illinois
+  start: 128990
+  end: 128998
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 133970
-  tag: PERSON
-  begin: 11
+- score: 0.9611197344396751
+  document: Missouri
+  start: 129016
+  end: 129024
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 134044
-  tag: PERSON
-  begin: 11
+- score: 0.401909073103281
+  document: Sierra Blanco
+  start: 133086
+  end: 133099
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 134085
-  tag: PERSON
-  begin: 11
+- score: 0.895814418227601
+  document: Rio Grande
+  start: 133122
+  end: 133132
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 134789
-  tag: PERSON
-  begin: 11
+- score: 0.4526642024305115
+  document: Injuns
+  start: 133789
+  end: 133795
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 135714
+- score: 0.9472424221669214
+  document: Stangerson
+  start: 133989
+  end: 133999
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 136312
+- score: 0.9999962192696177
+  document: John Ferrier
+  start: 136571
+  end: 136583
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 136577
+- score: 0.999429628620472
+  document: Lucy Ferrier
+  start: 136898
+  end: 136910
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 136761
-  tag: PERSON
-  begin: 11
+- score: 0.4639378611683834
+  document: Angel Merona
+  start: 137179
+  end: 137191
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 136798
+- score: 0.9998399035835358
+  document: Joseph Smith
+  start: 137494
+  end: 137506
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 137087
-  tag: PERSON
-  begin: 11
+- score: 0.9974877755506668
+  document: Palmyra
+  start: 137510
+  end: 137517
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 137213
-  tag: PERSON
-  begin: 11
+- score: 0.9171605501509882
+  document: Nauvoo
+  start: 137537
+  end: 137543
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 137310
-  tag: PERSON
-  begin: 11
+- score: 0.9978208609720881
+  document: State of Illinois
+  start: 137552
+  end: 137569
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
+- score: 0.927204933216741
+  document: Nauvoo
+  start: 137734
   end: 137740
-  tag: PERSON
-  begin: 11
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 137851
+- score: 0.9998965901609347
+  document: John Ferrier
+  start: 137777
+  end: 137789
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 137914
+- score: 0.9678974926014003
+  document: Ferrier
+  start: 139459
+  end: 139466
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 137942
+- score: 0.9873462852389175
+  document: Brother Stangerson
+  start: 139609
+  end: 139627
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 138092
-  tag: PERSON
-  begin: 11
+- score: 0.893811934484776
+  document: Brigham Young
+  start: 140406
+  end: 140419
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 139095
+- score: 0.9941507363343423
+  document: Joseph Smith
+  start: 140469
+  end: 140481
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 139431
-  tag: PERSON
-  begin: 11
+- score: 0.6267277086920111
+  document: Flower Of Utah
+  start: 140528
+  end: 140542
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 139616
-  tag: PERSON
-  begin: 11
+- score: 0.9822678971738682
+  document: Mississippi
+  start: 140701
+  end: 140712
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 139817
-  tag: PERSON
-  begin: 11
+- score: 0.9652208490730225
+  document: Rocky Mountains
+  start: 140742
+  end: 140757
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 140259
-  tag: PERSON
-  begin: 11
+- score: 0.6335399484875374
+  document: Anglo
+  start: 140984
+  end: 140989
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 140530
-  tag: PERSON
-  begin: 11
+- score: 0.9952402540910358
+  document: Utah
+  start: 141209
+  end: 141213
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 141405
+- score: 0.9999959212140275
+  document: John Ferrier
+  start: 142324
+  end: 142336
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 142323
+- score: 0.9998470555954162
+  document: Lucy Ferrier
+  start: 142492
+  end: 142504
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 143393
+- score: 0.2992760411212284
+  document: Stangerson
+  start: 142548
+  end: 142558
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 144157
+- score: 0.9829507553421512
+  document: Ferrier
+  start: 142904
+  end: 142911
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 144982
-  tag: PERSON
-  begin: 11
+- score: 0.48428732609016467
+  document: Stangerson
+  start: 143294
+  end: 143304
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 145811
+- score: 0.45957738924676095
+  document: Kemball
+  start: 143306
+  end: 143313
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 146515
+- score: 0.9694702523389767
+  document: Johnston
+  start: 143315
+  end: 143323
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 147734
+- score: 0.7652820003200613
+  document: Drebber
+  start: 143329
+  end: 143336
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 149454
+- score: 0.9999777310438335
+  document: John Ferrier
+  start: 143401
+  end: 143413
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 149522
-  tag: PERSON
-  begin: 11
+- score: 0.9999432574411463
+  document: Salt Lake City
+  start: 143977
+  end: 143991
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 149712
-  tag: PERSON
-  begin: 11
+- score: 0.9973467597155028
+  document: Wahsatch Mountains
+  start: 144061
+  end: 144079
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 150171
+- score: 0.9992889678362734
+  document: John Ferrier
+  start: 144124
+  end: 144136
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 150236
-  tag: PERSON
-  begin: 11
+- score: 0.9963461407758655
+  document: Atlantic
+  start: 144752
+  end: 144760
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 150481
+- score: 0.9933929561151305
+  document: Ferrier
+  start: 144783
+  end: 144790
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 150635
+- score: 0.9999369010035918
+  document: Lucy Ferrier
+  start: 144964
+  end: 144976
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 150675
+- score: 0.9454958731696236
+  document: Ferrier
+  start: 145341
+  end: 145348
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 150781
-  tag: PERSON
-  begin: 11
+- score: 0.9696364939906061
+  document: Pacific
+  start: 145777
+  end: 145784
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 150876
+- score: 0.9962226403105227
+  document: Lucy Ferrier
+  start: 146367
+  end: 146379
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 151063
-  tag: PERSON
-  begin: 11
+- score: 0.9997504077162669
+  document: California
+  start: 146825
+  end: 146835
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 151282
-  tag: PERSON
-  begin: 11
+- score: 0.5817931628612201
+  document: Overland Route
+  start: 146845
+  end: 146859
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 152386
+- score: 0.9999955364863379
+  document: Lucy Ferrier
+  start: 147186
+  end: 147198
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 153442
+- score: 0.999978387661807
+  document: John Ferrier
+  start: 149948
+  end: 149960
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 153644
-  tag: PERSON
-  begin: 11
+- score: 0.9546982683456954
+  document: Jefferson Hopes of St. Louis
+  start: 150059
+  end: 150087
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 153832
+- score: 0.9543590848055552
+  document: Ferrier
+  start: 150106
+  end: 150113
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 153892
+- score: 0.9998937602558446
+  document: Lucy Ferrier
+  start: 150829
+  end: 150841
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 154015
+- score: 0.9614161181015475
+  document: Jefferson Hope
+  start: 151270
+  end: 151284
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 154051
-  tag: PERSON
-  begin: 11
+- score: 0.9998458602309741
+  document: Nevada Mountains
+  start: 151366
+  end: 151382
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 154156
-  tag: PERSON
-  begin: 11
+- score: 0.9999398598569262
+  document: Salt Lake City
+  start: 151429
+  end: 151443
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 154304
-  tag: PERSON
-  begin: 11
+- score: 0.7448747005491553
+  document: Sierra
+  start: 151717
+  end: 151723
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 154539
+- score: 0.99993253680363
+  document: John Ferrier
+  start: 152381
+  end: 152393
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 154907
+- score: 0.6698086110744726
+  document: John
+  start: 152481
+  end: 152485
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 155742
+- score: 0.8744418871070395
+  document: Jefferson Hope
+  start: 152641
+  end: 152655
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 156315
+- score: 0.9970264270485554
+  document: Lucy
+  start: 152710
+  end: 152714
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 157060
-  tag: PERSON
-  begin: 11
+- score: 0.999674929564467
+  document: California
+  start: 152763
+  end: 152773
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 158098
+- score: 0.9077694614809703
+  document: Jefferson Hope
+  start: 152997
+  end: 153011
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 158733
+- score: 0.9987871201485776
+  document: Lucy
+  start: 153150
+  end: 153154
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 159270
+- score: 0.9948068017576321
+  document: Lucy
+  start: 153637
+  end: 153641
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 159654
-  tag: PERSON
-  begin: 11
+- score: 0.994117571064295
+  document: Utah
+  start: 154882
+  end: 154886
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 159690
+- score: 0.9903908912216739
+  document: John Ferrier
+  start: 154902
+  end: 154914
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 159918
+- score: 0.937204237425437
+  document: Jefferson Hope
+  start: 154967
+  end: 154981
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 160093
-  tag: PERSON
-  begin: 11
+- score: 0.9999836389544383
+  document: Salt Lake City
+  start: 155017
+  end: 155031
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 160189
+- score: 0.9999638582022495
+  document: John Ferrier
+  start: 155033
+  end: 155045
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 160383
-  tag: PERSON
-  begin: 11
+- score: 0.7034712694218442
+  document: Saints
+  start: 155715
+  end: 155721
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 160577
-  tag: PERSON
-  begin: 11
+- score: 0.982063520583897
+  document: Seville
+  start: 156111
+  end: 156118
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 160611
-  tag: PERSON
-  begin: 11
+- score: 0.6195719933109549
+  document: Italy
+  start: 156176
+  end: 156181
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 161051
-  tag: PERSON
-  begin: 11
+- score: 0.9741688739486457
+  document: Utah
+  start: 156290
+  end: 156294
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 161127
-  tag: PERSON
-  begin: 11
+- score: 0.7122198007631959
+  document: West
+  start: 157983
+  end: 157987
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 161628
+- score: 0.7400519497902086
+  document: Prophet
+  start: 158488
+  end: 158495
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 161698
+- score: 0.9999974010221089
+  document: John Ferrier
+  start: 158733
+  end: 158745
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 161803
-  tag: PERSON
-  begin: 11
+- score: 0.7632061350872438
+  document: Brigham Young
+  start: 158993
+  end: 159006
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 161927
+- score: 0.9737542123526128
+  document: Ferrier
+  start: 159088
+  end: 159095
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 162223
+- score: 0.9947071742977317
+  document: Ferrier
+  start: 159261
+  end: 159268
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 162357
+- score: 0.8075417466764405
+  document: Chosen Valley
+  start: 159520
+  end: 159533
+  tag: LOCATION
+  token: entity
+- score: 0.9999632834155175
+  document: John Ferrier
+  start: 159657
+  end: 159669
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 162642
+- score: 0.981607651128982
+  document: Ferrier
+  start: 159937
+  end: 159944
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 162773
+- score: 0.9242083423323392
+  document: Young
+  start: 160105
+  end: 160110
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 163010
+- score: 0.9881469959468099
+  document: ” Ferrier
+  start: 160207
+  end: 160216
   tag: PERSON
-  begin: 11
+  token: entity
+- score: 0.994560173010593
+  document: Utah
+  start: 160484
+  end: 160488
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 163064
+- score: 0.9999765447163611
+  document: John Ferrier
+  start: 160559
+  end: 160571
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 163478
+- score: 0.6433696584708829
+  document: Gentile
+  start: 160684
+  end: 160691
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 163539
+- score: 0.9999181289267545
+  document: Joseph Smith
+  start: 160789
+  end: 160801
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 163756
+- score: 0.3943291339272758
+  document: Gentile
+  start: 160880
+  end: 160887
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 163957
+- score: 0.9999917233795405
+  document: John Ferrier
+  start: 161033
+  end: 161045
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 163972
+- score: 0.5415474956581672
+  document: Sacred Council of Four
+  start: 161193
+  end: 161215
+  tag: ORGANIZATION
+  token: entity
+- score: 0.6874220304579512
+  document: Stangerson
+  start: 161394
+  end: 161404
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 164004
+- score: 0.6913800900867646
+  document: Drebber
+  start: 161420
+  end: 161427
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 164021
+- score: 0.9770146319920353
+  document: Ferrier
+  start: 161610
+  end: 161617
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 164462
+- score: 0.9675608631784399
+  document: Young
+  start: 161826
+  end: 161831
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 164517
+- score: 0.999991627234217
+  document: John Ferrier
+  start: 162020
+  end: 162032
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 164779
+- score: 0.826568285450403
+  document: Sierra Blanco
+  start: 162110
+  end: 162123
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 165056
+- score: 0.9950663659549679
+  document: Ferrier
+  start: 162274
+  end: 162281
   tag: PERSON
-  begin: 11
+  token: entity
+- score: 0.9977796418756681
+  document: Nevada
+  start: 163259
+  end: 163265
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 165631
+- score: 0.9984862053789145
+  document: Lucy
+  start: 163460
+  end: 163464
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 166197
+- score: 0.9944212248024679
+  document: Utah
+  start: 163931
+  end: 163935
+  tag: LOCATION
+  token: entity
+- score: 0.6209850530329062
+  document: Utah
+  start: 163946
+  end: 163950
+  tag: LOCATION
+  token: entity
+- score: 0.971249567311493
+  document: Lucy
+  start: 164086
+  end: 164090
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 166413
+- score: 0.6831957907312991
+  document: Jefferson
+  start: 164510
+  end: 164519
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 166540
+- score: 0.9999703140505153
+  document: John Ferrier
+  start: 164761
+  end: 164773
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 166606
+- score: 0.7133337694505827
+  document: Kemball
+  start: 165047
+  end: 165054
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 166879
+- score: 0.9999899673813026
+  document: John Ferrier
+  start: 165237
+  end: 165249
   tag: PERSON
-  begin: 11
+  token: entity
+- score: 0.9999970433331609
+  document: Salt Lake City
+  start: 165261
+  end: 165275
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 167072
+- score: 0.9869329010172144
+  document: Nevada Mountains
+  start: 165334
+  end: 165350
+  tag: LOCATION
+  token: entity
+- score: 0.6356969468785091
+  document: Jefferson Hope
+  start: 165389
+  end: 165403
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 167269
+- score: 0.9881470516638499
+  document: Ferrier
+  start: 166094
+  end: 166101
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 167418
+- score: 0.9999857113726802
+  document: Joseph Stangerson
+  start: 166263
+  end: 166280
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 167559
+- score: 0.9999775887057777
+  document: John Ferrier
+  start: 166522
+  end: 166534
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 167710
+- score: 0.4006269794964911
+  document: Stangerson
+  start: 166614
+  end: 166624
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 167882
+- score: 0.9610939001329021
+  document: Drebber
+  start: 166783
+  end: 166790
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 168008
+- score: 0.891431052997299
+  document: Stangerson
+  start: 166880
+  end: 166890
   tag: PERSON
-  begin: 11
+  token: entity
+- score: 0.6582398835114845
+  document: Church
+  start: 167241
+  end: 167247
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 168187
+- score: 0.8656458329283847
+  document: Drebber
+  start: 167305
+  end: 167312
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 168266
+- score: 0.9999836429936656
+  document: John Ferrier
+  start: 167422
+  end: 167434
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 168427
+- score: 0.8830532470614687
+  document: Ferrier
+  start: 167908
+  end: 167915
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 168528
+- score: 0.6688864977796904
+  document: Stangerson
+  start: 168276
+  end: 168286
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 168791
+- score: 0.8349364054458958
+  document: Council of Four
+  start: 168348
+  end: 168363
+  tag: ORGANIZATION
+  token: entity
+- score: 0.5348197201867438
+  document: Drebber
+  start: 168469
+  end: 168476
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 168960
+- score: 0.9802892080675488
+  document: Ferrier
+  start: 168551
+  end: 168558
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 169050
+- score: 0.9973665398602135
+  document: Lucy
+  start: 168621
+  end: 168625
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 169166
+- score: 0.9116581193881549
+  document: Jefferson
+  start: 169001
+  end: 169010
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 170059
+- score: 0.9885803277665977
+  document: Ferrier
+  start: 169505
+  end: 169512
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 170402
+- score: 0.9999927727032204
+  document: John Ferrier
+  start: 170553
+  end: 170565
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 170461
+- score: 0.594600195322641
+  document: Young
+  start: 170835
+  end: 170840
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 171081
+- score: 0.997226825543195
+  document: Lucy
+  start: 171144
+  end: 171148
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 171536
+- score: 0.9999917341227441
+  document: John Ferrier
+  start: 171926
+  end: 171938
   tag: PERSON
-  begin: 11
+  token: entity
+- score: 0.9972069712937339
+  document: Nevada
+  start: 172252
+  end: 172258
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 172279
+- score: 0.9803943007774728
+  document: Ferrier
+  start: 173880
+  end: 173887
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 173198
+- score: 0.9999911074380394
+  document: John Ferrier
+  start: 174274
+  end: 174286
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 173747
+- score: 0.9774913971306357
+  document: Ferrier
+  start: 174725
+  end: 174732
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 174470
+- score: 0.9999592655288426
+  document: John Ferrier
+  start: 175454
+  end: 175466
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 174944
+- score: 0.9807339217594623
+  document: Lucy
+  start: 175776
+  end: 175780
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 175453
+- score: 0.6425983682090196
+  document: Washoe
+  start: 176062
+  end: 176068
+  tag: LOCATION
+  token: entity
+- score: 0.999883178532933
+  document: John Ferrier
+  start: 176079
+  end: 176091
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 175545
+- score: 0.9440036610416271
+  document: Lucy
+  start: 176532
+  end: 176536
   tag: PERSON
-  begin: 11
+  token: entity
+- score: 0.9990624005665677
+  document: Utah
+  start: 176640
+  end: 176644
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 175859
+- score: 0.7771554210105545
+  document: Carson City
+  start: 176944
+  end: 176955
+  tag: LOCATION
+  token: entity
+- score: 0.997240020417921
+  document: Lucy
+  start: 176997
+  end: 177001
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 175918
+- score: 0.9983969564533167
+  document: Ferrier
+  start: 177070
+  end: 177077
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 176097
+- score: 0.9110374977557275
+  document: Jefferson Hope
+  start: 177142
+  end: 177156
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 176359
+- score: 0.9467995849643582
+  document: Jefferson Hope
+  start: 177608
+  end: 177622
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 176666
+- score: 0.9366028753850915
+  document: Ferrier
+  start: 178049
+  end: 178056
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 176688
+- score: 0.9306414243247101
+  document: Ferrier
+  start: 178325
+  end: 178332
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 176844
+- score: 0.9793884410402912
+  document: Ferrier
+  start: 178917
+  end: 178924
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 176896
+- score: 0.8526387084838565
+  document: Jefferson Hope
+  start: 178960
+  end: 178974
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 177082
+- score: 0.9904545663356689
+  document: Lucy
+  start: 179018
+  end: 179022
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 177587
+- score: 0.9179612780880432
+  document: Drebber
+  start: 180249
+  end: 180256
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 178035
+- score: 0.9361645468115392
+  document: Jefferson Hope
+  start: 180561
+  end: 180575
   tag: PERSON
-  begin: 11
+  token: entity
+- score: 0.655510441858404
+  document: Eagle Cañon
+  start: 181275
+  end: 181286
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 178077
+- score: 0.8125685184128713
+  document: Jefferson Hope
+  start: 181350
+  end: 181364
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 178259
+- score: 0.9699676620564245
+  document: Ferrier
+  start: 181597
+  end: 181604
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 178935
+- score: 0.6281683640137922
+  document: Jefferson Hope
+  start: 181655
+  end: 181669
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 179615
+- score: 0.6099190086386673
+  document: Saints
+  start: 182556
+  end: 182562
+  tag: ORGANIZATION
+  token: entity
+- score: 0.9789985565747704
+  document: Nevada
+  start: 182947
+  end: 182953
+  tag: LOCATION
+  token: entity
+- score: 0.9963459707649037
+  document: Jefferson Hope
+  start: 182961
+  end: 182975
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 180092
+- score: 0.9268896929330891
+  document: Ferrier
+  start: 183207
+  end: 183214
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 180211
+- score: 0.8862388879953026
+  document: Hope
+  start: 183963
+  end: 183967
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 180278
+- score: 0.9992713204557747
+  document: Lucy
+  start: 185148
+  end: 185152
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 180343
+- score: 0.9564828165847773
+  document: Jefferson Hope
+  start: 185203
+  end: 185217
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 180792
+- score: 0.6825291721037792
+  document: Carson
+  start: 185336
+  end: 185342
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 180923
+- score: 0.9054063654713863
+  document: Jefferson Hope
+  start: 185844
+  end: 185858
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 181745
+- score: 0.9987804680172706
+  document: Lucy
+  start: 186636
+  end: 186640
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 182490
+- score: 0.9905698822520452
+  document: Lucy
+  start: 189263
+  end: 189267
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 182949
+- score: 0.9928104762648535
+  document: Jefferson Hope
+  start: 190780
+  end: 190794
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 183051
+- score: 0.9999974700483734
+  document: Salt Lake City
+  start: 191333
+  end: 191347
+  tag: LOCATION
+  token: entity
+- score: 0.9538618047649073
+  document: Jefferson Hope
+  start: 191405
+  end: 191419
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 183165
+- score: 0.9956536633442248
+  document: JOHN FERRIER
+  start: 191944
+  end: 191956
   tag: PERSON
-  begin: 11
+  token: entity
+- score: 0.9999650551936842
+  document: Salt Lake City
+  start: 191970
+  end: 191984
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 183199
+- score: 0.6145130513942256
+  document: Jefferson Hope
+  start: 192116
+  end: 192130
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 183334
+- score: 0.9969998022245157
+  document: Lucy
+  start: 192217
+  end: 192221
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 183374
+- score: 0.8164054738435537
+  document: Jefferson Hope
+  start: 192752
+  end: 192766
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 183490
+- score: 0.5925808121057039
+  document: Eagle Cañon
+  start: 193746
+  end: 193757
+  tag: LOCATION
+  token: entity
+- score: 0.9921418616421986
+  document: Cowper
+  start: 194300
+  end: 194306
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 183815
+- score: 0.9999213173778726
+  document: Lucy Ferrier
+  start: 194446
+  end: 194458
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 184763
+- score: 0.9950149753563552
+  document: Jefferson Hope
+  start: 194483
+  end: 194497
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 185407
+- score: 0.9801865739706653
+  document: Cowper
+  start: 195148
+  end: 195154
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 186099
+- score: 0.9984897101239048
+  document: Lucy Ferrier
+  start: 195418
+  end: 195430
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 186964
+- score: 0.787357252397062
+  document: Drebber
+  start: 195470
+  end: 195477
   tag: PERSON
-  begin: 11
+  token: entity
+- score: 0.9886663340156432
+  document: Endowment House
+  start: 195746
+  end: 195761
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 188004
+- score: 0.8324668423820932
+  document: Drebber
+  start: 195798
+  end: 195805
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 189380
+- score: 0.8013274259275941
+  document: Stangerson
+  start: 195816
+  end: 195826
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 190188
+- score: 0.939931629078031
+  document: Stangerson
+  start: 195910
+  end: 195920
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 190761
+- score: 0.6661808003506712
+  document: Drebber
+  start: 196023
+  end: 196030
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 191962
+- score: 0.5065611264464385
+  document: Prophet
+  start: 196064
+  end: 196071
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 192556
+- score: 0.9922051103844479
+  document: Jefferson Hope
+  start: 196255
+  end: 196269
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 193489
+- score: 0.9968446713224174
+  document: Lucy
+  start: 196884
+  end: 196888
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 194495
+- score: 0.9994290362459907
+  document: John Ferrier
+  start: 197028
+  end: 197040
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 194547
+- score: 0.9966809254609152
+  document: Lucy Ferrier
+  start: 197577
+  end: 197589
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 194873
+- score: 0.504276367248146
+  document: Jefferson Hope
+  start: 198156
+  end: 198170
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 195064
+- score: 0.38620019360960783
+  document: Stangerson
+  start: 198476
+  end: 198486
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 195317
+- score: 0.4542766732209311
+  document: Drebber
+  start: 198577
+  end: 198584
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 195416
+- score: 0.9981536101776729
+  document: Nevada
+  start: 199898
+  end: 199904
+  tag: LOCATION
+  token: entity
+- score: 0.9999500089950888
+  document: John Ferrier
+  start: 200325
+  end: 200337
   tag: PERSON
-  begin: 11
+  token: entity
+- score: 0.9999984796073326
+  document: Salt Lake City
+  start: 200400
+  end: 200414
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 195452
+- score: 0.6217163719089759
+  document: Church
+  start: 200651
+  end: 200657
+  tag: ORGANIZATION
+  token: entity
+- score: 0.9947244595408694
+  document: Utah
+  start: 200802
+  end: 200806
+  tag: LOCATION
+  token: entity
+- score: 0.49291032694008646
+  document: Drebber
+  start: 200849
+  end: 200856
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 195552
+- score: 0.4062806815030771
+  document: Stangerson
+  start: 200861
+  end: 200871
+  tag: LOCATION
+  token: entity
+- score: 0.8095992464843655
+  document: Rumour
+  start: 200912
+  end: 200918
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 195706
+- score: 0.9137059220249406
+  document: Drebber
+  start: 200933
+  end: 200940
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 196251
+- score: 0.42871027028373426
+  document: Stangerson
+  start: 201066
+  end: 201076
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 196449
+- score: 0.6824754534038598
+  document: Jefferson Hope
+  start: 201277
+  end: 201291
   tag: PERSON
-  begin: 11
+  token: entity
+- score: 0.9999574467348818
+  document: United States
+  start: 201453
+  end: 201466
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 196473
+- score: 0.6630003587483799
+  document: Cleveland
+  start: 201790
+  end: 201799
+  tag: LOCATION
+  token: entity
+- score: 0.9912689090169453
+  document: Ohio
+  start: 201803
+  end: 201807
+  tag: LOCATION
+  token: entity
+- score: 0.8035070861044128
+  document: Drebber
+  start: 201958
+  end: 201965
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 196720
+- score: 0.8980871865875587
+  document: Stangerson
+  start: 202124
+  end: 202134
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 198158
+- score: 0.9054903020117809
+  document: Jefferson Hope
+  start: 202296
+  end: 202310
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 199236
+- score: 0.9210946202526105
+  document: Drebber
+  start: 202457
+  end: 202464
   tag: PERSON
-  begin: 11
+  token: entity
+- score: 0.9937958215525993
+  document: Europe
+  start: 202534
+  end: 202540
+  tag: LOCATION
+  token: entity
+- score: 0.9859764602182075
+  document: Europe
+  start: 202839
+  end: 202845
+  tag: LOCATION
+  token: entity
+- score: 0.9991005190382902
+  document: St. Petersburg
+  start: 202982
+  end: 202996
+  tag: LOCATION
+  token: entity
+- score: 0.9743888485976994
+  document: Paris
+  start: 203019
+  end: 203024
+  tag: LOCATION
+  token: entity
+- score: 0.9933550169307144
+  document: Copenhagen
+  start: 203100
+  end: 203110
+  tag: LOCATION
+  token: entity
+- score: 0.9983729430588296
+  document: London
+  start: 203193
+  end: 203199
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 200038
+- score: 0.9964802432750237
+  document: Watson
+  start: 203366
+  end: 203372
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 201181
+- score: 0.9997762433772792
+  document: John Watson
+  start: 203484
+  end: 203495
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 202561
+- score: 0.9971116268510237
+  document: Sherlock Holmes
+  start: 203824
+  end: 203839
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 203451
+- score: 0.9951053697719298
+  document: Gregson
+  start: 203954
+  end: 203961
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 203972
+- score: 0.8443410192730874
+  document: Lestrade
+  start: 203966
+  end: 203974
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 204497
+- score: 0.983530781498332
+  document: Holmes
+  start: 204052
+  end: 204058
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 204697
+- score: 0.9971210090337393
+  document: Holmes
+  start: 204715
+  end: 204721
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 204764
+- score: 0.6229526108520713
+  document: Lestrade
+  start: 204770
+  end: 204778
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
+- score: 0.9770608148853192
+  document: Gregson
+  start: 204792
   end: 204799
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 204930
+- score: 0.49425301441733194
+  document: Lestrade
+  start: 205075
+  end: 205083
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 205704
+- score: 0.9998487032407366
+  document: Jefferson Hope
+  start: 205547
+  end: 205561
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 205807
-  tag: PERSON
-  begin: 11
+- score: 0.9997429238389762
+  document: Salt Lake Mountains
+  start: 206824
+  end: 206843
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 205878
+- score: 0.9907542610086839
+  document: Jefferson Hope
+  start: 207842
+  end: 207856
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 206069
+- score: 0.6439143938465386
+  document: Lestrade
+  start: 208114
+  end: 208122
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 206095
-  tag: PERSON
-  begin: 11
+- score: 0.9971850445350685
+  document: London
+  start: 209562
+  end: 209568
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 206200
-  tag: PERSON
-  begin: 11
+- score: 0.6609141166468093
+  document: Camberwell
+  start: 210368
+  end: 210378
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 206548
-  tag: PERSON
-  begin: 11
+- score: 0.959057455651737
+  document: London
+  start: 210738
+  end: 210744
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 206596
+- score: 0.5054034055859702
+  document: Drebber
+  start: 211374
+  end: 211381
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 207041
+- score: 0.8556478742025612
+  document: Stangerson
+  start: 211419
+  end: 211429
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 207162
+- score: 0.48110189102531137
+  document: Stangerson
+  start: 211933
+  end: 211943
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 207240
-  tag: PERSON
-  begin: 11
+- score: 0.6181738413726181
+  document: Euston Station
+  start: 212113
+  end: 212127
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 207280
-  tag: PERSON
-  begin: 11
+- score: 0.7807139386848777
+  document: Liverpool
+  start: 212240
+  end: 212249
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 207484
+- score: 0.5072045979856233
+  document: Stangerson
+  start: 212348
+  end: 212358
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 207842
+- score: 0.9120222803779884
+  document: Drebber
+  start: 212393
+  end: 212400
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 208231
+- score: 0.9590373902924155
+  document: Drebber
+  start: 212528
+  end: 212535
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 208778
+- score: 0.7549921706422407
+  document: Drebber
+  start: 212752
+  end: 212759
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 209481
+- score: 0.9909711538877811
+  document: Stangerson
+  start: 212855
+  end: 212865
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 210215
+- score: 0.5186239539754233
+  document: Halliday
+  start: 213161
+  end: 213169
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 210686
+- score: 0.7178156491905975
+  document: Drebber
+  start: 213196
+  end: 213203
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 211140
-  tag: PERSON
-  begin: 11
+- score: 0.9984364533762806
+  document: Brixton Road
+  start: 213946
+  end: 213958
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 211728
-  tag: PERSON
-  begin: 11
+- score: 0.999062313796205
+  document: Waterloo Bridge
+  start: 214717
+  end: 214732
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 213322
+- score: 0.8120312722395521
+  document: Drebber
+  start: 215746
+  end: 215753
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 214369
+- score: 0.9505387651208035
+  document: Halliday
+  start: 215950
+  end: 215958
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 215129
-  tag: PERSON
-  begin: 11
+- score: 0.9953872342609489
+  document: America
+  start: 216932
+  end: 216939
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 215176
-  tag: PERSON
-  begin: 11
+- score: 0.9940924418585964
+  document: York College
+  start: 217022
+  end: 217034
+  tag: ORGANIZATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 216005
+- score: 0.999963623020336
+  document: John Ferrier
+  start: 218430
+  end: 218442
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 216652
+- score: 0.9828452199458094
+  document: Lucy
+  start: 218453
+  end: 218457
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 217920
-  tag: PERSON
-  begin: 11
+- score: 0.9997684961631882
+  document: Brixton Road
+  start: 218659
+  end: 218671
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 218692
+- score: 0.7485463996707871
+  document: Drebber
+  start: 218806
+  end: 218813
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 218930
+- score: 0.9997687709691278
+  document: Enoch Drebber
+  start: 219502
+  end: 219515
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 218961
-  tag: PERSON
-  begin: 11
+- score: 0.9999865445214224
+  document: Salt Lake City
+  start: 220136
+  end: 220150
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 219350
-  tag: PERSON
-  begin: 11
+- score: 0.9978406771961789
+  document: St. Petersburg
+  start: 220154
+  end: 220168
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 219401
+- score: 0.9999457949794519
+  document: Lucy Ferrier
+  start: 220613
+  end: 220625
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 219616
+- score: 0.9690548269271082
+  document: Lucy
+  start: 221916
+  end: 221920
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 220110
-  tag: PERSON
-  begin: 11
+- score: 0.9981657126895049
+  document: New York
+  start: 222592
+  end: 222600
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 220608
+- score: 0.9452632960616344
+  document: Lucy
+  start: 223081
+  end: 223085
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 220898
+- score: 0.7601183263530098
+  document: Drebber
+  start: 223261
+  end: 223268
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 220937
+- score: 0.9998788820830751
+  document: Enoch Drebber
+  start: 223604
+  end: 223617
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 221156
+- score: 0.2916222181327105
+  document: Stangerson
+  start: 223678
+  end: 223688
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 221206
+- score: 0.9998933460763166
+  document: John Ferrier
+  start: 223705
+  end: 223717
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 221501
+- score: 0.6117343248584908
+  document: Halliday
+  start: 223756
+  end: 223764
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 222296
+- score: 0.8897008196282402
+  document: Drebber
+  start: 223872
+  end: 223879
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 223608
+- score: 0.9252381777838147
+  document: Drebber
+  start: 224391
+  end: 224398
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 224780
-  tag: PERSON
-  begin: 11
+- score: 0.711594751194048
+  document: Providence
+  start: 224672
+  end: 224682
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 225455
-  tag: PERSON
-  begin: 11
+- score: 0.9961473628186108
+  document: America
+  start: 224939
+  end: 224946
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 225877
+- score: 0.8582282377147008
+  document: Jefferson Hope
+  start: 225039
+  end: 225053
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 226052
-  tag: PERSON
-  begin: 11
+- score: 0.9878229018061209
+  document: Baker Street
+  start: 225112
+  end: 225124
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 226355
+- score: 0.4572683890066836
+  document: Lestrade
+  start: 225781
+  end: 225789
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 226401
+- score: 0.9963965372298487
+  document: Sherlock Holmes
+  start: 225935
+  end: 225950
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 226819
+- score: 0.9896153583495765
+  document: Holmes
+  start: 226365
+  end: 226371
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 227404
+- score: 0.7934842522816954
+  document: Jefferson Hope
+  start: 226658
+  end: 226672
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 227558
-  tag: PERSON
-  begin: 11
+- score: 0.9873414285176172
+  document: Baker Street
+  start: 226786
+  end: 226798
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 227633
+- score: 0.6034976684709035
+  document: Jefferson Hope
+  start: 227021
+  end: 227035
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 228037
+- score: 0.966002392864499
+  document: Gregson
+  start: 227387
+  end: 227394
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 228062
+- score: 0.8525489952285026
+  document: Lestrade
+  start: 227399
+  end: 227407
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 228331
+- score: 0.9830259327568219
+  document: Holmes
+  start: 227439
+  end: 227445
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 228356
+- score: 0.9993273691434739
+  document: Sherlock Holmes
+  start: 228106
+  end: 228121
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 228840
-  tag: PERSON
-  begin: 11
+- score: 0.9827893172919712
+  document: London
+  start: 230035
+  end: 230041
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 228896
+- score: 0.9741602900941271
+  document: Dolsky
+  start: 232110
+  end: 232116
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 229421
-  tag: PERSON
-  begin: 11
+- score: 0.9965921877509268
+  document: Odessa
+  start: 232120
+  end: 232126
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 229446
-  tag: PERSON
-  begin: 11
+- score: 0.500235734335462
+  document: Montpellier
+  start: 232147
+  end: 232158
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 230124
+- score: 0.9969762399365633
+  document: Gregson
+  start: 233115
+  end: 233122
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 231209
+- score: 0.9845440029042929
+  document: Cleveland
+  start: 233166
+  end: 233175
+  tag: LOCATION
+  token: entity
+- score: 0.9997736684862422
+  document: Drebber
+  start: 233210
+  end: 233217
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 232219
+- score: 0.998103516515793
+  document: Gregson
+  start: 234034
+  end: 234041
   tag: PERSON
-  begin: 11
+  token: entity
+- score: 0.9088375072166118
+  document: Cleveland
+  start: 234100
+  end: 234109
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 233298
+- score: 0.9945132053557135
+  document: Enoch Drebber
+  start: 234183
+  end: 234196
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 234005
+- score: 0.8676444507072822
+  document: Drebber
+  start: 234241
+  end: 234248
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 234529
+- score: 0.953833460207652
+  document: Jefferson Hope
+  start: 234335
+  end: 234349
   tag: PERSON
-  begin: 11
+  token: entity
+- score: 0.9994550839039311
+  document: Europe
+  start: 234393
+  end: 234399
+  tag: LOCATION
+  token: entity
+- score: 0.9965384470073416
+  document: London
+  start: 235092
+  end: 235098
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 235312
+- score: 0.8941250858372888
+  document: Jefferson Hope
+  start: 235225
+  end: 235239
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 236305
+- score: 0.999282676347923
+  document: London
+  start: 235810
+  end: 235816
+  tag: LOCATION
+  token: entity
+- score: 0.46815500872852805
+  document: Stangerson
+  start: 235981
+  end: 235991
+  tag: LOCATION
+  token: entity
+- score: 0.7339495838721712
+  document: Hope
+  start: 236749
+  end: 236753
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 236452
+- score: 0.999956110449963
+  document: Enoch Drebber
+  start: 236794
+  end: 236807
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 236572
+- score: 0.9999978341526947
+  document: Joseph Stangerson
+  start: 236819
+  end: 236836
   tag: PERSON
-  begin: 11
+  token: entity
+- score: 0.9999360385568783
+  document: Salt Lake City
+  start: 237187
+  end: 237201
+  tag: LOCATION
+  token: entity
+- score: 0.8603241487846348
+  document: Scotland
+  start: 237576
+  end: 237584
+  tag: LOCATION
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 236677
+- score: 0.9264186056033086
+  document: Lestrade
+  start: 237609
+  end: 237617
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 238027
+- score: 0.9880078532677012
+  document: Gregson
+  start: 237622
+  end: 237629
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 238180
+- score: 0.9999988772826264
+  document: Sherlock Holmes
+  start: 237698
+  end: 237713
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan
-- score: 0.7156719727994669
-  document: Scarlet
-  end: 238380
+- score: 0.9988360707307475
+  document: Sherlock Holmes
+  start: 238055
+  end: 238070
   tag: PERSON
-  begin: 11
   token: entity
-  start: .nan

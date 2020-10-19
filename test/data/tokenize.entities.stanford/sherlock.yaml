@@ -1,1 +1,12 @@
-[]
+- score: 0.9999659397001105
+  document: Sherlock Holmes
+  start: 60
+  end: 75
+  tag: PERSON
+  token: entity
+- score: 0.8807182454562008
+  document: Beaune
+  start: 1324
+  end: 1330
+  tag: LOCATION
+  token: entity

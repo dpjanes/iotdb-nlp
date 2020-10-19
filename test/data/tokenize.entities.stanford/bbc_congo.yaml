@@ -1,224 +1,60 @@
 - score: 0.9883493647830833
-  document: Virunga
-  end: 7
-  tag: LOCATION
-  begin: 0
-  token: entity
-  start: .nan
-- score: 0.9867030382026344
-  document: National
-  end: 16
-  tag: LOCATION
-  begin: 8
-  token: entity
-  start: .nan
-- score: 0.9825294186290267
-  document: Park
+  document: Virunga National Park
+  start: 0
   end: 21
   tag: LOCATION
-  begin: 17
   token: entity
-  start: .nan
 - score: 0.7813107565078329
   document: Congo
+  start: 26
   end: 31
   tag: LOCATION
-  begin: 26
   token: entity
-  start: .nan
-- score: 0.9883493647830833
+- score: 0.9996738041235667
+  document: Virunga National Park
+  start: 102
+  end: 123
+  tag: LOCATION
+  token: entity
+- score: 0.9977337232161554
+  document: Democratic Republic of Congo
+  start: 131
+  end: 159
+  tag: LOCATION
+  token: entity
+- score: 0.9999718915607778
+  document: Joel Wengamulay
+  start: 257
+  end: 272
+  tag: PERSON
+  token: entity
+- score: 0.9987381267949778
+  document: BBC
+  start: 282
+  end: 285
+  tag: ORGANIZATION
+  token: entity
+- score: 0.4327711910529185
   document: Virunga
-  end: 55
-  tag: LOCATION
-  begin: 0
-  token: entity
-  start: .nan
-- score: 0.9867030382026344
-  document: National
-  end: 64
-  tag: LOCATION
-  begin: 8
-  token: entity
-  start: .nan
-- score: 0.9825294186290267
-  document: Park
-  end: 69
-  tag: LOCATION
-  begin: 17
-  token: entity
-  start: .nan
-- score: 0.7813107565078329
-  document: Congo
-  end: 79
-  tag: LOCATION
-  begin: 26
-  token: entity
-  start: .nan
-- score: 0.9883493647830833
-  document: Virunga
-  end: 187
-  tag: LOCATION
-  begin: 0
-  token: entity
-  start: .nan
-- score: 0.9867030382026344
-  document: National
-  end: 196
-  tag: LOCATION
-  begin: 8
-  token: entity
-  start: .nan
-- score: 0.9825294186290267
-  document: Park
-  end: 201
-  tag: LOCATION
-  begin: 17
-  token: entity
-  start: .nan
-- score: 0.7813107565078329
-  document: Congo
-  end: 211
-  tag: LOCATION
-  begin: 26
-  token: entity
-  start: .nan
-- score: 0.9883493647830833
-  document: Virunga
+  start: 288
   end: 295
   tag: LOCATION
-  begin: 0
   token: entity
-  start: .nan
-- score: 0.9867030382026344
-  document: National
-  end: 304
-  tag: LOCATION
-  begin: 8
-  token: entity
-  start: .nan
-- score: 0.9825294186290267
-  document: Park
+- score: 0.9884155766813908
+  document: Africa
+  start: 303
   end: 309
   tag: LOCATION
-  begin: 17
   token: entity
-  start: .nan
-- score: 0.7813107565078329
+- score: 0.9933950282687846
   document: Congo
-  end: 319
+  start: 407
+  end: 412
   tag: LOCATION
-  begin: 26
   token: entity
-  start: .nan
-- score: 0.9883493647830833
-  document: Virunga
-  end: 395
-  tag: LOCATION
-  begin: 0
-  token: entity
-  start: .nan
-- score: 0.9867030382026344
-  document: National
-  end: 404
-  tag: LOCATION
-  begin: 8
-  token: entity
-  start: .nan
-- score: 0.9825294186290267
-  document: Park
-  end: 409
-  tag: LOCATION
-  begin: 17
-  token: entity
-  start: .nan
-- score: 0.7813107565078329
+- score: 0.9546861093311386
   document: Congo
-  end: 419
-  tag: LOCATION
-  begin: 26
-  token: entity
-  start: .nan
-- score: 0.9883493647830833
-  document: Virunga
-  end: 496
-  tag: LOCATION
-  begin: 0
-  token: entity
-  start: .nan
-- score: 0.9867030382026344
-  document: National
-  end: 505
-  tag: LOCATION
-  begin: 8
-  token: entity
-  start: .nan
-- score: 0.9825294186290267
-  document: Park
-  end: 510
-  tag: LOCATION
-  begin: 17
-  token: entity
-  start: .nan
-- score: 0.7813107565078329
-  document: Congo
-  end: 520
-  tag: LOCATION
-  begin: 26
-  token: entity
-  start: .nan
-- score: 0.9883493647830833
-  document: Virunga
-  end: 620
-  tag: LOCATION
-  begin: 0
-  token: entity
-  start: .nan
-- score: 0.9867030382026344
-  document: National
-  end: 629
-  tag: LOCATION
-  begin: 8
-  token: entity
-  start: .nan
-- score: 0.9825294186290267
-  document: Park
-  end: 634
-  tag: LOCATION
-  begin: 17
-  token: entity
-  start: .nan
-- score: 0.7813107565078329
-  document: Congo
-  end: 644
-  tag: LOCATION
-  begin: 26
-  token: entity
-  start: .nan
-- score: 0.9883493647830833
-  document: Virunga
-  end: 689
-  tag: LOCATION
-  begin: 0
-  token: entity
-  start: .nan
-- score: 0.9867030382026344
-  document: National
+  start: 693
   end: 698
   tag: LOCATION
-  begin: 8
   token: entity
-  start: .nan
-- score: 0.9825294186290267
-  document: Park
-  end: 703
-  tag: LOCATION
-  begin: 17
-  token: entity
-  start: .nan
-- score: 0.7813107565078329
-  document: Congo
-  end: 713
-  tag: LOCATION
-  begin: 26
-  token: entity
-  start: .nan
