@@ -26,6 +26,7 @@ module.exports = Object.assign(
     {},
 
     require("./read"),
+    require("./write"),
     require("./utf8"),
 
     {}

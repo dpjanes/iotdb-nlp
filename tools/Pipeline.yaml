@@ -15,13 +15,7 @@ pipeline:
   - method: document.crlf
 
   - method: stanford.tokenize.entities
-    write: tokens
-    save: true
-
   - method: stanford.tokenize.syntax
-    write: tokens
-    save: true
-
   - method: tokens.merge
     inject:
       keys:
@@ -29,10 +23,15 @@ pipeline:
       - stanford.tokenize.syntax
 
   - method: extract.persons
-    write: true
-
   - method: extract.places
-    write: true
-
   - method: extract.organizations
-    write: true
+  - method: entities.merge
+    inject:
+      keys:
+      - extract.persons
+      - extract.places
+      - extract.organizations
+
+  - method: document.write.json
+    name: entities.yaml
+    key: entities

@@ -30,13 +30,20 @@ const logger = require("../logger")(__filename)
 
 /**
  */
-const action = _.promise((self, done) => {
-    _.promise.validate(self, action)
+const _action = _.promise((self, done) => {
+    _.promise.validate(self, _action)
 
     const nlp = require("..")
 
+    let action = self.action
+    if (_.is.String(action)) {
+        action = {
+            method: action,
+        }
+    }
+
     let next = nlp
-    self.action.method.split(".").forEach(part => {
+    action.method.split(".").forEach(part => {
         if (next) {
             next = next[part]
         }
@@ -44,64 +51,58 @@ const action = _.promise((self, done) => {
 
     if (!_.is.Function(next)) {
         logger.error({
-            method: action.method,
-            action: self.action,
+            method: _action.method,
+            action: action,
         }, "could not find action")
 
         return done(null, self)
     }
     
     _.promise(self)
-        .validate(action)
-
         .make(sd => {
-            if (!self.action.inject) {
+            if (!action.inject) {
                 return
             }
 
-            _.mapObject(self.action.inject, (value, key) => {
+            _.mapObject(action.inject, (value, key) => {
                 _.d.set(sd, key, value)
             })
         })
 
         .then(next)
         .make(sd => {
-            console.log("ACTION", sd.action, sd.VERSION)
-
             sd.RESULT = null
 
-            const key = _.keys(next.produces || [])[0]
+            const key = _.keys(next.produces || [])[0] || null
             if (key) {
                 sd.RESULT = sd[key] || null
-                console.log("RESULT", sd.RESULT)
             }
-        })
 
-        .make(sd => {
-            if (self.action.save) {
-                self[self.action.method] = sd.RESULT
+            logger.debug({
+                method: _action.method,
+                action: sd.action,
+                result_key: key,
+            }, "action")
+
+            if (_.d.first(action, "save", true)) {
+                self[action.method] = sd.RESULT
             }
         })
 
         .end(done, self, next || null)
 })
 
-action.method = "pipeline.action"
-action.description = ``
-action.requires = {
-    action: _.is.Dictionary,
-    /*
-    action: {
-        method: _.is.String,
-    },
-    */
+_action.method = "pipeline.action"
+_action.description = ``
+_action.requires = {
+    action: [ _.is.Dictionary, _.is.String ],
 }
-action.accepts = {
+_action.accepts = {
 }
-action.produces = {
+_action.produces = {
 }
 
 /**
  *  API
  */
-exports.action = action
+exports.action = _action
