@@ -54,10 +54,33 @@ const action = _.promise((self, done) => {
     _.promise(self)
         .validate(action)
 
+        .make(sd => {
+            if (!self.action.inject) {
+                return
+            }
+
+            _.mapObject(self.action.inject, (value, key) => {
+                _.d.set(sd, key, value)
+            })
+        })
+
         .then(next)
         .make(sd => {
             console.log("ACTION", sd.action, sd.VERSION)
-            console.log("DOC", sd.document)
+
+            sd.RESULT = null
+
+            const key = _.keys(next.produces || [])[0]
+            if (key) {
+                sd.RESULT = sd[key] || null
+                console.log("RESULT", sd.RESULT)
+            }
+        })
+
+        .make(sd => {
+            if (self.action.save) {
+                self[self.action.method] = sd.RESULT
+            }
         })
 
         .end(done, self, next || null)

@@ -15,16 +15,24 @@ pipeline:
   - method: document.crlf
 
   - method: stanford.tokenize.entities
-    write: true
-  - method: stanford.tokenize.syntax
-    write: true
+    write: tokens
+    save: tokens
 
-  - method: pipeline.merge
-    merge:
-    - stanford.tokenize.entities
-    - stanford.tokenize.syntax
-    out:
-    - tokens
+  - method: stanford.tokenize.syntax
+    write: tokens
+    save: tokens
+
+  - method: tokens.merge
+    inject:
+      keys:
+      - stanford.tokenize.entities
+      - stanford.tokenize.syntax
 
   - method: extract.persons
+    write: true
+
+  - method: extract.places
+    write: true
+
+  - method: extract.organizations
     write: true
