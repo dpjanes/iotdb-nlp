@@ -92,43 +92,6 @@ const execute = _.promise((self, done) => {
             roll_self: true,
         })
 
-
-        /*
-        // read the initial file
-        .add("source_path:path")
-        .then(fs.read.buffer)
-        .make(sd => {
-            sd.VERSION = _.hash.sha256(sd.document)
-        })
-        
-        // do all the actions in the handler
-        
-        // the document must be a String by now
-        .make(sd => {
-            if (_.is.String(sd.document)) {
-                return
-            }
-
-            logger.warn({
-                method: execute.method,
-                path: sd.source_path,
-            }, "handler could not figure out the document type")
-
-            _.promise.bail()
-        })
-
-        // do all the actions in the pipeline
-        .make(sd => {
-            sd.pipeline = _.d.clone(sd.pipeline)
-            sd.pipeline.actions = sd.pipeline.actions || []
-            sd.pipeline.actions.unshift([ "pipeline.read" ])
-
-            sd.actions = sd.pipeline.actions
-            sd.document = null
-        })
-
-        .then(nlp.pipeline.actions)
-
         // write the state
         .make(sd => {
             sd.state.updated = _.timestamp.make()
@@ -137,7 +100,6 @@ const execute = _.promise((self, done) => {
         })
         .then(fs.write.yaml)
         .log("wrote", "state_path")
-        */
 
         .end(done, self, execute)
 })
