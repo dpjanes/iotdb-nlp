@@ -43,7 +43,7 @@ const execute = _.promise((self, done) => {
             sd.data_path = _util.join(sd, sd.pipeline.folder, path.basename(sd.source_path).replace(/[.].*$/, ""))
             sd.state_path = path.join(sd.data_path, "state.yaml")
             
-            sd.pipeline = _.d.clone(sd.pipeline)
+            sd.pipeline = _.d.clone.deep(sd.pipeline)
             sd.pipeline.actions = sd.pipeline.actions || []
             sd.pipeline.handlers = sd.pipeline.handlers || []
         })
@@ -68,6 +68,8 @@ const execute = _.promise((self, done) => {
 
                 _.promise.bail()
             }
+
+            sd.handler.actions = sd.handler.actions || []
         })
 
         // read state
@@ -90,10 +92,13 @@ const execute = _.promise((self, done) => {
             sd.VERSION = _.hash.sha256(sd.document)
         })
         
-        // do all the actions in the pipeline
+        // do all the actions in the handler and pipeline
+        .make(sd => {
+            sd.actions = [].concat(sd.handler.actions, sd.pipeline.actions)
+        })
         .each({
             method: nlp.pipeline.action,
-            inputs: "pipeline/actions:action",
+            inputs: "actions:action",
             roll_self: true,
         })
 

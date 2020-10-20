@@ -2,16 +2,17 @@ nlp$cfg:
   stanford:
     url: http://media.local:18081
     token: some-token
+
 pipeline:
-  folder: .pipeline
+  folder: .pipeline  ## note relative to Pipeline.yaml
 
   handlers:
   - extensions: .txt
+    actions:
+    - document.encoding
+    - document.crlf
 
   actions:
-  - document.encoding
-  - document.crlf
-
   - stanford.tokenize.entities
   - stanford.tokenize.syntax
   - method: tokens.merge
