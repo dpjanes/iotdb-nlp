@@ -21,7 +21,9 @@ const ad = minimist(process.argv.slice(2), {
         "verbose", "debug", "trace",
     ],
     string: [
-        "cfg"
+        "cfg",
+        "command",
+        "_",
     ],
     alias: {
     },
@@ -29,6 +31,7 @@ const ad = minimist(process.argv.slice(2), {
         "cfg": "Pipeline.yaml",
     },
 })
+
 const help = message => {
     if (message) {
         console.log(`${NAME}: ${message}`)
@@ -36,9 +39,12 @@ const help = message => {
     }
 
     console.log(`\
-usage: ${NAME} <file>
+usage: ${NAME} [options] <command> <file...>
 
-feed each file into the pipeline
+commands are:
+
+process - feed each file into the pipeline processor
+entities - list entities in the file
 
 options:
 --cfg <cfg>       configuration file
@@ -47,9 +53,65 @@ options:
     process.exit(message ? 1 : 0)
 }
 
+if (ad._.length) {
+}
+
 if (ad.help) {
     help()
-} 
+} else if (!ad._.length) {
+    help("<command> is required")
+}
+
+/**
+ */
+const _preprocess = _.promise((self, done) => {
+    _.promise(self)
+        .validate(_preprocess)
+        .end(done, self, _preprocess)
+})
+
+_preprocess.method = "yyy._preprocess"
+_preprocess.description = ``
+_preprocess.requires = {
+}
+_preprocess.accepts = {
+}
+_preprocess.produces = {
+}
+
+/**
+ */
+const _entities = _.promise((self, done) => {
+    _.promise(self)
+        .validate(_entities)
+        .end(done, self, _entities)
+})
+
+_entities.method = "yyy._entities"
+_entities.description = ``
+_entities.requires = {
+}
+_entities.accepts = {
+}
+_entities.produces = {
+}
+
+let command = null
+const command_name = ad._.shift()
+switch (command_name) {
+case "process":
+case "preprocess":
+    command = _preprocess
+    break
+
+case "entities":
+    command = _entities
+    break
+}
+
+if (!command) {
+    help(`did not recognize command: ${command_name}`)
+}
 
 _.logger.levels({
     debug: ad.verbose,
@@ -61,11 +123,13 @@ _.logger.levels({
 _.promise({
     ad: ad,
     verbose: ad.verbose,
-            cache$cfg: {
-                path: path.join(__dirname, "..", ".fs-cache"),
-            },
+
+    // this needs to be done in Pipeline
+    cache$cfg: {
+        path: path.join(__dirname, "..", ".fs-cache"),
+    },
 })
-            .then(fs.cache)
+    .then(fs.cache)
 
     // read configuration and merge into self
     .then(fs.read.json.magic.p(ad.cfg))
