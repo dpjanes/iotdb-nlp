@@ -56,7 +56,7 @@ describe("tokenize.entities", function() {
         })
             .then(nlp.initialize)
 
-            .then(_util.read_utf8("corpus", "harry", "document"))
+            .then(_util.read_utf8("../../corpus", "harry", "document"))
             .then(nlp.tokenize.entities)
 
             .then(_util.auto_fail(done))

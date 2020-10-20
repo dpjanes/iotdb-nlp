@@ -39,7 +39,7 @@ describe("tokenize.entities.stanford", function() {
         const FOLDER = "tokenize.entities.stanford"
 
         _.promise(self)
-            .then(_util.read_utf8("corpus", self.filename, "document"))
+            .then(_util.read_utf8("../../corpus", self.filename, "document"))
             .then(nlp.tokenize.entities)
             .conditional(WRITE, _util.write_yaml(FOLDER, self.filename, "tokens"))
             .conditional(DUMP, _.promise.log("tokens", "tokens"))
