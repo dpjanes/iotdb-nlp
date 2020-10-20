@@ -26,9 +26,6 @@ module.exports = Object.assign(
     {},
     require("./initialize"),
     require("./execute"),
-    require("./actions"),
     require("./action"),
-    require("./read"),
-
     {}
 )

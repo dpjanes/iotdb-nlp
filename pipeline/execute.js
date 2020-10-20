@@ -42,13 +42,17 @@ const execute = _.promise((self, done) => {
             sd.source_path = sd.path
             sd.data_path = _util.join(sd, sd.pipeline.folder, path.basename(sd.source_path).replace(/[.].*$/, ""))
             sd.state_path = path.join(sd.data_path, "state.yaml")
+            
+            sd.pipeline = _.d.clone(sd.pipeline)
+            sd.pipeline.actions = sd.pipeline.actions || []
+            sd.pipeline.handlers = sd.pipeline.handlers || []
         })
 
         // make sure there is a handler for the file type
         .make(sd => {
             const extension = path.extname(sd.source_path)
 
-            sd.handler = _.d.list(sd.pipeline, "handlers", [])
+            sd.handler = sd.pipeline.handlers
                 .find(handler => {
                     const extensions = _.d.list(handler, "extensions", [])
                     if (extensions.indexOf(extension) > -1) {
@@ -78,14 +82,15 @@ const execute = _.promise((self, done) => {
             sd.state.source = sd.source_path
             sd.state.actions = sd.state.actions || {}
         })
+
+        // read the document to get the ball rolling
+        .add("source_path:path")
+        .then(fs.read.buffer)
+        .make(sd => {
+            sd.VERSION = _.hash.sha256(sd.document)
+        })
         
         // do all the actions in the pipeline
-        .make(sd => {
-            sd.pipeline = _.d.clone(sd.pipeline)
-            sd.pipeline.actions = sd.pipeline.actions || []
-
-            sd.document = null
-        })
         .each({
             method: nlp.pipeline.action,
             inputs: "pipeline/actions:action",

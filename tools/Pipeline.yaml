@@ -9,7 +9,6 @@ pipeline:
   - extensions: .txt
 
   actions:
-  - document.read
   - document.encoding
   - document.crlf
 
