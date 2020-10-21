@@ -97,8 +97,10 @@ const execute = _.promise((self, done) => {
         // read the document to get the ball rolling
         .add("source_path:path")
         .then(fs.read.buffer)
+        .then(fs.stat)
         .make(sd => {
             sd.state.source.hash = _.hash.sha256(sd.document)
+            sd.state.source.mtime = sd.stats.mtime.getTime() * 1000
         })
         
         // do all the actions in the handler and pipeline
