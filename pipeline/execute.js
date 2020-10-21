@@ -39,13 +39,20 @@ const execute = _.promise((self, done) => {
         .validate(execute)
 
         .make(sd => {
-            sd.source_path = sd.path
-            sd.data_path = _util.join(sd, sd.pipeline.folder, path.basename(sd.source_path).replace(/[.].*$/, ""))
-            sd.state_path = path.join(sd.data_path, "state.yaml")
-            
+            sd.source_path = path.resolve(sd.path)
+
             sd.pipeline = _.d.clone.deep(sd.pipeline)
             sd.pipeline.actions = sd.pipeline.actions || []
             sd.pipeline.handlers = sd.pipeline.handlers || []
+            sd.pipeline.root = path.resolve(sd.pipeline.root).replace(/[/]*$/, "") + "/"
+            sd.pipeline.folder = path.resolve(sd.pipeline.folder).replace(/[/]*$/, "") + "/"
+
+            const relative = sd.source_path.startsWith(sd.pipeline.root) ? 
+                path.dirname(sd.source_path.substring(sd.pipeline.root.length)) : "."
+            const basename = path.basename(sd.source_path).replace(/[.].*$/, "")
+
+            sd.data_path = _util.join(sd, sd.pipeline.folder, path.join(relative, basename))
+            sd.state_path = path.join(sd.data_path, "state.yaml")
         })
 
         // make sure there is a handler for the file type
@@ -81,7 +88,9 @@ const execute = _.promise((self, done) => {
         .make(sd => {
             sd.state.created = sd.state.created || _.timestamp.make()
             sd.state.updated = sd.state.updated || sd.state.created 
-            sd.state.source = sd.source_path
+            sd.state.source = {
+                path: sd.source_path
+            }
             sd.state.actions = sd.state.actions || {}
         })
 
@@ -89,7 +98,7 @@ const execute = _.promise((self, done) => {
         .add("source_path:path")
         .then(fs.read.buffer)
         .make(sd => {
-            sd.VERSION = _.hash.sha256(sd.document)
+            sd.state.source.hash = _.hash.sha256(sd.document)
         })
         
         // do all the actions in the handler and pipeline
@@ -120,6 +129,7 @@ execute.requires = {
     nlp$cfg: _.is.Dictionary,
     pipeline: {
         folder: _.is.String,
+        root: _.is.String,
     },
     path: _.is.String,
 }
