@@ -1,0 +1,2227 @@
+- document: driver
+  token: pos
+  start: 71
+  end: 207
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 3248750
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 2
+    lemma: driver
+    synonyms:
+      - driver
+      - number_one_wood
+    lexId: '0'
+    gloss: >-
+      a golf club (a wood) with a near vertical face that is used for hitting
+      long shots from the tee  
+    def: >-
+      a golf club (a wood) with a near vertical face that is used for hitting
+      long shots from the tee  
+    exp: []
+- document: driver
+  token: pos
+  start: 71
+  end: 207
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 6586649
+    lexFilenum: 10
+    pos: 'n'
+    wCnt: 2
+    lemma: driver
+    synonyms:
+      - driver
+      - device_driver
+    lexId: '0'
+    gloss: >-
+      (computer science) a program that determines how a computer will
+      communicate with a peripheral device  
+    def: >-
+      (computer science) a program that determines how a computer will
+      communicate with a peripheral device  
+    exp: []
+- document: driver
+  token: pos
+  start: 71
+  end: 207
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 10055039
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: driver
+    synonyms:
+      - driver
+    lexId: '1'
+    gloss: 'a golfer who hits the golf ball with a driver  '
+    def: 'a golfer who hits the golf ball with a driver  '
+    exp: []
+- document: driver
+  token: pos
+  start: 71
+  end: 207
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 10055155
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: driver
+    synonyms:
+      - driver
+    lexId: '2'
+    gloss: 'someone who drives animals that pull a vehicle  '
+    def: 'someone who drives animals that pull a vehicle  '
+    exp: []
+- document: driver
+  token: pos
+  start: 71
+  end: 207
+  tag: NOUN
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 10054631
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: driver
+    synonyms:
+      - driver
+    lexId: '0'
+    gloss: 'the operator of a motor vehicle  '
+    def: 'the operator of a motor vehicle  '
+    exp: []
+- document: spokesman
+  token: pos
+  start: 163
+  end: 302
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 10657708
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: spokesman
+    synonyms:
+      - spokesman
+    lexId: '0'
+    gloss: 'a male spokesperson  '
+    def: 'a male spokesperson  '
+    exp: []
+- document: group
+  token: pos
+  start: 184
+  end: 295
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 6026202
+    lexFilenum: 9
+    pos: 'n'
+    wCnt: 2
+    lemma: group
+    synonyms:
+      - group
+      - mathematical_group
+    lexId: '0'
+    gloss: >-
+      a set that is closed, associative, has an identity element and every
+      element has an inverse  
+    def: >-
+      a set that is closed, associative, has an identity element and every
+      element has an inverse  
+    exp: []
+- document: group
+  token: pos
+  start: 184
+  end: 295
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 14645624
+    lexFilenum: 27
+    pos: 'n'
+    wCnt: 3
+    lemma: group
+    synonyms:
+      - group
+      - radical
+      - chemical_group
+    lexId: '0'
+    gloss: >-
+      (chemistry) two or more atoms bound together as a single unit and forming
+      part of a molecule  
+    def: >-
+      (chemistry) two or more atoms bound together as a single unit and forming
+      part of a molecule  
+    exp: []
+- document: group
+  token: pos
+  start: 184
+  end: 295
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 31563
+    lexFilenum: 3
+    pos: 'n'
+    wCnt: 2
+    lemma: group
+    synonyms:
+      - group
+      - grouping
+    lexId: '0'
+    gloss: 'any number of entities (members) considered as a unit  '
+    def: 'any number of entities (members) considered as a unit  '
+    exp: []
+- document: ambush
+  token: pos
+  start: 207
+  end: 319
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 1249473
+    lexFilenum: 4
+    pos: 'n'
+    wCnt: 4
+    lemma: ambush
+    synonyms:
+      - ambush
+      - ambuscade
+      - lying_in_wait
+      - trap
+    lexId: '0'
+    gloss: 'the act of concealing yourself and lying in wait to attack by surprise  '
+    def: 'the act of concealing yourself and lying in wait to attack by surprise  '
+    exp: []
+- document: park
+  token: pos
+  start: 251
+  end: 361
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 3896578
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 1
+    lemma: park
+    synonyms:
+      - park
+    lexId: '1'
+    gloss: >-
+      a gear position that acts as a parking brake; "the put the car in park and
+      got out"  
+    def: a gear position that acts as a parking brake
+    exp:
+      - the put the car in park and got out
+- document: park
+  token: pos
+  start: 251
+  end: 361
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 8633213
+    lexFilenum: 15
+    pos: 'n'
+    wCnt: 4
+    lemma: parking_lot
+    synonyms:
+      - parking_lot
+      - car_park
+      - park
+      - parking_area
+    lexId: '0'
+    gloss: 'a lot where cars are parked  '
+    def: 'a lot where cars are parked  '
+    exp: []
+- document: park
+  token: pos
+  start: 251
+  end: 361
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 11242645
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 2
+    lemma: Park
+    synonyms:
+      - Park
+      - Mungo_Park
+    lexId: '0'
+    gloss: 'Scottish explorer in Africa (1771-1806)  '
+    def: 'Scottish explorer in Africa (1771-1806)  '
+    exp: []
+- document: park
+  token: pos
+  start: 251
+  end: 361
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 2785801
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 2
+    lemma: ballpark
+    synonyms:
+      - ballpark
+      - park
+    lexId: '0'
+    gloss: >-
+      a facility in which ball games are played (especially baseball games);
+      "take me out to the ballpark"  
+    def: a facility in which ball games are played (especially baseball games)
+    exp:
+      - take me out to the ballpark
+- document: park
+  token: pos
+  start: 251
+  end: 361
+  tag: NOUN
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 8632949
+    lexFilenum: 15
+    pos: 'n'
+    wCnt: 4
+    lemma: park
+    synonyms:
+      - park
+      - commons
+      - common
+      - green
+    lexId: '1'
+    gloss: >-
+      a piece of open land for recreational use in an urban area; "they went for
+      a walk in the park"  
+    def: a piece of open land for recreational use in an urban area
+    exp:
+      - they went for a walk in the park
+- document: park
+  token: pos
+  start: 251
+  end: 361
+  tag: NOUN
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 8632724
+    lexFilenum: 15
+    pos: 'n'
+    wCnt: 2
+    lemma: park
+    synonyms:
+      - park
+      - parkland
+    lexId: '0'
+    gloss: >-
+      a large area of land preserved in its natural state as public property;
+      "there are laws that protect the wildlife in this park"  
+    def: a large area of land preserved in its natural state as public property
+    exp:
+      - there are laws that protect the wildlife in this park
+- document: wildlife
+  token: pos
+  start: 325
+  end: 431
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 8010218
+    lexFilenum: 14
+    pos: 'n'
+    wCnt: 1
+    lemma: wildlife
+    synonyms:
+      - wildlife
+    lexId: '0'
+    gloss: >-
+      all living things (except people) that are undomesticated; "chemicals
+      could kill all the wildlife"  
+    def: all living things (except people) that are undomesticated
+    exp:
+      - chemicals could kill all the wildlife
+- document: habitat
+  token: pos
+  start: 334
+  end: 439
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 8598111
+    lexFilenum: 15
+    pos: 'n'
+    wCnt: 2
+    lemma: habitat
+    synonyms:
+      - habitat
+      - home_ground
+    lexId: '0'
+    gloss: >-
+      the type of environment in which an organism or group normally lives or
+      occurs; "a marine habitat"; "he felt safe on his home grounds"  
+    def: >-
+      the type of environment in which an organism or group normally lives or
+      occurs
+    exp:
+      - a marine habitat
+      - he felt safe on his home grounds
+- document: mountain
+  token: pos
+  start: 368
+  end: 474
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 13796604
+    lexFilenum: 23
+    pos: 'n'
+    wCnt: 27
+    lemma: batch
+    synonyms:
+      - batch
+      - deal
+      - flock
+      - good_deal
+      - great_deal
+      - hatful
+      - heap
+      - lot
+      - mass
+      - mess
+      - mickle
+      - mint
+      - mountain
+      - muckle
+      - passel
+      - peck
+      - pile
+      - plenty
+      - pot
+      - quite_a_little
+      - raft
+      - sight
+      - slew
+      - spate
+      - stack
+      - tidy_sum
+      - wad
+    lexId: '0'
+    gloss: >-
+      (often followed by `of') a large number or amount or extent; "a batch of
+      letters"; "a deal of trouble"; "a lot of money"; "he made a mint on the
+      stock market"; "see the rest of the winners in our huge passel of photos";
+      "it must have cost plenty"; "a slew of journalists"; "a wad of money"  
+    def: (often followed by `of') a large number or amount or extent
+    exp:
+      - a batch of letters
+      - a deal of trouble
+      - a lot of money
+      - he made a mint on the stock market
+      - see the rest of the winners in our huge passel of photos
+      - it must have cost plenty
+      - a slew of journalists
+      - a wad of money
+- document: mountain
+  token: pos
+  start: 368
+  end: 474
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 9382700
+    lexFilenum: 17
+    pos: 'n'
+    wCnt: 2
+    lemma: mountain
+    synonyms:
+      - mountain
+      - mount
+    lexId: '0'
+    gloss: >-
+      a land mass that projects well above its surroundings; higher than a
+      hill  
+    def: a land mass that projects well above its surroundings
+    exp:
+      - higher than a hill
+- document: park
+  token: pos
+  start: 450
+  end: 553
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 3896578
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 1
+    lemma: park
+    synonyms:
+      - park
+    lexId: '1'
+    gloss: >-
+      a gear position that acts as a parking brake; "the put the car in park and
+      got out"  
+    def: a gear position that acts as a parking brake
+    exp:
+      - the put the car in park and got out
+- document: park
+  token: pos
+  start: 450
+  end: 553
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 8633213
+    lexFilenum: 15
+    pos: 'n'
+    wCnt: 4
+    lemma: parking_lot
+    synonyms:
+      - parking_lot
+      - car_park
+      - park
+      - parking_area
+    lexId: '0'
+    gloss: 'a lot where cars are parked  '
+    def: 'a lot where cars are parked  '
+    exp: []
+- document: park
+  token: pos
+  start: 450
+  end: 553
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 11242645
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 2
+    lemma: Park
+    synonyms:
+      - Park
+      - Mungo_Park
+    lexId: '0'
+    gloss: 'Scottish explorer in Africa (1771-1806)  '
+    def: 'Scottish explorer in Africa (1771-1806)  '
+    exp: []
+- document: park
+  token: pos
+  start: 450
+  end: 553
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 2785801
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 2
+    lemma: ballpark
+    synonyms:
+      - ballpark
+      - park
+    lexId: '0'
+    gloss: >-
+      a facility in which ball games are played (especially baseball games);
+      "take me out to the ballpark"  
+    def: a facility in which ball games are played (especially baseball games)
+    exp:
+      - take me out to the ballpark
+- document: park
+  token: pos
+  start: 450
+  end: 553
+  tag: NOUN
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 8632949
+    lexFilenum: 15
+    pos: 'n'
+    wCnt: 4
+    lemma: park
+    synonyms:
+      - park
+      - commons
+      - common
+      - green
+    lexId: '1'
+    gloss: >-
+      a piece of open land for recreational use in an urban area; "they went for
+      a walk in the park"  
+    def: a piece of open land for recreational use in an urban area
+    exp:
+      - they went for a walk in the park
+- document: park
+  token: pos
+  start: 450
+  end: 553
+  tag: NOUN
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 8632724
+    lexFilenum: 15
+    pos: 'n'
+    wCnt: 2
+    lemma: park
+    synonyms:
+      - park
+      - parkland
+    lexId: '0'
+    gloss: >-
+      a large area of land preserved in its natural state as public property;
+      "there are laws that protect the wildlife in this park"  
+    def: a large area of land preserved in its natural state as public property
+    exp:
+      - there are laws that protect the wildlife in this park
+- document: poach
+  token: pos
+  start: 473
+  end: 577
+  tag: VERB
+  score: 1
+  wordnet:
+    synsetOffset: 545484
+    lexFilenum: 30
+    pos: v
+    wCnt: 1
+    lemma: poach
+    synonyms:
+      - poach
+    lexId: '0'
+    gloss: 'cook in a simmering liquid; "poached apricots"  '
+    def: cook in a simmering liquid
+    exp:
+      - poached apricots
+- document: poach
+  token: pos
+  start: 473
+  end: 577
+  tag: VERB
+  score: 0.9
+  wordnet:
+    synsetOffset: 1145732
+    lexFilenum: 33
+    pos: v
+    wCnt: 1
+    lemma: poach
+    synonyms:
+      - poach
+    lexId: '0'
+    gloss: 'hunt illegally; "people are poaching elephants for their ivory"  '
+    def: hunt illegally
+    exp:
+      - people are poaching elephants for their ivory
+- document: quarter
+  token: pos
+  start: 516
+  end: 645
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 1261259
+    lexFilenum: 4
+    pos: 'n'
+    wCnt: 1
+    lemma: quarter
+    synonyms:
+      - quarter
+    lexId: '0'
+    gloss: >-
+      clemency or mercy shown to a defeated opponent; "he surrendered but asked
+      for quarter"  
+    def: clemency or mercy shown to a defeated opponent
+    exp:
+      - he surrendered but asked for quarter
+- document: quarter
+  token: pos
+  start: 516
+  end: 645
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 4038076
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 1
+    lemma: quarter
+    synonyms:
+      - quarter
+    lexId: '1'
+    gloss: >-
+      piece of leather that comprises the part of a shoe or boot covering the
+      heel and joining the vamp  
+    def: >-
+      piece of leather that comprises the part of a shoe or boot covering the
+      heel and joining the vamp  
+    exp: []
+- document: quarter
+  token: pos
+  start: 516
+  end: 645
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 4323784
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 5
+    lemma: stern
+    synonyms:
+      - stern
+      - after_part
+      - quarter
+      - poop
+      - tail
+    lexId: '0'
+    gloss: 'the rear part of a ship  '
+    def: 'the rear part of a ship  '
+    exp: []
+- document: quarter
+  token: pos
+  start: 516
+  end: 645
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 10518284
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: quarter
+    synonyms:
+      - quarter
+    lexId: '0'
+    gloss: 'an unspecified person; "he dropped a word in the right quarter"  '
+    def: an unspecified person
+    exp:
+      - he dropped a word in the right quarter
+- document: quarter
+  token: pos
+  start: 516
+  end: 645
+  tag: NOUN
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 13411417
+    lexFilenum: 21
+    pos: 'n'
+    wCnt: 1
+    lemma: quarter
+    synonyms:
+      - quarter
+    lexId: '0'
+    gloss: >-
+      a United States or Canadian coin worth one fourth of a dollar; "he fed
+      four quarters into the slot machine"  
+    def: a United States or Canadian coin worth one fourth of a dollar
+    exp:
+      - he fed four quarters into the slot machine
+- document: quarter
+  token: pos
+  start: 516
+  end: 645
+  tag: NOUN
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 13644335
+    lexFilenum: 23
+    pos: 'n'
+    wCnt: 1
+    lemma: quarter
+    synonyms:
+      - quarter
+    lexId: '4'
+    gloss: 'a quarter of a hundredweight (28 pounds)  '
+    def: 'a quarter of a hundredweight (28 pounds)  '
+    exp: []
+- document: quarter
+  token: pos
+  start: 516
+  end: 645
+  tag: NOUN
+  score: 0.8285714285714286
+  wordnet:
+    synsetOffset: 13742957
+    lexFilenum: 23
+    pos: 'n'
+    wCnt: 1
+    lemma: quarter
+    synonyms:
+      - quarter
+    lexId: '2'
+    gloss: 'a quarter of a hundredweight (25 pounds)  '
+    def: 'a quarter of a hundredweight (25 pounds)  '
+    exp: []
+- document: quarter
+  token: pos
+  start: 516
+  end: 645
+  tag: NOUN
+  score: 0.8250000000000001
+  wordnet:
+    synsetOffset: 13852365
+    lexFilenum: 24
+    pos: 'n'
+    wCnt: 1
+    lemma: quarter
+    synonyms:
+      - quarter
+    lexId: '0'
+    gloss: >-
+      one of the four major division of the compass; "the wind is coming from
+      that quarter"  
+    def: one of the four major division of the compass
+    exp:
+      - the wind is coming from that quarter
+- document: quarter
+  token: pos
+  start: 516
+  end: 645
+  tag: NOUN
+  score: 0.8222222222222223
+  wordnet:
+    synsetOffset: 15231386
+    lexFilenum: 28
+    pos: 'n'
+    wCnt: 1
+    lemma: quarter
+    synonyms:
+      - quarter
+    lexId: '2'
+    gloss: >-
+      a fourth part of a year; three months; "unemployment fell during the last
+      quarter"  
+    def: a fourth part of a year
+    exp:
+      - three months
+      - unemployment fell during the last quarter
+- document: quarter
+  token: pos
+  start: 516
+  end: 645
+  tag: NOUN
+  score: 0.8200000000000001
+  wordnet:
+    synsetOffset: 15250842
+    lexFilenum: 28
+    pos: 'n'
+    wCnt: 1
+    lemma: quarter
+    synonyms:
+      - quarter
+    lexId: '0'
+    gloss: >-
+      one of four periods into which the school year is divided; "the fall
+      quarter ends at Christmas"  
+    def: one of four periods into which the school year is divided
+    exp:
+      - the fall quarter ends at Christmas
+- document: quarter
+  token: pos
+  start: 516
+  end: 645
+  tag: NOUN
+  score: 0.8181818181818182
+  wordnet:
+    synsetOffset: 15259739
+    lexFilenum: 28
+    pos: 'n'
+    wCnt: 1
+    lemma: quarter
+    synonyms:
+      - quarter
+    lexId: '3'
+    gloss: >-
+      a unit of time equal to 15 minutes or a quarter of an hour; "it's a
+      quarter til 4"; "a quarter after 4 o'clock"  
+    def: a unit of time equal to 15 minutes or a quarter of an hour
+    exp:
+      - it's a quarter til 4
+      - a quarter after 4 o'clock
+- document: quarter
+  token: pos
+  start: 516
+  end: 645
+  tag: NOUN
+  score: 0.8166666666666668
+  wordnet:
+    synsetOffset: 15283261
+    lexFilenum: 28
+    pos: 'n'
+    wCnt: 1
+    lemma: quarter
+    synonyms:
+      - quarter
+    lexId: '1'
+    gloss: >-
+      (football, professional basketball) one of four divisions into which some
+      games are divided; "both teams scored in the first quarter"  
+    def: >-
+      (football, professional basketball) one of four divisions into which some
+      games are divided
+    exp:
+      - both teams scored in the first quarter
+- document: quarter
+  token: pos
+  start: 516
+  end: 645
+  tag: NOUN
+  score: 0.8153846153846154
+  wordnet:
+    synsetOffset: 8645494
+    lexFilenum: 15
+    pos: 'n'
+    wCnt: 1
+    lemma: quarter
+    synonyms:
+      - quarter
+    lexId: '0'
+    gloss: >-
+      a district of a city having some distinguishing character; "the Latin
+      Quarter"  
+    def: a district of a city having some distinguishing character
+    exp:
+      - the Latin Quarter
+- document: quarter
+  token: pos
+  start: 516
+  end: 645
+  tag: NOUN
+  score: 0.8142857142857143
+  wordnet:
+    synsetOffset: 13759620
+    lexFilenum: 23
+    pos: 'n'
+    wCnt: 7
+    lemma: one-fourth
+    synonyms:
+      - one-fourth
+      - fourth
+      - one-quarter
+      - quarter
+      - fourth_part
+      - twenty-five_percent
+      - quartern
+    lexId: '0'
+    gloss: 'one of four equal parts; "a quarter of a pound"  '
+    def: one of four equal parts
+    exp:
+      - a quarter of a pound
+- document: world
+  token: pos
+  start: 531
+  end: 658
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 2475618
+    lexFilenum: 5
+    pos: 'n'
+    wCnt: 8
+    lemma: world
+    synonyms:
+      - world
+      - human_race
+      - humanity
+      - humankind
+      - human_beings
+      - humans
+      - mankind
+      - man
+    lexId: '0'
+    gloss: >-
+      all of the living human inhabitants of the earth; "all the world loves a
+      lover"; "she always used `humankind' because `mankind' seemed to slight
+      the women"  
+    def: all of the living human inhabitants of the earth
+    exp:
+      - all the world loves a lover
+      - she always used `humankind' because `mankind' seemed to slight the women
+- document: world
+  token: pos
+  start: 531
+  end: 658
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 5678816
+    lexFilenum: 9
+    pos: 'n'
+    wCnt: 4
+    lemma: worldly_concern
+    synonyms:
+      - worldly_concern
+      - earthly_concern
+      - world
+      - earth
+    lexId: '0'
+    gloss: >-
+      the concerns of this life as distinguished from heaven and the afterlife;
+      "they consider the church to be independent of the world"  
+    def: the concerns of this life as distinguished from heaven and the afterlife
+    exp:
+      - they consider the church to be independent of the world
+- document: world
+  token: pos
+  start: 531
+  end: 658
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 9503939
+    lexFilenum: 17
+    pos: 'n'
+    wCnt: 1
+    lemma: world
+    synonyms:
+      - world
+    lexId: '2'
+    gloss: >-
+      a part of the earth that can be considered separately; "the outdoor
+      world"; "the world of insects"  
+    def: a part of the earth that can be considered separately
+    exp:
+      - the outdoor world
+      - the world of insects
+- document: world
+  token: pos
+  start: 531
+  end: 658
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 8196607
+    lexFilenum: 14
+    pos: 'n'
+    wCnt: 3
+    lemma: populace
+    synonyms:
+      - populace
+      - public
+      - world
+    lexId: '0'
+    gloss: >-
+      people in general considered as a whole; "he is a hero in the eyes of the
+      public"  
+    def: people in general considered as a whole
+    exp:
+      - he is a hero in the eyes of the public
+- document: world
+  token: pos
+  start: 531
+  end: 658
+  tag: NOUN
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 9293800
+    lexFilenum: 17
+    pos: 'n'
+    wCnt: 4
+    lemma: Earth
+    synonyms:
+      - Earth
+      - earth
+      - world
+      - globe
+    lexId: '0'
+    gloss: >-
+      the 3rd planet from the sun; the planet we live on; "the Earth moves
+      around the sun"; "he sailed around the world"  
+    def: the 3rd planet from the sun
+    exp:
+      - the planet we live on
+      - the Earth moves around the sun
+      - he sailed around the world
+- document: world
+  token: pos
+  start: 531
+  end: 658
+  tag: NOUN
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 5817904
+    lexFilenum: 9
+    pos: 'n'
+    wCnt: 2
+    lemma: world
+    synonyms:
+      - world
+      - reality
+    lexId: '0'
+    gloss: >-
+      all of your experiences that determine how things appear to you; "his
+      world was shattered"; "we live in different worlds"; "for them demons were
+      as much a part of reality as trees were"  
+    def: all of your experiences that determine how things appear to you
+    exp:
+      - his world was shattered
+      - we live in different worlds
+      - for them demons were as much a part of reality as trees were
+- document: world
+  token: pos
+  start: 531
+  end: 658
+  tag: NOUN
+  score: 0.8285714285714286
+  wordnet:
+    synsetOffset: 7982551
+    lexFilenum: 14
+    pos: 'n'
+    wCnt: 2
+    lemma: world
+    synonyms:
+      - world
+      - domain
+    lexId: '1'
+    gloss: >-
+      people in general; especially a distinctive group of people with some
+      shared interest; "the Western world"  
+    def: people in general
+    exp:
+      - especially a distinctive group of people with some shared interest
+      - the Western world
+- document: world
+  token: pos
+  start: 531
+  end: 658
+  tag: NOUN
+  score: 0.8250000000000001
+  wordnet:
+    synsetOffset: 9489410
+    lexFilenum: 17
+    pos: 'n'
+    wCnt: 6
+    lemma: universe
+    synonyms:
+      - universe
+      - existence
+      - creation
+      - world
+      - cosmos
+      - macrocosm
+    lexId: '0'
+    gloss: >-
+      everything that exists anywhere; "they study the evolution of the
+      universe"; "the biggest tree in existence"  
+    def: everything that exists anywhere
+    exp:
+      - they study the evolution of the universe
+      - the biggest tree in existence
+- document: mountain
+  token: pos
+  start: 553
+  end: 683
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 13796604
+    lexFilenum: 23
+    pos: 'n'
+    wCnt: 27
+    lemma: batch
+    synonyms:
+      - batch
+      - deal
+      - flock
+      - good_deal
+      - great_deal
+      - hatful
+      - heap
+      - lot
+      - mass
+      - mess
+      - mickle
+      - mint
+      - mountain
+      - muckle
+      - passel
+      - peck
+      - pile
+      - plenty
+      - pot
+      - quite_a_little
+      - raft
+      - sight
+      - slew
+      - spate
+      - stack
+      - tidy_sum
+      - wad
+    lexId: '0'
+    gloss: >-
+      (often followed by `of') a large number or amount or extent; "a batch of
+      letters"; "a deal of trouble"; "a lot of money"; "he made a mint on the
+      stock market"; "see the rest of the winners in our huge passel of photos";
+      "it must have cost plenty"; "a slew of journalists"; "a wad of money"  
+    def: (often followed by `of') a large number or amount or extent
+    exp:
+      - a batch of letters
+      - a deal of trouble
+      - a lot of money
+      - he made a mint on the stock market
+      - see the rest of the winners in our huge passel of photos
+      - it must have cost plenty
+      - a slew of journalists
+      - a wad of money
+- document: mountain
+  token: pos
+  start: 553
+  end: 683
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 9382700
+    lexFilenum: 17
+    pos: 'n'
+    wCnt: 2
+    lemma: mountain
+    synonyms:
+      - mountain
+      - mount
+    lexId: '0'
+    gloss: >-
+      a land mass that projects well above its surroundings; higher than a
+      hill  
+    def: a land mass that projects well above its surroundings
+    exp:
+      - higher than a hill
+- document: park
+  token: pos
+  start: 627
+  end: 698
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 3896578
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 1
+    lemma: park
+    synonyms:
+      - park
+    lexId: '1'
+    gloss: >-
+      a gear position that acts as a parking brake; "the put the car in park and
+      got out"  
+    def: a gear position that acts as a parking brake
+    exp:
+      - the put the car in park and got out
+- document: park
+  token: pos
+  start: 627
+  end: 698
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 8633213
+    lexFilenum: 15
+    pos: 'n'
+    wCnt: 4
+    lemma: parking_lot
+    synonyms:
+      - parking_lot
+      - car_park
+      - park
+      - parking_area
+    lexId: '0'
+    gloss: 'a lot where cars are parked  '
+    def: 'a lot where cars are parked  '
+    exp: []
+- document: park
+  token: pos
+  start: 627
+  end: 698
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 11242645
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 2
+    lemma: Park
+    synonyms:
+      - Park
+      - Mungo_Park
+    lexId: '0'
+    gloss: 'Scottish explorer in Africa (1771-1806)  '
+    def: 'Scottish explorer in Africa (1771-1806)  '
+    exp: []
+- document: park
+  token: pos
+  start: 627
+  end: 698
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 2785801
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 2
+    lemma: ballpark
+    synonyms:
+      - ballpark
+      - park
+    lexId: '0'
+    gloss: >-
+      a facility in which ball games are played (especially baseball games);
+      "take me out to the ballpark"  
+    def: a facility in which ball games are played (especially baseball games)
+    exp:
+      - take me out to the ballpark
+- document: park
+  token: pos
+  start: 627
+  end: 698
+  tag: NOUN
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 8632949
+    lexFilenum: 15
+    pos: 'n'
+    wCnt: 4
+    lemma: park
+    synonyms:
+      - park
+      - commons
+      - common
+      - green
+    lexId: '1'
+    gloss: >-
+      a piece of open land for recreational use in an urban area; "they went for
+      a walk in the park"  
+    def: a piece of open land for recreational use in an urban area
+    exp:
+      - they went for a walk in the park
+- document: park
+  token: pos
+  start: 627
+  end: 698
+  tag: NOUN
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 8632724
+    lexFilenum: 15
+    pos: 'n'
+    wCnt: 2
+    lemma: park
+    synonyms:
+      - park
+      - parkland
+    lexId: '0'
+    gloss: >-
+      a large area of land preserved in its natural state as public property;
+      "there are laws that protect the wildlife in this park"  
+    def: a large area of land preserved in its natural state as public property
+    exp:
+      - there are laws that protect the wildlife in this park
+- document: park
+  token: pos
+  start: 664
+  end: 735
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 3896578
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 1
+    lemma: park
+    synonyms:
+      - park
+    lexId: '1'
+    gloss: >-
+      a gear position that acts as a parking brake; "the put the car in park and
+      got out"  
+    def: a gear position that acts as a parking brake
+    exp:
+      - the put the car in park and got out
+- document: park
+  token: pos
+  start: 664
+  end: 735
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 8633213
+    lexFilenum: 15
+    pos: 'n'
+    wCnt: 4
+    lemma: parking_lot
+    synonyms:
+      - parking_lot
+      - car_park
+      - park
+      - parking_area
+    lexId: '0'
+    gloss: 'a lot where cars are parked  '
+    def: 'a lot where cars are parked  '
+    exp: []
+- document: park
+  token: pos
+  start: 664
+  end: 735
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 11242645
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 2
+    lemma: Park
+    synonyms:
+      - Park
+      - Mungo_Park
+    lexId: '0'
+    gloss: 'Scottish explorer in Africa (1771-1806)  '
+    def: 'Scottish explorer in Africa (1771-1806)  '
+    exp: []
+- document: park
+  token: pos
+  start: 664
+  end: 735
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 2785801
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 2
+    lemma: ballpark
+    synonyms:
+      - ballpark
+      - park
+    lexId: '0'
+    gloss: >-
+      a facility in which ball games are played (especially baseball games);
+      "take me out to the ballpark"  
+    def: a facility in which ball games are played (especially baseball games)
+    exp:
+      - take me out to the ballpark
+- document: park
+  token: pos
+  start: 664
+  end: 735
+  tag: NOUN
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 8632949
+    lexFilenum: 15
+    pos: 'n'
+    wCnt: 4
+    lemma: park
+    synonyms:
+      - park
+      - commons
+      - common
+      - green
+    lexId: '1'
+    gloss: >-
+      a piece of open land for recreational use in an urban area; "they went for
+      a walk in the park"  
+    def: a piece of open land for recreational use in an urban area
+    exp:
+      - they went for a walk in the park
+- document: park
+  token: pos
+  start: 664
+  end: 735
+  tag: NOUN
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 8632724
+    lexFilenum: 15
+    pos: 'n'
+    wCnt: 2
+    lemma: park
+    synonyms:
+      - park
+      - parkland
+    lexId: '0'
+    gloss: >-
+      a large area of land preserved in its natural state as public property;
+      "there are laws that protect the wildlife in this park"  
+    def: a large area of land preserved in its natural state as public property
+    exp:
+      - there are laws that protect the wildlife in this park
+- document: region
+  token: pos
+  start: 719
+  end: 834
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 6006992
+    lexFilenum: 9
+    pos: 'n'
+    wCnt: 2
+    lemma: region
+    synonyms:
+      - region
+      - realm
+    lexId: '0'
+    gloss: >-
+      a knowledge domain that you are interested in or are communicating about;
+      "it was a limited realm of discourse"; "here we enter the region of
+      opinion"; "the realm of the occult"  
+    def: a knowledge domain that you are interested in or are communicating about
+    exp:
+      - it was a limited realm of discourse
+      - here we enter the region of opinion
+      - the realm of the occult
+- document: region
+  token: pos
+  start: 719
+  end: 834
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 13781286
+    lexFilenum: 23
+    pos: 'n'
+    wCnt: 2
+    lemma: region
+    synonyms:
+      - region
+      - neighborhood
+    lexId: '0'
+    gloss: >-
+      the approximate amount of something (usually used prepositionally as in
+      `in the region of'); "it was going to take in the region of two or three
+      months to finish the job"; "the price is in the neighborhood of $100"  
+    def: >-
+      the approximate amount of something (usually used prepositionally as in
+      `in the region of')
+    exp:
+      - >-
+        it was going to take in the region of two or three months to finish the
+        job
+      - the price is in the neighborhood of $100
+- document: region
+  token: pos
+  start: 719
+  end: 834
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 8648560
+    lexFilenum: 15
+    pos: 'n'
+    wCnt: 1
+    lemma: region
+    synonyms:
+      - region
+    lexId: '1'
+    gloss: >-
+      a large indefinite location on the surface of the Earth; "penguins inhabit
+      the polar regions"  
+    def: a large indefinite location on the surface of the Earth
+    exp:
+      - penguins inhabit the polar regions
+- document: region
+  token: pos
+  start: 719
+  end: 834
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 5229188
+    lexFilenum: 8
+    pos: 'n'
+    wCnt: 2
+    lemma: area
+    synonyms:
+      - area
+      - region
+    lexId: '0'
+    gloss: >-
+      a part of an animal that has a special function or is supplied by a given
+      artery or nerve; "in the abdominal region"  
+    def: >-
+      a part of an animal that has a special function or is supplied by a given
+      artery or nerve
+    exp:
+      - in the abdominal region
+- document: region
+  token: pos
+  start: 719
+  end: 834
+  tag: NOUN
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 8647614
+    lexFilenum: 15
+    pos: 'n'
+    wCnt: 2
+    lemma: region
+    synonyms:
+      - region
+      - part
+    lexId: '0'
+    gloss: >-
+      the extended spatial location of something; "the farming regions of
+      France"; "religions in all parts of the world"; "regions of outer space"  
+    def: the extended spatial location of something
+    exp:
+      - the farming regions of France
+      - religions in all parts of the world
+      - regions of outer space
+- document: hit
+  token: pos
+  start: 727
+  end: 839
+  tag: VERB
+  score: 1
+  wordnet:
+    synsetOffset: 783950
+    lexFilenum: 32
+    pos: v
+    wCnt: 1
+    lemma: hit
+    synonyms:
+      - hit
+    lexId: c
+    gloss: >-
+      pay unsolicited and usually unwanted sexual attention to; "He tries to hit
+      on women in bars"   
+    def: pay unsolicited and usually unwanted sexual attention to
+    exp:
+      - He tries to hit on women in bars
+- document: hit
+  token: pos
+  start: 727
+  end: 839
+  tag: VERB
+  score: 0.9
+  wordnet:
+    synsetOffset: 1154862
+    lexFilenum: 33
+    pos: v
+    wCnt: 1
+    lemma: hit
+    synonyms:
+      - hit
+    lexId: '3'
+    gloss: 'hit the intended target or goal  '
+    def: 'hit the intended target or goal  '
+    exp: []
+- document: hit
+  token: pos
+  start: 727
+  end: 839
+  tag: VERB
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 1212046
+    lexFilenum: 35
+    pos: v
+    wCnt: 2
+    lemma: strike
+    synonyms:
+      - strike
+      - hit
+    lexId: '3'
+    gloss: >-
+      produce by manipulating keys or strings of musical instruments; "The
+      pianist strikes a middle C"; "strike `z' on the keyboard"  
+    def: produce by manipulating keys or strings of musical instruments
+    exp:
+      - The pianist strikes a middle C
+      - strike `z' on the keyboard
+- document: hit
+  token: pos
+  start: 727
+  end: 839
+  tag: VERB
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 2010848
+    lexFilenum: 38
+    pos: v
+    wCnt: 3
+    lemma: reach
+    synonyms:
+      - reach
+      - hit
+      - attain
+    lexId: '0'
+    gloss: >-
+      reach a point in time, or a certain state or level; "The thermometer hit
+      100 degrees"; "This car can reach a speed of 140 miles per hour"  
+    def: 'reach a point in time, or a certain state or level'
+    exp:
+      - The thermometer hit 100 degrees
+      - This car can reach a speed of 140 miles per hour
+- document: hit
+  token: pos
+  start: 727
+  end: 839
+  tag: VERB
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 2108439
+    lexFilenum: 38
+    pos: v
+    wCnt: 2
+    lemma: hit
+    synonyms:
+      - hit
+      - strike
+    lexId: '2'
+    gloss: >-
+      drive something violently into a location; "he hit his fist on the table";
+      "she struck her head on the low ceiling"   
+    def: drive something violently into a location
+    exp:
+      - he hit his fist on the table
+      - she struck her head on the low ceiling
+- document: hit
+  token: pos
+  start: 727
+  end: 839
+  tag: VERB
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 2488014
+    lexFilenum: 41
+    pos: v
+    wCnt: 8
+    lemma: murder
+    synonyms:
+      - murder
+      - slay
+      - hit
+      - dispatch
+      - bump_off
+      - 'off'
+      - polish_off
+      - remove
+    lexId: '0'
+    gloss: >-
+      kill intentionally and with premeditation; "The mafia boss ordered his
+      enemies murdered"  
+    def: kill intentionally and with premeditation
+    exp:
+      - The mafia boss ordered his enemies murdered
+- document: hit
+  token: pos
+  start: 727
+  end: 839
+  tag: VERB
+  score: 0.8285714285714286
+  wordnet:
+    synsetOffset: 1126313
+    lexFilenum: 33
+    pos: v
+    wCnt: 2
+    lemma: strike
+    synonyms:
+      - strike
+      - hit
+    lexId: '0'
+    gloss: >-
+      make a strategic, offensive, assault against an enemy, opponent, or a
+      target; "The Germans struck Poland on Sept. 1, 1939"; "We must strike the
+      enemy's oil fields"; "in the fifth inning, the Giants struck, sending
+      three runners home to win the game 5 to 2"  
+    def: >-
+      make a strategic, offensive, assault against an enemy, opponent, or a
+      target
+    exp:
+      - 'The Germans struck Poland on Sept. 1, 1939'
+      - We must strike the enemy's oil fields
+      - >-
+        in the fifth inning, the Giants struck, sending three runners home to
+        win the game 5 to 2
+- document: hit
+  token: pos
+  start: 727
+  end: 839
+  tag: VERB
+  score: 0.8250000000000001
+  wordnet:
+    synsetOffset: 2113245
+    lexFilenum: 39
+    pos: v
+    wCnt: 3
+    lemma: hit
+    synonyms:
+      - hit
+      - strike
+      - come_to
+    lexId: '0'
+    gloss: >-
+      cause to experience suddenly; "Panic struck me"; "An interesting idea hit
+      her"; "A thought came to me"; "The thought struck terror in our minds";
+      "They were struck with fear"  
+    def: cause to experience suddenly
+    exp:
+      - Panic struck me
+      - An interesting idea hit her
+      - A thought came to me
+      - The thought struck terror in our minds
+      - They were struck with fear
+- document: hit
+  token: pos
+  start: 727
+  end: 839
+  tag: VERB
+  score: 0.8222222222222223
+  wordnet:
+    synsetOffset: 1114241
+    lexFilenum: 33
+    pos: v
+    wCnt: 4
+    lemma: score
+    synonyms:
+      - score
+      - hit
+      - tally
+      - rack_up
+    lexId: '0'
+    gloss: >-
+      gain points in a game; "The home team scored many times"; "He hit a home
+      run"; "He hit .300 in the past season"  
+    def: gain points in a game
+    exp:
+      - The home team scored many times
+      - He hit a home run
+      - He hit .300 in the past season
+- document: hit
+  token: pos
+  start: 727
+  end: 839
+  tag: VERB
+  score: 0.8200000000000001
+  wordnet:
+    synsetOffset: 2211244
+    lexFilenum: 40
+    pos: v
+    wCnt: 2
+    lemma: stumble
+    synonyms:
+      - stumble
+      - hit
+    lexId: a
+    gloss: >-
+      encounter by chance; "I stumbled across a long-lost cousin last night in a
+      restaurant"  
+    def: encounter by chance
+    exp:
+      - I stumbled across a long-lost cousin last night in a restaurant
+- document: hit
+  token: pos
+  start: 727
+  end: 839
+  tag: VERB
+  score: 0.8181818181818182
+  wordnet:
+    synsetOffset: 1139564
+    lexFilenum: 33
+    pos: v
+    wCnt: 3
+    lemma: shoot
+    synonyms:
+      - shoot
+      - hit
+      - pip
+    lexId: '1'
+    gloss: 'hit with a missile from a weapon  '
+    def: 'hit with a missile from a weapon  '
+    exp: []
+- document: hit
+  token: pos
+  start: 727
+  end: 839
+  tag: VERB
+  score: 0.8166666666666668
+  wordnet:
+    synsetOffset: 1211755
+    lexFilenum: 35
+    pos: v
+    wCnt: 2
+    lemma: hit
+    synonyms:
+      - hit
+      - strike
+    lexId: '5'
+    gloss: >-
+      affect or afflict suddenly, usually adversely; "We were hit by really bad
+      weather"; "He was stricken with cancer when he was still a teenager"; "The
+      earthquake struck at midnight"  
+    def: 'affect or afflict suddenly, usually adversely'
+    exp:
+      - We were hit by really bad weather
+      - He was stricken with cancer when he was still a teenager
+      - The earthquake struck at midnight
+- document: hit
+  token: pos
+  start: 727
+  end: 839
+  tag: VERB
+  score: 0.8153846153846154
+  wordnet:
+    synsetOffset: 2024442
+    lexFilenum: 38
+    pos: v
+    wCnt: 6
+    lemma: reach
+    synonyms:
+      - reach
+      - make
+      - attain
+      - hit
+      - arrive_at
+      - gain
+    lexId: '1'
+    gloss: >-
+      reach a destination, either real or abstract; "We hit Detroit by noon";
+      "The water reached the doorstep"; "We barely made it to the finish line";
+      "I have to hit the MAC machine before the weekend starts"  
+    def: 'reach a destination, either real or abstract'
+    exp:
+      - We hit Detroit by noon
+      - The water reached the doorstep
+      - We barely made it to the finish line
+      - I have to hit the MAC machine before the weekend starts
+- document: hit
+  token: pos
+  start: 727
+  end: 839
+  tag: VERB
+  score: 0.8142857142857143
+  wordnet:
+    synsetOffset: 1402698
+    lexFilenum: 35
+    pos: v
+    wCnt: 1
+    lemma: hit
+    synonyms:
+      - hit
+    lexId: '0'
+    gloss: >-
+      deal a blow to, either with the hand or with an instrument; "He hit her
+      hard in the face"  
+    def: 'deal a blow to, either with the hand or with an instrument'
+    exp:
+      - He hit her hard in the face
+- document: hit
+  token: pos
+  start: 727
+  end: 839
+  tag: VERB
+  score: 0.8133333333333334
+  wordnet:
+    synsetOffset: 1238728
+    lexFilenum: 35
+    pos: v
+    wCnt: 5
+    lemma: hit
+    synonyms:
+      - hit
+      - strike
+      - impinge_on
+      - run_into
+      - collide_with
+    lexId: '1'
+    gloss: >-
+      hit against; come into sudden contact with; "The car hit a tree"; "He
+      struck the table with his elbow"  
+    def: hit against
+    exp:
+      - come into sudden contact with
+      - The car hit a tree
+      - He struck the table with his elbow
+- document: hit
+  token: pos
+  start: 727
+  end: 839
+  tag: VERB
+  score: 0.8125
+  wordnet:
+    synsetOffset: 1407698
+    lexFilenum: 35
+    pos: v
+    wCnt: 1
+    lemma: hit
+    synonyms:
+      - hit
+    lexId: '3'
+    gloss: 'cause to move by striking; "hit a ball"  '
+    def: cause to move by striking
+    exp:
+      - hit a ball
+- document: conflict
+  token: pos
+  start: 734
+  end: 851
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 7196595
+    lexFilenum: 10
+    pos: 'n'
+    wCnt: 4
+    lemma: dispute
+    synonyms:
+      - dispute
+      - difference
+      - difference_of_opinion
+      - conflict
+    lexId: '0'
+    gloss: >-
+      a disagreement or argument about something important; "he had a dispute
+      with his wife"; "there were irreconcilable differences"; "the familiar
+      conflict between Republicans and Democrats"  
+    def: a disagreement or argument about something important
+    exp:
+      - he had a dispute with his wife
+      - there were irreconcilable differences
+      - the familiar conflict between Republicans and Democrats
+- document: conflict
+  token: pos
+  start: 734
+  end: 851
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 13877574
+    lexFilenum: 24
+    pos: 'n'
+    wCnt: 1
+    lemma: conflict
+    synonyms:
+      - conflict
+    lexId: '0'
+    gloss: >-
+      opposition in a work of drama or fiction between characters or forces
+      (especially an opposition that motivates the development of the plot);
+      "this form of conflict is essential to Mann's writing"  
+    def: >-
+      opposition in a work of drama or fiction between characters or forces
+      (especially an opposition that motivates the development of the plot)
+    exp:
+      - this form of conflict is essential to Mann's writing
+- document: conflict
+  token: pos
+  start: 734
+  end: 851
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 4721955
+    lexFilenum: 7
+    pos: 'n'
+    wCnt: 1
+    lemma: conflict
+    synonyms:
+      - conflict
+    lexId: '0'
+    gloss: >-
+      an incompatibility of dates or events; "he noticed a conflict in the dates
+      of the two meetings"  
+    def: an incompatibility of dates or events
+    exp:
+      - he noticed a conflict in the dates of the two meetings
+- document: conflict
+  token: pos
+  start: 734
+  end: 851
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 14004330
+    lexFilenum: 26
+    pos: 'n'
+    wCnt: 1
+    lemma: conflict
+    synonyms:
+      - conflict
+    lexId: '0'
+    gloss: >-
+      a state of opposition between persons or ideas or interests; "his conflict
+      of interest made him ineligible for the post"; "a conflict of loyalties"  
+    def: a state of opposition between persons or ideas or interests
+    exp:
+      - his conflict of interest made him ineligible for the post
+      - a conflict of loyalties
+- document: conflict
+  token: pos
+  start: 734
+  end: 851
+  tag: NOUN
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 955670
+    lexFilenum: 4
+    pos: 'n'
+    wCnt: 4
+    lemma: battle
+    synonyms:
+      - battle
+      - conflict
+      - fight
+      - engagement
+    lexId: '0'
+    gloss: >-
+      a hostile meeting of opposing military forces in the course of a war;
+      "Grant won a decisive victory in the battle of Chickamauga"; "he lost his
+      romantic ideas about war when he got into a real engagement"  
+    def: a hostile meeting of opposing military forces in the course of a war
+    exp:
+      - Grant won a decisive victory in the battle of Chickamauga
+      - he lost his romantic ideas about war when he got into a real engagement
+- document: conflict
+  token: pos
+  start: 734
+  end: 851
+  tag: NOUN
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 7498579
+    lexFilenum: 12
+    pos: 'n'
+    wCnt: 1
+    lemma: conflict
+    synonyms:
+      - conflict
+    lexId: '0'
+    gloss: >-
+      opposition between two simultaneous but incompatible feelings; "he was
+      immobilized by conflict and indecision"  
+    def: opposition between two simultaneous but incompatible feelings
+    exp:
+      - he was immobilized by conflict and indecision
+- document: conflict
+  token: pos
+  start: 734
+  end: 851
+  tag: NOUN
+  score: 0.8285714285714286
+  wordnet:
+    synsetOffset: 961007
+    lexFilenum: 4
+    pos: 'n'
+    wCnt: 3
+    lemma: conflict
+    synonyms:
+      - conflict
+      - struggle
+      - battle
+    lexId: '0'
+    gloss: >-
+      an open clash between two opposing groups (or individuals); "the harder
+      the conflict the more glorious the triumph"--Thomas Paine; "police tried
+      to control the battle between the pro- and anti-abortion mobs"  
+    def: an open clash between two opposing groups (or individuals)
+    exp:
+      - the harder the conflict the more glorious the triumph--Thomas Paine
+      - >-
+        police tried to control the battle between the pro- and anti-abortion
+        mobs
+- document: government
+  token: pos
+  start: 755
+  end: 874
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 6157599
+    lexFilenum: 9
+    pos: 'n'
+    wCnt: 3
+    lemma: politics
+    synonyms:
+      - politics
+      - political_science
+      - government
+    lexId: '0'
+    gloss: 'the study of government of states and other political units  '
+    def: 'the study of government of states and other political units  '
+    exp: []
+- document: government
+  token: pos
+  start: 755
+  end: 874
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 5671515
+    lexFilenum: 9
+    pos: 'n'
+    wCnt: 1
+    lemma: government
+    synonyms:
+      - government
+    lexId: '0'
+    gloss: >-
+      (government) the system or form by which a community or other political
+      unit is governed; "tyrannical government"  
+    def: >-
+      (government) the system or form by which a community or other political
+      unit is governed
+    exp:
+      - tyrannical government
+- document: government
+  token: pos
+  start: 755
+  end: 874
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 1127115
+    lexFilenum: 4
+    pos: 'n'
+    wCnt: 5
+    lemma: government
+    synonyms:
+      - government
+      - governing
+      - governance
+      - government_activity
+      - administration
+    lexId: '0'
+    gloss: >-
+      the act of governing; exercising authority; "regulations for the governing
+      of state prisons"; "he had considerable experience of government"  
+    def: the act of governing
+    exp:
+      - exercising authority
+      - regulations for the governing of state prisons
+      - he had considerable experience of government
+- document: government
+  token: pos
+  start: 755
+  end: 874
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 8067430
+    lexFilenum: 14
+    pos: 'n'
+    wCnt: 3
+    lemma: government
+    synonyms:
+      - government
+      - authorities
+      - regime
+    lexId: '0'
+    gloss: >-
+      the organization that is the governing authority of a political unit; "the
+      government reduced taxes"; "the matter was referred to higher
+      authorities"  
+    def: the organization that is the governing authority of a political unit
+    exp:
+      - the government reduced taxes
+      - the matter was referred to higher authorities

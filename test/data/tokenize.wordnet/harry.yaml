@@ -1,0 +1,6833 @@
+- document: number
+  token: pos
+  start: 25
+  end: 154
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 3840952
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 1
+    lemma: number
+    synonyms:
+      - number
+    lexId: '0'
+    gloss: >-
+      an item of clothing; "she preferred the black nylon number"; "this sweater
+      is an all-wool number"  
+    def: an item of clothing
+    exp:
+      - she preferred the black nylon number
+      - this sweater is an all-wool number
+- document: number
+  token: pos
+  start: 25
+  end: 154
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 6337519
+    lexFilenum: 10
+    pos: 'n'
+    wCnt: 1
+    lemma: number
+    synonyms:
+      - number
+    lexId: '5'
+    gloss: >-
+      the grammatical category for the forms of nouns and pronouns and verbs
+      that are used depending on the number of entities involved (singular or
+      dual or plural); "in English the subject and the verb must agree in
+      number"  
+    def: >-
+      the grammatical category for the forms of nouns and pronouns and verbs
+      that are used depending on the number of entities involved (singular or
+      dual or plural)
+    exp:
+      - in English the subject and the verb must agree in number
+- document: number
+  token: pos
+  start: 25
+  end: 154
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 6609408
+    lexFilenum: 10
+    pos: 'n'
+    wCnt: 1
+    lemma: number
+    synonyms:
+      - number
+    lexId: '7'
+    gloss: >-
+      a numbered item in a series; "take the number 2 to the main square, then
+      change to the number 5"  
+    def: a numbered item in a series
+    exp:
+      - 'take the number 2 to the main square, then change to the number 5'
+- document: number
+  token: pos
+  start: 25
+  end: 154
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 5103556
+    lexFilenum: 7
+    pos: 'n'
+    wCnt: 1
+    lemma: number
+    synonyms:
+      - number
+    lexId: '1'
+    gloss: 'a clothing measurement; "a number 13 shoe"  '
+    def: a clothing measurement
+    exp:
+      - a number 13 shoe
+- document: number
+  token: pos
+  start: 25
+  end: 154
+  tag: NOUN
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 6436708
+    lexFilenum: 10
+    pos: 'n'
+    wCnt: 1
+    lemma: number
+    synonyms:
+      - number
+    lexId: '2'
+    gloss: >-
+      a numeral or string of numerals that is used for identification and may be
+      attached to accounts, memberships, etc.; "she refused to give them her
+      Social Security number"  
+    def: >-
+      a numeral or string of numerals that is used for identification and may be
+      attached to accounts, memberships, etc.
+    exp:
+      - she refused to give them her Social Security number
+- document: number
+  token: pos
+  start: 25
+  end: 154
+  tag: NOUN
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 8497523
+    lexFilenum: 14
+    pos: 'n'
+    wCnt: 1
+    lemma: number
+    synonyms:
+      - number
+    lexId: '0'
+    gloss: >-
+      a select company of people; "I hope to become one of their number before I
+      die"  
+    def: a select company of people
+    exp:
+      - I hope to become one of their number before I die
+- document: number
+  token: pos
+  start: 25
+  end: 154
+  tag: NOUN
+  score: 0.8285714285714286
+  wordnet:
+    synsetOffset: 6609182
+    lexFilenum: 10
+    pos: 'n'
+    wCnt: 2
+    lemma: issue
+    synonyms:
+      - issue
+      - number
+    lexId: '0'
+    gloss: >-
+      one of a series published periodically; "she found an old issue of the
+      magazine in her dentist's waiting room"  
+    def: one of a series published periodically
+    exp:
+      - she found an old issue of the magazine in her dentist's waiting room
+- document: number
+  token: pos
+  start: 25
+  end: 154
+  tag: NOUN
+  score: 0.8250000000000001
+  wordnet:
+    synsetOffset: 6820056
+    lexFilenum: 10
+    pos: 'n'
+    wCnt: 2
+    lemma: numeral
+    synonyms:
+      - numeral
+      - number
+    lexId: '0'
+    gloss: >-
+      a symbol used to represent a number; "he learned to write the numerals
+      before he went to school"  
+    def: a symbol used to represent a number
+    exp:
+      - he learned to write the numerals before he went to school
+- document: number
+  token: pos
+  start: 25
+  end: 154
+  tag: NOUN
+  score: 0.8222222222222223
+  wordnet:
+    synsetOffset: 6437781
+    lexFilenum: 10
+    pos: 'n'
+    wCnt: 3
+    lemma: phone_number
+    synonyms:
+      - phone_number
+      - telephone_number
+      - number
+    lexId: '0'
+    gloss: >-
+      the number is used in calling a particular telephone; "he has an unlisted
+      number"  
+    def: the number is used in calling a particular telephone
+    exp:
+      - he has an unlisted number
+- document: number
+  token: pos
+  start: 25
+  end: 154
+  tag: NOUN
+  score: 0.8200000000000001
+  wordnet:
+    synsetOffset: 6905066
+    lexFilenum: 10
+    pos: 'n'
+    wCnt: 5
+    lemma: act
+    synonyms:
+      - act
+      - routine
+      - number
+      - turn
+      - bit
+    lexId: '2'
+    gloss: >-
+      a short performance that is part of a longer program; "he did his act
+      three times every evening"; "she had a catchy little routine"; "it was one
+      of the best numbers he ever did"  
+    def: a short performance that is part of a longer program
+    exp:
+      - he did his act three times every evening
+      - she had a catchy little routine
+      - it was one of the best numbers he ever did
+- document: number
+  token: pos
+  start: 25
+  end: 154
+  tag: NOUN
+  score: 0.8181818181818182
+  wordnet:
+    synsetOffset: 13603216
+    lexFilenum: 23
+    pos: 'n'
+    wCnt: 1
+    lemma: number
+    synonyms:
+      - number
+    lexId: '0'
+    gloss: >-
+      a concept of quantity involving zero and units; "every number has a unique
+      position in the sequence"  
+    def: a concept of quantity involving zero and units
+    exp:
+      - every number has a unique position in the sequence
+- document: number
+  token: pos
+  start: 25
+  end: 154
+  tag: NOUN
+  score: 0.8166666666666668
+  wordnet:
+    synsetOffset: 5128718
+    lexFilenum: 7
+    pos: 'n'
+    wCnt: 2
+    lemma: number
+    synonyms:
+      - number
+      - figure
+    lexId: '0'
+    gloss: >-
+      the property possessed by a sum or total or indefinite quantity of units
+      or individuals; "the number of parameters is small"; "the figure was about
+      a thousand"  
+    def: >-
+      the property possessed by a sum or total or indefinite quantity of units
+      or individuals
+    exp:
+      - the number of parameters is small
+      - the figure was about a thousand
+- document: say
+  token: pos
+  start: 66
+  end: 192
+  tag: VERB
+  score: 1
+  wordnet:
+    synsetOffset: 925168
+    lexFilenum: 32
+    pos: v
+    wCnt: 1
+    lemma: say
+    synonyms:
+      - say
+    lexId: '9'
+    gloss: 'indicate; "The clock says noon"  '
+    def: indicate
+    exp:
+      - The clock says noon
+- document: say
+  token: pos
+  start: 66
+  end: 192
+  tag: VERB
+  score: 0.9
+  wordnet:
+    synsetOffset: 947531
+    lexFilenum: 32
+    pos: v
+    wCnt: 1
+    lemma: say
+    synonyms:
+      - say
+    lexId: '8'
+    gloss: 'recite or repeat a fixed text; "Say grace"; "She said her `Hail Mary''"  '
+    def: recite or repeat a fixed text
+    exp:
+      - Say grace
+      - She said her `Hail Mary'
+- document: say
+  token: pos
+  start: 66
+  end: 192
+  tag: VERB
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 1011848
+    lexFilenum: 32
+    pos: v
+    wCnt: 1
+    lemma: say
+    synonyms:
+      - say
+    lexId: d
+    gloss: >-
+      state as one's opinion or judgement; declare; "I say let's forget this
+      whole business"  
+    def: state as one's opinion or judgement
+    exp:
+      - declare
+      - I say let's forget this whole business
+- document: say
+  token: pos
+  start: 66
+  end: 192
+  tag: VERB
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 981902
+    lexFilenum: 32
+    pos: v
+    wCnt: 1
+    lemma: say
+    synonyms:
+      - say
+    lexId: f
+    gloss: 'utter aloud; "She said `Hello'' to everyone in the office"  '
+    def: utter aloud
+    exp:
+      - She said `Hello' to everyone in the office
+- document: say
+  token: pos
+  start: 66
+  end: 192
+  tag: VERB
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 930921
+    lexFilenum: 32
+    pos: v
+    wCnt: 1
+    lemma: say
+    synonyms:
+      - say
+    lexId: '7'
+    gloss: >-
+      communicate or express nonverbally; "What does this painting say?"; "Did
+      his face say anything about how he felt?"  
+    def: communicate or express nonverbally
+    exp:
+      - What does this painting say?
+      - Did his face say anything about how he felt?
+- document: say
+  token: pos
+  start: 66
+  end: 192
+  tag: VERB
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 980581
+    lexFilenum: 32
+    pos: v
+    wCnt: 6
+    lemma: pronounce
+    synonyms:
+      - pronounce
+      - articulate
+      - enounce
+      - sound_out
+      - enunciate
+      - say
+    lexId: '1'
+    gloss: >-
+      speak, pronounce, or utter in a certain way; "She pronounces French words
+      in a funny way"; "I cannot say `zip wire'"; "Can the child sound out this
+      complicated word?"  
+    def: 'speak, pronounce, or utter in a certain way'
+    exp:
+      - She pronounces French words in a funny way
+      - I cannot say `zip wire'
+      - Can the child sound out this complicated word?
+- document: say
+  token: pos
+  start: 66
+  end: 192
+  tag: VERB
+  score: 0.8285714285714286
+  wordnet:
+    synsetOffset: 748704
+    lexFilenum: 32
+    pos: v
+    wCnt: 4
+    lemma: order
+    synonyms:
+      - order
+      - tell
+      - enjoin
+      - say
+    lexId: '1'
+    gloss: >-
+      give instructions to or direct somebody to do something with authority; "I
+      said to him to go home"; "She ordered him to do the shopping"; "The mother
+      told the child to get dressed"  
+    def: give instructions to or direct somebody to do something with authority
+    exp:
+      - I said to him to go home
+      - She ordered him to do the shopping
+      - The mother told the child to get dressed
+- document: say
+  token: pos
+  start: 66
+  end: 192
+  tag: VERB
+  score: 0.8250000000000001
+  wordnet:
+    synsetOffset: 2736688
+    lexFilenum: 42
+    pos: v
+    wCnt: 2
+    lemma: read
+    synonyms:
+      - read
+      - say
+    lexId: '0'
+    gloss: >-
+      have or contain a certain wording or form; "The passage reads as follows";
+      "What does the law say?"  
+    def: have or contain a certain wording or form
+    exp:
+      - The passage reads as follows
+      - What does the law say?
+- document: say
+  token: pos
+  start: 66
+  end: 192
+  tag: VERB
+  score: 0.8222222222222223
+  wordnet:
+    synsetOffset: 919271
+    lexFilenum: 32
+    pos: v
+    wCnt: 2
+    lemma: suppose
+    synonyms:
+      - suppose
+      - say
+    lexId: '0'
+    gloss: >-
+      express a supposition; "Let us say that he did not tell the truth"; "Let's
+      say you had a lot of money--what would you do?"  
+    def: express a supposition
+    exp:
+      - Let us say that he did not tell the truth
+      - Let's say you had a lot of money--what would you do?
+- document: say
+  token: pos
+  start: 66
+  end: 192
+  tag: VERB
+  score: 0.8200000000000001
+  wordnet:
+    synsetOffset: 1018011
+    lexFilenum: 32
+    pos: v
+    wCnt: 3
+    lemma: allege
+    synonyms:
+      - allege
+      - aver
+      - say
+    lexId: '0'
+    gloss: >-
+      report or maintain; "He alleged that he was the victim of a crime"; "He
+      said it was too late to intervene in the war"; "The registrar says that I
+      owe the school money"  
+    def: report or maintain
+    exp:
+      - He alleged that he was the victim of a crime
+      - He said it was too late to intervene in the war
+      - The registrar says that I owe the school money
+- document: say
+  token: pos
+  start: 66
+  end: 192
+  tag: VERB
+  score: 0.8181818181818182
+  wordnet:
+    synsetOffset: 1011267
+    lexFilenum: 32
+    pos: v
+    wCnt: 3
+    lemma: state
+    synonyms:
+      - state
+      - say
+      - tell
+    lexId: '0'
+    gloss: >-
+      express in words; "He said that he wanted to marry her"; "tell me what is
+      bothering you"; "state your opinion"; "state your name"  
+    def: express in words
+    exp:
+      - He said that he wanted to marry her
+      - tell me what is bothering you
+      - state your opinion
+      - state your name
+- document: thank
+  token: pos
+  start: 103
+  end: 231
+  tag: VERB
+  score: 1
+  wordnet:
+    synsetOffset: 893836
+    lexFilenum: 32
+    pos: v
+    wCnt: 2
+    lemma: thank
+    synonyms:
+      - thank
+      - give_thanks
+    lexId: '0'
+    gloss: 'express gratitude or show appreciation to  '
+    def: 'express gratitude or show appreciation to  '
+    exp: []
+- document: people
+  token: pos
+  start: 143
+  end: 287
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 8197108
+    lexFilenum: 14
+    pos: 'n'
+    wCnt: 6
+    lemma: multitude
+    synonyms:
+      - multitude
+      - masses
+      - mass
+      - hoi_polloi
+      - people
+      - the_great_unwashed
+    lexId: '1'
+    gloss: >-
+      the common people generally; "separate the warriors from the mass"; "power
+      to the people"  
+    def: the common people generally
+    exp:
+      - separate the warriors from the mass
+      - power to the people
+- document: people
+  token: pos
+  start: 143
+  end: 287
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 7987588
+    lexFilenum: 14
+    pos: 'n'
+    wCnt: 1
+    lemma: people
+    synonyms:
+      - people
+    lexId: '2'
+    gloss: >-
+      members of a family line; "his people have been farmers for generations";
+      "are your people still alive?"  
+    def: members of a family line
+    exp:
+      - his people have been farmers for generations
+      - are your people still alive?
+- document: people
+  token: pos
+  start: 143
+  end: 287
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 8177175
+    lexFilenum: 14
+    pos: 'n'
+    wCnt: 2
+    lemma: citizenry
+    synonyms:
+      - citizenry
+      - people
+    lexId: '0'
+    gloss: 'the body of citizens of a state or country; "the Spanish people"  '
+    def: the body of citizens of a state or country
+    exp:
+      - the Spanish people
+- document: people
+  token: pos
+  start: 143
+  end: 287
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 7958392
+    lexFilenum: 14
+    pos: 'n'
+    wCnt: 1
+    lemma: people
+    synonyms:
+      - people
+    lexId: '0'
+    gloss: >-
+      (plural) any group of human beings (men or women or children)
+      collectively; "old people"; "there were at least 200 people in the
+      audience"  
+    def: (plural) any group of human beings (men or women or children) collectively
+    exp:
+      - old people
+      - there were at least 200 people in the audience
+- document: expect
+  token: pos
+  start: 156
+  end: 300
+  tag: VERB
+  score: 1
+  wordnet:
+    synsetOffset: 58790
+    lexFilenum: 29
+    pos: v
+    wCnt: 5
+    lemma: have_a_bun_in_the_oven
+    synonyms:
+      - have_a_bun_in_the_oven
+      - bear
+      - carry
+      - gestate
+      - expect
+    lexId: '0'
+    gloss: >-
+      be pregnant with; "She is bearing his child"; "The are expecting another
+      child in January"; "I am carrying his child"  
+    def: be pregnant with
+    exp:
+      - She is bearing his child
+      - The are expecting another child in January
+      - I am carrying his child
+- document: expect
+  token: pos
+  start: 156
+  end: 300
+  tag: VERB
+  score: 0.9
+  wordnet:
+    synsetOffset: 59147
+    lexFilenum: 29
+    pos: v
+    wCnt: 1
+    lemma: expect
+    synonyms:
+      - expect
+    lexId: '2'
+    gloss: 'look forward to the birth of a child; "She is expecting in March"  '
+    def: look forward to the birth of a child
+    exp:
+      - She is expecting in March
+- document: expect
+  token: pos
+  start: 156
+  end: 300
+  tag: VERB
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 594097
+    lexFilenum: 31
+    pos: v
+    wCnt: 1
+    lemma: expect
+    synonyms:
+      - expect
+    lexId: '5'
+    gloss: >-
+      consider reasonable or due; "I'm expecting a full explanation as to why
+      these files were destroyed"  
+    def: consider reasonable or due
+    exp:
+      - I'm expecting a full explanation as to why these files were destroyed
+- document: expect
+  token: pos
+  start: 156
+  end: 300
+  tag: VERB
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 721987
+    lexFilenum: 31
+    pos: v
+    wCnt: 4
+    lemma: expect
+    synonyms:
+      - expect
+      - look
+      - await
+      - wait
+    lexId: '1'
+    gloss: >-
+      look forward to the probable occurrence of; "We were expecting a visit
+      from our relatives"; "She is looking to a promotion"; "he is waiting to be
+      drafted"  
+    def: look forward to the probable occurrence of
+    exp:
+      - We were expecting a visit from our relatives
+      - She is looking to a promotion
+      - he is waiting to be drafted
+- document: expect
+  token: pos
+  start: 156
+  end: 300
+  tag: VERB
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 757790
+    lexFilenum: 32
+    pos: v
+    wCnt: 3
+    lemma: ask
+    synonyms:
+      - ask
+      - require
+      - expect
+    lexId: '5'
+    gloss: >-
+      consider obligatory; request and expect; "We require our secretary to be
+      on time"; "Aren't we asking too much of these children?"; "I expect my
+      students to arrive in time for their lessons"  
+    def: consider obligatory
+    exp:
+      - request and expect
+      - We require our secretary to be on time
+      - Aren't we asking too much of these children?
+      - I expect my students to arrive in time for their lessons
+- document: expect
+  token: pos
+  start: 156
+  end: 300
+  tag: VERB
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 721658
+    lexFilenum: 31
+    pos: v
+    wCnt: 2
+    lemma: expect
+    synonyms:
+      - expect
+      - anticipate
+    lexId: '0'
+    gloss: >-
+      regard something as probable or likely; "The meteorologists are expecting
+      rain for tomorrow"  
+    def: regard something as probable or likely
+    exp:
+      - The meteorologists are expecting rain for tomorrow
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 1
+  wordnet:
+    synsetOffset: 4492
+    lexFilenum: 29
+    pos: v
+    wCnt: 1
+    lemma: hold
+    synonyms:
+      - hold
+    lexId: '4'
+    gloss: 'keep from exhaling or expelling; "hold your breath"  '
+    def: keep from exhaling or expelling
+    exp:
+      - hold your breath
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.9
+  wordnet:
+    synsetOffset: 807038
+    lexFilenum: 32
+    pos: v
+    wCnt: 4
+    lemma: agree
+    synonyms:
+      - agree
+      - hold
+      - concur
+      - concord
+    lexId: '0'
+    gloss: >-
+      be in accord; be in agreement; "We agreed on the terms of the settlement";
+      "I can't agree with you!"; "I hold with those who say life is sacred";
+      "Both philosophers concord on this point"  
+    def: be in accord
+    exp:
+      - be in agreement
+      - We agreed on the terms of the settlement
+      - I can't agree with you!
+      - I hold with those who say life is sacred
+      - Both philosophers concord on this point
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 824028
+    lexFilenum: 32
+    pos: v
+    wCnt: 3
+    lemma: declare
+    synonyms:
+      - declare
+      - adjudge
+      - hold
+    lexId: '4'
+    gloss: >-
+      declare to be; "She was declared incompetent"; "judge held that the
+      defendant was innocent"  
+    def: declare to be
+    exp:
+      - She was declared incompetent
+      - judge held that the defendant was innocent
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 1154219
+    lexFilenum: 33
+    pos: v
+    wCnt: 1
+    lemma: hold
+    synonyms:
+      - hold
+    lexId: '0'
+    gloss: >-
+      aim, point, or direct; "Hold the fire extinguisher directly on the
+      flames"  
+    def: 'aim, point, or direct'
+    exp:
+      - Hold the fire extinguisher directly on the flames
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 1207773
+    lexFilenum: 34
+    pos: v
+    wCnt: 2
+    lemma: carry
+    synonyms:
+      - carry
+      - hold
+    lexId: '0'
+    gloss: >-
+      drink alcohol without showing ill effects; "He can hold his liquor"; "he
+      had drunk more than he could carry"  
+    def: drink alcohol without showing ill effects
+    exp:
+      - He can hold his liquor
+      - he had drunk more than he could carry
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 1337426
+    lexFilenum: 35
+    pos: v
+    wCnt: 1
+    lemma: hold
+    synonyms:
+      - hold
+    lexId: '9'
+    gloss: >-
+      cover as for protection against noise or smell; "She held her ears when
+      the jackhammer started to operate"; "hold one's nose"  
+    def: cover as for protection against noise or smell
+    exp:
+      - She held her ears when the jackhammer started to operate
+      - hold one's nose
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8285714285714286
+  wordnet:
+    synsetOffset: 1863572
+    lexFilenum: 38
+    pos: v
+    wCnt: 3
+    lemma: halt
+    synonyms:
+      - halt
+      - hold
+      - arrest
+    lexId: '5'
+    gloss: >-
+      cause to stop; "Halt the engines"; "Arrest the progress"; "halt the
+      presses"  
+    def: cause to stop
+    exp:
+      - Halt the engines
+      - Arrest the progress
+      - halt the presses
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8250000000000001
+  wordnet:
+    synsetOffset: 2446762
+    lexFilenum: 41
+    pos: v
+    wCnt: 1
+    lemma: hold
+    synonyms:
+      - hold
+    lexId: e
+    gloss: >-
+      take and maintain control over, often by violent means; "The dissatisfied
+      students held the President's office for almost a week"  
+    def: 'take and maintain control over, often by violent means'
+    exp:
+      - The dissatisfied students held the President's office for almost a week
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8222222222222223
+  wordnet:
+    synsetOffset: 2456020
+    lexFilenum: 41
+    pos: v
+    wCnt: 1
+    lemma: hold
+    synonyms:
+      - hold
+    lexId: d
+    gloss: 'keep from departing; "Hold the taxi"; "Hold the horse"  '
+    def: keep from departing
+    exp:
+      - Hold the taxi
+      - Hold the horse
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8200000000000001
+  wordnet:
+    synsetOffset: 2516039
+    lexFilenum: 41
+    pos: v
+    wCnt: 7
+    lemma: control
+    synonyms:
+      - control
+      - hold_in
+      - hold
+      - contain
+      - check
+      - curb
+      - moderate
+    lexId: '1'
+    gloss: >-
+      lessen the intensity of; temper; hold in restraint; hold or keep within
+      limits; "moderate your alcohol intake"; "hold your tongue"; "hold your
+      temper"; "control your anger"  
+    def: lessen the intensity of
+    exp:
+      - temper
+      - hold in restraint
+      - hold or keep within limits
+      - moderate your alcohol intake
+      - hold your tongue
+      - hold your temper
+      - control your anger
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8181818181818182
+  wordnet:
+    synsetOffset: 2649658
+    lexFilenum: 42
+    pos: v
+    wCnt: 1
+    lemma: hold
+    synonyms:
+      - hold
+    lexId: c
+    gloss: >-
+      stop dealing with; "hold all calls to the President's office while he is
+      in a meeting"  
+    def: stop dealing with
+    exp:
+      - hold all calls to the President's office while he is in a meeting
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8166666666666668
+  wordnet:
+    synsetOffset: 2682599
+    lexFilenum: 42
+    pos: v
+    wCnt: 3
+    lemma: apply
+    synonyms:
+      - apply
+      - hold
+      - go_for
+    lexId: '0'
+    gloss: >-
+      be pertinent or relevant or applicable; "The same laws apply to you!";
+      "This theory holds for all irrational numbers"; "The same rules go for
+      everyone"  
+    def: be pertinent or relevant or applicable
+    exp:
+      - The same laws apply to you!
+      - This theory holds for all irrational numbers
+      - The same rules go for everyone
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8153846153846154
+  wordnet:
+    synsetOffset: 2712676
+    lexFilenum: 42
+    pos: v
+    wCnt: 4
+    lemma: defy
+    synonyms:
+      - defy
+      - withstand
+      - hold
+      - hold_up
+    lexId: '0'
+    gloss: >-
+      resist or confront with resistance; "The politician defied public
+      opinion"; "The new material withstands even the greatest wear and tear";
+      "The bridge held"  
+    def: resist or confront with resistance
+    exp:
+      - The politician defied public opinion
+      - The new material withstands even the greatest wear and tear
+      - The bridge held
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8142857142857143
+  wordnet:
+    synsetOffset: 608395
+    lexFilenum: 31
+    pos: v
+    wCnt: 1
+    lemma: hold
+    synonyms:
+      - hold
+    lexId: a
+    gloss: 'remain committed to; "I hold to these ideas"  '
+    def: remain committed to
+    exp:
+      - I hold to these ideas
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8133333333333334
+  wordnet:
+    synsetOffset: 738591
+    lexFilenum: 31
+    pos: v
+    wCnt: 1
+    lemma: hold
+    synonyms:
+      - hold
+    lexId: '4'
+    gloss: >-
+      hold the attention of; "The soprano held the audience"; "This story held
+      our interest"; "She can hold an audience spellbound"  
+    def: hold the attention of
+    exp:
+      - The soprano held the audience
+      - This story held our interest
+      - She can hold an audience spellbound
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8125
+  wordnet:
+    synsetOffset: 886738
+    lexFilenum: 32
+    pos: v
+    wCnt: 4
+    lemma: oblige
+    synonyms:
+      - oblige
+      - bind
+      - hold
+      - obligate
+    lexId: '0'
+    gloss: >-
+      bind by an obligation; cause to be indebted; "He's held by a contract";
+      "I'll hold you by your promise"  
+    def: bind by an obligation
+    exp:
+      - cause to be indebted
+      - He's held by a contract
+      - I'll hold you by your promise
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8117647058823529
+  wordnet:
+    synsetOffset: 1132302
+    lexFilenum: 33
+    pos: v
+    wCnt: 3
+    lemma: defend
+    synonyms:
+      - defend
+      - guard
+      - hold
+    lexId: '2'
+    gloss: >-
+      protect against a challenge or attack; "Hold that position behind the
+      trees!"; "Hold the bridge against the enemy's attacks"  
+    def: protect against a challenge or attack
+    exp:
+      - Hold that position behind the trees!
+      - Hold the bridge against the enemy's attacks
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8111111111111111
+  wordnet:
+    synsetOffset: 2503969
+    lexFilenum: 41
+    pos: v
+    wCnt: 3
+    lemma: reserve
+    synonyms:
+      - reserve
+      - hold
+      - book
+    lexId: '0'
+    gloss: >-
+      arrange for and reserve (something for someone else) in advance; "reserve
+      me a seat on a flight"; "The agent booked tickets to the show for the
+      whole family"; "please hold a table at Maxim's"  
+    def: arrange for and reserve (something for someone else) in advance
+    exp:
+      - reserve me a seat on a flight
+      - The agent booked tickets to the show for the whole family
+      - please hold a table at Maxim's
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8105263157894738
+  wordnet:
+    synsetOffset: 2707070
+    lexFilenum: 42
+    pos: v
+    wCnt: 3
+    lemma: contain
+    synonyms:
+      - contain
+      - take
+      - hold
+    lexId: e
+    gloss: >-
+      be capable of holding or containing; "This box won't take all the items";
+      "The flask holds one gallon"  
+    def: be capable of holding or containing
+    exp:
+      - This box won't take all the items
+      - The flask holds one gallon
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.81
+  wordnet:
+    synsetOffset: 2752150
+    lexFilenum: 42
+    pos: v
+    wCnt: 1
+    lemma: hold
+    synonyms:
+      - hold
+    lexId: '7'
+    gloss: >-
+      have as a major characteristic; "The novel holds many surprises"; "The
+      book holds in store much valuable advise"  
+    def: have as a major characteristic
+    exp:
+      - The novel holds many surprises
+      - The book holds in store much valuable advise
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8095238095238095
+  wordnet:
+    synsetOffset: 685690
+    lexFilenum: 31
+    pos: v
+    wCnt: 1
+    lemma: hold
+    synonyms:
+      - hold
+    lexId: '8'
+    gloss: >-
+      assert or affirm; "Rousseau's philosophy holds that people are inherently
+      good"  
+    def: assert or affirm
+    exp:
+      - Rousseau's philosophy holds that people are inherently good
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8090909090909091
+  wordnet:
+    synsetOffset: 2654604
+    lexFilenum: 42
+    pos: v
+    wCnt: 3
+    lemma: prevail
+    synonyms:
+      - prevail
+      - hold
+      - obtain
+    lexId: '1'
+    gloss: 'be valid, applicable, or true; "This theory still holds"  '
+    def: 'be valid, applicable, or true'
+    exp:
+      - This theory still holds
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.808695652173913
+  wordnet:
+    synsetOffset: 1604155
+    lexFilenum: 35
+    pos: v
+    wCnt: 3
+    lemma: hold
+    synonyms:
+      - hold
+      - carry
+      - bear
+    lexId: '2'
+    gloss: >-
+      support or hold in a certain manner; "She holds her head high"; "He
+      carried himself upright"  
+    def: support or hold in a certain manner
+    exp:
+      - She holds her head high
+      - He carried himself upright
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8083333333333333
+  wordnet:
+    synsetOffset: 2689312
+    lexFilenum: 42
+    pos: v
+    wCnt: 1
+    lemma: hold
+    synonyms:
+      - hold
+    lexId: '1'
+    gloss: >-
+      remain in a certain state, position, or condition; "The weather held";
+      "They held on the road and kept marching"  
+    def: 'remain in a certain state, position, or condition'
+    exp:
+      - The weather held
+      - They held on the road and kept marching
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.808
+  wordnet:
+    synsetOffset: 2738673
+    lexFilenum: 42
+    pos: v
+    wCnt: 3
+    lemma: accommodate
+    synonyms:
+      - accommodate
+      - hold
+      - admit
+    lexId: '3'
+    gloss: >-
+      have room for; hold without crowding; "This hotel can accommodate 250
+      guests"; "The theater admits 300 people"; "The auditorium can't hold more
+      than 500 people"  
+    def: have room for
+    exp:
+      - hold without crowding
+      - This hotel can accommodate 250 guests
+      - The theater admits 300 people
+      - The auditorium can't hold more than 500 people
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8076923076923077
+  wordnet:
+    synsetOffset: 2706727
+    lexFilenum: 42
+    pos: v
+    wCnt: 4
+    lemma: hold
+    synonyms:
+      - hold
+      - bear
+      - carry
+      - contain
+    lexId: d
+    gloss: >-
+      contain or hold; have within; "The jar carries wine"; "The canteen holds
+      fresh water"; "This can contains water"  
+    def: contain or hold
+    exp:
+      - have within
+      - The jar carries wine
+      - The canteen holds fresh water
+      - This can contains water
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8074074074074075
+  wordnet:
+    synsetOffset: 1219607
+    lexFilenum: 35
+    pos: v
+    wCnt: 4
+    lemma: hold
+    synonyms:
+      - hold
+      - support
+      - sustain
+      - hold_up
+    lexId: '1'
+    gloss: >-
+      be the physical support of; carry the weight of; "The beam holds up the
+      roof"; "He supported me with one hand while I balanced on the beam";
+      "What's holding that mirror?"  
+    def: be the physical support of
+    exp:
+      - carry the weight of
+      - The beam holds up the roof
+      - He supported me with one hand while I balanced on the beam
+      - What's holding that mirror?
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8071428571428572
+  wordnet:
+    synsetOffset: 2307200
+    lexFilenum: 40
+    pos: v
+    wCnt: 2
+    lemma: bear
+    synonyms:
+      - bear
+      - hold
+    lexId: '0'
+    gloss: >-
+      have rightfully; of rights, titles, and offices; "She bears the title of
+      Duchess"; "He held the governorship for almost a decade"  
+    def: have rightfully
+    exp:
+      - 'of rights, titles, and offices'
+      - She bears the title of Duchess
+      - He held the governorship for almost a decade
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.806896551724138
+  wordnet:
+    synsetOffset: 2288169
+    lexFilenum: 40
+    pos: v
+    wCnt: 4
+    lemma: retain
+    synonyms:
+      - retain
+      - hold
+      - keep_back
+      - hold_back
+    lexId: '0'
+    gloss: >-
+      secure and keep for possible future use or application; "The landlord
+      retained the security deposit"; "I reserve the right to disagree"  
+    def: secure and keep for possible future use or application
+    exp:
+      - The landlord retained the security deposit
+      - I reserve the right to disagree
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8066666666666668
+  wordnet:
+    synsetOffset: 1304044
+    lexFilenum: 35
+    pos: v
+    wCnt: 4
+    lemma: restrain
+    synonyms:
+      - restrain
+      - confine
+      - hold
+      - constrain
+    lexId: '0'
+    gloss: >-
+      to close within bounds, or otherwise limit or deprive of free movement;
+      "This holds the local until the express passengers change trains"; "About
+      a dozen animals were held inside the stockade"; "The illegal immigrants
+      were held at a detention center"; "The terrorists held the journalists for
+      ransom"  
+    def: 'to close within bounds, or otherwise limit or deprive of free movement'
+    exp:
+      - This holds the local until the express passengers change trains
+      - About a dozen animals were held inside the stockade
+      - The illegal immigrants were held at a detention center
+      - The terrorists held the journalists for ransom
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8064516129032259
+  wordnet:
+    synsetOffset: 1777051
+    lexFilenum: 37
+    pos: v
+    wCnt: 5
+    lemma: harbor
+    synonyms:
+      - harbor
+      - harbour
+      - hold
+      - entertain
+      - nurse
+    lexId: '0'
+    gloss: >-
+      maintain (a theory, thoughts, or feelings); "bear a grudge"; "entertain
+      interesting notions"; "harbor a resentment"  
+    def: 'maintain (a theory, thoughts, or feelings)'
+    exp:
+      - bear a grudge
+      - entertain interesting notions
+      - harbor a resentment
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.80625
+  wordnet:
+    synsetOffset: 695546
+    lexFilenum: 31
+    pos: v
+    wCnt: 4
+    lemma: deem
+    synonyms:
+      - deem
+      - hold
+      - view_as
+      - take_for
+    lexId: '0'
+    gloss: >-
+      keep in mind or convey as a conviction or view; "take for granted"; "view
+      as important"; "hold these truths to be self-evident"; "I hold him
+      personally responsible"  
+    def: keep in mind or convey as a conviction or view
+    exp:
+      - take for granted
+      - view as important
+      - hold these truths to be self-evident
+      - I hold him personally responsible
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8060606060606061
+  wordnet:
+    synsetOffset: 2208144
+    lexFilenum: 40
+    pos: v
+    wCnt: 3
+    lemma: have
+    synonyms:
+      - have
+      - have_got
+      - hold
+    lexId: '0'
+    gloss: >-
+      have or possess, either in a concrete or an abstract sense; "She has
+      $1,000 in the bank"; "He has got two beautiful daughters"; "She holds a
+      Master's degree from Harvard"  
+    def: 'have or possess, either in a concrete or an abstract sense'
+    exp:
+      - 'She has $1,000 in the bank'
+      - He has got two beautiful daughters
+      - She holds a Master's degree from Harvard
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8058823529411765
+  wordnet:
+    synsetOffset: 1737358
+    lexFilenum: 36
+    pos: v
+    wCnt: 5
+    lemma: hold
+    synonyms:
+      - hold
+      - throw
+      - have
+      - make
+      - give
+    lexId: '0'
+    gloss: >-
+      organize or be responsible for; "hold a reception"; "have, throw, or make
+      a party"; "give a course"  
+    def: organize or be responsible for
+    exp:
+      - hold a reception
+      - 'have, throw, or make a party'
+      - give a course
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8057142857142857
+  wordnet:
+    synsetOffset: 1219234
+    lexFilenum: 35
+    pos: v
+    wCnt: 2
+    lemma: hold
+    synonyms:
+      - hold
+      - take_hold
+    lexId: '0'
+    gloss: >-
+      have or hold in one's hands or grip; "Hold this bowl for a moment,
+      please"; "A crazy idea took hold of him"  
+    def: have or hold in one's hands or grip
+    exp:
+      - 'Hold this bowl for a moment, please'
+      - A crazy idea took hold of him
+- document: hold
+  token: pos
+  start: 238
+  end: 380
+  tag: VERB
+  score: 0.8055555555555556
+  wordnet:
+    synsetOffset: 2687605
+    lexFilenum: 42
+    pos: v
+    wCnt: 3
+    lemma: keep
+    synonyms:
+      - keep
+      - maintain
+      - hold
+    lexId: '0'
+    gloss: >-
+      cause to continue in a certain state, position, or activity; e.g., `keep
+      clean'; "hold in place"; "She always held herself as a lady"; "The
+      students keep me on my toes"  
+    def: 'cause to continue in a certain state, position, or activity'
+    exp:
+      - 'e.g., `keep clean'''
+      - hold in place
+      - She always held herself as a lady
+      - The students keep me on my toes
+- document: nonsense
+  token: pos
+  start: 253
+  end: 399
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 3381284
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 7
+    lemma: folderal
+    synonyms:
+      - folderal
+      - falderol
+      - frill
+      - gimcrackery
+      - gimcrack
+      - nonsense
+      - trumpery
+    lexId: '0'
+    gloss: 'ornamental objects of no great value  '
+    def: 'ornamental objects of no great value  '
+    exp: []
+- document: nonsense
+  token: pos
+  start: 253
+  end: 399
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 6619692
+    lexFilenum: 10
+    pos: 'n'
+    wCnt: 5
+    lemma: nonsense
+    synonyms:
+      - nonsense
+      - bunk
+      - nonsensicality
+      - meaninglessness
+      - hokum
+    lexId: '0'
+    gloss: 'a message that seems to convey no meaning  '
+    def: 'a message that seems to convey no meaning  '
+    exp: []
+- document: director
+  token: pos
+  start: 284
+  end: 367
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 9972018
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 3
+    lemma: conductor
+    synonyms:
+      - conductor
+      - music_director
+      - director
+    lexId: '0'
+    gloss: 'the person who leads a musical group  '
+    def: 'the person who leads a musical group  '
+    exp: []
+- document: director
+  token: pos
+  start: 284
+  end: 367
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 10107969
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 2
+    lemma: film_director
+    synonyms:
+      - film_director
+      - director
+    lexId: '0'
+    gloss: 'the person who directs the making of a film  '
+    def: 'the person who directs the making of a film  '
+    exp: []
+- document: director
+  token: pos
+  start: 284
+  end: 367
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 10034960
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 3
+    lemma: director
+    synonyms:
+      - director
+      - theater_director
+      - theatre_director
+    lexId: '2'
+    gloss: >-
+      someone who supervises the actors and directs the action in the production
+      of a show  
+    def: >-
+      someone who supervises the actors and directs the action in the production
+      of a show  
+    exp: []
+- document: director
+  token: pos
+  start: 284
+  end: 367
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 10035230
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: director
+    synonyms:
+      - director
+    lexId: '3'
+    gloss: 'member of a board of directors  '
+    def: 'member of a board of directors  '
+    exp: []
+- document: director
+  token: pos
+  start: 284
+  end: 367
+  tag: NOUN
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 10034684
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 3
+    lemma: director
+    synonyms:
+      - director
+      - manager
+      - managing_director
+    lexId: '0'
+    gloss: 'someone who controls resources and expenditures  '
+    def: 'someone who controls resources and expenditures  '
+    exp: []
+- document: firm
+  token: pos
+  start: 298
+  end: 377
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 8076706
+    lexFilenum: 14
+    pos: 'n'
+    wCnt: 3
+    lemma: firm
+    synonyms:
+      - firm
+      - house
+      - business_firm
+    lexId: '0'
+    gloss: >-
+      the members of a business organization that owns or operates one or more
+      establishments; "he worked for a brokerage house"  
+    def: >-
+      the members of a business organization that owns or operates one or more
+      establishments
+    exp:
+      - he worked for a brokerage house
+- document: man
+  token: pos
+  start: 360
+  end: 452
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 2475618
+    lexFilenum: 5
+    pos: 'n'
+    wCnt: 8
+    lemma: world
+    synonyms:
+      - world
+      - human_race
+      - humanity
+      - humankind
+      - human_beings
+      - humans
+      - mankind
+      - man
+    lexId: '0'
+    gloss: >-
+      all of the living human inhabitants of the earth; "all the world loves a
+      lover"; "she always used `humankind' because `mankind' seemed to slight
+      the women"  
+    def: all of the living human inhabitants of the earth
+    exp:
+      - all the world loves a lover
+      - she always used `humankind' because `mankind' seemed to slight the women
+- document: man
+  token: pos
+  start: 360
+  end: 452
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 3721866
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 2
+    lemma: man
+    synonyms:
+      - man
+      - piece
+    lexId: '0'
+    gloss: >-
+      game equipment consisting of an object used in playing certain board
+      games; "he taught me to set up the men on the chess board"; "he sacrificed
+      a piece to get a strategic advantage"  
+    def: game equipment consisting of an object used in playing certain board games
+    exp:
+      - he taught me to set up the men on the chess board
+      - he sacrificed a piece to get a strategic advantage
+- document: man
+  token: pos
+  start: 360
+  end: 452
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 8907943
+    lexFilenum: 15
+    pos: 'n'
+    wCnt: 2
+    lemma: Man
+    synonyms:
+      - Man
+      - Isle_of_Man
+    lexId: '0'
+    gloss: 'one of the British Isles in the Irish Sea  '
+    def: 'one of the British Isles in the Irish Sea  '
+    exp: []
+- document: man
+  token: pos
+  start: 360
+  end: 452
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 10308177
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: man
+    synonyms:
+      - man
+    lexId: '7'
+    gloss: >-
+      a male person who plays a significant role (husband or lover or boyfriend)
+      in the life of a particular woman; "she takes good care of her man"  
+    def: >-
+      a male person who plays a significant role (husband or lover or boyfriend)
+      in the life of a particular woman
+    exp:
+      - she takes good care of her man
+- document: man
+  token: pos
+  start: 360
+  end: 452
+  tag: NOUN
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 10765000
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 5
+    lemma: valet
+    synonyms:
+      - valet
+      - valet_de_chambre
+      - gentleman
+      - gentleman's_gentleman
+      - man
+    lexId: '0'
+    gloss: >-
+      a manservant who acts as a personal attendant to his employer; "Jeeves was
+      Bertie Wooster's man"  
+    def: a manservant who acts as a personal attendant to his employer
+    exp:
+      - Jeeves was Bertie Wooster's man
+- document: man
+  token: pos
+  start: 360
+  end: 452
+  tag: NOUN
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 10308424
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: man
+    synonyms:
+      - man
+    lexId: '6'
+    gloss: >-
+      an adult male person who has a manly character (virile and courageous
+      competent); "the army will make a man of you"  
+    def: >-
+      an adult male person who has a manly character (virile and courageous
+      competent)
+    exp:
+      - the army will make a man of you
+- document: man
+  token: pos
+  start: 360
+  end: 452
+  tag: NOUN
+  score: 0.8285714285714286
+  wordnet:
+    synsetOffset: 10308837
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: man
+    synonyms:
+      - man
+    lexId: '8'
+    gloss: >-
+      a male subordinate; "the chief stationed two men outside the building";
+      "he awaited word from his man in Havana"  
+    def: a male subordinate
+    exp:
+      - the chief stationed two men outside the building
+      - he awaited word from his man in Havana
+- document: man
+  token: pos
+  start: 360
+  end: 452
+  tag: NOUN
+  score: 0.8250000000000001
+  wordnet:
+    synsetOffset: 2474924
+    lexFilenum: 5
+    pos: 'n'
+    wCnt: 4
+    lemma: homo
+    synonyms:
+      - homo
+      - man
+      - human_being
+      - human
+    lexId: '0'
+    gloss: >-
+      any living or extinct member of the family Hominidae characterized by
+      superior intelligence, articulate speech, and erect carriage  
+    def: >-
+      any living or extinct member of the family Hominidae characterized by
+      superior intelligence, articulate speech, and erect carriage  
+    exp: []
+- document: man
+  token: pos
+  start: 360
+  end: 452
+  tag: NOUN
+  score: 0.8222222222222223
+  wordnet:
+    synsetOffset: 10308700
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: man
+    synonyms:
+      - man
+    lexId: '4'
+    gloss: >-
+      the generic use of the word to refer to any human being; "it was every man
+      for himself"  
+    def: the generic use of the word to refer to any human being
+    exp:
+      - it was every man for himself
+- document: man
+  token: pos
+  start: 360
+  end: 452
+  tag: NOUN
+  score: 0.8200000000000001
+  wordnet:
+    synsetOffset: 10602198
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 4
+    lemma: serviceman
+    synonyms:
+      - serviceman
+      - military_man
+      - man
+      - military_personnel
+    lexId: '0'
+    gloss: >-
+      someone who serves in the armed forces; a member of a military force; "two
+      men stood sentry duty"  
+    def: someone who serves in the armed forces
+    exp:
+      - a member of a military force
+      - two men stood sentry duty
+- document: man
+  token: pos
+  start: 360
+  end: 452
+  tag: NOUN
+  score: 0.8181818181818182
+  wordnet:
+    synsetOffset: 10306910
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 2
+    lemma: man
+    synonyms:
+      - man
+      - adult_male
+    lexId: '0'
+    gloss: >-
+      an adult person who is male (as opposed to a woman); "there were two women
+      and six men on the bus"  
+    def: an adult person who is male (as opposed to a woman)
+    exp:
+      - there were two women and six men on the bus
+- document: neck
+  token: pos
+  start: 380
+  end: 473
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 3819652
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 2
+    lemma: neck
+    synonyms:
+      - neck
+      - neck_opening
+    lexId: '0'
+    gloss: >-
+      an opening in a garment for the neck of the wearer; a part of the garment
+      near the wearer's neck  
+    def: an opening in a garment for the neck of the wearer
+    exp:
+      - a part of the garment near the wearer's neck
+- document: neck
+  token: pos
+  start: 380
+  end: 473
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 3819888
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 1
+    lemma: neck
+    synonyms:
+      - neck
+    lexId: '1'
+    gloss: >-
+      a narrow part of an artifact that resembles a neck in position or form;
+      "the banjo had a long neck"; "the bottle had a wide neck"  
+    def: a narrow part of an artifact that resembles a neck in position or form
+    exp:
+      - the banjo had a long neck
+      - the bottle had a wide neck
+- document: neck
+  token: pos
+  start: 380
+  end: 473
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 7677102
+    lexFilenum: 13
+    pos: 'n'
+    wCnt: 1
+    lemma: neck
+    synonyms:
+      - neck
+    lexId: '0'
+    gloss: 'a cut of meat from the neck of an animal  '
+    def: 'a cut of meat from the neck of an animal  '
+    exp: []
+- document: neck
+  token: pos
+  start: 380
+  end: 473
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 9390630
+    lexFilenum: 17
+    pos: 'n'
+    wCnt: 1
+    lemma: neck
+    synonyms:
+      - neck
+    lexId: '0'
+    gloss: 'a narrow elongated projecting strip of land  '
+    def: 'a narrow elongated projecting strip of land  '
+    exp: []
+- document: neck
+  token: pos
+  start: 380
+  end: 473
+  tag: NOUN
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 5554173
+    lexFilenum: 8
+    pos: 'n'
+    wCnt: 2
+    lemma: neck
+    synonyms:
+      - neck
+      - cervix
+    lexId: '0'
+    gloss: >-
+      the part of an organism (human or animal) that connects the head to the
+      rest of the body; "he admired her long graceful neck"; "the horse won by a
+      neck"  
+    def: >-
+      the part of an organism (human or animal) that connects the head to the
+      rest of the body
+    exp:
+      - he admired her long graceful neck
+      - the horse won by a neck
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 1
+  wordnet:
+    synsetOffset: 1429760
+    lexFilenum: 35
+    pos: v
+    wCnt: 2
+    lemma: take
+    synonyms:
+      - take
+      - have
+    lexId: e
+    gloss: >-
+      have sex with; archaic use; "He had taken this woman when she was most
+      vulnerable"  
+    def: have sex with
+    exp:
+      - archaic use
+      - He had taken this woman when she was most vulnerable
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 0.9
+  wordnet:
+    synsetOffset: 56644
+    lexFilenum: 29
+    pos: v
+    wCnt: 5
+    lemma: give_birth
+    synonyms:
+      - give_birth
+      - deliver
+      - bear
+      - birth
+      - have
+    lexId: '0'
+    gloss: 'cause to be born; "My wife had twins yesterday!"  '
+    def: cause to be born
+    exp:
+      - My wife had twins yesterday!
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 2360592
+    lexFilenum: 40
+    pos: v
+    wCnt: 3
+    lemma: have
+    synonyms:
+      - have
+      - get
+      - make
+    lexId: '2'
+    gloss: >-
+      achieve a point or goal; "Nicklaus had a 70"; "The Brazilian team got 4
+      goals"; "She made 29 points that day"  
+    def: achieve a point or goal
+    exp:
+      - Nicklaus had a 70
+      - The Brazilian team got 4 goals
+      - She made 29 points that day
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 65410
+    lexFilenum: 29
+    pos: v
+    wCnt: 4
+    lemma: suffer
+    synonyms:
+      - suffer
+      - sustain
+      - have
+      - get
+    lexId: '1'
+    gloss: >-
+      undergo (as of injuries and illnesses); "She suffered a fracture in the
+      accident"; "He had an insulin shock after eating three candy bars"; "She
+      got a bruise on her leg"; "He got his arm broken in the scuffle"  
+    def: undergo (as of injuries and illnesses)
+    exp:
+      - She suffered a fracture in the accident
+      - He had an insulin shock after eating three candy bars
+      - She got a bruise on her leg
+      - He got his arm broken in the scuffle
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 2214901
+    lexFilenum: 40
+    pos: v
+    wCnt: 2
+    lemma: receive
+    synonyms:
+      - receive
+      - have
+    lexId: '0'
+    gloss: >-
+      get something; come into possession of; "receive payment"; "receive a
+      gift"; "receive letters from the front"  
+    def: get something
+    exp:
+      - come into possession of
+      - receive payment
+      - receive a gift
+      - receive letters from the front
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 2240906
+    lexFilenum: 40
+    pos: v
+    wCnt: 3
+    lemma: accept
+    synonyms:
+      - accept
+      - take
+      - have
+    lexId: '0'
+    gloss: >-
+      receive willingly something given or offered; "The only girl who would
+      have him was the miller's daughter"; "I won't have this dog in my house!";
+      "Please accept my present"  
+    def: receive willingly something given or offered
+    exp:
+      - The only girl who would have him was the miller's daughter
+      - I won't have this dog in my house!
+      - Please accept my present
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 0.8285714285714286
+  wordnet:
+    synsetOffset: 772482
+    lexFilenum: 32
+    pos: v
+    wCnt: 6
+    lemma: induce
+    synonyms:
+      - induce
+      - stimulate
+      - cause
+      - have
+      - get
+      - make
+    lexId: '0'
+    gloss: >-
+      cause to do; cause to act in a specified manner; "The ads induced me to
+      buy a VCR"; "My children finally got me to buy a computer"; "My wife made
+      me buy a new sofa"  
+    def: cause to do
+    exp:
+      - cause to act in a specified manner
+      - The ads induced me to buy a VCR
+      - My children finally got me to buy a computer
+      - My wife made me buy a new sofa
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 0.8250000000000001
+  wordnet:
+    synsetOffset: 65141
+    lexFilenum: 29
+    pos: v
+    wCnt: 1
+    lemma: have
+    synonyms:
+      - have
+    lexId: '2'
+    gloss: 'suffer from; be ill with; "She has arthritis"  '
+    def: suffer from
+    exp:
+      - be ill with
+      - She has arthritis
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 0.8222222222222223
+  wordnet:
+    synsetOffset: 120854
+    lexFilenum: 30
+    pos: v
+    wCnt: 2
+    lemma: have
+    synonyms:
+      - have
+      - experience
+    lexId: '1'
+    gloss: 'undergo; "The stocks had a fast run-up"  '
+    def: undergo
+    exp:
+      - The stocks had a fast run-up
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 0.8200000000000001
+  wordnet:
+    synsetOffset: 2746620
+    lexFilenum: 42
+    pos: v
+    wCnt: 1
+    lemma: have
+    synonyms:
+      - have
+    lexId: c
+    gloss: 'be confronted with; "What do we have here?"; "Now we have a fine mess"  '
+    def: be confronted with
+    exp:
+      - What do we have here?
+      - Now we have a fine mess
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 0.8181818181818182
+  wordnet:
+    synsetOffset: 2209880
+    lexFilenum: 40
+    pos: v
+    wCnt: 1
+    lemma: have
+    synonyms:
+      - have
+    lexId: '1'
+    gloss: >-
+      have left; "I have two years left"; "I don't have any money left"; "They
+      have two more years before they retire"  
+    def: have left
+    exp:
+      - I have two years left
+      - I don't have any money left
+      - They have two more years before they retire
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 0.8166666666666668
+  wordnet:
+    synsetOffset: 1737358
+    lexFilenum: 36
+    pos: v
+    wCnt: 5
+    lemma: hold
+    synonyms:
+      - hold
+      - throw
+      - have
+      - make
+      - give
+    lexId: '0'
+    gloss: >-
+      organize or be responsible for; "hold a reception"; "have, throw, or make
+      a party"; "give a course"  
+    def: organize or be responsible for
+    exp:
+      - hold a reception
+      - 'have, throw, or make a party'
+      - give a course
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 0.8153846153846154
+  wordnet:
+    synsetOffset: 2383544
+    lexFilenum: 41
+    pos: v
+    wCnt: 1
+    lemma: have
+    synonyms:
+      - have
+    lexId: '0'
+    gloss: >-
+      have a personal or business relationship with someone; "have a postdoc";
+      "have an assistant"; "have a lover"  
+    def: have a personal or business relationship with someone
+    exp:
+      - have a postdoc
+      - have an assistant
+      - have a lover
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 0.8142857142857143
+  wordnet:
+    synsetOffset: 1159300
+    lexFilenum: 34
+    pos: v
+    wCnt: 5
+    lemma: consume
+    synonyms:
+      - consume
+      - ingest
+      - take_in
+      - take
+      - have
+    lexId: '0'
+    gloss: >-
+      serve oneself to, or consume regularly; "Have another bowl of chicken
+      soup!"; "I don't take sugar in my coffee"  
+    def: 'serve oneself to, or consume regularly'
+    exp:
+      - Have another bowl of chicken soup!
+      - I don't take sugar in my coffee
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 0.8133333333333334
+  wordnet:
+    synsetOffset: 120604
+    lexFilenum: 30
+    pos: v
+    wCnt: 3
+    lemma: get
+    synonyms:
+      - get
+      - let
+      - have
+    lexId: '2'
+    gloss: >-
+      cause to move; cause to be in a certain position or condition; "He got his
+      squad on the ball"; "This let me in for a big surprise"; "He got a girl
+      into trouble"  
+    def: cause to move
+    exp:
+      - cause to be in a certain position or condition
+      - He got his squad on the ball
+      - This let me in for a big surprise
+      - He got a girl into trouble
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 0.8125
+  wordnet:
+    synsetOffset: 2209474
+    lexFilenum: 40
+    pos: v
+    wCnt: 3
+    lemma: own
+    synonyms:
+      - own
+      - have
+      - possess
+    lexId: '0'
+    gloss: >-
+      have ownership or possession of; "He owns three houses in Florida"; "How
+      many cars does she have?"  
+    def: have ownership or possession of
+    exp:
+      - He owns three houses in Florida
+      - How many cars does she have?
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 0.8117647058823529
+  wordnet:
+    synsetOffset: 2112480
+    lexFilenum: 39
+    pos: v
+    wCnt: 4
+    lemma: experience
+    synonyms:
+      - experience
+      - receive
+      - have
+      - get
+    lexId: '0'
+    gloss: >-
+      go through (mental or physical states or experiences); "get an idea";
+      "experience vertigo"; "get nauseous"; "receive injuries"; "have a
+      feeling"  
+    def: go through (mental or physical states or experiences)
+    exp:
+      - get an idea
+      - experience vertigo
+      - get nauseous
+      - receive injuries
+      - have a feeling
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 0.8111111111111111
+  wordnet:
+    synsetOffset: 2636270
+    lexFilenum: 42
+    pos: v
+    wCnt: 2
+    lemma: have
+    synonyms:
+      - have
+      - feature
+    lexId: '0'
+    gloss: >-
+      have as a feature; "This restaurant features the most famous chefs in
+      France"  
+    def: have as a feature
+    exp:
+      - This restaurant features the most famous chefs in France
+- document: have
+  token: pos
+  start: 402
+  end: 495
+  tag: VERB
+  score: 0.8105263157894738
+  wordnet:
+    synsetOffset: 2208144
+    lexFilenum: 40
+    pos: v
+    wCnt: 3
+    lemma: have
+    synonyms:
+      - have
+      - have_got
+      - hold
+    lexId: '0'
+    gloss: >-
+      have or possess, either in a concrete or an abstract sense; "She has
+      $1,000 in the bank"; "He has got two beautiful daughters"; "She holds a
+      Master's degree from Harvard"  
+    def: 'have or possess, either in a concrete or an abstract sense'
+    exp:
+      - 'She has $1,000 in the bank'
+      - He has got two beautiful daughters
+      - She holds a Master's degree from Harvard
+- document: mustache
+  token: pos
+  start: 420
+  end: 517
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 5269684
+    lexFilenum: 8
+    pos: 'n'
+    wCnt: 2
+    lemma: mustache
+    synonyms:
+      - mustache
+      - moustache
+    lexId: '0'
+    gloss: >-
+      an unshaved growth of hair on the upper lip; "he looked younger after he
+      shaved off his mustache"  
+    def: an unshaved growth of hair on the upper lip
+    exp:
+      - he looked younger after he shaved off his mustache
+- document: amount
+  token: pos
+  start: 494
+  end: 691
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 5869651
+    lexFilenum: 9
+    pos: 'n'
+    wCnt: 3
+    lemma: sum
+    synonyms:
+      - sum
+      - amount
+      - total
+    lexId: '1'
+    gloss: 'a quantity obtained by the addition of a group of numbers  '
+    def: 'a quantity obtained by the addition of a group of numbers  '
+    exp: []
+- document: amount
+  token: pos
+  start: 494
+  end: 691
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 33914
+    lexFilenum: 3
+    pos: 'n'
+    wCnt: 3
+    lemma: measure
+    synonyms:
+      - measure
+      - quantity
+      - amount
+    lexId: '0'
+    gloss: >-
+      how much there is or how many there are of something that you can
+      quantify  
+    def: >-
+      how much there is or how many there are of something that you can
+      quantify  
+    exp: []
+- document: amount
+  token: pos
+  start: 494
+  end: 691
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 5115065
+    lexFilenum: 7
+    pos: 'n'
+    wCnt: 1
+    lemma: amount
+    synonyms:
+      - amount
+    lexId: '0'
+    gloss: >-
+      the relative magnitude of something with reference to a criterion; "an
+      adequate amount of food for four people"  
+    def: the relative magnitude of something with reference to a criterion
+    exp:
+      - an adequate amount of food for four people
+- document: amount
+  token: pos
+  start: 494
+  end: 691
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 13352213
+    lexFilenum: 21
+    pos: 'n'
+    wCnt: 4
+    lemma: sum
+    synonyms:
+      - sum
+      - sum_of_money
+      - amount
+      - amount_of_money
+    lexId: '0'
+    gloss: >-
+      a quantity of money; "he borrowed a large sum"; "the amount he had in cash
+      was insufficient"  
+    def: a quantity of money
+    exp:
+      - he borrowed a large sum
+      - the amount he had in cash was insufficient
+- document: neck
+  token: pos
+  start: 504
+  end: 699
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 3819652
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 2
+    lemma: neck
+    synonyms:
+      - neck
+      - neck_opening
+    lexId: '0'
+    gloss: >-
+      an opening in a garment for the neck of the wearer; a part of the garment
+      near the wearer's neck  
+    def: an opening in a garment for the neck of the wearer
+    exp:
+      - a part of the garment near the wearer's neck
+- document: neck
+  token: pos
+  start: 504
+  end: 699
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 3819888
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 1
+    lemma: neck
+    synonyms:
+      - neck
+    lexId: '1'
+    gloss: >-
+      a narrow part of an artifact that resembles a neck in position or form;
+      "the banjo had a long neck"; "the bottle had a wide neck"  
+    def: a narrow part of an artifact that resembles a neck in position or form
+    exp:
+      - the banjo had a long neck
+      - the bottle had a wide neck
+- document: neck
+  token: pos
+  start: 504
+  end: 699
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 7677102
+    lexFilenum: 13
+    pos: 'n'
+    wCnt: 1
+    lemma: neck
+    synonyms:
+      - neck
+    lexId: '0'
+    gloss: 'a cut of meat from the neck of an animal  '
+    def: 'a cut of meat from the neck of an animal  '
+    exp: []
+- document: neck
+  token: pos
+  start: 504
+  end: 699
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 9390630
+    lexFilenum: 17
+    pos: 'n'
+    wCnt: 1
+    lemma: neck
+    synonyms:
+      - neck
+    lexId: '0'
+    gloss: 'a narrow elongated projecting strip of land  '
+    def: 'a narrow elongated projecting strip of land  '
+    exp: []
+- document: neck
+  token: pos
+  start: 504
+  end: 699
+  tag: NOUN
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 5554173
+    lexFilenum: 8
+    pos: 'n'
+    wCnt: 2
+    lemma: neck
+    synonyms:
+      - neck
+      - cervix
+    lexId: '0'
+    gloss: >-
+      the part of an organism (human or animal) that connects the head to the
+      rest of the body; "he admired her long graceful neck"; "the horse won by a
+      neck"  
+    def: >-
+      the part of an organism (human or animal) that connects the head to the
+      rest of the body
+    exp:
+      - he admired her long graceful neck
+      - the horse won by a neck
+- document: time
+  token: pos
+  start: 564
+  end: 759
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 15249488
+    lexFilenum: 28
+    pos: 'n'
+    wCnt: 3
+    lemma: prison_term
+    synonyms:
+      - prison_term
+      - sentence
+      - time
+    lexId: '0'
+    gloss: >-
+      the period of time a prisoner is imprisoned; "he served a prison term of
+      15 months"; "his sentence was 5 to 10 years"; "he is doing time in the
+      county jail"  
+    def: the period of time a prisoner is imprisoned
+    exp:
+      - he served a prison term of 15 months
+      - his sentence was 5 to 10 years
+      - he is doing time in the county jail
+- document: time
+  token: pos
+  start: 564
+  end: 759
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 4998860
+    lexFilenum: 7
+    pos: 'n'
+    wCnt: 3
+    lemma: meter
+    synonyms:
+      - meter
+      - metre
+      - time
+    lexId: '0'
+    gloss: 'rhythm as given by division into parts of equal duration  '
+    def: 'rhythm as given by division into parts of equal duration  '
+    exp: []
+- document: time
+  token: pos
+  start: 564
+  end: 759
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 15160774
+    lexFilenum: 28
+    pos: 'n'
+    wCnt: 2
+    lemma: fourth_dimension
+    synonyms:
+      - fourth_dimension
+      - time
+    lexId: '0'
+    gloss: >-
+      the fourth coordinate that is required (along with three spatial
+      dimensions) to specify a physical event  
+    def: >-
+      the fourth coordinate that is required (along with three spatial
+      dimensions) to specify a physical event  
+    exp: []
+- document: time
+  token: pos
+  start: 564
+  end: 759
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 15154879
+    lexFilenum: 28
+    pos: 'n'
+    wCnt: 2
+    lemma: clock_time
+    synonyms:
+      - clock_time
+      - time
+    lexId: '0'
+    gloss: >-
+      a reading of a point in time as given by a clock; "do you know what time
+      it is?"; "the time is 10 o'clock"  
+    def: a reading of a point in time as given by a clock
+    exp:
+      - do you know what time it is?
+      - the time is 10 o'clock
+- document: time
+  token: pos
+  start: 564
+  end: 759
+  tag: NOUN
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 7302920
+    lexFilenum: 11
+    pos: 'n'
+    wCnt: 1
+    lemma: time
+    synonyms:
+      - time
+    lexId: '1'
+    gloss: >-
+      a person's experience on a particular occasion; "he had a time holding
+      back the tears"; "they had a good time together"  
+    def: a person's experience on a particular occasion
+    exp:
+      - he had a time holding back the tears
+      - they had a good time together
+- document: time
+  token: pos
+  start: 564
+  end: 759
+  tag: NOUN
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 28468
+    lexFilenum: 3
+    pos: 'n'
+    wCnt: 1
+    lemma: time
+    synonyms:
+      - time
+    lexId: '0'
+    gloss: >-
+      the continuum of experience in which events pass from the future through
+      the present to the past; "he waited for along time"; "it took some time
+      before he got an answer"; "time flies like an arrow"  
+    def: >-
+      the continuum of experience in which events pass from the future through
+      the present to the past
+    exp:
+      - he waited for along time
+      - it took some time before he got an answer
+      - time flies like an arrow
+- document: time
+  token: pos
+  start: 564
+  end: 759
+  tag: NOUN
+  score: 0.8285714285714286
+  wordnet:
+    synsetOffset: 15270326
+    lexFilenum: 28
+    pos: 'n'
+    wCnt: 1
+    lemma: time
+    synonyms:
+      - time
+    lexId: '6'
+    gloss: 'a suitable moment; "it is time to go"  '
+    def: a suitable moment
+    exp:
+      - it is time to go
+- document: time
+  token: pos
+  start: 564
+  end: 759
+  tag: NOUN
+  score: 0.8250000000000001
+  wordnet:
+    synsetOffset: 15147173
+    lexFilenum: 28
+    pos: 'n'
+    wCnt: 1
+    lemma: time
+    synonyms:
+      - time
+    lexId: '0'
+    gloss: >-
+      an indefinite period (usually marked by specific attributes or
+      activities); "the time of year for planting"; "he was a great actor in his
+      time"  
+    def: an indefinite period (usually marked by specific attributes or activities)
+    exp:
+      - the time of year for planting
+      - he was a great actor in his time
+- document: time
+  token: pos
+  start: 564
+  end: 759
+  tag: NOUN
+  score: 0.8222222222222223
+  wordnet:
+    synsetOffset: 15295388
+    lexFilenum: 28
+    pos: 'n'
+    wCnt: 1
+    lemma: time
+    synonyms:
+      - time
+    lexId: '5'
+    gloss: >-
+      a period of time considered as a resource under your control and
+      sufficient to accomplish something; "take time to smell the roses"; "I
+      didn't have time to finish"; "it took more than half my time"; "he waited
+      for a long time"  
+    def: >-
+      a period of time considered as a resource under your control and
+      sufficient to accomplish something
+    exp:
+      - take time to smell the roses
+      - I didn't have time to finish
+      - it took more than half my time
+      - he waited for a long time
+- document: time
+  token: pos
+  start: 564
+  end: 759
+  tag: NOUN
+  score: 0.8200000000000001
+  wordnet:
+    synsetOffset: 7324217
+    lexFilenum: 11
+    pos: 'n'
+    wCnt: 2
+    lemma: time
+    synonyms:
+      - time
+      - clip
+    lexId: '0'
+    gloss: >-
+      an instance or single occasion for some event; "this time he succeeded";
+      "he called four times"; "he could do ten at a clip"  
+    def: an instance or single occasion for some event
+    exp:
+      - this time he succeeded
+      - he called four times
+      - he could do ten at a clip
+- document: garden
+  token: pos
+  start: 582
+  end: 779
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 3422659
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 1
+    lemma: garden
+    synonyms:
+      - garden
+    lexId: '1'
+    gloss: 'a yard or lawn adjoining a house  '
+    def: 'a yard or lawn adjoining a house  '
+    exp: []
+- document: garden
+  token: pos
+  start: 582
+  end: 779
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 8456800
+    lexFilenum: 14
+    pos: 'n'
+    wCnt: 1
+    lemma: garden
+    synonyms:
+      - garden
+    lexId: '0'
+    gloss: >-
+      the flowers or vegetables or fruits or herbs that are cultivated in a
+      garden  
+    def: >-
+      the flowers or vegetables or fruits or herbs that are cultivated in a
+      garden  
+    exp: []
+- document: garden
+  token: pos
+  start: 582
+  end: 779
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 3422255
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 1
+    lemma: garden
+    synonyms:
+      - garden
+    lexId: '0'
+    gloss: 'a plot of ground where plants are cultivated  '
+    def: 'a plot of ground where plants are cultivated  '
+    exp: []
+- document: son
+  token: pos
+  start: 647
+  end: 746
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 9560255
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 3
+    lemma: Son
+    synonyms:
+      - Son
+      - Word
+      - Logos
+    lexId: '1'
+    gloss: >-
+      the divine word of God; the second person in the Trinity (incarnate in
+      Jesus)  
+    def: the divine word of God
+    exp:
+      - the second person in the Trinity (incarnate in Jesus)
+- document: son
+  token: pos
+  start: 647
+  end: 746
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 10643436
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 2
+    lemma: son
+    synonyms:
+      - son
+      - boy
+    lexId: '0'
+    gloss: >-
+      a male human offspring; "their son became a famous judge"; "his boy is
+      taller than he is"  
+    def: a male human offspring
+    exp:
+      - their son became a famous judge
+      - his boy is taller than he is
+- document: opinion
+  token: pos
+  start: 678
+  end: 781
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 5925333
+    lexFilenum: 9
+    pos: 'n'
+    wCnt: 5
+    lemma: impression
+    synonyms:
+      - impression
+      - feeling
+      - belief
+      - notion
+      - opinion
+    lexId: '0'
+    gloss: >-
+      a vague idea in which some confidence is placed; "his impression of her
+      was favorable"; "what are your feelings about the crisis?"; "it
+      strengthened my belief in his sincerity"; "I had a feeling that she was
+      lying"  
+    def: a vague idea in which some confidence is placed
+    exp:
+      - his impression of her was favorable
+      - what are your feelings about the crisis?
+      - it strengthened my belief in his sincerity
+      - I had a feeling that she was lying
+- document: opinion
+  token: pos
+  start: 678
+  end: 781
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 1193648
+    lexFilenum: 4
+    pos: 'n'
+    wCnt: 2
+    lemma: opinion
+    synonyms:
+      - opinion
+      - ruling
+    lexId: '1'
+    gloss: 'the reason for a court''s judgment (as opposed to the decision itself)  '
+    def: 'the reason for a court''s judgment (as opposed to the decision itself)  '
+    exp: []
+- document: opinion
+  token: pos
+  start: 678
+  end: 781
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 6563775
+    lexFilenum: 10
+    pos: 'n'
+    wCnt: 4
+    lemma: opinion
+    synonyms:
+      - opinion
+      - legal_opinion
+      - judgment
+      - judgement
+    lexId: '0'
+    gloss: >-
+      the legal document stating the reasons for a judicial decision; "opinions
+      are usually written by a single judge"  
+    def: the legal document stating the reasons for a judicial decision
+    exp:
+      - opinions are usually written by a single judge
+- document: opinion
+  token: pos
+  start: 678
+  end: 781
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 5958593
+    lexFilenum: 9
+    pos: 'n'
+    wCnt: 4
+    lemma: public_opinion
+    synonyms:
+      - public_opinion
+      - popular_opinion
+      - opinion
+      - vox_populi
+    lexId: '0'
+    gloss: >-
+      a belief or sentiment shared by most people; the voice of the people; "he
+      asked for a poll of public opinion"  
+    def: a belief or sentiment shared by most people
+    exp:
+      - the voice of the people
+      - he asked for a poll of public opinion
+- document: opinion
+  token: pos
+  start: 678
+  end: 781
+  tag: NOUN
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 6794876
+    lexFilenum: 10
+    pos: 'n'
+    wCnt: 2
+    lemma: opinion
+    synonyms:
+      - opinion
+      - view
+    lexId: '1'
+    gloss: >-
+      a message expressing a belief about something; the expression of a belief
+      that is held with confidence but not substantiated by positive knowledge
+      or proof; "his opinions appeared frequently on the editorial page"  
+    def: a message expressing a belief about something
+    exp:
+      - >-
+        the expression of a belief that is held with confidence but not
+        substantiated by positive knowledge or proof
+      - his opinions appeared frequently on the editorial page
+- document: opinion
+  token: pos
+  start: 678
+  end: 781
+  tag: NOUN
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 5954491
+    lexFilenum: 9
+    pos: 'n'
+    wCnt: 5
+    lemma: opinion
+    synonyms:
+      - opinion
+      - sentiment
+      - persuasion
+      - view
+      - thought
+    lexId: '0'
+    gloss: >-
+      a personal belief or judgment that is not founded on proof or certainty;
+      "my opinion differs from yours"; "I am not of your persuasion"; "what are
+      your thoughts on Haiti?"  
+    def: a personal belief or judgment that is not founded on proof or certainty
+    exp:
+      - my opinion differs from yours
+      - I am not of your persuasion
+      - what are your thoughts on Haiti?
+- document: boy
+  token: pos
+  start: 705
+  end: 804
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 10643436
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 2
+    lemma: son
+    synonyms:
+      - son
+      - boy
+    lexId: '0'
+    gloss: >-
+      a male human offspring; "their son became a famous judge"; "his boy is
+      taller than he is"  
+    def: a male human offspring
+    exp:
+      - their son became a famous judge
+      - his boy is taller than he is
+- document: boy
+  token: pos
+  start: 705
+  end: 804
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 9890332
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: boy
+    synonyms:
+      - boy
+    lexId: '2'
+    gloss: >-
+      a friendly informal reference to a grown man; "he likes to play golf with
+      the boys"  
+    def: a friendly informal reference to a grown man
+    exp:
+      - he likes to play golf with the boys
+- document: boy
+  token: pos
+  start: 705
+  end: 804
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 10305010
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 2
+    lemma: male_child
+    synonyms:
+      - male_child
+      - boy
+    lexId: '0'
+    gloss: >-
+      a youthful male person; "the baby was a boy"; "she made the boy brush his
+      teeth every night"; "most soldiers are only boys in uniform"  
+    def: a youthful male person
+    exp:
+      - the baby was a boy
+      - she made the boy brush his teeth every night
+      - most soldiers are only boys in uniform
+- document: secret
+  token: pos
+  start: 781
+  end: 916
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 5693343
+    lexFilenum: 9
+    pos: 'n'
+    wCnt: 4
+    lemma: mystery
+    synonyms:
+      - mystery
+      - enigma
+      - secret
+      - closed_book
+    lexId: '0'
+    gloss: >-
+      something that baffles understanding and cannot be explained; "how it got
+      out is a mystery"; "it remains one of nature's secrets"  
+    def: something that baffles understanding and cannot be explained
+    exp:
+      - how it got out is a mystery
+      - it remains one of nature's secrets
+- document: secret
+  token: pos
+  start: 781
+  end: 916
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 6685698
+    lexFilenum: 10
+    pos: 'n'
+    wCnt: 2
+    lemma: secret
+    synonyms:
+      - secret
+      - arcanum
+    lexId: '1'
+    gloss: 'information known only to a special group; "the secret of Cajun cooking"  '
+    def: information known only to a special group
+    exp:
+      - the secret of Cajun cooking
+- document: secret
+  token: pos
+  start: 781
+  end: 916
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 6685887
+    lexFilenum: 10
+    pos: 'n'
+    wCnt: 1
+    lemma: secret
+    synonyms:
+      - secret
+    lexId: '0'
+    gloss: >-
+      something that should remain hidden from others (especially information
+      that is not to be passed on); "the combination to the safe was a secret";
+      "he tried to keep his drinking a secret"  
+    def: >-
+      something that should remain hidden from others (especially information
+      that is not to be passed on)
+    exp:
+      - the combination to the safe was a secret
+      - he tried to keep his drinking a secret
+- document: fear
+  token: pos
+  start: 808
+  end: 941
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 7536278
+    lexFilenum: 12
+    pos: 'n'
+    wCnt: 4
+    lemma: fear
+    synonyms:
+      - fear
+      - reverence
+      - awe
+      - veneration
+    lexId: '2'
+    gloss: >-
+      a feeling of profound respect for someone or something; "the fear of God";
+      "the Chinese reverence for the dead"; "the French treat food with gentle
+      reverence"; "his respect for the law bordered on veneration"  
+    def: a feeling of profound respect for someone or something
+    exp:
+      - the fear of God
+      - the Chinese reverence for the dead
+      - the French treat food with gentle reverence
+      - his respect for the law bordered on veneration
+- document: fear
+  token: pos
+  start: 808
+  end: 941
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 7539768
+    lexFilenum: 12
+    pos: 'n'
+    wCnt: 3
+    lemma: concern
+    synonyms:
+      - concern
+      - care
+      - fear
+    lexId: '1'
+    gloss: >-
+      an anxious feeling; "care had aged him"; "they hushed it up out of fear of
+      public reaction"  
+    def: an anxious feeling
+    exp:
+      - care had aged him
+      - they hushed it up out of fear of public reaction
+- document: fear
+  token: pos
+  start: 808
+  end: 941
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 7534492
+    lexFilenum: 12
+    pos: 'n'
+    wCnt: 3
+    lemma: fear
+    synonyms:
+      - fear
+      - fearfulness
+      - fright
+    lexId: '0'
+    gloss: >-
+      an emotion experienced in anticipation of some specific pain or danger
+      (usually accompanied by a desire to flee or fight)  
+    def: >-
+      an emotion experienced in anticipation of some specific pain or danger
+      (usually accompanied by a desire to flee or fight)  
+    exp: []
+- document: discover
+  token: pos
+  start: 837
+  end: 974
+  tag: VERB
+  score: 1
+  wordnet:
+    synsetOffset: 654017
+    lexFilenum: 31
+    pos: v
+    wCnt: 7
+    lemma: identify
+    synonyms:
+      - identify
+      - discover
+      - key
+      - key_out
+      - distinguish
+      - describe
+      - name
+    lexId: '1'
+    gloss: 'identify as in botany or biology, for example  '
+    def: 'identify as in botany or biology, for example  '
+    exp: []
+- document: discover
+  token: pos
+  start: 837
+  end: 974
+  tag: VERB
+  score: 0.9
+  wordnet:
+    synsetOffset: 2132531
+    lexFilenum: 39
+    pos: v
+    wCnt: 1
+    lemma: discover
+    synonyms:
+      - discover
+    lexId: '0'
+    gloss: >-
+      see for the first time; make a discovery; "Who discovered the North
+      Pole?"  
+    def: see for the first time
+    exp:
+      - make a discovery
+      - Who discovered the North Pole?
+- document: discover
+  token: pos
+  start: 837
+  end: 974
+  tag: VERB
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 935783
+    lexFilenum: 32
+    pos: v
+    wCnt: 12
+    lemma: unwrap
+    synonyms:
+      - unwrap
+      - disclose
+      - let_on
+      - bring_out
+      - reveal
+      - discover
+      - expose
+      - divulge
+      - break
+      - give_away
+      - let_out
+      - uncover
+    lexId: '0'
+    gloss: >-
+      make known to the public information that was previously known only to a
+      few people or that was meant to be kept a secret; "The auction house would
+      not disclose the price at which the van Gogh had sold"; "The actress won't
+      reveal how old she is"; "bring out the truth"; "he broke the news to her";
+      "unwrap the evidence in the murder case"; "The newspaper uncovered the
+      President's illegal dealings"  
+    def: >-
+      make known to the public information that was previously known only to a
+      few people or that was meant to be kept a secret
+    exp:
+      - >-
+        The auction house would not disclose the price at which the van Gogh had
+        sold
+      - The actress won't reveal how old she is
+      - bring out the truth
+      - he broke the news to her
+      - unwrap the evidence in the murder case
+      - The newspaper uncovered the President's illegal dealings
+- document: discover
+  token: pos
+  start: 837
+  end: 974
+  tag: VERB
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 2291532
+    lexFilenum: 40
+    pos: v
+    wCnt: 10
+    lemma: fall_upon
+    synonyms:
+      - fall_upon
+      - strike
+      - come_upon
+      - light_upon
+      - chance_upon
+      - come_across
+      - chance_on
+      - happen_upon
+      - attain
+      - discover
+    lexId: d
+    gloss: >-
+      find unexpectedly; "the archeologists chanced upon an old tomb"; "she
+      struck a goldmine"; "The hikers finally struck the main path to the
+      lake"  
+    def: find unexpectedly
+    exp:
+      - the archeologists chanced upon an old tomb
+      - she struck a goldmine
+      - The hikers finally struck the main path to the lake
+- document: discover
+  token: pos
+  start: 837
+  end: 974
+  tag: VERB
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 723361
+    lexFilenum: 31
+    pos: v
+    wCnt: 2
+    lemma: discover
+    synonyms:
+      - discover
+      - find
+    lexId: '0'
+    gloss: >-
+      make a discovery; "She found that he had lied to her"; "The story is
+      false, so far as I can discover"  
+    def: make a discovery
+    exp:
+      - She found that he had lied to her
+      - 'The story is false, so far as I can discover'
+- document: discover
+  token: pos
+  start: 837
+  end: 974
+  tag: VERB
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 1641524
+    lexFilenum: 36
+    pos: v
+    wCnt: 2
+    lemma: discover
+    synonyms:
+      - discover
+      - find
+    lexId: '0'
+    gloss: >-
+      make a discovery, make a new finding; "Roentgen discovered X-rays";
+      "Physicists believe they found a new elementary particle"  
+    def: 'make a discovery, make a new finding'
+    exp:
+      - Roentgen discovered X-rays
+      - Physicists believe they found a new elementary particle
+- document: discover
+  token: pos
+  start: 837
+  end: 974
+  tag: VERB
+  score: 0.8285714285714286
+  wordnet:
+    synsetOffset: 600349
+    lexFilenum: 31
+    pos: v
+    wCnt: 9
+    lemma: learn
+    synonyms:
+      - learn
+      - hear
+      - get_word
+      - get_wind
+      - pick_up
+      - find_out
+      - get_a_line
+      - discover
+      - see
+    lexId: '1'
+    gloss: >-
+      get to know or become aware of, usually accidentally; "I learned that she
+      has two grown-up children"; "I see that you have been promoted"  
+    def: 'get to know or become aware of, usually accidentally'
+    exp:
+      - I learned that she has two grown-up children
+      - I see that you have been promoted
+- document: discover
+  token: pos
+  start: 837
+  end: 974
+  tag: VERB
+  score: 0.8250000000000001
+  wordnet:
+    synsetOffset: 2158938
+    lexFilenum: 39
+    pos: v
+    wCnt: 5
+    lemma: detect
+    synonyms:
+      - detect
+      - observe
+      - find
+      - discover
+      - notice
+    lexId: '0'
+    gloss: >-
+      discover or determine the existence, presence, or fact of; "She detected
+      high levels of lead in her drinking water"; "We found traces of lead in
+      the paint"  
+    def: 'discover or determine the existence, presence, or fact of'
+    exp:
+      - She detected high levels of lead in her drinking water
+      - We found traces of lead in the paint
+- document: think
+  token: pos
+  start: 862
+  end: 942
+  tag: VERB
+  score: 1
+  wordnet:
+    synsetOffset: 562964
+    lexFilenum: 30
+    pos: v
+    wCnt: 1
+    lemma: think
+    synonyms:
+      - think
+    lexId: '0'
+    gloss: >-
+      bring into a given condition by mental preoccupation; "She thought herself
+      into a state of panic over the final exam"  
+    def: bring into a given condition by mental preoccupation
+    exp:
+      - She thought herself into a state of panic over the final exam
+- document: think
+  token: pos
+  start: 862
+  end: 942
+  tag: VERB
+  score: 0.9
+  wordnet:
+    synsetOffset: 610362
+    lexFilenum: 31
+    pos: v
+    wCnt: 1
+    lemma: think
+    synonyms:
+      - think
+    lexId: '8'
+    gloss: 'be capable of conscious thought; "Man is the only creature that thinks"  '
+    def: be capable of conscious thought
+    exp:
+      - Man is the only creature that thinks
+- document: think
+  token: pos
+  start: 862
+  end: 942
+  tag: VERB
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 631400
+    lexFilenum: 31
+    pos: v
+    wCnt: 1
+    lemma: think
+    synonyms:
+      - think
+    lexId: e
+    gloss: 'have or formulate in the mind; "think good thoughts"  '
+    def: have or formulate in the mind
+    exp:
+      - think good thoughts
+- document: think
+  token: pos
+  start: 862
+  end: 942
+  tag: VERB
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 691551
+    lexFilenum: 31
+    pos: v
+    wCnt: 1
+    lemma: think
+    synonyms:
+      - think
+    lexId: f
+    gloss: 'dispose the mind in a certain way; "Do you really think so?"  '
+    def: dispose the mind in a certain way
+    exp:
+      - Do you really think so?
+- document: think
+  token: pos
+  start: 862
+  end: 942
+  tag: VERB
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 741087
+    lexFilenum: 31
+    pos: v
+    wCnt: 1
+    lemma: think
+    synonyms:
+      - think
+    lexId: d
+    gloss: >-
+      ponder; reflect on, or reason about; "Think the matter through"; "Think
+      how hard life in Russia must be these days"  
+    def: ponder
+    exp:
+      - 'reflect on, or reason about'
+      - Think the matter through
+      - Think how hard life in Russia must be these days
+- document: think
+  token: pos
+  start: 862
+  end: 942
+  tag: VERB
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 741345
+    lexFilenum: 31
+    pos: v
+    wCnt: 1
+    lemma: think
+    synonyms:
+      - think
+    lexId: c
+    gloss: >-
+      decide by pondering, reasoning, or reflecting; "Can you think what to do
+      next?"  
+    def: 'decide by pondering, reasoning, or reflecting'
+    exp:
+      - Can you think what to do next?
+- document: think
+  token: pos
+  start: 862
+  end: 942
+  tag: VERB
+  score: 0.8285714285714286
+  wordnet:
+    synsetOffset: 710367
+    lexFilenum: 31
+    pos: v
+    wCnt: 3
+    lemma: intend
+    synonyms:
+      - intend
+      - mean
+      - think
+    lexId: '0'
+    gloss: >-
+      have in mind as a purpose; "I mean no harm"; "I only meant to help you";
+      "She didn't think to harm me"; "We thought to return early that night"  
+    def: have in mind as a purpose
+    exp:
+      - I mean no harm
+      - I only meant to help you
+      - She didn't think to harm me
+      - We thought to return early that night
+- document: think
+  token: pos
+  start: 862
+  end: 942
+  tag: VERB
+  score: 0.8250000000000001
+  wordnet:
+    synsetOffset: 725018
+    lexFilenum: 31
+    pos: v
+    wCnt: 1
+    lemma: think
+    synonyms:
+      - think
+    lexId: '9'
+    gloss: 'focus one''s attention on a certain state; "Think big"; "think thin"  '
+    def: focus one's attention on a certain state
+    exp:
+      - Think big
+      - think thin
+- document: think
+  token: pos
+  start: 862
+  end: 942
+  tag: VERB
+  score: 0.8222222222222223
+  wordnet:
+    synsetOffset: 1640708
+    lexFilenum: 36
+    pos: v
+    wCnt: 1
+    lemma: think
+    synonyms:
+      - think
+    lexId: '0'
+    gloss: >-
+      imagine or visualize; "Just think--you could be rich one day!"; "Think
+      what a scene it must have been!"  
+    def: imagine or visualize
+    exp:
+      - Just think--you could be rich one day!
+      - Think what a scene it must have been!
+- document: think
+  token: pos
+  start: 862
+  end: 942
+  tag: VERB
+  score: 0.8200000000000001
+  wordnet:
+    synsetOffset: 609334
+    lexFilenum: 31
+    pos: v
+    wCnt: 7
+    lemma: remember
+    synonyms:
+      - remember
+      - retrieve
+      - recall
+      - call_back
+      - call_up
+      - recollect
+      - think
+    lexId: '0'
+    gloss: >-
+      recall knowledge from memory; have a recollection; "I can't remember
+      saying any such thing"; "I can't think what her last name was"; "can you
+      remember her phone number?"; "Do you remember that he once loved you?";
+      "call up memories"  
+    def: recall knowledge from memory
+    exp:
+      - have a recollection
+      - I can't remember saying any such thing
+      - I can't think what her last name was
+      - can you remember her phone number?
+      - Do you remember that he once loved you?
+      - call up memories
+- document: think
+  token: pos
+  start: 862
+  end: 942
+  tag: VERB
+  score: 0.8181818181818182
+  wordnet:
+    synsetOffset: 630153
+    lexFilenum: 31
+    pos: v
+    wCnt: 3
+    lemma: think
+    synonyms:
+      - think
+      - cogitate
+      - cerebrate
+    lexId: '0'
+    gloss: >-
+      use or exercise the mind or one's power of reason in order to make
+      inferences, decisions, or arrive at a solution or judgments; "I've been
+      thinking all day and getting nowhere"  
+    def: >-
+      use or exercise the mind or one's power of reason in order to make
+      inferences, decisions, or arrive at a solution or judgments
+    exp:
+      - I've been thinking all day and getting nowhere
+- document: think
+  token: pos
+  start: 862
+  end: 942
+  tag: VERB
+  score: 0.8166666666666668
+  wordnet:
+    synsetOffset: 633399
+    lexFilenum: 31
+    pos: v
+    wCnt: 6
+    lemma: think
+    synonyms:
+      - think
+      - opine
+      - suppose
+      - imagine
+      - reckon
+      - guess
+    lexId: '3'
+    gloss: >-
+      expect, believe, or suppose; "I imagine she earned a lot of money with her
+      new novel"; "I thought to find her in a bad state"; "he didn't think to
+      find her in the kitchen"; "I guess she is angry at me for standing her
+      up"  
+    def: 'expect, believe, or suppose'
+    exp:
+      - I imagine she earned a lot of money with her new novel
+      - I thought to find her in a bad state
+      - he didn't think to find her in the kitchen
+      - I guess she is angry at me for standing her up
+- document: think
+  token: pos
+  start: 862
+  end: 942
+  tag: VERB
+  score: 0.8153846153846154
+  wordnet:
+    synsetOffset: 691086
+    lexFilenum: 31
+    pos: v
+    wCnt: 4
+    lemma: think
+    synonyms:
+      - think
+      - believe
+      - consider
+      - conceive
+    lexId: '1'
+    gloss: >-
+      judge or regard; look upon; judge; "I think he is very smart"; "I believe
+      her to be very smart"; "I think that he is her boyfriend"; "The racist
+      conceives such people to be inferior"  
+    def: judge or regard
+    exp:
+      - look upon
+      - judge
+      - I think he is very smart
+      - I believe her to be very smart
+      - I think that he is her boyfriend
+      - The racist conceives such people to be inferior
+- document: bear
+  token: pos
+  start: 879
+  end: 958
+  tag: VERB
+  score: 1
+  wordnet:
+    synsetOffset: 58790
+    lexFilenum: 29
+    pos: v
+    wCnt: 5
+    lemma: have_a_bun_in_the_oven
+    synonyms:
+      - have_a_bun_in_the_oven
+      - bear
+      - carry
+      - gestate
+      - expect
+    lexId: '0'
+    gloss: >-
+      be pregnant with; "She is bearing his child"; "The are expecting another
+      child in January"; "I am carrying his child"  
+    def: be pregnant with
+    exp:
+      - She is bearing his child
+      - The are expecting another child in January
+      - I am carrying his child
+- document: bear
+  token: pos
+  start: 879
+  end: 958
+  tag: VERB
+  score: 0.9
+  wordnet:
+    synsetOffset: 1604155
+    lexFilenum: 35
+    pos: v
+    wCnt: 3
+    lemma: hold
+    synonyms:
+      - hold
+      - carry
+      - bear
+    lexId: '2'
+    gloss: >-
+      support or hold in a certain manner; "She holds her head high"; "He
+      carried himself upright"  
+    def: support or hold in a certain manner
+    exp:
+      - She holds her head high
+      - He carried himself upright
+- document: bear
+  token: pos
+  start: 879
+  end: 958
+  tag: VERB
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 2307200
+    lexFilenum: 40
+    pos: v
+    wCnt: 2
+    lemma: bear
+    synonyms:
+      - bear
+      - hold
+    lexId: '0'
+    gloss: >-
+      have rightfully; of rights, titles, and offices; "She bears the title of
+      Duchess"; "He held the governorship for almost a decade"  
+    def: have rightfully
+    exp:
+      - 'of rights, titles, and offices'
+      - She bears the title of Duchess
+      - He held the governorship for almost a decade
+- document: bear
+  token: pos
+  start: 879
+  end: 958
+  tag: VERB
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 2523827
+    lexFilenum: 41
+    pos: v
+    wCnt: 7
+    lemma: behave
+    synonyms:
+      - behave
+      - acquit
+      - bear
+      - deport
+      - conduct
+      - comport
+      - carry
+    lexId: '1'
+    gloss: >-
+      behave in a certain manner; "She carried herself well"; "he bore himself
+      with dignity"; "They conducted themselves well during these difficult
+      times"  
+    def: behave in a certain manner
+    exp:
+      - She carried herself well
+      - he bore himself with dignity
+      - They conducted themselves well during these difficult times
+- document: bear
+  token: pos
+  start: 879
+  end: 958
+  tag: VERB
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 47462
+    lexFilenum: 29
+    pos: v
+    wCnt: 2
+    lemma: wear
+    synonyms:
+      - wear
+      - bear
+    lexId: '4'
+    gloss: 'have on one''s person; "He wore a red ribbon"; "bear a scar"  '
+    def: have on one's person
+    exp:
+      - He wore a red ribbon
+      - bear a scar
+- document: bear
+  token: pos
+  start: 879
+  end: 958
+  tag: VERB
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 2296669
+    lexFilenum: 40
+    pos: v
+    wCnt: 3
+    lemma: yield
+    synonyms:
+      - yield
+      - pay
+      - bear
+    lexId: '0'
+    gloss: >-
+      bring in; "interest-bearing accounts"; "How much does this savings
+      certificate pay annually?"  
+    def: bring in
+    exp:
+      - interest-bearing accounts
+      - How much does this savings certificate pay annually?
+- document: bear
+  token: pos
+  start: 879
+  end: 958
+  tag: VERB
+  score: 0.8285714285714286
+  wordnet:
+    synsetOffset: 2706727
+    lexFilenum: 42
+    pos: v
+    wCnt: 4
+    lemma: hold
+    synonyms:
+      - hold
+      - bear
+      - carry
+      - contain
+    lexId: d
+    gloss: >-
+      contain or hold; have within; "The jar carries wine"; "The canteen holds
+      fresh water"; "This can contains water"  
+    def: contain or hold
+    exp:
+      - have within
+      - The jar carries wine
+      - The canteen holds fresh water
+      - This can contains water
+- document: bear
+  token: pos
+  start: 879
+  end: 958
+  tag: VERB
+  score: 0.8250000000000001
+  wordnet:
+    synsetOffset: 2306786
+    lexFilenum: 40
+    pos: v
+    wCnt: 4
+    lemma: bear
+    synonyms:
+      - bear
+      - take_over
+      - accept
+      - assume
+    lexId: '2'
+    gloss: >-
+      take on as one's own the expenses or debts of another person; "I'll accept
+      the charges"; "She agreed to bear the responsibility"  
+    def: take on as one's own the expenses or debts of another person
+    exp:
+      - I'll accept the charges
+      - She agreed to bear the responsibility
+- document: bear
+  token: pos
+  start: 879
+  end: 958
+  tag: VERB
+  score: 0.8222222222222223
+  wordnet:
+    synsetOffset: 1655681
+    lexFilenum: 36
+    pos: v
+    wCnt: 2
+    lemma: bear
+    synonyms:
+      - bear
+      - turn_out
+    lexId: '0'
+    gloss: >-
+      bring forth; "The apple tree bore delicious apples this year"; "The
+      unidentified plant bore gorgeous flowers"  
+    def: bring forth
+    exp:
+      - The apple tree bore delicious apples this year
+      - The unidentified plant bore gorgeous flowers
+- document: bear
+  token: pos
+  start: 879
+  end: 958
+  tag: VERB
+  score: 0.8200000000000001
+  wordnet:
+    synsetOffset: 1435234
+    lexFilenum: 35
+    pos: v
+    wCnt: 1
+    lemma: bear
+    synonyms:
+      - bear
+    lexId: '0'
+    gloss: >-
+      move while holding up or supporting; "Bear gifts"; "bear a heavy load";
+      "bear news"; "bearing orders"  
+    def: move while holding up or supporting
+    exp:
+      - Bear gifts
+      - bear a heavy load
+      - bear news
+      - bearing orders
+- document: bear
+  token: pos
+  start: 879
+  end: 958
+  tag: VERB
+  score: 0.8181818181818182
+  wordnet:
+    synsetOffset: 670017
+    lexFilenum: 31
+    pos: v
+    wCnt: 12
+    lemma: digest
+    synonyms:
+      - digest
+      - endure
+      - stick_out
+      - stomach
+      - bear
+      - stand
+      - tolerate
+      - support
+      - brook
+      - abide
+      - suffer
+      - put_up
+    lexId: '3'
+    gloss: >-
+      put up with something or somebody unpleasant; "I cannot bear his constant
+      criticism"; "The new secretary had to endure a lot of unprofessional
+      remarks"; "he learned to tolerate the heat"; "She stuck out two years in a
+      miserable marriage"  
+    def: put up with something or somebody unpleasant
+    exp:
+      - I cannot bear his constant criticism
+      - The new secretary had to endure a lot of unprofessional remarks
+      - he learned to tolerate the heat
+      - She stuck out two years in a miserable marriage
+- document: bear
+  token: pos
+  start: 879
+  end: 958
+  tag: VERB
+  score: 0.8166666666666668
+  wordnet:
+    synsetOffset: 56644
+    lexFilenum: 29
+    pos: v
+    wCnt: 5
+    lemma: give_birth
+    synonyms:
+      - give_birth
+      - deliver
+      - bear
+      - birth
+      - have
+    lexId: '0'
+    gloss: 'cause to be born; "My wife had twins yesterday!"  '
+    def: cause to be born
+    exp:
+      - My wife had twins yesterday!
+- document: bear
+  token: pos
+  start: 879
+  end: 958
+  tag: VERB
+  score: 0.8153846153846154
+  wordnet:
+    synsetOffset: 2636952
+    lexFilenum: 42
+    pos: v
+    wCnt: 1
+    lemma: bear
+    synonyms:
+      - bear
+    lexId: '1'
+    gloss: 'have; "bear a resemblance"; "bear a signature"  '
+    def: have
+    exp:
+      - bear a resemblance
+      - bear a signature
+- document: found
+  token: pos
+  start: 897
+  end: 977
+  tag: VERB
+  score: 1
+  wordnet:
+    synsetOffset: 638550
+    lexFilenum: 31
+    pos: v
+    wCnt: 4
+    lemma: establish
+    synonyms:
+      - establish
+      - base
+      - ground
+      - found
+    lexId: '3'
+    gloss: 'use as a basis for; found on; "base a claim on some observation"  '
+    def: use as a basis for
+    exp:
+      - found on
+      - base a claim on some observation
+- document: found
+  token: pos
+  start: 897
+  end: 977
+  tag: VERB
+  score: 0.9
+  wordnet:
+    synsetOffset: 1650771
+    lexFilenum: 36
+    pos: v
+    wCnt: 5
+    lemma: establish
+    synonyms:
+      - establish
+      - found
+      - plant
+      - constitute
+      - institute
+    lexId: '0'
+    gloss: 'set up or lay the groundwork for; "establish a new department"  '
+    def: set up or lay the groundwork for
+    exp:
+      - establish a new department
+- document: found
+  token: pos
+  start: 897
+  end: 977
+  tag: VERB
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 2431950
+    lexFilenum: 41
+    pos: v
+    wCnt: 4
+    lemma: establish
+    synonyms:
+      - establish
+      - set_up
+      - found
+      - launch
+    lexId: '0'
+    gloss: 'set up or found; "She set up a literacy program"  '
+    def: set up or found
+    exp:
+      - She set up a literacy program
+- document: sister
+  token: pos
+  start: 957
+  end: 1197
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 10621666
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: sister
+    synonyms:
+      - sister
+    lexId: '2'
+    gloss: >-
+      a female person who is a fellow member of a sorority or labor union or
+      other group; "none of her sisters would betray her"  
+    def: >-
+      a female person who is a fellow member of a sorority or labor union or
+      other group
+    exp:
+      - none of her sisters would betray her
+- document: sister
+  token: pos
+  start: 957
+  end: 1197
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 10621878
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: Sister
+    synonyms:
+      - Sister
+    lexId: '1'
+    gloss: >-
+      (Roman Catholic Church) a title given to a nun (and used as a form of
+      address); "the Sisters taught her to love God"  
+    def: >-
+      (Roman Catholic Church) a title given to a nun (and used as a form of
+      address)
+    exp:
+      - the Sisters taught her to love God
+- document: sister
+  token: pos
+  start: 957
+  end: 1197
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 10622393
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 2
+    lemma: sister
+    synonyms:
+      - sister
+      - sis
+    lexId: '0'
+    gloss: >-
+      a female person who has the same parents as another person; "my sister
+      married a musician"  
+    def: a female person who has the same parents as another person
+    exp:
+      - my sister married a musician
+- document: years
+  token: pos
+  start: 997
+  end: 1236
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 15166019
+    lexFilenum: 28
+    pos: 'n'
+    wCnt: 2
+    lemma: days
+    synonyms:
+      - days
+      - years
+    lexId: '0'
+    gloss: >-
+      the time during which someone's life continues; "the monarch's last days";
+      "in his final years"  
+    def: the time during which someone's life continues
+    exp:
+      - the monarch's last days
+      - in his final years
+- document: years
+  token: pos
+  start: 997
+  end: 1236
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 15267766
+    lexFilenum: 28
+    pos: 'n'
+    wCnt: 3
+    lemma: long_time
+    synonyms:
+      - long_time
+      - age
+      - years
+    lexId: '0'
+    gloss: >-
+      a prolonged period of time; "we've known each other for ages"; "I haven't
+      been there for years and years"  
+    def: a prolonged period of time
+    exp:
+      - we've known each other for ages
+      - I haven't been there for years and years
+- document: years
+  token: pos
+  start: 997
+  end: 1236
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 15178747
+    lexFilenum: 28
+    pos: 'n'
+    wCnt: 5
+    lemma: old_age
+    synonyms:
+      - old_age
+      - years
+      - age
+      - eld
+      - geezerhood
+    lexId: '0'
+    gloss: >-
+      a late time of life; "old age is not for sissies"; "he's showing his
+      years"; "age hasn't slowed him down at all"; "a beard white with eld"; "on
+      the brink of geezerhood"  
+    def: a late time of life
+    exp:
+      - old age is not for sissies
+      - he's showing his years
+      - age hasn't slowed him down at all
+      - a beard white with eld
+      - on the brink of geezerhood
+- document: fact
+  token: pos
+  start: 1007
+  end: 1245
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 5898503
+    lexFilenum: 9
+    pos: 'n'
+    wCnt: 1
+    lemma: fact
+    synonyms:
+      - fact
+    lexId: '2'
+    gloss: >-
+      a concept whose truth can be proved; "scientific hypotheses are not
+      facts"  
+    def: a concept whose truth can be proved
+    exp:
+      - scientific hypotheses are not facts
+- document: fact
+  token: pos
+  start: 1007
+  end: 1245
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 13979160
+    lexFilenum: 26
+    pos: 'n'
+    wCnt: 1
+    lemma: fact
+    synonyms:
+      - fact
+    lexId: '1'
+    gloss: >-
+      an event known to have happened or something known to have existed; "your
+      fears have no basis in fact"; "how much of the story is fact and how much
+      fiction is hard to tell"  
+    def: an event known to have happened or something known to have existed
+    exp:
+      - your fears have no basis in fact
+      - how much of the story is fact and how much fiction is hard to tell
+- document: fact
+  token: pos
+  start: 1007
+  end: 1245
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 6648784
+    lexFilenum: 10
+    pos: 'n'
+    wCnt: 1
+    lemma: fact
+    synonyms:
+      - fact
+    lexId: '1'
+    gloss: >-
+      a statement or assertion of verified information about something that is
+      the case or has happened; "he supported his argument with an impressive
+      array of facts"  
+    def: >-
+      a statement or assertion of verified information about something that is
+      the case or has happened
+    exp:
+      - he supported his argument with an impressive array of facts
+- document: fact
+  token: pos
+  start: 1007
+  end: 1245
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 5825522
+    lexFilenum: 9
+    pos: 'n'
+    wCnt: 1
+    lemma: fact
+    synonyms:
+      - fact
+    lexId: '1'
+    gloss: >-
+      a piece of information about circumstances that exist or events that have
+      occurred; "first you must collect all the facts of the case"  
+    def: >-
+      a piece of information about circumstances that exist or events that have
+      occurred
+    exp:
+      - first you must collect all the facts of the case
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 1
+  wordnet:
+    synsetOffset: 1429760
+    lexFilenum: 35
+    pos: v
+    wCnt: 2
+    lemma: take
+    synonyms:
+      - take
+      - have
+    lexId: e
+    gloss: >-
+      have sex with; archaic use; "He had taken this woman when she was most
+      vulnerable"  
+    def: have sex with
+    exp:
+      - archaic use
+      - He had taken this woman when she was most vulnerable
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 0.9
+  wordnet:
+    synsetOffset: 56644
+    lexFilenum: 29
+    pos: v
+    wCnt: 5
+    lemma: give_birth
+    synonyms:
+      - give_birth
+      - deliver
+      - bear
+      - birth
+      - have
+    lexId: '0'
+    gloss: 'cause to be born; "My wife had twins yesterday!"  '
+    def: cause to be born
+    exp:
+      - My wife had twins yesterday!
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 2360592
+    lexFilenum: 40
+    pos: v
+    wCnt: 3
+    lemma: have
+    synonyms:
+      - have
+      - get
+      - make
+    lexId: '2'
+    gloss: >-
+      achieve a point or goal; "Nicklaus had a 70"; "The Brazilian team got 4
+      goals"; "She made 29 points that day"  
+    def: achieve a point or goal
+    exp:
+      - Nicklaus had a 70
+      - The Brazilian team got 4 goals
+      - She made 29 points that day
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 65410
+    lexFilenum: 29
+    pos: v
+    wCnt: 4
+    lemma: suffer
+    synonyms:
+      - suffer
+      - sustain
+      - have
+      - get
+    lexId: '1'
+    gloss: >-
+      undergo (as of injuries and illnesses); "She suffered a fracture in the
+      accident"; "He had an insulin shock after eating three candy bars"; "She
+      got a bruise on her leg"; "He got his arm broken in the scuffle"  
+    def: undergo (as of injuries and illnesses)
+    exp:
+      - She suffered a fracture in the accident
+      - He had an insulin shock after eating three candy bars
+      - She got a bruise on her leg
+      - He got his arm broken in the scuffle
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 2214901
+    lexFilenum: 40
+    pos: v
+    wCnt: 2
+    lemma: receive
+    synonyms:
+      - receive
+      - have
+    lexId: '0'
+    gloss: >-
+      get something; come into possession of; "receive payment"; "receive a
+      gift"; "receive letters from the front"  
+    def: get something
+    exp:
+      - come into possession of
+      - receive payment
+      - receive a gift
+      - receive letters from the front
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 2240906
+    lexFilenum: 40
+    pos: v
+    wCnt: 3
+    lemma: accept
+    synonyms:
+      - accept
+      - take
+      - have
+    lexId: '0'
+    gloss: >-
+      receive willingly something given or offered; "The only girl who would
+      have him was the miller's daughter"; "I won't have this dog in my house!";
+      "Please accept my present"  
+    def: receive willingly something given or offered
+    exp:
+      - The only girl who would have him was the miller's daughter
+      - I won't have this dog in my house!
+      - Please accept my present
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 0.8285714285714286
+  wordnet:
+    synsetOffset: 772482
+    lexFilenum: 32
+    pos: v
+    wCnt: 6
+    lemma: induce
+    synonyms:
+      - induce
+      - stimulate
+      - cause
+      - have
+      - get
+      - make
+    lexId: '0'
+    gloss: >-
+      cause to do; cause to act in a specified manner; "The ads induced me to
+      buy a VCR"; "My children finally got me to buy a computer"; "My wife made
+      me buy a new sofa"  
+    def: cause to do
+    exp:
+      - cause to act in a specified manner
+      - The ads induced me to buy a VCR
+      - My children finally got me to buy a computer
+      - My wife made me buy a new sofa
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 0.8250000000000001
+  wordnet:
+    synsetOffset: 65141
+    lexFilenum: 29
+    pos: v
+    wCnt: 1
+    lemma: have
+    synonyms:
+      - have
+    lexId: '2'
+    gloss: 'suffer from; be ill with; "She has arthritis"  '
+    def: suffer from
+    exp:
+      - be ill with
+      - She has arthritis
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 0.8222222222222223
+  wordnet:
+    synsetOffset: 120854
+    lexFilenum: 30
+    pos: v
+    wCnt: 2
+    lemma: have
+    synonyms:
+      - have
+      - experience
+    lexId: '1'
+    gloss: 'undergo; "The stocks had a fast run-up"  '
+    def: undergo
+    exp:
+      - The stocks had a fast run-up
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 0.8200000000000001
+  wordnet:
+    synsetOffset: 2746620
+    lexFilenum: 42
+    pos: v
+    wCnt: 1
+    lemma: have
+    synonyms:
+      - have
+    lexId: c
+    gloss: 'be confronted with; "What do we have here?"; "Now we have a fine mess"  '
+    def: be confronted with
+    exp:
+      - What do we have here?
+      - Now we have a fine mess
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 0.8181818181818182
+  wordnet:
+    synsetOffset: 2209880
+    lexFilenum: 40
+    pos: v
+    wCnt: 1
+    lemma: have
+    synonyms:
+      - have
+    lexId: '1'
+    gloss: >-
+      have left; "I have two years left"; "I don't have any money left"; "They
+      have two more years before they retire"  
+    def: have left
+    exp:
+      - I have two years left
+      - I don't have any money left
+      - They have two more years before they retire
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 0.8166666666666668
+  wordnet:
+    synsetOffset: 1737358
+    lexFilenum: 36
+    pos: v
+    wCnt: 5
+    lemma: hold
+    synonyms:
+      - hold
+      - throw
+      - have
+      - make
+      - give
+    lexId: '0'
+    gloss: >-
+      organize or be responsible for; "hold a reception"; "have, throw, or make
+      a party"; "give a course"  
+    def: organize or be responsible for
+    exp:
+      - hold a reception
+      - 'have, throw, or make a party'
+      - give a course
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 0.8153846153846154
+  wordnet:
+    synsetOffset: 2383544
+    lexFilenum: 41
+    pos: v
+    wCnt: 1
+    lemma: have
+    synonyms:
+      - have
+    lexId: '0'
+    gloss: >-
+      have a personal or business relationship with someone; "have a postdoc";
+      "have an assistant"; "have a lover"  
+    def: have a personal or business relationship with someone
+    exp:
+      - have a postdoc
+      - have an assistant
+      - have a lover
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 0.8142857142857143
+  wordnet:
+    synsetOffset: 1159300
+    lexFilenum: 34
+    pos: v
+    wCnt: 5
+    lemma: consume
+    synonyms:
+      - consume
+      - ingest
+      - take_in
+      - take
+      - have
+    lexId: '0'
+    gloss: >-
+      serve oneself to, or consume regularly; "Have another bowl of chicken
+      soup!"; "I don't take sugar in my coffee"  
+    def: 'serve oneself to, or consume regularly'
+    exp:
+      - Have another bowl of chicken soup!
+      - I don't take sugar in my coffee
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 0.8133333333333334
+  wordnet:
+    synsetOffset: 120604
+    lexFilenum: 30
+    pos: v
+    wCnt: 3
+    lemma: get
+    synonyms:
+      - get
+      - let
+      - have
+    lexId: '2'
+    gloss: >-
+      cause to move; cause to be in a certain position or condition; "He got his
+      squad on the ball"; "This let me in for a big surprise"; "He got a girl
+      into trouble"  
+    def: cause to move
+    exp:
+      - cause to be in a certain position or condition
+      - He got his squad on the ball
+      - This let me in for a big surprise
+      - He got a girl into trouble
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 0.8125
+  wordnet:
+    synsetOffset: 2209474
+    lexFilenum: 40
+    pos: v
+    wCnt: 3
+    lemma: own
+    synonyms:
+      - own
+      - have
+      - possess
+    lexId: '0'
+    gloss: >-
+      have ownership or possession of; "He owns three houses in Florida"; "How
+      many cars does she have?"  
+    def: have ownership or possession of
+    exp:
+      - He owns three houses in Florida
+      - How many cars does she have?
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 0.8117647058823529
+  wordnet:
+    synsetOffset: 2112480
+    lexFilenum: 39
+    pos: v
+    wCnt: 4
+    lemma: experience
+    synonyms:
+      - experience
+      - receive
+      - have
+      - get
+    lexId: '0'
+    gloss: >-
+      go through (mental or physical states or experiences); "get an idea";
+      "experience vertigo"; "get nauseous"; "receive injuries"; "have a
+      feeling"  
+    def: go through (mental or physical states or experiences)
+    exp:
+      - get an idea
+      - experience vertigo
+      - get nauseous
+      - receive injuries
+      - have a feeling
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 0.8111111111111111
+  wordnet:
+    synsetOffset: 2636270
+    lexFilenum: 42
+    pos: v
+    wCnt: 2
+    lemma: have
+    synonyms:
+      - have
+      - feature
+    lexId: '0'
+    gloss: >-
+      have as a feature; "This restaurant features the most famous chefs in
+      France"  
+    def: have as a feature
+    exp:
+      - This restaurant features the most famous chefs in France
+- document: have
+  token: pos
+  start: 1047
+  end: 1285
+  tag: VERB
+  score: 0.8105263157894738
+  wordnet:
+    synsetOffset: 2208144
+    lexFilenum: 40
+    pos: v
+    wCnt: 3
+    lemma: have
+    synonyms:
+      - have
+      - have_got
+      - hold
+    lexId: '0'
+    gloss: >-
+      have or possess, either in a concrete or an abstract sense; "She has
+      $1,000 in the bank"; "He has got two beautiful daughters"; "She holds a
+      Master's degree from Harvard"  
+    def: 'have or possess, either in a concrete or an abstract sense'
+    exp:
+      - 'She has $1,000 in the bank'
+      - He has got two beautiful daughters
+      - She holds a Master's degree from Harvard
+- document: sister
+  token: pos
+  start: 1054
+  end: 1294
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 10621666
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: sister
+    synonyms:
+      - sister
+    lexId: '2'
+    gloss: >-
+      a female person who is a fellow member of a sorority or labor union or
+      other group; "none of her sisters would betray her"  
+    def: >-
+      a female person who is a fellow member of a sorority or labor union or
+      other group
+    exp:
+      - none of her sisters would betray her
+- document: sister
+  token: pos
+  start: 1054
+  end: 1294
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 10621878
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: Sister
+    synonyms:
+      - Sister
+    lexId: '1'
+    gloss: >-
+      (Roman Catholic Church) a title given to a nun (and used as a form of
+      address); "the Sisters taught her to love God"  
+    def: >-
+      (Roman Catholic Church) a title given to a nun (and used as a form of
+      address)
+    exp:
+      - the Sisters taught her to love God
+- document: sister
+  token: pos
+  start: 1054
+  end: 1294
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 10622393
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 2
+    lemma: sister
+    synonyms:
+      - sister
+      - sis
+    lexId: '0'
+    gloss: >-
+      a female person who has the same parents as another person; "my sister
+      married a musician"  
+    def: a female person who has the same parents as another person
+    exp:
+      - my sister married a musician
+- document: sister
+  token: pos
+  start: 1074
+  end: 1314
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 10621666
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: sister
+    synonyms:
+      - sister
+    lexId: '2'
+    gloss: >-
+      a female person who is a fellow member of a sorority or labor union or
+      other group; "none of her sisters would betray her"  
+    def: >-
+      a female person who is a fellow member of a sorority or labor union or
+      other group
+    exp:
+      - none of her sisters would betray her
+- document: sister
+  token: pos
+  start: 1074
+  end: 1314
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 10621878
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: Sister
+    synonyms:
+      - Sister
+    lexId: '1'
+    gloss: >-
+      (Roman Catholic Church) a title given to a nun (and used as a form of
+      address); "the Sisters taught her to love God"  
+    def: >-
+      (Roman Catholic Church) a title given to a nun (and used as a form of
+      address)
+    exp:
+      - the Sisters taught her to love God
+- document: sister
+  token: pos
+  start: 1074
+  end: 1314
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 10622393
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 2
+    lemma: sister
+    synonyms:
+      - sister
+      - sis
+    lexId: '0'
+    gloss: >-
+      a female person who has the same parents as another person; "my sister
+      married a musician"  
+    def: a female person who has the same parents as another person
+    exp:
+      - my sister married a musician
+- document: husband
+  token: pos
+  start: 1106
+  end: 1347
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 10213586
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 3
+    lemma: husband
+    synonyms:
+      - husband
+      - hubby
+      - married_man
+    lexId: '0'
+    gloss: 'a married man; a woman''s partner in marriage  '
+    def: a married man
+    exp:
+      - a woman's partner in marriage
+- document: be
+  token: pos
+  start: 1157
+  end: 1393
+  tag: VERB
+  score: 1
+  wordnet:
+    synsetOffset: 2708368
+    lexFilenum: 42
+    pos: v
+    wCnt: 2
+    lemma: cost
+    synonyms:
+      - cost
+      - be
+    lexId: '0'
+    gloss: 'be priced at; "These shoes cost $100"  '
+    def: be priced at
+    exp:
+      - These shoes cost $100
+- document: be
+  token: pos
+  start: 1157
+  end: 1393
+  tag: VERB
+  score: 0.9
+  wordnet:
+    synsetOffset: 2750695
+    lexFilenum: 42
+    pos: v
+    wCnt: 1
+    lemma: be
+    synonyms:
+      - be
+    lexId: d
+    gloss: >-
+      to remain unmolested, undisturbed, or uninterrupted -- used only in
+      infinitive form; "let her be"  
+    def: >-
+      to remain unmolested, undisturbed, or uninterrupted -- used only in
+      infinitive form
+    exp:
+      - let her be
+- document: be
+  token: pos
+  start: 1157
+  end: 1393
+  tag: VERB
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 2620216
+    lexFilenum: 42
+    pos: v
+    wCnt: 2
+    lemma: be
+    synonyms:
+      - be
+      - live
+    lexId: '1'
+    gloss: >-
+      have life, be alive; "Our great leader is no more"; "My grandfather lived
+      until the end of war"  
+    def: 'have life, be alive'
+    exp:
+      - Our great leader is no more
+      - My grandfather lived until the end of war
+- document: be
+  token: pos
+  start: 1157
+  end: 1393
+  tag: VERB
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 2273091
+    lexFilenum: 40
+    pos: v
+    wCnt: 1
+    lemma: be
+    synonyms:
+      - be
+    lexId: '0'
+    gloss: 'spend or use time; "I may be an hour"  '
+    def: spend or use time
+    exp:
+      - I may be an hour
+- document: be
+  token: pos
+  start: 1157
+  end: 1393
+  tag: VERB
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 2703567
+    lexFilenum: 42
+    pos: v
+    wCnt: 3
+    lemma: embody
+    synonyms:
+      - embody
+      - be
+      - personify
+    lexId: '0'
+    gloss: 'represent, as of a character on stage; "Derek Jacobi was Hamlet"  '
+    def: 'represent, as of a character on stage'
+    exp:
+      - Derek Jacobi was Hamlet
+- document: be
+  token: pos
+  start: 1157
+  end: 1393
+  tag: VERB
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 2450790
+    lexFilenum: 41
+    pos: v
+    wCnt: 2
+    lemma: be
+    synonyms:
+      - be
+      - follow
+    lexId: '0'
+    gloss: >-
+      work in a specific place, with a specific subject, or in a specific
+      function; "He is a herpetologist"; "She is our resident philosopher"  
+    def: >-
+      work in a specific place, with a specific subject, or in a specific
+      function
+    exp:
+      - He is a herpetologist
+      - She is our resident philosopher
+- document: be
+  token: pos
+  start: 1157
+  end: 1393
+  tag: VERB
+  score: 0.8285714285714286
+  wordnet:
+    synsetOffset: 2626667
+    lexFilenum: 42
+    pos: v
+    wCnt: 5
+    lemma: constitute
+    synonyms:
+      - constitute
+      - represent
+      - make_up
+      - comprise
+      - be
+    lexId: '0'
+    gloss: >-
+      form or compose; "This money is my only income"; "The stone wall was the
+      backdrop for the performance"; "These constitute my entire belonging";
+      "The children made up the chorus"; "This sum represents my entire income
+      for a year"; "These few men comprise his entire army"  
+    def: form or compose
+    exp:
+      - This money is my only income
+      - The stone wall was the backdrop for the performance
+      - These constitute my entire belonging
+      - The children made up the chorus
+      - This sum represents my entire income for a year
+      - These few men comprise his entire army
+- document: be
+  token: pos
+  start: 1157
+  end: 1393
+  tag: VERB
+  score: 0.8250000000000001
+  wordnet:
+    synsetOffset: 2670846
+    lexFilenum: 42
+    pos: v
+    wCnt: 2
+    lemma: equal
+    synonyms:
+      - equal
+      - be
+    lexId: '0'
+    gloss: >-
+      be identical or equivalent to; "One dollar equals 1,000 rubles these
+      days!"  
+    def: be identical or equivalent to
+    exp:
+      - 'One dollar equals 1,000 rubles these days!'
+- document: be
+  token: pos
+  start: 1157
+  end: 1393
+  tag: VERB
+  score: 0.8222222222222223
+  wordnet:
+    synsetOffset: 2755779
+    lexFilenum: 42
+    pos: v
+    wCnt: 1
+    lemma: be
+    synonyms:
+      - be
+    lexId: '4'
+    gloss: >-
+      happen, occur, take place; "I lost my wallet; this was during the visit to
+      my parents' house"; "There were two hundred people at his funeral"; "There
+      was a lot of noise in the kitchen"  
+    def: 'happen, occur, take place'
+    exp:
+      - I lost my wallet
+      - this was during the visit to my parents' house
+      - There were two hundred people at his funeral
+      - There was a lot of noise in the kitchen
+- document: be
+  token: pos
+  start: 1157
+  end: 1393
+  tag: VERB
+  score: 0.8200000000000001
+  wordnet:
+    synsetOffset: 2609706
+    lexFilenum: 42
+    pos: v
+    wCnt: 2
+    lemma: exist
+    synonyms:
+      - exist
+      - be
+    lexId: '0'
+    gloss: 'have an existence, be extant; "Is there a God?"  '
+    def: 'have an existence, be extant'
+    exp:
+      - Is there a God?
+- document: be
+  token: pos
+  start: 1157
+  end: 1393
+  tag: VERB
+  score: 0.8181818181818182
+  wordnet:
+    synsetOffset: 2661230
+    lexFilenum: 42
+    pos: v
+    wCnt: 1
+    lemma: be
+    synonyms:
+      - be
+    lexId: '5'
+    gloss: >-
+      occupy a certain position or area; be somewhere; "Where is my umbrella?";
+      "The toolshed is in the back"; "What is behind this behavior?"  
+    def: occupy a certain position or area
+    exp:
+      - be somewhere
+      - Where is my umbrella?
+      - The toolshed is in the back
+      - What is behind this behavior?
+- document: be
+  token: pos
+  start: 1157
+  end: 1393
+  tag: VERB
+  score: 0.8166666666666668
+  wordnet:
+    synsetOffset: 2622439
+    lexFilenum: 42
+    pos: v
+    wCnt: 1
+    lemma: be
+    synonyms:
+      - be
+    lexId: '6'
+    gloss: >-
+      be identical to; be someone or something; "The president of the company is
+      John Smith"; "This is my house"  
+    def: be identical to
+    exp:
+      - be someone or something
+      - The president of the company is John Smith
+      - This is my house
+- document: be
+  token: pos
+  start: 1157
+  end: 1393
+  tag: VERB
+  score: 0.8153846153846154
+  wordnet:
+    synsetOffset: 2610777
+    lexFilenum: 42
+    pos: v
+    wCnt: 1
+    lemma: be
+    synonyms:
+      - be
+    lexId: '3'
+    gloss: >-
+      have the quality of being; (copula, used with an adjective or a predicate
+      noun); "John is rich"; "This is not a good answer"  
+    def: have the quality of being
+    exp:
+      - '(copula, used with an adjective or a predicate noun)'
+      - John is rich
+      - This is not a good answer
+- document: think
+  token: pos
+  start: 1187
+  end: 1290
+  tag: VERB
+  score: 1
+  wordnet:
+    synsetOffset: 562964
+    lexFilenum: 30
+    pos: v
+    wCnt: 1
+    lemma: think
+    synonyms:
+      - think
+    lexId: '0'
+    gloss: >-
+      bring into a given condition by mental preoccupation; "She thought herself
+      into a state of panic over the final exam"  
+    def: bring into a given condition by mental preoccupation
+    exp:
+      - She thought herself into a state of panic over the final exam
+- document: think
+  token: pos
+  start: 1187
+  end: 1290
+  tag: VERB
+  score: 0.9
+  wordnet:
+    synsetOffset: 610362
+    lexFilenum: 31
+    pos: v
+    wCnt: 1
+    lemma: think
+    synonyms:
+      - think
+    lexId: '8'
+    gloss: 'be capable of conscious thought; "Man is the only creature that thinks"  '
+    def: be capable of conscious thought
+    exp:
+      - Man is the only creature that thinks
+- document: think
+  token: pos
+  start: 1187
+  end: 1290
+  tag: VERB
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 631400
+    lexFilenum: 31
+    pos: v
+    wCnt: 1
+    lemma: think
+    synonyms:
+      - think
+    lexId: e
+    gloss: 'have or formulate in the mind; "think good thoughts"  '
+    def: have or formulate in the mind
+    exp:
+      - think good thoughts
+- document: think
+  token: pos
+  start: 1187
+  end: 1290
+  tag: VERB
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 691551
+    lexFilenum: 31
+    pos: v
+    wCnt: 1
+    lemma: think
+    synonyms:
+      - think
+    lexId: f
+    gloss: 'dispose the mind in a certain way; "Do you really think so?"  '
+    def: dispose the mind in a certain way
+    exp:
+      - Do you really think so?
+- document: think
+  token: pos
+  start: 1187
+  end: 1290
+  tag: VERB
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 741087
+    lexFilenum: 31
+    pos: v
+    wCnt: 1
+    lemma: think
+    synonyms:
+      - think
+    lexId: d
+    gloss: >-
+      ponder; reflect on, or reason about; "Think the matter through"; "Think
+      how hard life in Russia must be these days"  
+    def: ponder
+    exp:
+      - 'reflect on, or reason about'
+      - Think the matter through
+      - Think how hard life in Russia must be these days
+- document: think
+  token: pos
+  start: 1187
+  end: 1290
+  tag: VERB
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 741345
+    lexFilenum: 31
+    pos: v
+    wCnt: 1
+    lemma: think
+    synonyms:
+      - think
+    lexId: c
+    gloss: >-
+      decide by pondering, reasoning, or reflecting; "Can you think what to do
+      next?"  
+    def: 'decide by pondering, reasoning, or reflecting'
+    exp:
+      - Can you think what to do next?
+- document: think
+  token: pos
+  start: 1187
+  end: 1290
+  tag: VERB
+  score: 0.8285714285714286
+  wordnet:
+    synsetOffset: 710367
+    lexFilenum: 31
+    pos: v
+    wCnt: 3
+    lemma: intend
+    synonyms:
+      - intend
+      - mean
+      - think
+    lexId: '0'
+    gloss: >-
+      have in mind as a purpose; "I mean no harm"; "I only meant to help you";
+      "She didn't think to harm me"; "We thought to return early that night"  
+    def: have in mind as a purpose
+    exp:
+      - I mean no harm
+      - I only meant to help you
+      - She didn't think to harm me
+      - We thought to return early that night
+- document: think
+  token: pos
+  start: 1187
+  end: 1290
+  tag: VERB
+  score: 0.8250000000000001
+  wordnet:
+    synsetOffset: 725018
+    lexFilenum: 31
+    pos: v
+    wCnt: 1
+    lemma: think
+    synonyms:
+      - think
+    lexId: '9'
+    gloss: 'focus one''s attention on a certain state; "Think big"; "think thin"  '
+    def: focus one's attention on a certain state
+    exp:
+      - Think big
+      - think thin
+- document: think
+  token: pos
+  start: 1187
+  end: 1290
+  tag: VERB
+  score: 0.8222222222222223
+  wordnet:
+    synsetOffset: 1640708
+    lexFilenum: 36
+    pos: v
+    wCnt: 1
+    lemma: think
+    synonyms:
+      - think
+    lexId: '0'
+    gloss: >-
+      imagine or visualize; "Just think--you could be rich one day!"; "Think
+      what a scene it must have been!"  
+    def: imagine or visualize
+    exp:
+      - Just think--you could be rich one day!
+      - Think what a scene it must have been!
+- document: think
+  token: pos
+  start: 1187
+  end: 1290
+  tag: VERB
+  score: 0.8200000000000001
+  wordnet:
+    synsetOffset: 609334
+    lexFilenum: 31
+    pos: v
+    wCnt: 7
+    lemma: remember
+    synonyms:
+      - remember
+      - retrieve
+      - recall
+      - call_back
+      - call_up
+      - recollect
+      - think
+    lexId: '0'
+    gloss: >-
+      recall knowledge from memory; have a recollection; "I can't remember
+      saying any such thing"; "I can't think what her last name was"; "can you
+      remember her phone number?"; "Do you remember that he once loved you?";
+      "call up memories"  
+    def: recall knowledge from memory
+    exp:
+      - have a recollection
+      - I can't remember saying any such thing
+      - I can't think what her last name was
+      - can you remember her phone number?
+      - Do you remember that he once loved you?
+      - call up memories
+- document: think
+  token: pos
+  start: 1187
+  end: 1290
+  tag: VERB
+  score: 0.8181818181818182
+  wordnet:
+    synsetOffset: 630153
+    lexFilenum: 31
+    pos: v
+    wCnt: 3
+    lemma: think
+    synonyms:
+      - think
+      - cogitate
+      - cerebrate
+    lexId: '0'
+    gloss: >-
+      use or exercise the mind or one's power of reason in order to make
+      inferences, decisions, or arrive at a solution or judgments; "I've been
+      thinking all day and getting nowhere"  
+    def: >-
+      use or exercise the mind or one's power of reason in order to make
+      inferences, decisions, or arrive at a solution or judgments
+    exp:
+      - I've been thinking all day and getting nowhere
+- document: think
+  token: pos
+  start: 1187
+  end: 1290
+  tag: VERB
+  score: 0.8166666666666668
+  wordnet:
+    synsetOffset: 633399
+    lexFilenum: 31
+    pos: v
+    wCnt: 6
+    lemma: think
+    synonyms:
+      - think
+      - opine
+      - suppose
+      - imagine
+      - reckon
+      - guess
+    lexId: '3'
+    gloss: >-
+      expect, believe, or suppose; "I imagine she earned a lot of money with her
+      new novel"; "I thought to find her in a bad state"; "he didn't think to
+      find her in the kitchen"; "I guess she is angry at me for standing her
+      up"  
+    def: 'expect, believe, or suppose'
+    exp:
+      - I imagine she earned a lot of money with her new novel
+      - I thought to find her in a bad state
+      - he didn't think to find her in the kitchen
+      - I guess she is angry at me for standing her up
+- document: think
+  token: pos
+  start: 1187
+  end: 1290
+  tag: VERB
+  score: 0.8153846153846154
+  wordnet:
+    synsetOffset: 691086
+    lexFilenum: 31
+    pos: v
+    wCnt: 4
+    lemma: think
+    synonyms:
+      - think
+      - believe
+      - consider
+      - conceive
+    lexId: '1'
+    gloss: >-
+      judge or regard; look upon; judge; "I think he is very smart"; "I believe
+      her to be very smart"; "I think that he is her boyfriend"; "The racist
+      conceives such people to be inferior"  
+    def: judge or regard
+    exp:
+      - look upon
+      - judge
+      - I think he is very smart
+      - I believe her to be very smart
+      - I think that he is her boyfriend
+      - The racist conceives such people to be inferior
+- document: say
+  token: pos
+  start: 1218
+  end: 1319
+  tag: VERB
+  score: 1
+  wordnet:
+    synsetOffset: 925168
+    lexFilenum: 32
+    pos: v
+    wCnt: 1
+    lemma: say
+    synonyms:
+      - say
+    lexId: '9'
+    gloss: 'indicate; "The clock says noon"  '
+    def: indicate
+    exp:
+      - The clock says noon
+- document: say
+  token: pos
+  start: 1218
+  end: 1319
+  tag: VERB
+  score: 0.9
+  wordnet:
+    synsetOffset: 947531
+    lexFilenum: 32
+    pos: v
+    wCnt: 1
+    lemma: say
+    synonyms:
+      - say
+    lexId: '8'
+    gloss: 'recite or repeat a fixed text; "Say grace"; "She said her `Hail Mary''"  '
+    def: recite or repeat a fixed text
+    exp:
+      - Say grace
+      - She said her `Hail Mary'
+- document: say
+  token: pos
+  start: 1218
+  end: 1319
+  tag: VERB
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 1011848
+    lexFilenum: 32
+    pos: v
+    wCnt: 1
+    lemma: say
+    synonyms:
+      - say
+    lexId: d
+    gloss: >-
+      state as one's opinion or judgement; declare; "I say let's forget this
+      whole business"  
+    def: state as one's opinion or judgement
+    exp:
+      - declare
+      - I say let's forget this whole business
+- document: say
+  token: pos
+  start: 1218
+  end: 1319
+  tag: VERB
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 981902
+    lexFilenum: 32
+    pos: v
+    wCnt: 1
+    lemma: say
+    synonyms:
+      - say
+    lexId: f
+    gloss: 'utter aloud; "She said `Hello'' to everyone in the office"  '
+    def: utter aloud
+    exp:
+      - She said `Hello' to everyone in the office
+- document: say
+  token: pos
+  start: 1218
+  end: 1319
+  tag: VERB
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 930921
+    lexFilenum: 32
+    pos: v
+    wCnt: 1
+    lemma: say
+    synonyms:
+      - say
+    lexId: '7'
+    gloss: >-
+      communicate or express nonverbally; "What does this painting say?"; "Did
+      his face say anything about how he felt?"  
+    def: communicate or express nonverbally
+    exp:
+      - What does this painting say?
+      - Did his face say anything about how he felt?
+- document: say
+  token: pos
+  start: 1218
+  end: 1319
+  tag: VERB
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 980581
+    lexFilenum: 32
+    pos: v
+    wCnt: 6
+    lemma: pronounce
+    synonyms:
+      - pronounce
+      - articulate
+      - enounce
+      - sound_out
+      - enunciate
+      - say
+    lexId: '1'
+    gloss: >-
+      speak, pronounce, or utter in a certain way; "She pronounces French words
+      in a funny way"; "I cannot say `zip wire'"; "Can the child sound out this
+      complicated word?"  
+    def: 'speak, pronounce, or utter in a certain way'
+    exp:
+      - She pronounces French words in a funny way
+      - I cannot say `zip wire'
+      - Can the child sound out this complicated word?
+- document: say
+  token: pos
+  start: 1218
+  end: 1319
+  tag: VERB
+  score: 0.8285714285714286
+  wordnet:
+    synsetOffset: 748704
+    lexFilenum: 32
+    pos: v
+    wCnt: 4
+    lemma: order
+    synonyms:
+      - order
+      - tell
+      - enjoin
+      - say
+    lexId: '1'
+    gloss: >-
+      give instructions to or direct somebody to do something with authority; "I
+      said to him to go home"; "She ordered him to do the shopping"; "The mother
+      told the child to get dressed"  
+    def: give instructions to or direct somebody to do something with authority
+    exp:
+      - I said to him to go home
+      - She ordered him to do the shopping
+      - The mother told the child to get dressed
+- document: say
+  token: pos
+  start: 1218
+  end: 1319
+  tag: VERB
+  score: 0.8250000000000001
+  wordnet:
+    synsetOffset: 2736688
+    lexFilenum: 42
+    pos: v
+    wCnt: 2
+    lemma: read
+    synonyms:
+      - read
+      - say
+    lexId: '0'
+    gloss: >-
+      have or contain a certain wording or form; "The passage reads as follows";
+      "What does the law say?"  
+    def: have or contain a certain wording or form
+    exp:
+      - The passage reads as follows
+      - What does the law say?
+- document: say
+  token: pos
+  start: 1218
+  end: 1319
+  tag: VERB
+  score: 0.8222222222222223
+  wordnet:
+    synsetOffset: 919271
+    lexFilenum: 32
+    pos: v
+    wCnt: 2
+    lemma: suppose
+    synonyms:
+      - suppose
+      - say
+    lexId: '0'
+    gloss: >-
+      express a supposition; "Let us say that he did not tell the truth"; "Let's
+      say you had a lot of money--what would you do?"  
+    def: express a supposition
+    exp:
+      - Let us say that he did not tell the truth
+      - Let's say you had a lot of money--what would you do?
+- document: say
+  token: pos
+  start: 1218
+  end: 1319
+  tag: VERB
+  score: 0.8200000000000001
+  wordnet:
+    synsetOffset: 1018011
+    lexFilenum: 32
+    pos: v
+    wCnt: 3
+    lemma: allege
+    synonyms:
+      - allege
+      - aver
+      - say
+    lexId: '0'
+    gloss: >-
+      report or maintain; "He alleged that he was the victim of a crime"; "He
+      said it was too late to intervene in the war"; "The registrar says that I
+      owe the school money"  
+    def: report or maintain
+    exp:
+      - He alleged that he was the victim of a crime
+      - He said it was too late to intervene in the war
+      - The registrar says that I owe the school money
+- document: say
+  token: pos
+  start: 1218
+  end: 1319
+  tag: VERB
+  score: 0.8181818181818182
+  wordnet:
+    synsetOffset: 1011267
+    lexFilenum: 32
+    pos: v
+    wCnt: 3
+    lemma: state
+    synonyms:
+      - state
+      - say
+      - tell
+    lexId: '0'
+    gloss: >-
+      express in words; "He said that he wanted to marry her"; "tell me what is
+      bothering you"; "state your opinion"; "state your name"  
+    def: express in words
+    exp:
+      - He said that he wanted to marry her
+      - tell me what is bothering you
+      - state your opinion
+      - state your name
+- document: street
+  token: pos
+  start: 1252
+  end: 1356
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 8242347
+    lexFilenum: 14
+    pos: 'n'
+    wCnt: 1
+    lemma: street
+    synonyms:
+      - street
+    lexId: '0'
+    gloss: >-
+      people living or working on the same street; "the whole street protested
+      the absence of street lights"  
+    def: people living or working on the same street
+    exp:
+      - the whole street protested the absence of street lights
+- document: street
+  token: pos
+  start: 1252
+  end: 1356
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 14509395
+    lexFilenum: 26
+    pos: 'n'
+    wCnt: 1
+    lemma: street
+    synonyms:
+      - street
+    lexId: '1'
+    gloss: >-
+      a situation offering opportunities; "he worked both sides of the street";
+      "cooperation is a two-way street"  
+    def: a situation offering opportunities
+    exp:
+      - he worked both sides of the street
+      - cooperation is a two-way street
+- document: street
+  token: pos
+  start: 1252
+  end: 1356
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 14539858
+    lexFilenum: 26
+    pos: 'n'
+    wCnt: 1
+    lemma: street
+    synonyms:
+      - street
+    lexId: '0'
+    gloss: >-
+      the streets of a city viewed as a depressed environment in which there is
+      poverty and crime and prostitution and dereliction; "she tried to keep her
+      children off the street"  
+    def: >-
+      the streets of a city viewed as a depressed environment in which there is
+      poverty and crime and prostitution and dereliction
+    exp:
+      - she tried to keep her children off the street
+- document: street
+  token: pos
+  start: 1252
+  end: 1356
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 4342347
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 1
+    lemma: street
+    synonyms:
+      - street
+    lexId: '1'
+    gloss: >-
+      the part of a thoroughfare between the sidewalks; the part of the
+      thoroughfare on which vehicles travel; "be careful crossing the street"  
+    def: the part of a thoroughfare between the sidewalks
+    exp:
+      - the part of the thoroughfare on which vehicles travel
+      - be careful crossing the street
+- document: street
+  token: pos
+  start: 1252
+  end: 1356
+  tag: NOUN
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 4341737
+    lexFilenum: 6
+    pos: 'n'
+    wCnt: 1
+    lemma: street
+    synonyms:
+      - street
+    lexId: '0'
+    gloss: >-
+      a thoroughfare (usually including sidewalks) that is lined with buildings;
+      "they walked the streets of the small town"; "he lives on Nassau Street"  
+    def: a thoroughfare (usually including sidewalks) that is lined with buildings
+    exp:
+      - they walked the streets of the small town
+      - he lives on Nassau Street
+- document: son
+  token: pos
+  start: 1307
+  end: 1400
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 9560255
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 3
+    lemma: Son
+    synonyms:
+      - Son
+      - Word
+      - Logos
+    lexId: '1'
+    gloss: >-
+      the divine word of God; the second person in the Trinity (incarnate in
+      Jesus)  
+    def: the divine word of God
+    exp:
+      - the second person in the Trinity (incarnate in Jesus)
+- document: son
+  token: pos
+  start: 1307
+  end: 1400
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 10643436
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 2
+    lemma: son
+    synonyms:
+      - son
+      - boy
+    lexId: '0'
+    gloss: >-
+      a male human offspring; "their son became a famous judge"; "his boy is
+      taller than he is"  
+    def: a male human offspring
+    exp:
+      - their son became a famous judge
+      - his boy is taller than he is
+- document: boy
+  token: pos
+  start: 1356
+  end: 1476
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 10643436
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 2
+    lemma: son
+    synonyms:
+      - son
+      - boy
+    lexId: '0'
+    gloss: >-
+      a male human offspring; "their son became a famous judge"; "his boy is
+      taller than he is"  
+    def: a male human offspring
+    exp:
+      - their son became a famous judge
+      - his boy is taller than he is
+- document: boy
+  token: pos
+  start: 1356
+  end: 1476
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 9890332
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: boy
+    synonyms:
+      - boy
+    lexId: '2'
+    gloss: >-
+      a friendly informal reference to a grown man; "he likes to play golf with
+      the boys"  
+    def: a friendly informal reference to a grown man
+    exp:
+      - he likes to play golf with the boys
+- document: boy
+  token: pos
+  start: 1356
+  end: 1476
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 10305010
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 2
+    lemma: male_child
+    synonyms:
+      - male_child
+      - boy
+    lexId: '0'
+    gloss: >-
+      a youthful male person; "the baby was a boy"; "she made the boy brush his
+      teeth every night"; "most soldiers are only boys in uniform"  
+    def: a youthful male person
+    exp:
+      - the baby was a boy
+      - she made the boy brush his teeth every night
+      - most soldiers are only boys in uniform
+- document: reason
+  token: pos
+  start: 1377
+  end: 1500
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 5827293
+    lexFilenum: 9
+    pos: 'n'
+    wCnt: 1
+    lemma: reason
+    synonyms:
+      - reason
+    lexId: '1'
+    gloss: >-
+      a fact that logically justifies some premise or conclusion; "there is
+      reason to believe he is lying"  
+    def: a fact that logically justifies some premise or conclusion
+    exp:
+      - there is reason to believe he is lying
+- document: reason
+  token: pos
+  start: 1377
+  end: 1500
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 6753097
+    lexFilenum: 10
+    pos: 'n'
+    wCnt: 3
+    lemma: cause
+    synonyms:
+      - cause
+      - reason
+      - grounds
+    lexId: '0'
+    gloss: >-
+      a justification for something existing or happening; "he had no cause to
+      complain"; "they had good reason to rejoice"  
+    def: a justification for something existing or happening
+    exp:
+      - he had no cause to complain
+      - they had good reason to rejoice
+- document: reason
+  token: pos
+  start: 1377
+  end: 1500
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 14403234
+    lexFilenum: 26
+    pos: 'n'
+    wCnt: 3
+    lemma: rationality
+    synonyms:
+      - rationality
+      - reason
+      - reasonableness
+    lexId: '0'
+    gloss: >-
+      the state of having good sense and sound judgment; "his rationality may
+      have been impaired"; "he had to rely less on reason than on rousing their
+      emotions"  
+    def: the state of having good sense and sound judgment
+    exp:
+      - his rationality may have been impaired
+      - he had to rely less on reason than on rousing their emotions
+- document: reason
+  token: pos
+  start: 1377
+  end: 1500
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 5659525
+    lexFilenum: 9
+    pos: 'n'
+    wCnt: 3
+    lemma: reason
+    synonyms:
+      - reason
+      - understanding
+      - intellect
+    lexId: '0'
+    gloss: >-
+      the capacity for rational thought or inference or discrimination; "we are
+      told that man is endowed with reason and capable of distinguishing good
+      from evil"  
+    def: the capacity for rational thought or inference or discrimination
+    exp:
+      - >-
+        we are told that man is endowed with reason and capable of
+        distinguishing good from evil
+- document: reason
+  token: pos
+  start: 1377
+  end: 1500
+  tag: NOUN
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 6752739
+    lexFilenum: 10
+    pos: 'n'
+    wCnt: 1
+    lemma: reason
+    synonyms:
+      - reason
+    lexId: '1'
+    gloss: >-
+      an explanation of the cause of some phenomenon; "the reason a steady state
+      was never reached was that the back pressure built up too slowly"  
+    def: an explanation of the cause of some phenomenon
+    exp:
+      - >-
+        the reason a steady state was never reached was that the back pressure
+        built up too slowly
+- document: reason
+  token: pos
+  start: 1377
+  end: 1500
+  tag: NOUN
+  score: 0.8333333333333334
+  wordnet:
+    synsetOffset: 9201896
+    lexFilenum: 16
+    pos: 'n'
+    wCnt: 2
+    lemma: reason
+    synonyms:
+      - reason
+      - ground
+    lexId: '0'
+    gloss: >-
+      a rational motive for a belief or action; "the reason that war was
+      declared"; "the grounds for their declaration"  
+    def: a rational motive for a belief or action
+    exp:
+      - the reason that war was declared
+      - the grounds for their declaration
+- document: want
+  token: pos
+  start: 1426
+  end: 1547
+  tag: VERB
+  score: 1
+  wordnet:
+    synsetOffset: 2638648
+    lexFilenum: 42
+    pos: v
+    wCnt: 1
+    lemma: want
+    synonyms:
+      - want
+    lexId: '1'
+    gloss: >-
+      be without, lack; be deficient in; "want courtesy"; "want the strength to
+      go on living"; "flood victims wanting food and shelter"  
+    def: 'be without, lack'
+    exp:
+      - be deficient in
+      - want courtesy
+      - want the strength to go on living
+      - flood victims wanting food and shelter
+- document: want
+  token: pos
+  start: 1426
+  end: 1547
+  tag: VERB
+  score: 0.9
+  wordnet:
+    synsetOffset: 711034
+    lexFilenum: 31
+    pos: v
+    wCnt: 1
+    lemma: want
+    synonyms:
+      - want
+    lexId: '1'
+    gloss: 'wish or demand the presence of; "I want you here at noon!"  '
+    def: wish or demand the presence of
+    exp:
+      - I want you here at noon!
+- document: want
+  token: pos
+  start: 1426
+  end: 1547
+  tag: VERB
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 1319724
+    lexFilenum: 35
+    pos: v
+    wCnt: 1
+    lemma: want
+    synonyms:
+      - want
+    lexId: '0'
+    gloss: >-
+      hunt or look for; want for a particular reason; "Your former neighbor is
+      wanted by the FBI"; "Uncle Sam wants you"  
+    def: hunt or look for
+    exp:
+      - want for a particular reason
+      - Your former neighbor is wanted by the FBI
+      - Uncle Sam wants you
+- document: want
+  token: pos
+  start: 1426
+  end: 1547
+  tag: VERB
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 1191258
+    lexFilenum: 34
+    pos: v
+    wCnt: 3
+    lemma: want
+    synonyms:
+      - want
+      - need
+      - require
+    lexId: '0'
+    gloss: 'have need of; "This piano wants the attention of a competent tuner"  '
+    def: have need of
+    exp:
+      - This piano wants the attention of a competent tuner
+- document: want
+  token: pos
+  start: 1426
+  end: 1547
+  tag: VERB
+  score: 0.8400000000000001
+  wordnet:
+    synsetOffset: 1829179
+    lexFilenum: 37
+    pos: v
+    wCnt: 2
+    lemma: desire
+    synonyms:
+      - desire
+      - want
+    lexId: '0'
+    gloss: >-
+      feel or have a desire for; want strongly; "I want to go home now"; "I want
+      my own room"  
+    def: feel or have a desire for
+    exp:
+      - want strongly
+      - I want to go home now
+      - I want my own room
+- document: child
+  token: pos
+  start: 1452
+  end: 1574
+  tag: NOUN
+  score: 1
+  wordnet:
+    synsetOffset: 9938220
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 1
+    lemma: child
+    synonyms:
+      - child
+    lexId: '7'
+    gloss: 'a member of a clan or tribe; "the children of Israel"  '
+    def: a member of a clan or tribe
+    exp:
+      - the children of Israel
+- document: child
+  token: pos
+  start: 1452
+  end: 1574
+  tag: NOUN
+  score: 0.9
+  wordnet:
+    synsetOffset: 9938012
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 2
+    lemma: child
+    synonyms:
+      - child
+      - baby
+    lexId: '6'
+    gloss: >-
+      an immature childish person; "he remained a child in practical matters as
+      long as he lived"; "stop being a baby!"  
+    def: an immature childish person
+    exp:
+      - he remained a child in practical matters as long as he lived
+      - stop being a baby!
+- document: child
+  token: pos
+  start: 1452
+  end: 1574
+  tag: NOUN
+  score: 0.8666666666666667
+  wordnet:
+    synsetOffset: 9937706
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 2
+    lemma: child
+    synonyms:
+      - child
+      - kid
+    lexId: '1'
+    gloss: >-
+      a human offspring (son or daughter) of any age; "they had three children";
+      "they were able to send their kids to college"  
+    def: a human offspring (son or daughter) of any age
+    exp:
+      - they had three children
+      - they were able to send their kids to college
+- document: child
+  token: pos
+  start: 1452
+  end: 1574
+  tag: NOUN
+  score: 0.8500000000000001
+  wordnet:
+    synsetOffset: 9937051
+    lexFilenum: 18
+    pos: 'n'
+    wCnt: 12
+    lemma: child
+    synonyms:
+      - child
+      - kid
+      - youngster
+      - minor
+      - shaver
+      - nipper
+      - small_fry
+      - tiddler
+      - tike
+      - tyke
+      - fry
+      - nestling
+    lexId: '0'
+    gloss: >-
+      a young person of either sex; "she writes books for children"; "they're
+      just kids"; "`tiddler' is a British term for youngster"  
+    def: a young person of either sex
+    exp:
+      - she writes books for children
+      - they're just kids
+      - '`tiddler'' is a British term for youngster'
