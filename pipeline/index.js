@@ -27,5 +27,9 @@ module.exports = Object.assign(
     require("./initialize"),
     require("./execute"),
     require("./action"),
+
+    // CLI
+    require("./preprocess"),
+
     {}
 )
