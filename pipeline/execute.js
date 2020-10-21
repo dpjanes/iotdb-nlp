@@ -88,9 +88,8 @@ const execute = _.promise((self, done) => {
         .make(sd => {
             sd.state.created = sd.state.created || _.timestamp.make()
             sd.state.updated = sd.state.updated || sd.state.created 
-            sd.state.source = {
-                path: sd.source_path
-            }
+            sd.state.source = sd.state.source || {}
+            sd.state.source.path = sd.state.source.source_path
             sd.state.actions = sd.state.actions || {}
         })
 
@@ -99,7 +98,17 @@ const execute = _.promise((self, done) => {
         .then(fs.read.buffer)
         .then(fs.stat)
         .make(sd => {
-            sd.state.source.hash = _.hash.sha256(sd.document)
+            const hash = _.hash.sha256(sd.document)
+            if (hash === sd.state.source.hash) {
+                logger.info({
+                    method: execute.method,
+                    source: sd.source_path,
+                }, "hash unchanged - skipping file")
+
+                return _.promise.bail(sd)
+            }
+
+            sd.state.source.hash = hash
             sd.state.source.mtime = sd.stats.mtime.getTime() * 1000
         })
         

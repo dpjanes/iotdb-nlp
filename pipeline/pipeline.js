@@ -122,8 +122,6 @@ if (!ad.cfg) {
     if (!ad.cfg) {
         help("could not find Pipeline.yaml")
     }
-
-    console.log("CFG", ad.cfg)
 }
 
 _.logger.levels({
