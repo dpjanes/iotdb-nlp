@@ -128,7 +128,7 @@ const tokenize_syntax = _.promise((self, done) => {
 })
 
 tokenize_syntax.method = "stanford.tokenize.syntax"
-tokenize_syntax.VERSION = "1.0.0"
+tokenize_syntax.VERSION = "4.1.0"
 tokenize_syntax.description = ``
 tokenize_syntax.requires = {
     nlp$cfg: {

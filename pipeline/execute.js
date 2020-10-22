@@ -77,6 +77,9 @@ const execute = _.promise((self, done) => {
             }
 
             sd.handler.actions = sd.handler.actions || []
+
+            // everything to be done
+            sd.actions = [].concat(sd.handler.actions, sd.pipeline.actions)
         })
 
         // read state
@@ -89,8 +92,34 @@ const execute = _.promise((self, done) => {
             sd.state.created = sd.state.created || _.timestamp.make()
             sd.state.updated = sd.state.updated || sd.state.created 
             sd.state.source = sd.state.source || {}
-            sd.state.source.path = sd.state.source.source_path
-            sd.state.actions = sd.state.actions || {}
+            sd.state.source.path = sd.source_path
+            sd.state.versions = sd.state.versions || {}
+        })
+
+        // get all action versions
+        .add("versions", {})
+        .each({
+            method: nlp.pipeline.action.version,
+            inputs: "actions:action",
+        })
+        .make(sd => {
+            sd.state.versions = sd.state.versions || {}
+
+            sd.changed_versions = false
+            _.mapObject(sd.versions, (version, action_name) => {
+                if (_.is.Equal(sd.state.versions[action_name], version)) {
+                    return
+                }
+
+                logger.info({
+                    method: execute.method,
+                    action: action_name,
+                    new_version: version,
+                    old_version: sd.state.versions[action_name] || null,
+                }, "action version changed - will run pipeline")
+
+                sd.changed_versions = true
+            })
         })
 
         // read the document to get the ball rolling
@@ -99,11 +128,11 @@ const execute = _.promise((self, done) => {
         .then(fs.stat)
         .make(sd => {
             const hash = _.hash.sha256(sd.document)
-            if (hash === sd.state.source.hash) {
+            if ((hash === sd.state.source.hash) && !sd.changed_versions) {
                 logger.info({
                     method: execute.method,
                     source: sd.source_path,
-                }, "hash unchanged - skipping file")
+                }, "hash unchanged / versions unchanged - skipping file")
 
                 return _.promise.bail(sd)
             }

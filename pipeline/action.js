@@ -88,9 +88,7 @@ const _action = _.promise((self, done) => {
                 self[action.method] = sd.RESULT
             }
 
-            if (next.VERSION) {
-                self.state.actions[action.method] = next.VERSION
-            }
+            self.state.versions[action.method] = next.VERSION || null
         })
 
         .end(done, self, next || null)
@@ -101,7 +99,7 @@ _action.description = ``
 _action.requires = {
     action: [ _.is.Dictionary, _.is.String ],
     state: {
-        actions: _.is.Dictionary,
+        versions: _.is.Dictionary,
     },
 }
 _action.accepts = {
@@ -110,6 +108,47 @@ _action.produces = {
 }
 
 /**
+ *  Sadly duplicated code from above,
+ *  but not easy to collapse
+ */
+const version = _.promise(self => {
+    _.promise.validate(self, _action)
+
+    const nlp = require("..")
+
+    let action = self.action
+    if (_.is.String(action)) {
+        action = {
+            method: action,
+        }
+    }
+
+    let next = nlp
+    action.method.split(".").forEach(part => {
+        if (next) {
+            next = next[part]
+        }
+    })
+
+    if (_.is.Function(next)) {
+        self.versions[action.method] = next.VERSION || null
+    }
+})
+
+version.method = "pipeline.action.version"
+version.description = `Compute versions of actions`
+version.requires = {
+    action: [ _.is.Dictionary, _.is.String ],
+    versions: _.is.Dictionary,
+}
+version.accepts = {
+}
+version.produces = {
+    versions: _.is.Dictionary,
+}
+
+/**
  *  API
  */
 exports.action = _action
+exports.action.version = version

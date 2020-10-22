@@ -158,7 +158,7 @@ const tokenize_entities = _.promise((self, done) => {
 })
 
 tokenize_entities.method = "stanford.tokenize.entities"
-tokenize_entities.VERSION = "1.0.0"
+tokenize_entities.VERSION = "4.0.0"
 tokenize_entities.description = ``
 tokenize_entities.requires = {
     nlp$cfg: {
