@@ -1,8 +1,7 @@
-/*
- *  pipeline/index.js
+/**
+ *  pipeline/entities.js
  *
  *  David Janes
- *  IOTDB.org
  *  2020-10-18
  *
  *  Copyright (2013-2020) David P. Janes
@@ -22,15 +21,38 @@
 
 "use strict"
 
-module.exports = Object.assign(
-    {},
-    require("./initialize"),
-    require("./execute"),
-    require("./action"),
-)
+const _ = require("iotdb-helpers")
 
-module.exports.cli = Object.assign(
-    {},
-    require("./cli.preprocess"),
-    require("./cli.entities"),
-)
+/**
+ */
+const entities = _.promise((self, done) => {
+    const nlp = require("..")
+
+    _.promise(self)
+        .validate(entities)
+
+        /*
+        .each({
+            method: nlp.pipeline.execute,
+            inputs: "paths:path",
+        })
+        */
+
+        .end(done, self, entities)
+})
+
+entities.method = "cli.entities"
+entities.description = ``
+entities.requires = {
+    paths: _.is.Array,
+    nlp$cfg: _.is.Dictionary,
+}
+entities.accepts = {
+}
+entities.produces = {
+}
+
+/*
+ *  API
+ */
+exports.entities = entities

@@ -22,15 +22,12 @@
 "use strict"
 
 const _ = require("iotdb-helpers")
-const fs = require("iotdb-fs")
-
-const path = require("path")
-
-const nlp = require("..")
 
 /**
  */
 const preprocess = _.promise((self, done) => {
+    const nlp = require("..")
+
     _.promise(self)
         .validate(preprocess)
 
