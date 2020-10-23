@@ -122,7 +122,7 @@ const execute = _.promise((self, done) => {
         .then(fs.stat)
         .make(sd => {
             const hash = _.hash.sha256(sd.document)
-            if ((hash === sd.state.source.hash) && !sd.changed_versions) {
+            if ((hash === sd.state.source.hash) && !sd.changed_versions && !sd.ad.force) {
                 logger.info({
                     method: execute.method,
                     source: sd.source_path,

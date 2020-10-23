@@ -34,6 +34,7 @@ const NAME = path.basename(__filename)
 const ad = minimist(process.argv.slice(2), {
     boolean: [
         "verbose", "debug", "trace",
+        "force",
     ],
     string: [
         "cfg",
@@ -66,6 +67,8 @@ options:
                   if not specified, it will look in every folder 
                   upwards from the first file argument.
                   if there is no file argument, use the current folder
+
+--force           force processing, even though it is not needed
 `)
 
     process.exit(message ? 1 : 0)
