@@ -84,11 +84,11 @@ const command_name = ad._.shift()
 switch (command_name) {
 case "process":
 case "preprocess":
-    command = nlp.pipeline.preprocess
+    command = nlp.pipeline.cli.preprocess
     break
 
 case "entities":
-    command = nlp.pipeline.entities
+    command = nlp.pipeline.cli.entities
     break
 }
 

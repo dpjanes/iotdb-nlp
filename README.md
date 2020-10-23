@@ -15,8 +15,16 @@ if that's what you're looking for.
 
 ### Preprocess
 
+Preprocess extracts data from documents
+
     node pipeline/pipeline.js preprocess \
         --verbose \
         --cfg corpus/Pipeline.yaml \
+        corpus/study-in-scarlet.txt 
+
+It will figure out where the Pipeline.yaml
+is on it's own if it is in a parent folder
+
+    node pipeline/pipeline.js preprocess \
         corpus/study-in-scarlet.txt 
 

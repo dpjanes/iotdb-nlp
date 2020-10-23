@@ -42,7 +42,7 @@ const preprocess = _.promise((self, done) => {
         .end(done, self, preprocess)
 })
 
-preprocess.method = "preprocess"
+preprocess.method = "cli.preprocess"
 preprocess.description = ``
 preprocess.requires = {
     paths: _.is.Array,
@@ -57,27 +57,3 @@ preprocess.produces = {
  *  API
  */
 exports.preprocess = preprocess
-
-/*
-
-    // read configuration and merge into self
-    .then(fs.read.json.magic.p(ad.cfg))
-    .then(sd => _.d.compose(sd, sd.json))
-    .make(sd => {
-        sd.pipeline.root = sd.pipeline.root || path.dirname(ad.cfg)
-    })
-
-    // initialize NLP
-    .then(nlp.initialize)
-    
-    .except(_.promise.unbail)
-    .except(error => {
-        console.log("#", _.error.message(error))
-
-        if (ad.verbose) {
-            delete error.self
-            console.log(error)
-        }
-    })
-
-*/
