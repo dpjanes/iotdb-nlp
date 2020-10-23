@@ -22,8 +22,7 @@
 "use strict"
 
 const _ = require("iotdb-helpers")
-
-const path = require("path")
+const _util = require("./_util")
 
 /**
  */
@@ -32,8 +31,8 @@ const _entities = _.promise((self, done) => {
         .validate(_entities)
 
         .make(sd => {
-            sd.source_path = path.resolve(sd.path)
-            console.log(sd.source_path)
+            const path_info = _util.path_info(sd, sd.path)
+            console.log(path_info)
         })
 
         .end(done, self, _entities)
