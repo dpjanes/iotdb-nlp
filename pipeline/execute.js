@@ -39,13 +39,10 @@ const execute = _.promise((self, done) => {
         .validate(execute)
 
         .make(sd => {
-            sd.source_path = path.resolve(sd.path)
+            const path_info = _util.path_info(sd, sd.path)
 
-            const relative = sd.source_path.startsWith(sd.pipeline.root) ? 
-                path.dirname(sd.source_path.substring(sd.pipeline.root.length)) : "."
-            const basename = path.basename(sd.source_path).replace(/[.].*$/, "")
-
-            sd.data_path = _util.join(sd, sd.pipeline.folder, path.join(relative, basename))
+            sd.source_path = path_info.source_path
+            sd.data_path = path_info.data_path
             sd.state_path = path.join(sd.data_path, "state.yaml")
         })
 

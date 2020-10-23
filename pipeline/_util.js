@@ -54,16 +54,16 @@ const join = (self, a, b) => {
 
 /**
  */
-const info = (self, p) => {
+const path_info = (self, p) => {
     const source_path = path.resolve(p)
 
-    const relative = self.source_path.startsWith(self.pipeline.root) ? 
-        path.dirname(self.source_path.substring(self.pipeline.root.length)) : "."
-    const basename = path.basename(self.source_path).replace(/[.].*$/, "")
+    const relative = source_path.startsWith(self.pipeline.root) ? 
+        path.dirname(source_path.substring(self.pipeline.root.length)) : "."
+    const basename = path.basename(source_path).replace(/[.].*$/, "")
 
     return {
-        source: source_path,
-        pipeline: join(self, self.pipeline.folder, path.join(relative, basename))
+        source_path: source_path,
+        data_path: join(self, self.pipeline.folder, path.join(relative, basename))
     }
 }
 
@@ -72,4 +72,4 @@ const info = (self, p) => {
  */
 exports.expand = expand
 exports.join = join
-exports.info = info
+exports.path_info = path_info
