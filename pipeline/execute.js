@@ -41,12 +41,6 @@ const execute = _.promise((self, done) => {
         .make(sd => {
             sd.source_path = path.resolve(sd.path)
 
-            sd.pipeline = _.d.clone.deep(sd.pipeline)
-            sd.pipeline.actions = sd.pipeline.actions || []
-            sd.pipeline.handlers = sd.pipeline.handlers || []
-            sd.pipeline.root = path.resolve(sd.pipeline.root).replace(/[/]*$/, "") + "/"
-            sd.pipeline.folder = path.resolve(sd.pipeline.folder).replace(/[/]*$/, "") + "/"
-
             const relative = sd.source_path.startsWith(sd.pipeline.root) ? 
                 path.dirname(sd.source_path.substring(sd.pipeline.root.length)) : "."
             const basename = path.basename(sd.source_path).replace(/[.].*$/, "")

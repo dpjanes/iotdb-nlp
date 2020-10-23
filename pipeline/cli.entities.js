@@ -23,6 +23,32 @@
 
 const _ = require("iotdb-helpers")
 
+const path = require("path")
+
+/**
+ */
+const _entities = _.promise((self, done) => {
+    _.promise(self)
+        .validate(_entities)
+
+        .make(sd => {
+            sd.source_path = path.resolve(sd.path)
+            console.log(sd.source_path)
+        })
+
+        .end(done, self, _entities)
+})
+
+_entities.method = "pipeline.cli.entities/_entities"
+_entities.description = ``
+_entities.requires = {
+}
+_entities.accepts = {
+}
+_entities.produces = {
+}
+
+
 /**
  */
 const entities = _.promise((self, done) => {
@@ -31,12 +57,10 @@ const entities = _.promise((self, done) => {
     _.promise(self)
         .validate(entities)
 
-        /*
         .each({
-            method: nlp.pipeline.execute,
+            method: _entities,
             inputs: "paths:path",
         })
-        */
 
         .end(done, self, entities)
 })

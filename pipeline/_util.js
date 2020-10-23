@@ -53,7 +53,23 @@ const join = (self, a, b) => {
 }
 
 /**
+ */
+const info = (self, p) => {
+    const source_path = path.resolve(p)
+
+    const relative = self.source_path.startsWith(self.pipeline.root) ? 
+        path.dirname(self.source_path.substring(self.pipeline.root.length)) : "."
+    const basename = path.basename(self.source_path).replace(/[.].*$/, "")
+
+    return {
+        source: source_path,
+        pipeline: join(self, self.pipeline.folder, path.join(relative, basename))
+    }
+}
+
+/**
  *  API
  */
 exports.expand = expand
 exports.join = join
+exports.info = info

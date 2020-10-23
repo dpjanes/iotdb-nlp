@@ -27,6 +27,7 @@ const fs = require("iotdb-fs")
 const path = require("path")
 
 const nlp = require("..")
+const _util = require("./_util")
 
 const minimist = require("minimist")
 const NAME = path.basename(__filename)
@@ -148,7 +149,12 @@ _.promise({
     .then(fs.read.json.magic.p(ad.cfg))
     .then(sd => _.d.compose(sd, sd.json))
     .make(sd => {
+        sd.pipeline.actions = sd.pipeline.actions || []
+        sd.pipeline.handlers = sd.pipeline.handlers || []
+
         sd.pipeline.root = sd.pipeline.root || path.dirname(ad.cfg)
+        sd.pipeline.root = path.resolve(sd.pipeline.root).replace(/[/]*$/, "") + "/"
+        sd.pipeline.folder = path.resolve(_util.join(sd, sd.pipeline.root, sd.pipeline.folder)).replace(/[/]*$/, "") + "/"
     })
 
 
