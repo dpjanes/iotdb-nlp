@@ -11,6 +11,7 @@
         "iotdb-fs": "~2.0.2", 
         "iotdb-helpers": "~3.4.22", 
         "iotdb-query": "~1.0.5", 
+        "js-yaml": "~3.14.0", 
         "minimist": "~1.2.5"
     }, 
     "description": "POP Interface for NLP", 
