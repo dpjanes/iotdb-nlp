@@ -44,7 +44,12 @@ const execute = _.promise((self, done) => {
             sd.source_path = path_info.source_path
             sd.data_path = path_info.data_path
             sd.state_path = path.join(sd.data_path, "state.yaml")
+
+            sd.cache$cfg = {
+                path: path.join(sd.data_path, ".fs-cache"),
+            }
         })
+        .then(fs.cache)
 
         // make sure there is a handler for the file type
         .make(sd => {

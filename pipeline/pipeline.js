@@ -139,15 +139,8 @@ _.promise({
     ad: ad,
     verbose: ad.verbose,
 
-    // this needs to be done in Pipeline
-    cache$cfg: {
-        path: path.join(__dirname, "..", ".fs-cache"),
-    },
-
     paths: ad._,
 })
-    .then(fs.cache)
-
     // read configuration and merge into self
     .then(fs.read.json.magic.p(ad.cfg))
     .then(sd => _.d.compose(sd, sd.json))
