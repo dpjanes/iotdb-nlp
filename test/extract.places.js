@@ -24,7 +24,6 @@
 
 const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
-const aws = require("iotdb-awslib")
 
 const assert = require("assert")
 const path = require("path")

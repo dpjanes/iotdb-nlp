@@ -65,8 +65,6 @@ _fetch.produces = {
 /**
  */
 const _one = _.promise((self, done) => {
-    const stanford = require("iotdb-awslib")
-
     _.promise(self)
         .validate(_one)
 
