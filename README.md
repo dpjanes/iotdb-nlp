@@ -11,6 +11,14 @@ it's in folder `/stanford/server`.
 You can safely ignore everything else here
 if that's what you're looking for.
 
+### WordNet
+
+    npm install node-wordnet
+
+### Sentence Splitter
+
+    npm install sentence-splitter
+
 ## Pipeline
 
 ### Preprocess
