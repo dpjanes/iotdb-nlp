@@ -1,5 +1,5 @@
 /*
- *  document/index.js
+ *  document/crlf.js
  *
  *  David Janes
  *  IOTDB.org
@@ -22,14 +22,31 @@
 
 "use strict"
 
-module.exports = Object.assign(
-    {},
+const _ = require("iotdb-helpers")
+const document = require("iotdb-document")
 
-    require("./read"),
-    require("./write"),
-    require("./utf8"),
-    require("./crlf"),
-    require("./encoding"),
+const logger = require("../logger")(__filename)
 
-    {}
-)
+/**
+ */
+const crlf = _.promise(self => {
+    _.promise.validate(self, crlf)
+
+    self.document = self.document.replace(/\r\n/g, "\n")
+})
+
+crlf.method = "document.crlf"
+crlf.description = `Replace CRLF with LF`
+crlf.requires = {
+    document: _.is.String, 
+}
+crlf.accepts = {
+}
+crlf.produces = {
+    document: _.is.String,
+}
+
+/**
+ *  API
+ */
+exports.crlf = crlf
