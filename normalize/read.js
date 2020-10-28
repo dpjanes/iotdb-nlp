@@ -1,5 +1,5 @@
 /*
- *  document/encoding.js
+ *  normalize/read.js
  *
  *  David Janes
  *  IOTDB.org
@@ -23,37 +23,32 @@
 "use strict"
 
 const _ = require("iotdb-helpers")
-const document = require("iotdb-document")
-
-const logger = require("../logger")(__filename)
+const fs = require("iotdb-fs")
 
 /**
  */
-const encoding = _.promise((self, done) => {
-    const nlp = require("..")
-
+const read = _.promise((self, done) => {
     _.promise(self)
-        .validate(encoding)
+        .validate(read)
 
-        .conditional(sd => !_.is.Buffer(sd.document), _.promise.bail)
-        .then(document.identify.encoding)
-        .then(document.to.string)
+        .add("source_path:path")
+        .then(fs.read.buffer)
 
-        .end(done, self, encoding)
+        .end(done, self, read)
 })
 
-encoding.method = "document.encoding"
-encoding.description = ``
-encoding.requires = {
-    document: [ _.is.String, _.is.Buffer ],
+read.method = "document.read"
+read.description = `Read the raw document as a Buffer`
+read.requires = {
+    source_path: _.is.String,
 }
-encoding.accepts = {
+read.accepts = {
 }
-encoding.produces = {
-    document: _.is.String,
+read.produces = {
+    document: _.is.Buffer,
 }
 
 /**
  *  API
  */
-exports.encoding = encoding
+exports.read = read

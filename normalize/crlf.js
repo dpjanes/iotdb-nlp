@@ -1,5 +1,5 @@
 /*
- *  document/crlf.js
+ *  normalize/crlf.js
  *
  *  David Janes
  *  IOTDB.org

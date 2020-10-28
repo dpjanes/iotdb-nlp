@@ -1,5 +1,5 @@
 /*
- *  document/utf8.js
+ *  normalize/index.js
  *
  *  David Janes
  *  IOTDB.org
@@ -22,37 +22,14 @@
 
 "use strict"
 
-const _ = require("iotdb-helpers")
-const document = require("iotdb-document")
+module.exports = Object.assign(
+    {},
 
-const logger = require("../logger")(__filename)
+    require("./read"),
+    require("./write"),
+    require("./utf8"),
+    require("./crlf"),
+    require("./encoding"),
 
-/**
- */
-const utf8 = _.promise((self, done) => {
-    const nlp = require("..")
-
-    _.promise(self)
-        .validate(utf8)
-
-        .conditional(sd => !_.is.Buffer(sd.document), _.promise.bail)
-        .then(document.to.string)
-
-        .end(done, self, utf8)
-})
-
-utf8.method = "document.utf8"
-utf8.description = ``
-utf8.requires = {
-    document: [ _.is.String, _.is.Buffer ],
-}
-utf8.accepts = {
-}
-utf8.produces = {
-    document: _.is.String,
-}
-
-/**
- *  API
- */
-exports.utf8 = utf8
+    {}
+)
