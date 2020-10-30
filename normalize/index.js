@@ -37,4 +37,10 @@ module.exports = Object.assign(
             require("./edit.commit"),
         )
     },
+    {
+        corpus: Object.assign(
+            {},
+            require("./corpus.gutenberg"),
+        )
+    },
 )

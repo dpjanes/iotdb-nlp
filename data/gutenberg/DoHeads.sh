@@ -20,9 +20,10 @@ do
         continue
     fi
 
+    echo $FILENAME > /dev/stderr
     dos2unix < $FILENAME | head --bytes=2048 
 done |
-sed -e '1,$ s/:.*$/: /' 
+sed -e '1,$ s/:.*$/: /' |
 grep -v '^$' |
 sort |
 uniq -c |
