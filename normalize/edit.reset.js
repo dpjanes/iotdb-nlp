@@ -1,9 +1,9 @@
 /*
- *  normalize/index.js
+ *  normalize/edit.reset.js
  *
  *  David Janes
  *  IOTDB.org
- *  2020-10-19
+ *  2020-10-29
  *
  *  Copyright (2013-2020) David P. Janes
  *
@@ -22,19 +22,35 @@
 
 "use strict"
 
-module.exports = Object.assign(
-    {},
+const _ = require("iotdb-helpers")
+const nlp = require("..")
+const fs = require("iotdb-fs")
 
-    require("./utf8"),
-    require("./crlf"),
-    require("./encoding"),
+const path = require("path")
 
-    {
-        edit: Object.assign(
-            {},
-            require("./edit.execute"),
-            require("./edit.reset"),
-            require("./edit.commit"),
-        )
+/**
+ */
+const reset = _.promise(self => {
+    _.promise.validate(self, reset)
+
+    self.nlp$path.editss = []
+    self.nlp$path.editvs = null
+})
+
+reset.method = "normalize._util.reset"
+reset.description = ``
+reset.requires = {
+    nlp$path: _.is.Dictionary,
+}
+reset.accepts = {
+}
+reset.produces = {
+    nlp$path: {
+        editss: _.is.Array,
+        editvs: _.is.Null,
     },
-)
+}
+
+/**
+ */
+exports.reset = reset
