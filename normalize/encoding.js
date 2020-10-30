@@ -38,7 +38,7 @@ const encoding = _.promise((self, done) => {
         .conditional(sd => !_.is.Buffer(sd.document), _.promise.bail)
         .then(document.identify.encoding)
         .then(document.to.string)
-        .add("document_encoding:nlp$path/encoding")
+        .add("document_encoding:nlp$path/document_encoding")
 
         .end(done, self, encoding)
 })
@@ -55,7 +55,7 @@ encoding.accepts = {
 encoding.produces = {
     document: _.is.String,
     nlp$path: {
-        encoding: _.is.String,
+        document_encoding: _.is.String,
     },
 }
 

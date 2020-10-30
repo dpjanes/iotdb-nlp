@@ -32,8 +32,7 @@ _.promise({
     nlp$path: {
         document_raw: null,
         document_encoded: null,
-
-        charset: null,
+        document_encoding: null,
         editss: [],
     },
 })
