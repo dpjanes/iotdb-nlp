@@ -25,11 +25,14 @@
 module.exports = Object.assign(
     {},
 
-    require("./read"),
-    require("./write"),
     require("./utf8"),
     require("./crlf"),
     require("./encoding"),
 
-    {}
+    {
+        edit: Object.assign(
+            {},
+            require("./edit.execute"),
+        )
+    },
 )
