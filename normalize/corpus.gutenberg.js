@@ -25,8 +25,12 @@
 const _ = require("iotdb-helpers")
 const nlp = require("..")
 const fs = require("iotdb-fs")
+const document = require("iotdb-document")
 
 const path = require("path")
+const iconv = require('iconv')
+
+const logger = require("../logger")(__filename)
 
 /**
  */
@@ -89,46 +93,70 @@ const gutenberg = _.promise((self, done) => {
 
         .then(_load_knowns)
         .make(sd => {
-            const document = sd.document.substring(0, 2000)
+            const preamble = sd.document.substring(0, 2000)
                 .replace(/\r+/g, "")
-            if (document.indexOf("Project Gutenberg") === -1) {
+            if (preamble.indexOf("Project Gutenberg") === -1) {
                 return _.promise.bail()
             }
 
-            sd.lines = document.split("\n")
+            sd.lines = preamble.split("\n")
         })
         .then(_load_metadata)
         .make(sd => {
-            let charset
+            let document_encoding
             let value = sd.metadata['character set encoding']
             if (value.match(/\bISO-8859-1\b/i)) {
-                charset = "latin1"
+                document_encoding = "latin1"
             } else if (value.match(/\bLatin-?1\b/i)) {
-                charset = "latin1"
+                document_encoding = "latin1"
             } else if (value.match(/\bASCII\b/i)) {
-                charset = "ascii"
+                document_encoding = "ascii"
             } else if (value.match(/\bUTF-?8\b/i)) {
-                charset = "utf-8"
+                document_encoding = "utf8"
             }
 
-            if (!charset && (charset === self.nlp$path.document_encoding)) {
+            if (!document_encoding && (document_encoding === self.nlp$path.document_encoding)) {
                 return
             }
 
-            sd.nlp$path.document_encoding = charset
-            sd.nlp$path.document_encoded = sd.nlp$path.document_raw.toString(sd.nlp$path.document_encoding)
-            sd.document = sd.nlp$path.document_encoded
+            sd.document = sd.nlp$path.document_raw
+            sd.document_encoding = document_encoding
+            sd.document = document.to.string.i(sd).document
+
+            sd.nlp$path.document_encoding = document_encoding
+            sd.nlp$path.document_encoded = sd.document
+
             sd.lines = sd.document.substring(0, 2000)
                 .replace(/\r+/g, "")
                 .split("\n")
         })
         .then(_load_metadata)
+
+        // first edit of document - normalize newlines
+        .make(sd => {
+            if (sd.document.indexOf('\n') > -1) {
+                sd.edit = {
+                    find: /\r+/g,
+                    replace: "",
+                }
+            } else if (sd.document.indexOf('\r') > -1) {
+                sd.edit = {
+                    find: /\r/g,
+                    replace: "",
+                }
+            } else {
+                sd.edit = null
+            }
+        })
+        .then(nlp.normalize.edit.execute)
+
+        // document metadata
         .make(sd => {
             _.mapObject(sd.metadata, (value, key) => {
                 key = key.toLowerCase().trim()
                 value = value.trim()
 
-                switch (value) {
+                switch (key) {
                 case 'title':
                     _metadata({
                         key: "dc:title",
@@ -148,6 +176,8 @@ const gutenberg = _.promise((self, done) => {
                 case 'ebook no.': // '0600831.txt' ]
                 case 'edition': // '1' ]
                 case 'language': // 'English' ]
+                    console.log("META", key, value)
+                    break
 
                 case 'date first posted': // 'May 2006' ]
                 case 'date most recently updated': // 'May 2006' ]
@@ -158,8 +188,9 @@ const gutenberg = _.promise((self, done) => {
                     break
                 }
             })
-
         })
+
+        // find end of header/preamble
         .make(sd => {
             let max = 0
             let done = false
@@ -170,7 +201,7 @@ const gutenberg = _.promise((self, done) => {
                 }
 
                 if (line === "") {
-                    if (++nlc === 3) {
+                    if (++nlc === 6) { // sigh, they use lots of blank lines in preamble
                         done = true
                         max = linex
                     }
@@ -183,17 +214,26 @@ const gutenberg = _.promise((self, done) => {
                 if (sd.knowns.has(line)) {
                     console.log(linex, line, "KNOWN")
                     max = linex
-                } else if (line.match(/gutenberg|e-book|ebook|e-text|etext/i)) {
+                } else if (line.match(/(gutenberg|e-book|ebook|e-text|etext|Distributed Proofreading|Proofreading Teams|Proofreaders)/i)) {
                     console.log(linex, line, "MAGIC-1")
                     max = linex
                 } else if (line.match(/^[*]/)) {
                     console.log(linex, line, "MAGIC-2")
                     max = linex
+                } else if (line.match(/[[]Illustration/g)) {
+                    done = true
                 }
             })
 
             console.log("MAX", max)
+            
+            sd.edit = {
+                find: new RegExp(`^([^\n]*\n){${max+1}}\n*`),
+                replace: "",
+            }
         })
+        .then(nlp.normalize.edit.execute)
+        .then(nlp.normalize.edit.commit)
 
         .end(done, self, gutenberg)
 
@@ -203,21 +243,15 @@ gutenberg.method = "normalize.corpus.gutenberg"
 gutenberg.description = ``
 gutenberg.requires = {
     document: _.is.String,
-    /*
     nlp$path: {
-        editss: _.is.Array,
     },
-    */
 }
 gutenberg.accepts = {
 }
 gutenberg.produces = {
-    /*
+    document: _.is.String,
     nlp$path: {
-        editss: _.is.Null,
-        editvs: _.is.Array,
     },
-    */
 }
 
 /**

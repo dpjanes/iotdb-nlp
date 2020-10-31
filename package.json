@@ -5,6 +5,7 @@
     }, 
     "dependencies": {
         "detect-character-encoding": "~0.8.0", 
+        "iconv": "",
         "iotdb-cache": "~1.0.3", 
         "iotdb-document": "~1.0.4", 
         "iotdb-fetch": "~1.2.5", 

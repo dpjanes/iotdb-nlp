@@ -33,6 +33,10 @@ const path = require("path")
 const execute = _.promise(self => {
     _.promise.validate(self, execute)
 
+    if (!self.edit) {
+        return
+    }
+
     const edits = []
 
     const rex = new RegExp(self.edit.find, "g")

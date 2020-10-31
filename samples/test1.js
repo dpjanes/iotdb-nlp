@@ -36,37 +36,16 @@ _.promise({
         editss: [],
     },
 })
-    .then(fs.read.buffer.p(path.join(__dirname, "..", "corpus", "conan", "TheTowerOfTheElephant.txt")))
+    // .then(fs.read.buffer.p(path.join(__dirname, "..", "corpus", "conan", "TheTowerOfTheElephant.txt")))
     // .then(fs.read.buffer.p("/Volumes/gutenberg/3/3/3/5/33355/33355-8.txt"))
+    // .then(fs.read.buffer.p("/Volumes/gutenberg/4/4/5/4/44544/44544-8.txt"))
+    .then(fs.read.buffer.p("/Volumes/gutenberg/4/4/5/4/44549/44549-8.txt"))
     .add("document:nlp$path/document_raw")
 
     .then(nlp.normalize.encoding)
-
-    .make(sd => {
-        sd.document = sd.document.substring(0, 2000)
-
-        // detect newline pattern
-        if (sd.document.indexOf('\n') > -1) {
-            sd.edit = {
-                find: /\r+/g,
-                replace: "",
-            }
-        } else if (sd.document.indexOf('\r') > -1) {
-            sd.edit = {
-                find: /\r/g,
-                replace: "",
-            }
-        } else {
-            sd.edit = null
-        }
-    })
     .then(nlp.normalize.corpus.gutenberg)
-    .then(nlp.normalize.edit.execute)
-    .then(nlp.normalize.edit.commit)
     .make(sd => {
-        // console.log(sd.nlp$path.editvs)
-        // console.log(sd.document)
-        // console.log(JSON.stringify(sd.document, 2000), null, 2))
+        console.log(sd.document.substring(0, 1000))
     })
 
     .catch(error => {
