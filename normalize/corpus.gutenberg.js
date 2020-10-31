@@ -28,9 +28,68 @@ const fs = require("iotdb-fs")
 const document = require("iotdb-document")
 
 const path = require("path")
-const iconv = require('iconv')
 
 const logger = require("../logger")(__filename)
+
+const _dates = [
+    "DD MMMM YYYY",
+    "MMMM DD YYYY",
+    "MMMM YYYY",
+    "YYYY",
+    "YYYY MMMM",
+    "YYYY MMMM DD",
+]   
+    .map(date => date.replace(/ /g, "[- ,]*"))
+    .map(date => date.replace(/DD/g, "(?<day>[0-9]+)"))
+    .map(date => date.replace(/MMMM/g, "(?<month>(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*)"))
+    .map(date => date.replace(/YYYY/g, "(?<year>[0-9]{4})"))
+    .map(date => new RegExp("^ *" + date, "i"))
+
+const _date = d => {
+    let match
+    for (let di = 0; di < _dates.length; di++) {
+        if (match = d.match(_dates[di])) {
+            break
+        }
+    }
+
+    if (!match) {
+        return null
+    }
+
+    const parts = []
+    parts.push(match.groups.year)
+
+    if (match.groups.month) switch (match.groups.month.substring(0, 3).toLowerCase()) {
+    case "jan": match.groups.month = "01"; break;
+    case "feb": match.groups.month = "02"; break;
+    case "mar": match.groups.month = "03"; break;
+    case "apr": match.groups.month = "04"; break;
+    case "may": match.groups.month = "05"; break;
+    case "jun": match.groups.month = "06"; break;
+    case "jul": match.groups.month = "07"; break;
+    case "aug": match.groups.month = "08"; break;
+    case "sep": match.groups.month = "09"; break;
+    case "oct": match.groups.month = "10"; break;
+    case "nov": match.groups.month = "11"; break;
+    case "dec": match.groups.month = "12"; break;
+    default: match.groups.month = null; break;
+    }
+
+    if (match.groups.month) {
+        parts.push(match.groups.month)
+        if (match.groups.day) {
+            if (match.groups.day.length === 1) {
+                parts.push("0" + match.groups.day)
+            } else {
+                parts.push(match.groups.day)
+            }
+        }
+    }
+
+    return parts.join("-")
+}
+
 
 /**
  */
@@ -43,6 +102,9 @@ const _load_knowns = _.promise((self, done) => {
             sd.knowns = new Set(sd.document.split("\n").filter(line => line.length))
         })
 
+        .then(fs.read.yaml.p(path.join(__dirname, "..", "data", "languages.yaml")))
+        .add("json:languages")
+
         .end(done, self, _load_knowns)
 })
 
@@ -54,6 +116,7 @@ _load_knowns.accepts = {
 }
 _load_knowns.produces = {
     knowns: _.is.Set,
+    languages: _.is.Dictionary,
 }
 
 /**
@@ -86,6 +149,7 @@ _load_metadata.produces = {
  */
 const gutenberg = _.promise((self, done) => {
     const _metadata = d => {
+        console.log(d)
     }
 
     _.promise(self)
@@ -93,8 +157,7 @@ const gutenberg = _.promise((self, done) => {
 
         .then(_load_knowns)
         .make(sd => {
-            const preamble = sd.document.substring(0, 2000)
-                .replace(/\r+/g, "")
+            const preamble = sd.document.substring(0, 2000).replace(/\r+/g, "")
             if (preamble.indexOf("Project Gutenberg") === -1) {
                 return _.promise.bail()
             }
@@ -173,18 +236,59 @@ const gutenberg = _.promise((self, done) => {
                     })
                     break
 
+                case 'language':
+                {
+                    let lvalue = value.toLowerCase()
+                    let language = sd.languages[lvalue]
+                    if (!language) {
+                        language = sd.languages[lvalue.replace(/ .*$/, "")]
+                    }
+                    if (language) {
+                        _metadata({
+                            key: "dc:language",
+                            value: language,
+                            score: 1,
+                        })
+                    }
+                }   break
+
                 case 'ebook no.': // '0600831.txt' ]
                 case 'edition': // '1' ]
-                case 'language': // 'English' ]
-                    console.log("META", key, value)
+                case "illustrator": 
+                case "note": 
+                case "editor":
                     break
 
+                case "release date": 
+                case "first posted": 
+                case "posting date": 
                 case 'date first posted': // 'May 2006' ]
+                {   
+                    const date = _date(value)
+                    if (date) {
+                        _metadata({
+                            key: "dc:created",
+                            value: date,
+                            score: 1,
+                        })
+                    }
+                }   break
+
                 case 'date most recently updated': // 'May 2006' ]
-                    break
+                {   
+                    const date = _date(value)
+                    if (date) {
+                        _metadata({
+                            key: "dc:updated",
+                            value: date,
+                            score: 1,
+                        })
+                    }
+                }   break
 
                 // ignore
-                case 'character set encoding': 
+                case "character set encoding": 
+
                     break
                 }
             })

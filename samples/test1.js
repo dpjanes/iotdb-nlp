@@ -36,10 +36,10 @@ _.promise({
         editss: [],
     },
 })
-    // .then(fs.read.buffer.p(path.join(__dirname, "..", "corpus", "conan", "TheTowerOfTheElephant.txt")))
+    .then(fs.read.buffer.p(path.join(__dirname, "..", "corpus", "conan", "TheTowerOfTheElephant.txt")))
     // .then(fs.read.buffer.p("/Volumes/gutenberg/3/3/3/5/33355/33355-8.txt"))
     // .then(fs.read.buffer.p("/Volumes/gutenberg/4/4/5/4/44544/44544-8.txt"))
-    .then(fs.read.buffer.p("/Volumes/gutenberg/4/4/5/4/44549/44549-8.txt"))
+    // .then(fs.read.buffer.p("/Volumes/gutenberg/4/4/5/4/44549/44549-8.txt")) // Il libro di Sidrach
     .add("document:nlp$path/document_raw")
 
     .then(nlp.normalize.encoding)
